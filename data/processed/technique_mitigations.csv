@@ -1,0 +1,471 @@
+technique,mitigation_count,mitigation_names,has_defence
+Encrypted/Encoded File,2,Antivirus/Antimalware | Behavior Prevention on Endpoint,True
+Internet Connection Discovery,0,,False
+Tool,1,Pre-compromise,True
+Security Software Discovery,0,,False
+Local Account,3,Multi-factor Authentication | Operating System Configuration | Privileged Account Management,True
+Exploitation for Privilege Escalation,5,Application Isolation and Sandboxing | Execution Prevention | Exploit Protection | Threat Intelligence Program | Update Software,True
+Dynamic-link Library Injection,1,Behavior Prevention on Endpoint,True
+Private Keys,4,Audit | Encrypt Sensitive Information | Password Policies | Restrict File and Directory Permissions,True
+System Network Configuration Discovery,0,,False
+Encrypted Channel,2,Network Intrusion Prevention | SSL/TLS Inspection,True
+Visual Basic,5,Antivirus/Antimalware | Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Execution Prevention | Restrict Web-Based Content,True
+SSH,3,Disable or Remove Feature or Program | Multi-factor Authentication | User Account Management,True
+Automated Collection,2,Encrypt Sensitive Information | Remote Data Storage,True
+Hidden Window,2,Execution Prevention | Limit Software Installation,True
+Botnet,1,Pre-compromise,True
+Malicious File,3,Behavior Prevention on Endpoint | Execution Prevention | User Training,True
+Spearphishing Link,5,Audit | Restrict Web-Based Content | Software Configuration | User Account Management | User Training,True
+Scheduled Task,4,Audit | Operating System Configuration | Privileged Account Management | User Account Management,True
+Data from Local System,1,Data Loss Prevention,True
+Spearphishing Attachment,7,Antivirus/Antimalware | Audit | Network Intrusion Prevention | Restrict Web-Based Content | Software Configuration | User Account Management | User Training,True
+File Deletion,0,,False
+Fast Flux DNS,0,,False
+Group Policy Modification,2,Audit | User Account Management,True
+PowerShell,5,Antivirus/Antimalware | Code Signing | Disable or Remove Feature or Program | Execution Prevention | Privileged Account Management,True
+Cloud API,2,Execution Prevention | Privileged Account Management,True
+Trusted Relationship,3,Multi-factor Authentication | Network Segmentation | User Account Management,True
+System Time Discovery,0,,False
+Web Services,1,Pre-compromise,True
+Windows Management Instrumentation,4,Behavior Prevention on Endpoint | Execution Prevention | Privileged Account Management | User Account Management,True
+Deobfuscate/Decode Files or Information,0,,False
+Match Legitimate Resource Name or Location,3,Code Signing | Execution Prevention | Restrict File and Directory Permissions,True
+Drive-by Compromise,5,Application Isolation and Sandboxing | Exploit Protection | Restrict Web-Based Content | Update Software | User Training,True
+Network Service Discovery,3,Disable or Remove Feature or Program | Network Intrusion Prevention | Network Segmentation,True
+Registry Run Keys / Startup Folder,0,,False
+Ingress Tool Transfer,2,Filter Network Traffic | Network Intrusion Prevention,True
+Local Accounts,4,Multi-factor Authentication | Password Policies | Privileged Account Management | User Account Management,True
+Account Manipulation,7,Disable or Remove Feature or Program | Multi-factor Authentication | Network Segmentation | Operating System Configuration | Privileged Account Management | Restrict File and Directory Permissions | User Account Management,True
+System Information Discovery,0,,False
+Brute Force,4,Account Use Policies | Multi-factor Authentication | Password Policies | User Account Management,True
+SMB/Windows Admin Shares,4,Filter Network Traffic | Limit Access to Resource Over Network | Password Policies | Privileged Account Management,True
+System Network Connections Discovery,0,,False
+Office Test,2,Behavior Prevention on Endpoint | Software Configuration,True
+Credentials from Web Browsers,5,Password Policies | Restrict Web-Based Content | Update Software | User Account Management | User Training,True
+Exfiltration to Cloud Storage,1,Restrict Web-Based Content,True
+Messaging Applications,3,Audit | Out-of-Band Communications Channel | User Training,True
+Code Signing,0,,False
+Domains,1,Pre-compromise,True
+Phishing for Information,2,Software Configuration | User Training,True
+Component Object Model,2,Application Isolation and Sandboxing | Privileged Account Management,True
+Spearphishing via Service,5,Antivirus/Antimalware | Audit | Restrict Web-Based Content | User Account Management | User Training,True
+Windows Command Shell,1,Execution Prevention,True
+Web Service,2,Network Intrusion Prevention | Restrict Web-Based Content,True
+Malware,1,Pre-compromise,True
+Credentials,1,Pre-compromise,True
+Native API,2,Behavior Prevention on Endpoint | Execution Prevention,True
+Gather Victim Identity Information,1,Pre-compromise,True
+External Remote Services,5,Disable or Remove Feature or Program | Limit Access to Resource Over Network | Multi-factor Authentication | Network Segmentation | Restrict Web-Based Content,True
+Symmetric Cryptography,1,Network Intrusion Prevention,True
+Service Execution,3,Behavior Prevention on Endpoint | Privileged Account Management | Restrict File and Directory Permissions,True
+Network Share Discovery,1,Operating System Configuration,True
+Exploitation for Client Execution,3,Application Isolation and Sandboxing | Exploit Protection | Update Software,True
+Audio-Visual Content,1,Pre-compromise,True
+System Owner/User Discovery,0,,False
+Command and Scripting Interpreter,9,Antivirus/Antimalware | Audit | Behavior Prevention on Endpoint | Code Signing | Disable or Remove Feature or Program | Execution Prevention | Limit Software Installation | Privileged Account Management | Restrict Web-Based Content,True
+JavaScript,4,Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Execution Prevention | Restrict Web-Based Content,True
+Exploitation for Credential Access,5,Application Developer Guidance | Application Isolation and Sandboxing | Exploit Protection | Threat Intelligence Program | Update Software,True
+Email Accounts,1,Pre-compromise,True
+Cloud Accounts,8,Account Use Policies | Active Directory Configuration | Multi-factor Authentication | Password Policies | Pre-compromise | Privileged Account Management | User Account Management | User Training,True
+IDE Tunneling,1,Execution Prevention,True
+Winlogon Helper DLL,2,Execution Prevention | User Account Management,True
+Regsvr32,1,Exploit Protection,True
+Print Processors,1,User Account Management,True
+Automated Exfiltration,0,,False
+File and Directory Discovery,0,,False
+Process Discovery,0,,False
+Local Data Staging,0,,False
+System Binary Proxy Execution,6,Disable or Remove Feature or Program | Execution Prevention | Exploit Protection | Filter Network Traffic | Privileged Account Management | Restrict Web-Based Content,True
+Junk Code Insertion,1,Antivirus/Antimalware,True
+Credentials from Password Stores,3,Password Policies | Privileged Account Management | Update Software,True
+External Proxy,1,Network Intrusion Prevention,True
+Archive via Utility,1,Audit,True
+Rundll32,1,Exploit Protection,True
+Network Share Connection Removal,0,,False
+Valid Accounts,8,Account Use Policies | Active Directory Configuration | Application Developer Guidance | Multi-factor Authentication | Password Policies | Privileged Account Management | User Account Management | User Training,True
+Social Media Accounts,1,Pre-compromise,True
+Exfiltration over USB,3,Data Loss Prevention | Disable or Remove Feature or Program | Limit Hardware Installation,True
+LSASS Memory,7,Behavior Prevention on Endpoint | Credential Access Protection | Operating System Configuration | Password Policies | Privileged Account Management | Privileged Process Integrity | User Training,True
+Exploit Public-Facing Application,8,Application Isolation and Sandboxing | Exploit Protection | Filter Network Traffic | Limit Access to Resource Over Network | Network Segmentation | Privileged Account Management | Update Software | Vulnerability Scanning,True
+Multi-Stage Channels,1,Network Intrusion Prevention,True
+Command Obfuscation,2,Antivirus/Antimalware | Behavior Prevention on Endpoint,True
+Disable or Modify Tools,7,Audit | Disable or Remove Feature or Program | Execution Prevention | Restrict File and Directory Permissions | Restrict Registry Permissions | Software Configuration | User Account Management,True
+Security Account Manager,4,Operating System Configuration | Password Policies | Privileged Account Management | User Training,True
+Masquerade Task or Service,0,,False
+Pass the Hash,4,Privileged Account Management | Update Software | User Account Control | User Account Management,True
+Data from Removable Media,1,Data Loss Prevention,True
+Mshta,2,Disable or Remove Feature or Program | Execution Prevention,True
+Windows Management Instrumentation Event Subscription,3,Behavior Prevention on Endpoint | Privileged Account Management | User Account Management,True
+Python,4,Antivirus/Antimalware | Audit | Execution Prevention | Limit Software Installation,True
+Systemd Service,4,Limit Software Installation | Privileged Account Management | Restrict File and Directory Permissions | User Account Management,True
+Dynamic Data Exchange,4,Application Isolation and Sandboxing | Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Software Configuration,True
+Non-Standard Port,2,Network Intrusion Prevention | Network Segmentation,True
+Service Stop,5,Network Segmentation | Out-of-Band Communications Channel | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,True
+Compute Hijacking,0,,False
+Binary Padding,0,,False
+Clear Command History,3,Environment Variable Permissions | Remote Data Storage | Restrict File and Directory Permissions,True
+Bidirectional Communication,2,Network Intrusion Prevention | Restrict Web-Based Content,True
+Domain Account,4,Multi-factor Authentication | Network Segmentation | Operating System Configuration | Privileged Account Management,True
+Unix Shell,1,Execution Prevention,True
+Domain Accounts,5,Multi-factor Authentication | Password Policies | Privileged Account Management | User Account Management | User Training,True
+Digital Certificates,1,Pre-compromise,True
+Local Groups,0,,False
+Prevent Command History Logging,2,Environment Variable Permissions | Operating System Configuration,True
+Compile After Delivery,0,,False
+Compression,1,Antivirus/Antimalware,True
+Dead Drop Resolver,2,Network Intrusion Prevention | Restrict Web-Based Content,True
+Server,1,Pre-compromise,True
+Internal Spearphishing,0,,False
+Financial Theft,2,User Account Management | User Training,True
+Remote System Discovery,0,,False
+Create Account,4,Multi-factor Authentication | Network Segmentation | Operating System Configuration | Privileged Account Management,True
+Logon Script (Windows),1,Restrict Registry Permissions,True
+Local Storage Discovery,0,,False
+Group Policy Preferences,3,Active Directory Configuration | Audit | Update Software,True
+Exploitation of Remote Services,8,Application Isolation and Sandboxing | Disable or Remove Feature or Program | Exploit Protection | Network Segmentation | Privileged Account Management | Threat Intelligence Program | Update Software | Vulnerability Scanning,True
+Timestomp,0,,False
+OS Credential Dumping,9,Active Directory Configuration | Behavior Prevention on Endpoint | Credential Access Protection | Encrypt Sensitive Information | Operating System Configuration | Password Policies | Privileged Account Management | Privileged Process Integrity | User Training,True
+Inhibit System Recovery,4,Data Backup | Execution Prevention | Operating System Configuration | User Account Management,True
+Stage Capabilities,1,Pre-compromise,True
+Disable or Modify System Firewall,4,Audit | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,True
+Disk Structure Wipe,1,Data Backup,True
+Data Encrypted for Impact,2,Behavior Prevention on Endpoint | Data Backup,True
+Acquire Access,1,Pre-compromise,True
+Screen Capture,0,,False
+Domain Groups,0,,False
+Process Injection,2,Behavior Prevention on Endpoint | Privileged Account Management,True
+Asymmetric Cryptography,2,Network Intrusion Prevention | SSL/TLS Inspection,True
+Malicious Link,3,Network Intrusion Prevention | Restrict Web-Based Content | User Training,True
+Phishing,6,Antivirus/Antimalware | Audit | Network Intrusion Prevention | Restrict Web-Based Content | Software Configuration | User Training,True
+Hidden Files and Directories,0,,False
+Web Shell,2,Disable or Remove Feature or Program | User Account Management,True
+Software Packing,1,Antivirus/Antimalware,True
+Email Collection,4,Audit | Encrypt Sensitive Information | Multi-factor Authentication | Out-of-Band Communications Channel,True
+Modify Registry,1,Restrict Registry Permissions,True
+Shortcut Modification,3,Execution Prevention | Restrict File and Directory Permissions | User Account Management,True
+Vulnerability Scanning,1,Pre-compromise,True
+InstallUtil,2,Disable or Remove Feature or Program | Execution Prevention,True
+Obfuscated Files or Information,4,Antivirus/Antimalware | Audit | Behavior Prevention on Endpoint | User Training,True
+Databases,5,Audit | Encrypt Sensitive Information | Software Configuration | User Account Management | User Training,True
+Keylogging,0,,False
+Windows Remote Management,3,Disable or Remove Feature or Program | Network Segmentation | Privileged Account Management,True
+Non-Application Layer Protocol,4,Audit | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation,True
+Compromise Software Supply Chain,2,Update Software | Vulnerability Scanning,True
+LSA Secrets,3,Password Policies | Privileged Account Management | User Training,True
+Rootkit,0,,False
+Gather Victim Org Information,1,Pre-compromise,True
+Upload Malware,1,Pre-compromise,True
+Multi-hop Proxy,1,Filter Network Traffic,True
+Replication Through Removable Media,3,Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Limit Hardware Installation,True
+Query Registry,0,,False
+Password Cracking,2,Multi-factor Authentication | Password Policies,True
+Remote Desktop Software,3,Disable or Remove Feature or Program | Execution Prevention | Filter Network Traffic,True
+Clipboard Data,0,,False
+Web Protocols,2,Filter Network Traffic | Network Intrusion Prevention,True
+DNS Server,1,Pre-compromise,True
+Space after Filename,0,,False
+DLL,5,Application Developer Guidance | Audit | Execution Prevention | Restrict Library Loading | Update Software,True
+Internal Defacement,1,Data Backup,True
+Pass the Ticket,4,Active Directory Configuration | Password Policies | Privileged Account Management | User Account Management,True
+NTDS,4,Encrypt Sensitive Information | Password Policies | Privileged Account Management | User Training,True
+Exfiltration Over Unencrypted Non-C2 Protocol,4,Data Loss Prevention | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation,True
+Password Spraying,3,Account Use Policies | Multi-factor Authentication | Password Policies,True
+Process Hollowing,1,Behavior Prevention on Endpoint,True
+Employee Names,1,Pre-compromise,True
+Password Guessing,4,Account Use Policies | Multi-factor Authentication | Password Policies | Update Software,True
+Impersonation,2,Threat Intelligence Program | User Training,True
+Rename Legitimate Utilities,1,Restrict File and Directory Permissions,True
+Double File Extension,2,Operating System Configuration | User Training,True
+Email Forwarding Rule,4,Audit | Disable or Remove Feature or Program | Encrypt Sensitive Information | Out-of-Band Communications Channel,True
+Domain Generation Algorithms,2,Network Intrusion Prevention | Restrict Web-Based Content,True
+Lateral Tool Transfer,2,Filter Network Traffic | Network Intrusion Prevention,True
+Steal Web Session Cookie,6,Audit | Multi-factor Authentication | Restrict Web-Based Content | Software Configuration | Update Software | User Training,True
+Remote Email Collection,3,Encrypt Sensitive Information | Multi-factor Authentication | Out-of-Band Communications Channel,True
+Multi-Factor Authentication,3,Audit | Multi-factor Authentication | User Account Management,True
+Steal Application Access Token,4,Audit | Restrict Web-Based Content | User Account Management | User Training,True
+Application Shimming,2,Update Software | User Account Control,True
+Application Layer Protocol,2,Filter Network Traffic | Network Intrusion Prevention,True
+Proxy,3,Filter Network Traffic | Network Intrusion Prevention | SSL/TLS Inspection,True
+Code Signing Policy Modification,3,Boot Integrity | Privileged Account Management | Restrict Registry Permissions,True
+Right-to-Left Override,0,,False
+Input Capture,0,,False
+Data Manipulation,4,Encrypt Sensitive Information | Network Segmentation | Remote Data Storage | Restrict File and Directory Permissions,True
+Code Signing Certificates,1,Pre-compromise,True
+System Service Discovery,0,,False
+Wordlist Scanning,2,Disable or Remove Feature or Program | Pre-compromise,True
+Masquerade Account Name,2,Audit | User Account Management,True
+Social Media,1,Pre-compromise,True
+Domain Properties,1,Pre-compromise,True
+Default Accounts,2,Multi-factor Authentication | Password Policies,True
+Standard Encoding,1,Network Intrusion Prevention,True
+Software Deployment Tools,10,Active Directory Configuration | Limit Software Installation | Multi-factor Authentication | Network Segmentation | Password Policies | Privileged Account Management | Remote Data Storage | Update Software | User Account Management | User Training,True
+Internal Proxy,1,Network Intrusion Prevention,True
+Steganography,1,Network Intrusion Prevention,True
+Compiled HTML File,2,Execution Prevention | Restrict Web-Based Content,True
+BITS Jobs,3,Filter Network Traffic | Operating System Configuration | User Account Management,True
+Link Target,1,Pre-compromise,True
+Vulnerabilities,1,Pre-compromise,True
+Permission Groups Discovery,0,,False
+Protocol Tunneling,2,Filter Network Traffic | Network Intrusion Prevention,True
+Windows Service,5,Audit | Behavior Prevention on Endpoint | Code Signing | Operating System Configuration | User Account Management,True
+Account Discovery,2,Operating System Configuration | User Account Management,True
+Additional Local or Domain Groups,0,,False
+Spearphishing Voice,1,User Training,True
+Remote Desktop Protocol,8,Audit | Disable or Remove Feature or Program | Limit Access to Resource Over Network | Multi-factor Authentication | Network Segmentation | Operating System Configuration | Privileged Account Management | User Account Management,True
+Template Injection,4,Antivirus/Antimalware | Disable or Remove Feature or Program | Network Intrusion Prevention | User Training,True
+Create Cloud Instance,2,Audit | User Account Management,True
+Bypass User Account Control,4,Audit | Privileged Account Management | Update Software | User Account Control,True
+Forced Authentication,2,Filter Network Traffic | Password Policies,True
+Query Public AI Services,1,Pre-compromise,True
+Escape to Host,5,Application Isolation and Sandboxing | Disable or Remove Feature or Program | Execution Prevention | Privileged Account Management | Update Software,True
+Search Open Technical Databases,1,Pre-compromise,True
+Credentials In Files,4,Audit | Password Policies | Restrict File and Directory Permissions | User Training,True
+One-Way Communication,2,Network Intrusion Prevention | Restrict Web-Based Content,True
+Fallback Channels,1,Network Intrusion Prevention,True
+Drive-by Target,1,Pre-compromise,True
+Domain Trust Discovery,2,Audit | Network Segmentation,True
+Peripheral Device Discovery,0,,False
+Masquerading,8,Antivirus/Antimalware | Audit | Behavior Prevention on Endpoint | Code Signing | Execution Prevention | Restrict File and Directory Permissions | User Account Management | User Training,True
+Port Knocking,1,Filter Network Traffic,True
+Non-Standard Encoding,1,Network Intrusion Prevention,True
+XSL Script Processing,1,Execution Prevention,True
+Virtual Machine Discovery,0,,False
+Virtual Private Server,1,Pre-compromise,True
+Application Access Token,5,Account Use Policies | Application Developer Guidance | Audit | Encrypt Sensitive Information | Restrict Web-Based Content,True
+Accessibility Features,3,Execution Prevention | Limit Access to Resource Over Network | Operating System Configuration,True
+Virtualization/Sandbox Evasion,0,,False
+Password Filter DLL,1,Operating System Configuration,True
+Audio Capture,0,,False
+Cloud Instance Metadata API,3,Disable or Remove Feature or Program | Filter Network Traffic | Limit Access to Resource Over Network,True
+Trust Modification,2,Privileged Account Management | User Account Management,True
+Masquerade File Type,3,Antivirus/Antimalware | Behavior Prevention on Endpoint | Execution Prevention,True
+Linux and Mac Permissions,2,Privileged Account Management | Restrict File and Directory Permissions,True
+IP Addresses,1,Pre-compromise,True
+Sharepoint,3,Audit | User Account Management | User Training,True
+Mail Protocols,2,Filter Network Traffic | Network Intrusion Prevention,True
+Dynamic API Resolution,0,,False
+Cached Domain Credentials,5,Active Directory Configuration | Operating System Configuration | Password Policies | Privileged Account Management | User Training,True
+Network Boundary Bridging,5,Credential Access Protection | Filter Network Traffic | Multi-factor Authentication | Password Policies | Privileged Account Management,True
+DNS,3,Filter Network Traffic | Network Intrusion Prevention | Software Configuration,True
+Remote Access Tools,5,Disable or Remove Feature or Program | Execution Prevention | Filter Network Traffic | Limit Hardware Installation | Network Intrusion Prevention,True
+LNK Icon Smuggling,2,Antivirus/Antimalware | Behavior Prevention on Endpoint,True
+External Defacement,1,Data Backup,True
+Data Transfer Size Limits,1,Network Intrusion Prevention,True
+Scan Databases,1,Pre-compromise,True
+Archive via Custom Method,0,,False
+Systemctl,1,User Account Management,True
+Browser Information Discovery,0,,False
+vSphere Installation Bundles,3,Audit | Boot Integrity | Code Signing,True
+Boot or Logon Autostart Execution,0,,False
+ESXi Administration Command,1,User Account Management,True
+Dynamic Resolution,2,Network Intrusion Prevention | Restrict Web-Based Content,True
+Exfiltration Over C2 Channel,2,Data Loss Prevention | Network Intrusion Prevention,True
+Gather Victim Network Information,1,Pre-compromise,True
+Endpoint Denial of Service,1,Filter Network Traffic,True
+System Location Discovery,0,,False
+Determine Physical Locations,1,Pre-compromise,True
+Steal or Forge Authentication Certificates,4,Active Directory Configuration | Audit | Disable or Remove Feature or Program | Encrypt Sensitive Information,True
+KernelCallbackTable,1,Behavior Prevention on Endpoint,True
+RC Scripts,1,Restrict File and Directory Permissions,True
+System Language Discovery,0,,False
+Embedded Payloads,2,Antivirus/Antimalware | Behavior Prevention on Endpoint,True
+Search Victim-Owned Websites,1,Pre-compromise,True
+Windows Host Firewall,4,Audit | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,True
+Clear Linux or Mac System Logs,3,Encrypt Sensitive Information | Remote Data Storage | Restrict File and Directory Permissions,True
+Bootkit,2,Boot Integrity | Privileged Account Management,True
+Invalid Code Signature,1,Code Signing,True
+Odbcconf,2,Disable or Remove Feature or Program | Execution Prevention,True
+Exploits,1,Pre-compromise,True
+Scanning IP Blocks,1,Pre-compromise,True
+Office Application Startup,4,Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Software Configuration | Update Software,True
+VNC,4,Audit | Disable or Remove Feature or Program | Filter Network Traffic | Limit Software Installation,True
+Unix Shell Configuration Modification,1,Restrict File and Directory Permissions,True
+Data from Network Shared Drive,0,,False
+Boot or Logon Initialization Scripts,2,Restrict File and Directory Permissions | Restrict Registry Permissions,True
+Msiexec,2,Disable or Remove Feature or Program | Privileged Account Management,True
+Search Open Websites/Domains,2,Application Developer Guidance | Audit,True
+Email Hiding Rules,1,Audit,True
+CMSTP,2,Disable or Remove Feature or Program | Execution Prevention,True
+Network Denial of Service,1,Filter Network Traffic,True
+Credential Stuffing,4,Account Use Policies | Multi-factor Authentication | Password Policies | User Account Management,True
+Reflective Code Loading,0,,False
+Local Email Collection,2,Encrypt Sensitive Information | Out-of-Band Communications Channel,True
+Kerberoasting,3,Encrypt Sensitive Information | Password Policies | Privileged Account Management,True
+Acquire Infrastructure,1,Pre-compromise,True
+Gather Victim Host Information,1,Pre-compromise,True
+Business Relationships,1,Pre-compromise,True
+Shared Modules,1,Execution Prevention,True
+Name Resolution Poisoning and SMB Relay,4,Disable or Remove Feature or Program | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation,True
+System Checks,0,,False
+Network Sniffing,4,Encrypt Sensitive Information | Multi-factor Authentication | Network Segmentation | User Account Management,True
+Launch Agent,1,Restrict File and Directory Permissions,True
+Network Topology,1,Pre-compromise,True
+Identify Roles,1,Pre-compromise,True
+Steal or Forge Kerberos Tickets,6,Active Directory Configuration | Audit | Credential Access Protection | Encrypt Sensitive Information | Password Policies | Privileged Account Management,True
+Code Repositories,5,Application Developer Guidance | Audit | Multi-factor Authentication | User Account Management | User Training,True
+PubPrn,2,Behavior Prevention on Endpoint | Execution Prevention,True
+Access Token Manipulation,2,Privileged Account Management | User Account Management,True
+Ignore Process Interrupts,0,,False
+Indirect Command Execution,0,,False
+Cloud Service Dashboard,1,User Account Management,True
+Disable or Modify Windows Event Log,4,Audit | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,True
+Cloud Secrets Management Stores,1,Privileged Account Management,True
+Execution Guardrails,1,Do Not Mitigate,True
+Windows Credential Manager,1,Disable or Remove Feature or Program,True
+GUI Input Capture,1,User Training,True
+Cron,2,Audit | User Account Management,True
+Software Discovery,0,,False
+Establish Accounts,1,Pre-compromise,True
+Password Policy Discovery,1,Password Policies,True
+Container CLI/API,2,Execution Prevention | Privileged Account Management,True
+Clear Windows Event Logs,3,Encrypt Sensitive Information | Remote Data Storage | Restrict File and Directory Permissions,True
+Taint Shared Content,4,Antivirus/Antimalware | Execution Prevention | Exploit Protection | Restrict File and Directory Permissions,True
+Windows Permissions,2,Privileged Account Management | Restrict File and Directory Permissions,True
+Cloud Account,5,Audit | Multi-factor Authentication | Network Segmentation | Privileged Account Management | User Account Management,True
+Mark-of-the-Web Bypass,2,Disable or Remove Feature or Program | Execution Prevention,True
+Network Devices,1,Pre-compromise,True
+Disable or Modify Cloud Log,1,User Account Management,True
+Install Digital Certificate,1,Pre-compromise,True
+Data from Cloud Storage,6,Audit | Encrypt Sensitive Information | Filter Network Traffic | Multi-factor Authentication | Restrict File and Directory Permissions | User Account Management,True
+Supply Chain Compromise,6,Application Developer Guidance | Boot Integrity | Limit Software Installation | Update Software | User Account Management | Vulnerability Scanning,True
+Application Window Discovery,0,,False
+Additional Email Delegate Permissions,3,Disable or Remove Feature or Program | Multi-factor Authentication | Privileged Account Management,True
+Remote Data Staging,0,,False
+Malicious Copy and Paste,3,Execution Prevention | Network Intrusion Prevention | Restrict Web-Based Content,True
+SSH Authorized Keys,3,Disable or Remove Feature or Program | Restrict File and Directory Permissions | User Account Management,True
+System Shutdown/Reboot,0,,False
+Process Doppelgänging,1,Behavior Prevention on Endpoint,True
+Email Addresses,1,Pre-compromise,True
+DCSync,3,Active Directory Configuration | Password Policies | Privileged Account Management,True
+Domain Controller Authentication,4,Multi-factor Authentication | Privileged Account Management | Privileged Process Integrity | User Training,True
+COR_PROFILER,3,Execution Prevention | Restrict Registry Permissions | User Account Management,True
+Search Threat Vendor Data,1,Pre-compromise,True
+Exfiltration Over Web Service,2,Data Loss Prevention | Restrict Web-Based Content,True
+User Execution,6,Behavior Prevention on Endpoint | Execution Prevention | Limit Software Installation | Network Intrusion Prevention | Restrict Web-Based Content | User Training,True
+Email Account,0,,False
+Archive Collected Data,1,Audit,True
+Communication Through Removable Media,2,Disable or Remove Feature or Program | Operating System Configuration,True
+Protocol or Service Impersonation,1,Network Intrusion Prevention,True
+File Transfer Protocols,2,Filter Network Traffic | Network Intrusion Prevention,True
+Purchase Technical Data,1,Pre-compromise,True
+Token Impersonation/Theft,2,Privileged Account Management | User Account Management,True
+Change Default File Association,0,,False
+Hidden Users,1,Operating System Configuration,True
+Additional Cloud Roles,3,Multi-factor Authentication | Privileged Account Management | User Account Management,True
+Mutual Exclusion,1,Do Not Mitigate,True
+Artificial Intelligence,1,Pre-compromise,True
+Keychain,1,Password Policies,True
+Dynamic Linker Hijacking,2,Execution Prevention | Operating System Configuration,True
+Indicator Removal from Tools,0,,False
+AutoHotKey & AutoIT,1,Execution Prevention,True
+Cloud Services,2,Multi-factor Authentication | Privileged Account Management,True
+Group Policy Discovery,0,,False
+Upload Tool,1,Pre-compromise,True
+Exfiltration Over Alternative Protocol,6,Data Loss Prevention | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation | Restrict File and Directory Permissions | User Account Management,True
+Password Managers,5,Password Policies | Software Configuration | Update Software | User Account Management | User Training,True
+Cloud Service Discovery,0,,False
+HTML Smuggling,1,Application Isolation and Sandboxing,True
+Email Bombing,2,Software Configuration | User Training,True
+Junk Data,1,Network Intrusion Prevention,True
+Log Enumeration,1,User Account Management,True
+Hypervisor CLI,0,,False
+Input Injection,2,Execution Prevention | Limit Hardware Installation,True
+Device Registration,1,Multi-factor Authentication,True
+Wi-Fi Networks,3,Encrypt Sensitive Information | Multi-factor Authentication | Network Segmentation,True
+ARP Cache Poisoning,6,Disable or Remove Feature or Program | Encrypt Sensitive Information | Filter Network Traffic | Limit Access to Resource Over Network | Network Intrusion Prevention | User Training,True
+Credentials in Registry,3,Audit | Password Policies | Privileged Account Management,True
+RDP Hijacking,7,Audit | Disable or Remove Feature or Program | Limit Access to Resource Over Network | Network Segmentation | Operating System Configuration | Privileged Account Management | User Account Management,True
+Fileless Storage,1,Audit,True
+Software,1,Pre-compromise,True
+Client Configurations,1,Pre-compromise,True
+Portable Executable Injection,1,Behavior Prevention on Endpoint,True
+Selective Exclusion,0,,False
+Adversary-in-the-Middle,7,Disable or Remove Feature or Program | Encrypt Sensitive Information | Filter Network Traffic | Limit Access to Resource Over Network | Network Intrusion Prevention | Network Segmentation | User Training,True
+Multi-Factor Authentication Request Generation,3,Account Use Policies | Multi-factor Authentication | User Training,True
+Direct Volume Access,2,Behavior Prevention on Endpoint | User Account Management,True
+Web Portal Capture,1,Privileged Account Management,True
+Browser Extensions,5,Audit | Execution Prevention | Limit Software Installation | Update Software | User Training,True
+Data Staged,0,,False
+Conditional Access Policies,1,User Account Management,True
+Abuse Elevation Control Mechanism,8,Audit | Execution Prevention | Operating System Configuration | Privileged Account Management | Restrict File and Directory Permissions | Update Software | User Account Control | User Account Management,True
+Video Capture,0,,False
+Cloud Infrastructure Discovery,1,User Account Management,True
+Office Template Macros,2,Behavior Prevention on Endpoint | Disable or Remove Feature or Program,True
+Search Engines,1,Pre-compromise,True
+Clear Network Connection History and Configurations,2,Remote Data Storage | Restrict Registry Permissions,True
+Malvertising,1,Pre-compromise,True
+Browser Session Hijacking,2,User Account Management | User Training,True
+Make and Impersonate Token,2,Privileged Account Management | User Account Management,True
+Remote Services,6,Audit | Disable or Remove Feature or Program | Limit Access to Resource Over Network | Multi-factor Authentication | Password Policies | User Account Management,True
+Chat Messages,2,Audit | User Training,True
+Component Object Model Hijacking,0,,False
+Environmental Keying,1,Do Not Mitigate,True
+Scheduled Transfer,1,Network Intrusion Prevention,True
+Debugger Evasion,0,,False
+Delete Cloud Instance,2,Audit | User Account Management,True
+Hardware Additions,2,Limit Access to Resource Over Network | Limit Hardware Installation,True
+Indicator Removal,3,Encrypt Sensitive Information | Remote Data Storage | Restrict File and Directory Permissions,True
+Add-ins,1,Behavior Prevention on Endpoint,True
+Written Content,1,Pre-compromise,True
+Container Administration Command,5,Disable or Remove Feature or Program | Execution Prevention | Limit Access to Resource Over Network | Privileged Account Management | User Account Management,True
+Hidden File System,0,,False
+Runtime Data Manipulation,2,Network Segmentation | Restrict File and Directory Permissions,True
+Data Destruction,3,Data Backup | Multi-factor Authentication | User Account Management,True
+At,4,Audit | Operating System Configuration | Privileged Account Management | User Account Management,True
+Transfer Data to Cloud Account,4,Data Loss Prevention | Filter Network Traffic | Software Configuration | User Account Management,True
+Disk Content Wipe,1,Data Backup,True
+Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,4,Data Loss Prevention | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation,True
+File/Path Exclusions,2,Antivirus/Antimalware | Application Developer Guidance,True
+User Activity Based Checks,0,,False
+Archive via Library,0,,False
+Network Security Appliances,1,Pre-compromise,True
+Device Driver Discovery,0,,False
+Multi-Factor Authentication Interception,1,User Training,True
+Data Encoding,1,Network Intrusion Prevention,True
+Hide Infrastructure,0,,False
+Create Process with Token,2,Privileged Account Management | User Account Management,True
+Stored Data Manipulation,3,Encrypt Sensitive Information | Remote Data Storage | Restrict File and Directory Permissions,True
+Hybrid Identity,3,Audit | Multi-factor Authentication | Privileged Account Management,True
+Cloud Administration Command,1,Privileged Account Management,True
+Backup Software Discovery,0,,False
+Network Device Firewall,3,Audit | Update Software | User Account Management,True
+Exploitation for Stealth,4,Application Isolation and Sandboxing | Exploit Protection | Threat Intelligence Program | Update Software,True
+NTFS File Attributes,1,Restrict File and Directory Permissions,True
+DNS Calculation,0,,False
+Malicious Library,3,Limit Software Installation | Network Intrusion Prevention | User Training,True
+Container and Resource Discovery,3,Limit Access to Resource Over Network | Network Segmentation | User Account Management,True
+Account Access Removal,0,,False
+Compromise Host Software Binary,1,Code Signing,True
+Modify Authentication Process,9,Audit | Multi-factor Authentication | Operating System Configuration | Password Policies | Privileged Account Management | Privileged Process Integrity | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,True
+Confluence,3,Audit | User Account Management | User Training,True
+Web Session Cookie,1,Software Configuration,True
+IDE Extensions,5,Audit | Execution Prevention | Limit Software Installation | Update Software | User Training,True
+Malicious Image,4,Audit | Code Signing | Network Intrusion Prevention | User Training,True
+Domain Fronting,1,SSL/TLS Inspection,True
+Develop Capabilities,1,Pre-compromise,True
+Traffic Signaling,2,Disable or Remove Feature or Program | Filter Network Traffic,True
+Data Obfuscation,1,Network Intrusion Prevention,True
+Deploy Container,4,Audit | Limit Access to Resource Over Network | Network Segmentation | User Account Management,True
+Evil Twin,2,Network Intrusion Prevention | User Training,True
+Wi-Fi Discovery,0,,False
+Asynchronous Procedure Call,1,Behavior Prevention on Endpoint,True
+Subvert Trust Controls,5,Execution Prevention | Operating System Configuration | Privileged Account Management | Restrict Registry Permissions | Software Configuration,True
+Additional Cloud Credentials,5,Disable or Remove Feature or Program | Multi-factor Authentication | Network Segmentation | Privileged Account Management | User Account Management,True
+AppInit DLLs,2,Execution Prevention | Update Software,True
+Executable Installer File Permissions Weakness,3,Audit | User Account Control | User Account Management,True
+Credential API Hooking,0,,False
+Unsecured Credentials,11,Active Directory Configuration | Audit | Encrypt Sensitive Information | Filter Network Traffic | Limit Access to Resource Over Network | Operating System Configuration | Password Policies | Privileged Account Management | Restrict File and Directory Permissions | Update Software | User Training,True
+XDG Autostart Entries,3,Limit Software Installation | Restrict File and Directory Permissions | User Account Management,True
+Clear Mailbox Data,3,Audit | Remote Data Storage | Restrict File and Directory Permissions,True
+PowerShell Profile,3,Code Signing | Restrict File and Directory Permissions | Software Configuration,True
+Transmitted Data Manipulation,1,Encrypt Sensitive Information,True
+SEO Poisoning,1,Pre-compromise,True
+MMC,2,Disable or Remove Feature or Program | Execution Prevention,True
+Component Firmware,1,Update Software,True
+Delay Execution,0,,False
+Golden Ticket,2,Active Directory Configuration | Privileged Account Management,True
+Data from Information Repositories,7,Audit | Encrypt Sensitive Information | Multi-factor Authentication | Out-of-Band Communications Channel | Software Configuration | User Account Management | User Training,True
+Content Injection,2,Encrypt Sensitive Information | Restrict Web-Based Content,True
+Network Device Configuration Dump,6,Encrypt Sensitive Information | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation | Software Configuration | Update Software,True
+Search Closed Sources,1,Pre-compromise,True
+Outlook Home Page,2,Behavior Prevention on Endpoint | Update Software,True

@@ -1,0 +1,466 @@
+technique,threat_score,defence_score,gap_score,priority,total_groups,has_defence,available_defences,is_emerging,convergence_alerts
+Impersonation,0.664,0.667,0.464,Critical,15,True,Threat Intelligence Program | User Training,True,4
+Local Storage Discovery,0.306,0.0,0.306,Critical,10,False,No mapped defence,True,4
+Registry Run Keys / Startup Folder,0.225,0.0,0.225,High,56,False,No mapped defence,False,8
+Security Software Discovery,0.224,0.0,0.224,High,27,False,No mapped defence,True,9
+File and Directory Discovery,0.208,0.0,0.208,High,51,False,No mapped defence,False,9
+System Information Discovery,0.208,0.0,0.208,High,57,False,No mapped defence,False,9
+Remote System Discovery,0.191,0.0,0.191,High,40,False,No mapped defence,False,9
+Domain Groups,0.185,0.0,0.185,High,13,False,No mapped defence,True,6
+File Deletion,0.182,0.0,0.182,High,47,False,No mapped defence,False,9
+System Owner/User Discovery,0.169,0.0,0.169,High,40,False,No mapped defence,False,9
+Email Addresses,0.259,0.333,0.159,High,14,True,Pre-compromise,True,4
+Deobfuscate/Decode Files or Information,0.145,0.0,0.145,Medium,38,False,No mapped defence,False,8
+System Network Configuration Discovery,0.14,0.0,0.14,Medium,43,False,No mapped defence,False,9
+Process Discovery,0.13,0.0,0.13,Medium,41,False,No mapped defence,False,9
+Masquerade Task or Service,0.126,0.0,0.126,Medium,23,False,No mapped defence,False,7
+System Network Connections Discovery,0.122,0.0,0.122,Medium,32,False,No mapped defence,False,8
+Local Data Staging,0.12,0.0,0.12,Medium,28,False,No mapped defence,False,9
+Code Signing,0.115,0.0,0.115,Medium,27,False,No mapped defence,False,9
+Data from Local System,0.212,0.333,0.112,Medium,45,True,Data Loss Prevention,False,8
+Domains,0.207,0.333,0.107,Medium,46,True,Pre-compromise,False,7
+Archive via Utility,0.197,0.333,0.097,Medium,39,True,Audit,False,9
+Query Registry,0.095,0.0,0.095,Medium,19,False,No mapped defence,False,8
+Screen Capture,0.093,0.0,0.093,Medium,19,False,No mapped defence,False,7
+Multi-hop Proxy,0.189,0.333,0.089,Medium,11,True,Filter Network Traffic,True,5
+Lateral Tool Transfer,0.282,0.667,0.082,Medium,19,True,Filter Network Traffic | Network Intrusion Prevention,True,6
+Keylogging,0.08,0.0,0.08,Medium,26,False,No mapped defence,False,8
+System Time Discovery,0.079,0.0,0.079,Medium,14,False,No mapped defence,False,6
+Binary Padding,0.076,0.0,0.076,Medium,8,False,No mapped defence,False,2
+Windows Command Shell,0.175,0.333,0.075,Medium,73,True,Execution Prevention,False,9
+Reflective Code Loading,0.072,0.0,0.072,Medium,4,False,No mapped defence,False,1
+Disable or Modify System Firewall,0.371,1.0,0.071,Medium,13,True,Audit | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,True,4
+Internal Spearphishing,0.066,0.0,0.066,Medium,6,False,No mapped defence,False,2
+Timestomp,0.066,0.0,0.066,Medium,11,False,No mapped defence,False,5
+System Service Discovery,0.063,0.0,0.063,Medium,15,False,No mapped defence,False,6
+Remote Data Staging,0.062,0.0,0.062,Medium,11,False,No mapped defence,False,5
+Data from Network Shared Drive,0.061,0.0,0.061,Medium,8,False,No mapped defence,False,3
+Compile After Delivery,0.059,0.0,0.059,Medium,4,False,No mapped defence,False,1
+Internet Connection Discovery,0.059,0.0,0.059,Medium,11,False,No mapped defence,False,3
+Digital Certificates,0.154,0.333,0.054,Medium,11,True,Pre-compromise,True,6
+Web Protocols,0.252,0.667,0.052,Medium,57,True,Filter Network Traffic | Network Intrusion Prevention,False,9
+Browser Information Discovery,0.049,0.0,0.049,Low,7,False,No mapped defence,False,2
+Email Accounts,0.146,0.333,0.046,Low,27,True,Pre-compromise,False,7
+Data Staged,0.045,0.0,0.045,Low,5,False,No mapped defence,False,2
+Archive via Custom Method,0.044,0.0,0.044,Low,7,False,No mapped defence,False,3
+Upload Malware,0.143,0.333,0.043,Low,27,True,Pre-compromise,False,5
+Hidden Files and Directories,0.042,0.0,0.042,Low,12,False,No mapped defence,False,5
+Rundll32,0.142,0.333,0.042,Low,26,True,Exploit Protection,False,8
+Additional Local or Domain Groups,0.04,0.0,0.04,Low,7,False,No mapped defence,False,3
+Local Groups,0.038,0.0,0.038,Low,7,False,No mapped defence,False,2
+System Checks,0.038,0.0,0.038,Low,7,False,No mapped defence,False,2
+Exfiltration to Cloud Storage,0.136,0.333,0.036,Low,25,True,Restrict Web-Based Content,False,7
+Input Capture,0.035,0.0,0.035,Low,3,False,No mapped defence,False,0
+Permission Groups Discovery,0.033,0.0,0.033,Low,6,False,No mapped defence,False,2
+Peripheral Device Discovery,0.031,0.0,0.031,Low,9,False,No mapped defence,False,4
+Modify Registry,0.128,0.333,0.028,Low,29,True,Restrict Registry Permissions,False,8
+Software Packing,0.127,0.333,0.027,Low,23,True,Antivirus/Antimalware,False,8
+Unix Shell,0.127,0.333,0.027,Low,10,True,Execution Prevention,True,3
+Compute Hijacking,0.023,0.0,0.023,Low,4,False,No mapped defence,False,2
+Clipboard Data,0.02,0.0,0.02,Low,4,False,No mapped defence,False,0
+Rootkit,0.02,0.0,0.02,Low,6,False,No mapped defence,False,2
+Video Capture,0.02,0.0,0.02,Low,4,False,No mapped defence,False,0
+Ignore Process Interrupts,0.017,0.0,0.017,Low,3,False,No mapped defence,False,1
+Web Services,0.116,0.333,0.016,Low,28,True,Pre-compromise,False,6
+Application Window Discovery,0.015,0.0,0.015,Low,3,False,No mapped defence,False,0
+Automated Exfiltration,0.015,0.0,0.015,Low,7,False,No mapped defence,False,3
+Dynamic API Resolution,0.015,0.0,0.015,Low,3,False,No mapped defence,False,0
+Virtualization/Sandbox Evasion,0.015,0.0,0.015,Low,3,False,No mapped defence,False,0
+Network Share Discovery,0.114,0.333,0.014,Low,16,True,Operating System Configuration,False,6
+DLL,0.312,1.0,0.012,Low,35,True,Application Developer Guidance | Audit | Execution Prevention | Restrict Library Loading | Update Software,True,10
+System Language Discovery,0.011,0.0,0.011,Low,5,False,No mapped defence,False,2
+Account Access Removal,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+Archive via Library,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+Audio Capture,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+Delay Execution,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+Hidden File System,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+Hide Infrastructure,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+Indirect Command Execution,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+System Location Discovery,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+User Activity Based Checks,0.01,0.0,0.01,Low,2,False,No mapped defence,False,0
+Backup Software Discovery,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Boot or Logon Autostart Execution,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Change Default File Association,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Cloud Service Discovery,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Component Object Model Hijacking,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Credential API Hooking,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+DNS Calculation,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Debugger Evasion,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Device Driver Discovery,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Group Policy Discovery,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Hypervisor CLI,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Indicator Removal from Tools,0.005,0.0,0.005,Low,7,False,No mapped defence,False,2
+Network Share Connection Removal,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Selective Exclusion,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Space after Filename,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Virtual Machine Discovery,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Wi-Fi Discovery,0.005,0.0,0.005,Low,1,False,No mapped defence,False,0
+Asymmetric Cryptography,0.202,0.667,0.003,Low,11,True,Network Intrusion Prevention | SSL/TLS Inspection,True,5
+Credentials In Files,0.299,1.0,-0.001,Low,14,True,Audit | Password Policies | Restrict File and Directory Permissions | User Training,True,6
+Ingress Tool Transfer,0.197,0.667,-0.003,Low,86,True,Filter Network Traffic | Network Intrusion Prevention,False,9
+Email Account,-0.004,0.0,-0.004,Low,4,False,No mapped defence,False,1
+Encrypted/Encoded File,0.193,0.667,-0.007,Low,40,True,Antivirus/Antimalware | Behavior Prevention on Endpoint,False,10
+Software Discovery,-0.007,0.0,-0.007,Low,11,False,No mapped defence,False,3
+Fast Flux DNS,-0.01,0.0,-0.01,Low,3,False,No mapped defence,False,0
+System Shutdown/Reboot,-0.012,0.0,-0.012,Low,4,False,No mapped defence,False,1
+Web Shell,0.18,0.667,-0.02,Low,31,True,Disable or Remove Feature or Program | User Account Management,False,8
+Right-to-Left Override,-0.022,0.0,-0.022,Low,5,False,No mapped defence,False,2
+Standard Encoding,0.076,0.333,-0.024,Low,11,True,Network Intrusion Prevention,False,4
+Vulnerability Scanning,0.076,0.333,-0.024,Low,14,True,Pre-compromise,False,4
+Process Hollowing,0.075,0.333,-0.025,Low,8,True,Behavior Prevention on Endpoint,False,3
+Search Victim-Owned Websites,0.068,0.333,-0.032,Low,6,True,Pre-compromise,False,3
+Symmetric Cryptography,0.068,0.333,-0.032,Low,14,True,Network Intrusion Prevention,False,7
+Dynamic-link Library Injection,0.067,0.333,-0.033,Low,10,True,Behavior Prevention on Endpoint,False,4
+RC Scripts,0.067,0.333,-0.033,Low,3,True,Restrict File and Directory Permissions,False,1
+Social Media Accounts,0.066,0.333,-0.034,Low,18,True,Pre-compromise,False,6
+Internal Proxy,0.061,0.333,-0.039,Low,9,True,Network Intrusion Prevention,False,4
+Data Transfer Size Limits,0.06,0.333,-0.04,Low,5,True,Network Intrusion Prevention,False,1
+Establish Accounts,0.06,0.333,-0.04,Low,5,True,Pre-compromise,False,1
+Archive Collected Data,0.057,0.333,-0.043,Low,13,True,Audit,False,6
+Code Signing Certificates,0.056,0.333,-0.044,Low,10,True,Pre-compromise,False,4
+Multi-Factor Authentication Interception,0.055,0.333,-0.045,Low,4,True,User Training,False,1
+Windows Credential Manager,0.055,0.333,-0.045,Low,4,True,Disable or Remove Feature or Program,False,1
+Compression,0.053,0.333,-0.047,Low,10,True,Antivirus/Antimalware,True,2
+Server,0.049,0.333,-0.051,Low,15,True,Pre-compromise,False,5
+Gather Victim Network Information,0.048,0.333,-0.052,Low,3,True,Pre-compromise,False,0
+Virtual Private Server,0.047,0.333,-0.052,Low,18,True,Pre-compromise,False,5
+Exfiltration Over C2 Channel,0.147,0.667,-0.053,Low,27,True,Data Loss Prevention | Network Intrusion Prevention,False,8
+Rename Legitimate Utilities,0.045,0.333,-0.054,Low,6,True,Restrict File and Directory Permissions,False,2
+Exploit Public-Facing Application,0.245,1.0,-0.055,Low,44,True,Application Isolation and Sandboxing | Exploit Protection | Filter Network Traffic | Limit Access to Resource Over Network | Network Segmentation | Privileged Account Management | Update Software | Vulnerability Scanning,False,8
+Regsvr32,0.044,0.333,-0.056,Low,11,True,Exploit Protection,False,4
+External Proxy,0.041,0.333,-0.059,Low,11,True,Network Intrusion Prevention,False,4
+Gather Victim Identity Information,0.038,0.333,-0.062,Low,10,True,Pre-compromise,False,5
+Disk Structure Wipe,0.033,0.333,-0.067,Low,6,True,Data Backup,False,2
+Junk Code Insertion,0.03,0.333,-0.07,Low,6,True,Antivirus/Antimalware,False,0
+Data from Cloud Storage,0.228,1.0,-0.072,Low,5,True,Audit | Encrypt Sensitive Information | Filter Network Traffic | Multi-factor Authentication | Restrict File and Directory Permissions | User Account Management,True,2
+Log Enumeration,0.028,0.333,-0.072,Low,5,True,User Account Management,False,2
+Fallback Channels,0.027,0.333,-0.073,Low,5,True,Network Intrusion Prevention,False,1
+Native API,0.125,0.667,-0.075,Low,20,True,Behavior Prevention on Endpoint | Execution Prevention,False,7
+Botnet,0.023,0.333,-0.077,Low,7,True,Pre-compromise,False,3
+Network Devices,0.023,0.333,-0.077,Low,4,True,Pre-compromise,False,2
+Network Topology,0.023,0.333,-0.077,Low,4,True,Pre-compromise,False,2
+Bidirectional Communication,0.122,0.667,-0.078,Low,16,True,Network Intrusion Prevention | Restrict Web-Based Content,False,6
+Multi-Stage Channels,0.02,0.333,-0.08,Low,4,True,Network Intrusion Prevention,False,0
+Match Legitimate Resource Name or Location,0.219,1.0,-0.081,Low,61,True,Code Signing | Execution Prevention | Restrict File and Directory Permissions,False,9
+Business Relationships,0.017,0.333,-0.083,Low,3,True,Pre-compromise,False,1
+Employee Names,0.017,0.333,-0.083,Low,3,True,Pre-compromise,False,1
+Spearphishing Voice,0.017,0.333,-0.083,Low,3,True,User Training,False,1
+Develop Capabilities,0.015,0.333,-0.085,Low,3,True,Pre-compromise,False,0
+Disk Content Wipe,0.015,0.333,-0.085,Low,3,True,Data Backup,False,0
+Internal Defacement,0.015,0.333,-0.085,Low,3,True,Data Backup,False,0
+Link Target,0.015,0.333,-0.085,Low,3,True,Pre-compromise,False,0
+Password Filter DLL,0.015,0.333,-0.085,Low,3,True,Operating System Configuration,False,0
+Password Policy Discovery,0.015,0.333,-0.085,Low,3,True,Password Policies,False,0
+Protocol or Service Impersonation,0.015,0.333,-0.085,Low,3,True,Network Intrusion Prevention,False,0
+Social Media,0.015,0.333,-0.085,Low,3,True,Pre-compromise,False,0
+Software,0.015,0.333,-0.085,Low,3,True,Pre-compromise,False,0
+Vulnerabilities,0.015,0.333,-0.085,Low,3,True,Pre-compromise,False,0
+Service Execution,0.214,1.0,-0.086,Low,16,True,Behavior Prevention on Endpoint | Privileged Account Management | Restrict File and Directory Permissions,True,5
+Exfiltration Over Unencrypted Non-C2 Protocol,0.212,1.0,-0.087,Low,11,True,Data Loss Prevention | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation,True,5
+Network Sniffing,0.213,1.0,-0.087,Low,8,True,Encrypt Sensitive Information | Multi-factor Authentication | Network Segmentation | User Account Management,True,4
+Steal Web Session Cookie,0.211,1.0,-0.089,Low,8,True,Audit | Multi-factor Authentication | Restrict Web-Based Content | Software Configuration | Update Software | User Training,True,3
+Artificial Intelligence,0.01,0.333,-0.09,Low,2,True,Pre-compromise,False,0
+Cloud Administration Command,0.01,0.333,-0.09,Low,2,True,Privileged Account Management,False,0
+Cloud Infrastructure Discovery,0.01,0.333,-0.09,Low,2,True,User Account Management,False,0
+Cloud Secrets Management Stores,0.01,0.333,-0.09,Low,2,True,Privileged Account Management,False,0
+Compromise Host Software Binary,0.01,0.333,-0.09,Low,2,True,Code Signing,False,0
+Conditional Access Policies,0.01,0.333,-0.09,Low,2,True,User Account Management,False,0
+Email Hiding Rules,0.01,0.333,-0.09,Low,2,True,Audit,False,0
+Environmental Keying,0.01,0.333,-0.09,Low,2,True,Do Not Mitigate,False,0
+External Defacement,0.01,0.333,-0.09,Low,2,True,Data Backup,False,0
+Fileless Storage,0.01,0.333,-0.09,Low,2,True,Audit,False,0
+GUI Input Capture,0.01,0.333,-0.09,Low,2,True,User Training,False,0
+Hidden Users,0.01,0.333,-0.09,Low,2,True,Operating System Configuration,False,0
+Invalid Code Signature,0.01,0.333,-0.09,Low,2,True,Code Signing,False,0
+Logon Script (Windows),0.01,0.333,-0.09,Low,2,True,Restrict Registry Permissions,False,0
+Mutual Exclusion,0.01,0.333,-0.09,Low,2,True,Do Not Mitigate,False,0
+Port Knocking,0.01,0.333,-0.09,Low,2,True,Filter Network Traffic,False,0
+Portable Executable Injection,0.01,0.333,-0.09,Low,2,True,Behavior Prevention on Endpoint,False,0
+Query Public AI Services,0.01,0.333,-0.09,Low,2,True,Pre-compromise,False,0
+Scan Databases,0.01,0.333,-0.09,Low,2,True,Pre-compromise,False,0
+Scanning IP Blocks,0.01,0.333,-0.09,Low,2,True,Pre-compromise,False,0
+Search Open Technical Databases,0.01,0.333,-0.09,Low,2,True,Pre-compromise,False,0
+Search Threat Vendor Data,0.01,0.333,-0.09,Low,2,True,Pre-compromise,False,0
+Upload Tool,0.01,0.333,-0.09,Low,2,True,Pre-compromise,False,0
+Web Portal Capture,0.01,0.333,-0.09,Low,2,True,Privileged Account Management,False,0
+XSL Script Processing,0.01,0.333,-0.09,Low,2,True,Execution Prevention,False,0
+Gather Victim Org Information,0.006,0.333,-0.094,Low,7,True,Pre-compromise,False,3
+Acquire Access,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Add-ins,0.005,0.333,-0.095,Low,1,True,Behavior Prevention on Endpoint,False,0
+Asynchronous Procedure Call,0.005,0.333,-0.095,Low,1,True,Behavior Prevention on Endpoint,False,0
+AutoHotKey & AutoIT,0.005,0.333,-0.095,Low,1,True,Execution Prevention,False,0
+Client Configurations,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Cloud Service Dashboard,0.005,0.333,-0.095,Low,1,True,User Account Management,False,0
+Component Firmware,0.005,0.333,-0.095,Low,1,True,Update Software,False,0
+Data Encoding,0.005,0.333,-0.095,Low,1,True,Network Intrusion Prevention,False,0
+Data Obfuscation,0.005,0.333,-0.095,Low,1,True,Network Intrusion Prevention,False,0
+Determine Physical Locations,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Device Registration,0.005,0.333,-0.095,Low,1,True,Multi-factor Authentication,False,0
+Disable or Modify Cloud Log,0.005,0.333,-0.095,Low,1,True,User Account Management,False,0
+Domain Fronting,0.005,0.333,-0.095,Low,1,True,SSL/TLS Inspection,False,0
+Domain Properties,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+ESXi Administration Command,0.005,0.333,-0.095,Low,1,True,User Account Management,False,0
+Endpoint Denial of Service,0.005,0.333,-0.095,Low,1,True,Filter Network Traffic,False,0
+Gather Victim Host Information,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+HTML Smuggling,0.005,0.333,-0.095,Low,1,True,Application Isolation and Sandboxing,False,0
+IDE Tunneling,0.005,0.333,-0.095,Low,1,True,Execution Prevention,False,0
+Install Digital Certificate,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Junk Data,0.005,0.333,-0.095,Low,1,True,Network Intrusion Prevention,False,0
+KernelCallbackTable,0.005,0.333,-0.095,Low,1,True,Behavior Prevention on Endpoint,False,0
+Keychain,0.005,0.333,-0.095,Low,1,True,Password Policies,False,0
+Launch Agent,0.005,0.333,-0.095,Low,1,True,Restrict File and Directory Permissions,False,0
+Malvertising,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+NTFS File Attributes,0.005,0.333,-0.095,Low,1,True,Restrict File and Directory Permissions,False,0
+Network Denial of Service,0.005,0.333,-0.095,Low,1,True,Filter Network Traffic,False,0
+Network Security Appliances,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Non-Standard Encoding,0.005,0.333,-0.095,Low,1,True,Network Intrusion Prevention,False,0
+Print Processors,0.005,0.333,-0.095,Low,1,True,User Account Management,False,0
+Process Doppelgänging,0.005,0.333,-0.095,Low,1,True,Behavior Prevention on Endpoint,False,0
+Purchase Technical Data,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+SEO Poisoning,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Scheduled Transfer,0.005,0.333,-0.095,Low,1,True,Network Intrusion Prevention,False,0
+Search Closed Sources,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Search Engines,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Shared Modules,0.005,0.333,-0.095,Low,1,True,Execution Prevention,False,0
+Stage Capabilities,0.005,0.333,-0.095,Low,1,True,Pre-compromise,False,0
+Systemctl,0.005,0.333,-0.095,Low,1,True,User Account Management,False,0
+Transmitted Data Manipulation,0.005,0.333,-0.095,Low,1,True,Encrypt Sensitive Information,False,0
+Unix Shell Configuration Modification,0.005,0.333,-0.095,Low,1,True,Restrict File and Directory Permissions,False,0
+Web Session Cookie,0.005,0.333,-0.095,Low,1,True,Software Configuration,False,0
+Windows Management Instrumentation,0.203,1.0,-0.097,Low,42,True,Behavior Prevention on Endpoint | Execution Prevention | Privileged Account Management | User Account Management,False,10
+Scheduled Task,0.201,1.0,-0.099,Low,54,True,Audit | Operating System Configuration | Privileged Account Management | User Account Management,False,9
+Non-Application Layer Protocol,0.198,1.0,-0.102,Low,12,True,Audit | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation,True,6
+Data from Removable Media,-0.004,0.333,-0.103,Low,4,True,Data Loss Prevention,False,1
+Identify Roles,-0.004,0.333,-0.103,Low,4,True,Pre-compromise,False,1
+Command Obfuscation,0.094,0.667,-0.105,Low,29,True,Antivirus/Antimalware | Behavior Prevention on Endpoint,False,8
+Drive-by Target,-0.007,0.333,-0.107,Low,8,True,Pre-compromise,False,2
+Visual Basic,0.192,1.0,-0.108,Low,46,True,Antivirus/Antimalware | Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Execution Prevention | Restrict Web-Based Content,False,8
+Password Managers,0.191,1.0,-0.109,Low,7,True,Password Policies | Software Configuration | Update Software | User Account Management | User Training,True,4
+Web Service,0.091,0.667,-0.109,Low,15,True,Network Intrusion Prevention | Restrict Web-Based Content,False,5
+LSASS Memory,0.189,1.0,-0.111,Low,44,True,Behavior Prevention on Endpoint | Credential Access Protection | Operating System Configuration | Password Policies | Privileged Account Management | Privileged Process Integrity | User Training,False,9
+DNS Server,-0.012,0.333,-0.112,Low,4,True,Pre-compromise,False,1
+Mail Protocols,0.086,0.667,-0.114,Low,6,True,Filter Network Traffic | Network Intrusion Prevention,False,2
+Automated Collection,0.084,0.667,-0.116,Low,21,True,Encrypt Sensitive Information | Remote Data Storage,False,7
+SSH,0.183,1.0,-0.116,Low,19,True,Disable or Remove Feature or Program | Multi-factor Authentication | User Account Management,True,9
+Mshta,0.076,0.667,-0.124,Low,17,True,Disable or Remove Feature or Program | Execution Prevention,False,5
+Spearphishing Link,0.176,1.0,-0.124,Low,53,True,Audit | Restrict Web-Based Content | Software Configuration | User Account Management | User Training,False,9
+Compromise Software Supply Chain,0.075,0.667,-0.125,Low,9,True,Update Software | Vulnerability Scanning,False,3
+Prevent Command History Logging,0.072,0.667,-0.128,Low,4,True,Environment Variable Permissions | Operating System Configuration,False,1
+Execution Guardrails,-0.029,0.333,-0.129,Low,4,True,Do Not Mitigate,False,1
+IP Addresses,-0.034,0.333,-0.134,Low,3,True,Pre-compromise,False,1
+Process Injection,0.062,0.667,-0.137,Low,15,True,Behavior Prevention on Endpoint | Privileged Account Management,False,5
+Disable or Modify Tools,0.162,1.0,-0.138,Low,32,True,Audit | Disable or Remove Feature or Program | Execution Prevention | Restrict File and Directory Permissions | Restrict Registry Permissions | Software Configuration | User Account Management,False,9
+Dynamic Resolution,0.059,0.667,-0.141,Low,8,True,Network Intrusion Prevention | Restrict Web-Based Content,False,4
+Local Account,0.159,1.0,-0.141,Low,29,True,Multi-factor Authentication | Operating System Configuration | Privileged Account Management,False,9
+Data Encrypted for Impact,0.057,0.667,-0.142,Low,18,True,Behavior Prevention on Endpoint | Data Backup,False,5
+Network Service Discovery,0.156,1.0,-0.144,Low,31,True,Disable or Remove Feature or Program | Network Intrusion Prevention | Network Segmentation,False,9
+External Remote Services,0.154,1.0,-0.146,Low,28,True,Disable or Remove Feature or Program | Limit Access to Resource Over Network | Multi-factor Authentication | Network Segmentation | Restrict Web-Based Content,False,9
+Phishing for Information,0.053,0.667,-0.147,Low,5,True,Software Configuration | User Training,False,2
+PowerShell,0.152,1.0,-0.148,Low,85,True,Antivirus/Antimalware | Code Signing | Disable or Remove Feature or Program | Execution Prevention | Privileged Account Management,False,9
+Protocol Tunneling,0.052,0.667,-0.148,Low,15,True,Filter Network Traffic | Network Intrusion Prevention,False,5
+Domain Account,0.151,1.0,-0.149,Low,32,True,Multi-factor Authentication | Network Segmentation | Operating System Configuration | Privileged Account Management,False,9
+Valid Accounts,0.15,1.0,-0.15,Low,45,True,Account Use Policies | Active Directory Configuration | Application Developer Guidance | Multi-factor Authentication | Password Policies | Privileged Account Management | User Account Management | User Training,False,9
+Malicious Link,0.148,1.0,-0.152,Low,49,True,Network Intrusion Prevention | Restrict Web-Based Content | User Training,False,7
+Local Email Collection,0.046,0.667,-0.154,Low,8,True,Encrypt Sensitive Information | Out-of-Band Communications Channel,False,1
+Remote Desktop Protocol,0.143,1.0,-0.157,Low,37,True,Audit | Disable or Remove Feature or Program | Limit Access to Resource Over Network | Multi-factor Authentication | Network Segmentation | Operating System Configuration | Privileged Account Management | User Account Management,False,9
+Windows Service,0.142,1.0,-0.158,Low,26,True,Audit | Behavior Prevention on Endpoint | Code Signing | Operating System Configuration | User Account Management,False,8
+Domain Trust Discovery,0.038,0.667,-0.162,Low,10,True,Audit | Network Segmentation,False,5
+Hidden Window,0.037,0.667,-0.162,Low,18,True,Execution Prevention | Limit Software Installation,False,5
+Domain Accounts,0.136,1.0,-0.164,Low,19,True,Multi-factor Authentication | Password Policies | Privileged Account Management | User Account Management | User Training,False,5
+Group Policy Modification,0.028,0.667,-0.172,Low,5,True,Audit | User Account Management,False,2
+Masquerading,0.126,1.0,-0.174,Low,20,True,Antivirus/Antimalware | Audit | Behavior Prevention on Endpoint | Code Signing | Execution Prevention | Restrict File and Directory Permissions | User Account Management | User Training,False,6
+Boot or Logon Initialization Scripts,0.022,0.667,-0.178,Low,4,True,Restrict File and Directory Permissions | Restrict Registry Permissions,False,1
+Exfiltration Over Web Service,0.022,0.667,-0.178,Low,4,True,Data Loss Prevention | Restrict Web-Based Content,False,1
+Component Object Model,0.02,0.667,-0.18,Low,4,True,Application Isolation and Sandboxing | Privileged Account Management,False,0
+Password Cracking,0.02,0.667,-0.18,Low,4,True,Multi-factor Authentication | Password Policies,False,0
+Steganography,-0.08,0.333,-0.18,Low,10,True,Network Intrusion Prevention,False,2
+Account Discovery,0.017,0.667,-0.183,Low,3,True,Operating System Configuration | User Account Management,False,1
+Cloud Services,0.017,0.667,-0.183,Low,3,True,Multi-factor Authentication | Privileged Account Management,False,1
+LNK Icon Smuggling,0.017,0.667,-0.183,Low,3,True,Antivirus/Antimalware | Behavior Prevention on Endpoint,False,1
+Linux and Mac Permissions,0.017,0.667,-0.183,Low,3,True,Privileged Account Management | Restrict File and Directory Permissions,False,1
+Malicious Copy and Paste,0.117,1.0,-0.183,Low,3,True,Execution Prevention | Network Intrusion Prevention | Restrict Web-Based Content,False,1
+Remote Services,0.117,1.0,-0.183,Low,3,True,Audit | Disable or Remove Feature or Program | Limit Access to Resource Over Network | Multi-factor Authentication | Password Policies | User Account Management,False,1
+Traffic Signaling,0.017,0.667,-0.183,Low,3,True,Disable or Remove Feature or Program | Filter Network Traffic,False,1
+Winlogon Helper DLL,0.017,0.667,-0.183,Low,3,True,Execution Prevention | User Account Management,False,1
+Cron,0.015,0.667,-0.185,Low,3,True,Audit | User Account Management,False,0
+Mark-of-the-Web Bypass,0.015,0.667,-0.185,Low,3,True,Disable or Remove Feature or Program | Execution Prevention,False,0
+Financial Theft,0.013,0.667,-0.187,Low,15,True,User Account Management | User Training,False,3
+CMSTP,0.01,0.667,-0.19,Low,2,True,Disable or Remove Feature or Program | Execution Prevention,False,0
+Clear Network Connection History and Configurations,0.01,0.667,-0.19,Low,2,True,Remote Data Storage | Restrict Registry Permissions,False,0
+Compiled HTML File,0.01,0.667,-0.19,Low,5,True,Execution Prevention | Restrict Web-Based Content,False,1
+Create Cloud Instance,0.01,0.667,-0.19,Low,2,True,Audit | User Account Management,False,0
+Create Process with Token,0.01,0.667,-0.19,Low,2,True,Privileged Account Management | User Account Management,False,0
+Delete Cloud Instance,0.01,0.667,-0.19,Low,2,True,Audit | User Account Management,False,0
+Direct Volume Access,0.01,0.667,-0.19,Low,2,True,Behavior Prevention on Endpoint | User Account Management,False,0
+Domain Generation Algorithms,0.01,0.667,-0.19,Low,2,True,Network Intrusion Prevention | Restrict Web-Based Content,False,0
+Double File Extension,0.01,0.667,-0.19,Low,2,True,Operating System Configuration | User Training,False,0
+Forced Authentication,0.01,0.667,-0.19,Low,2,True,Filter Network Traffic | Password Policies,False,0
+InstallUtil,0.01,0.667,-0.19,Low,2,True,Disable or Remove Feature or Program | Execution Prevention,False,0
+Make and Impersonate Token,0.01,0.667,-0.19,Low,2,True,Privileged Account Management | User Account Management,False,0
+One-Way Communication,0.01,0.667,-0.19,Low,2,True,Network Intrusion Prevention | Restrict Web-Based Content,False,0
+Token Impersonation/Theft,0.01,0.667,-0.19,Low,2,True,Privileged Account Management | User Account Management,False,0
+Trust Modification,0.01,0.667,-0.19,Low,2,True,Privileged Account Management | User Account Management,False,0
+Windows Permissions,0.01,0.667,-0.19,Low,2,True,Privileged Account Management | Restrict File and Directory Permissions,False,0
+Wordlist Scanning,0.01,0.667,-0.19,Low,2,True,Disable or Remove Feature or Program | Pre-compromise,False,0
+Dead Drop Resolver,0.008,0.667,-0.192,Low,6,True,Network Intrusion Prevention | Restrict Web-Based Content,False,2
+Search Open Websites/Domains,0.008,0.667,-0.192,Low,6,True,Application Developer Guidance | Audit,False,2
+Exploitation for Client Execution,0.106,1.0,-0.194,Low,41,True,Application Isolation and Sandboxing | Exploit Protection | Update Software,False,6
+AppInit DLLs,0.005,0.667,-0.195,Low,1,True,Execution Prevention | Update Software,False,0
+Application Shimming,0.005,0.667,-0.195,Low,1,True,Update Software | User Account Control,False,0
+Browser Session Hijacking,0.005,0.667,-0.195,Low,1,True,User Account Management | User Training,False,0
+Chat Messages,0.005,0.667,-0.195,Low,1,True,Audit | User Training,False,0
+Communication Through Removable Media,0.005,0.667,-0.195,Low,1,True,Disable or Remove Feature or Program | Operating System Configuration,False,0
+Container CLI/API,0.005,0.667,-0.195,Low,1,True,Execution Prevention | Privileged Account Management,False,0
+Content Injection,0.005,0.667,-0.195,Low,1,True,Encrypt Sensitive Information | Restrict Web-Based Content,False,0
+Email Bombing,0.005,0.667,-0.195,Low,1,True,Software Configuration | User Training,False,0
+Evil Twin,0.005,0.667,-0.195,Low,1,True,Network Intrusion Prevention | User Training,False,0
+File/Path Exclusions,0.005,0.667,-0.195,Low,1,True,Antivirus/Antimalware | Application Developer Guidance,False,0
+Golden Ticket,0.005,0.667,-0.195,Low,1,True,Active Directory Configuration | Privileged Account Management,False,0
+Hardware Additions,0.005,0.667,-0.195,Low,1,True,Limit Access to Resource Over Network | Limit Hardware Installation,False,0
+Input Injection,0.005,0.667,-0.195,Low,1,True,Execution Prevention | Limit Hardware Installation,False,0
+MMC,0.005,0.667,-0.195,Low,1,True,Disable or Remove Feature or Program | Execution Prevention,False,0
+Odbcconf,0.005,0.667,-0.195,Low,1,True,Disable or Remove Feature or Program | Execution Prevention,False,0
+Office Template Macros,0.005,0.667,-0.195,Low,1,True,Behavior Prevention on Endpoint | Disable or Remove Feature or Program,False,0
+Office Test,0.005,0.667,-0.195,Low,1,True,Behavior Prevention on Endpoint | Software Configuration,False,0
+Outlook Home Page,0.005,0.667,-0.195,Low,1,True,Behavior Prevention on Endpoint | Update Software,False,0
+Proxy,0.105,1.0,-0.195,Low,19,True,Filter Network Traffic | Network Intrusion Prevention | SSL/TLS Inspection,False,7
+PubPrn,0.005,0.667,-0.195,Low,1,True,Behavior Prevention on Endpoint | Execution Prevention,False,0
+Runtime Data Manipulation,0.005,0.667,-0.195,Low,1,True,Network Segmentation | Restrict File and Directory Permissions,False,0
+SMB/Windows Admin Shares,0.104,1.0,-0.196,Low,27,True,Filter Network Traffic | Limit Access to Resource Over Network | Password Policies | Privileged Account Management,False,9
+Security Account Manager,0.103,1.0,-0.197,Low,14,True,Operating System Configuration | Password Policies | Privileged Account Management | User Training,False,5
+Msiexec,-0.0,0.667,-0.2,Low,6,True,Disable or Remove Feature or Program | Privileged Account Management,False,2
+Python,0.1,1.0,-0.2,Low,18,True,Antivirus/Antimalware | Audit | Execution Prevention | Limit Software Installation,False,7
+Encrypted Channel,-0.002,0.667,-0.202,Low,4,True,Network Intrusion Prevention | SSL/TLS Inspection,False,2
+Credentials from Web Browsers,0.097,1.0,-0.203,Low,23,True,Password Policies | Restrict Web-Based Content | Update Software | User Account Management | User Training,False,7
+Exploitation for Privilege Escalation,0.097,1.0,-0.203,Low,22,True,Application Isolation and Sandboxing | Execution Prevention | Exploit Protection | Threat Intelligence Program | Update Software,False,8
+Access Token Manipulation,-0.005,0.667,-0.205,Low,3,True,Privileged Account Management | User Account Management,False,0
+Spearphishing via Service,0.095,1.0,-0.205,Low,14,True,Antivirus/Antimalware | Audit | Restrict Web-Based Content | User Account Management | User Training,False,7
+Application Layer Protocol,-0.007,0.667,-0.207,Low,5,True,Filter Network Traffic | Network Intrusion Prevention,False,1
+JavaScript,0.09,1.0,-0.209,Low,26,True,Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Execution Prevention | Restrict Web-Based Content,False,7
+Dynamic Linker Hijacking,-0.01,0.667,-0.21,Low,3,True,Execution Prevention | Operating System Configuration,False,0
+Remote Desktop Software,0.09,1.0,-0.21,Low,11,True,Disable or Remove Feature or Program | Execution Prevention | Filter Network Traffic,False,5
+Masquerade Account Name,-0.012,0.667,-0.212,Low,4,True,Audit | User Account Management,False,1
+Cloud Accounts,0.086,1.0,-0.214,Low,12,True,Account Use Policies | Active Directory Configuration | Multi-factor Authentication | Password Policies | Pre-compromise | Privileged Account Management | User Account Management | User Training,False,6
+Windows Management Instrumentation Event Subscription,0.084,1.0,-0.216,Low,10,True,Behavior Prevention on Endpoint | Privileged Account Management | User Account Management,False,6
+Brute Force,0.079,1.0,-0.221,Low,15,True,Account Use Policies | Multi-factor Authentication | Password Policies | User Account Management,False,7
+Obfuscated Files or Information,0.077,1.0,-0.223,Low,18,True,Antivirus/Antimalware | Audit | Behavior Prevention on Endpoint | User Training,False,5
+DNS,0.076,1.0,-0.224,Low,11,True,Filter Network Traffic | Network Intrusion Prevention | Software Configuration,False,3
+Exploitation of Remote Services,0.073,1.0,-0.227,Low,11,True,Application Isolation and Sandboxing | Disable or Remove Feature or Program | Exploit Protection | Network Segmentation | Privileged Account Management | Threat Intelligence Program | Update Software | Vulnerability Scanning,False,5
+Pass the Hash,0.073,1.0,-0.227,Low,11,True,Privileged Account Management | Update Software | User Account Control | User Account Management,False,5
+Command and Scripting Interpreter,0.072,1.0,-0.228,Low,17,True,Antivirus/Antimalware | Audit | Behavior Prevention on Endpoint | Code Signing | Disable or Remove Feature or Program | Execution Prevention | Limit Software Installation | Privileged Account Management | Restrict Web-Based Content,False,6
+Default Accounts,-0.029,0.667,-0.228,Low,4,True,Multi-factor Authentication | Password Policies,False,1
+Indicator Removal,0.072,1.0,-0.228,Low,4,True,Encrypt Sensitive Information | Remote Data Storage | Restrict File and Directory Permissions,False,1
+Clear Windows Event Logs,0.069,1.0,-0.231,Low,14,True,Encrypt Sensitive Information | Remote Data Storage | Restrict File and Directory Permissions,False,5
+Bootkit,-0.034,0.667,-0.233,Low,3,True,Boot Integrity | Privileged Account Management,False,1
+Cloud API,-0.034,0.667,-0.233,Low,3,True,Execution Prevention | Privileged Account Management,False,1
+Non-Standard Port,-0.034,0.667,-0.234,Low,17,True,Network Intrusion Prevention | Network Segmentation,False,4
+Template Injection,0.065,1.0,-0.235,Low,8,True,Antivirus/Antimalware | Disable or Remove Feature or Program | Network Intrusion Prevention | User Training,False,3
+Password Spraying,0.058,1.0,-0.242,Low,11,True,Account Use Policies | Multi-factor Authentication | Password Policies,False,7
+Phishing,0.057,1.0,-0.243,Low,8,True,Antivirus/Antimalware | Audit | Network Intrusion Prevention | Restrict Web-Based Content | Software Configuration | User Training,False,3
+Bypass User Account Control,0.056,1.0,-0.244,Low,11,True,Audit | Privileged Account Management | Update Software | User Account Control,False,3
+Code Repositories,0.053,1.0,-0.247,Low,5,True,Application Developer Guidance | Audit | Multi-factor Authentication | User Account Management | User Training,False,2
+Trusted Relationship,0.051,1.0,-0.249,Low,12,True,Multi-factor Authentication | Network Segmentation | User Account Management,False,5
+Windows Host Firewall,0.051,1.0,-0.249,Low,6,True,Audit | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,False,3
+BITS Jobs,0.045,1.0,-0.255,Low,5,True,Filter Network Traffic | Operating System Configuration | User Account Management,False,2
+OS Credential Dumping,0.045,1.0,-0.255,Low,13,True,Active Directory Configuration | Behavior Prevention on Endpoint | Credential Access Protection | Encrypt Sensitive Information | Operating System Configuration | Password Policies | Privileged Account Management | Privileged Process Integrity | User Training,False,5
+Remote Email Collection,0.044,1.0,-0.256,Low,13,True,Encrypt Sensitive Information | Multi-factor Authentication | Out-of-Band Communications Channel,False,5
+Inhibit System Recovery,0.04,1.0,-0.261,Low,7,True,Data Backup | Execution Prevention | Operating System Configuration | User Account Management,False,3
+Service Stop,0.04,1.0,-0.261,Low,7,True,Network Segmentation | Out-of-Band Communications Channel | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,False,3
+Replication Through Removable Media,0.038,1.0,-0.262,Low,8,True,Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Limit Hardware Installation,False,3
+Local Accounts,0.036,1.0,-0.264,Low,12,True,Multi-factor Authentication | Password Policies | Privileged Account Management | User Account Management,False,4
+Remote Access Tools,0.036,1.0,-0.264,Low,12,True,Disable or Remove Feature or Program | Execution Prevention | Filter Network Traffic | Limit Hardware Installation | Network Intrusion Prevention,False,4
+Clear Command History,0.034,1.0,-0.266,Low,8,True,Environment Variable Permissions | Remote Data Storage | Restrict File and Directory Permissions,False,4
+NTDS,0.031,1.0,-0.269,Low,18,True,Encrypt Sensitive Information | Password Policies | Privileged Account Management | User Training,False,5
+Sharepoint,0.03,1.0,-0.27,Low,7,True,Audit | User Account Management | User Training,False,1
+Email Forwarding Rule,0.027,1.0,-0.273,Low,5,True,Audit | Disable or Remove Feature or Program | Encrypt Sensitive Information | Out-of-Band Communications Channel,False,1
+File Transfer Protocols,-0.074,0.667,-0.273,Low,5,True,Filter Network Traffic | Network Intrusion Prevention,False,1
+Taint Shared Content,0.025,1.0,-0.275,Low,5,True,Antivirus/Antimalware | Execution Prevention | Exploit Protection | Restrict File and Directory Permissions,False,0
+Windows Remote Management,0.025,1.0,-0.275,Low,5,True,Disable or Remove Feature or Program | Network Segmentation | Privileged Account Management,False,0
+Drive-by Compromise,0.024,1.0,-0.276,Low,31,True,Application Isolation and Sandboxing | Exploit Protection | Restrict Web-Based Content | Update Software | User Training,False,6
+Masquerade File Type,0.023,1.0,-0.277,Low,4,True,Antivirus/Antimalware | Behavior Prevention on Endpoint | Execution Prevention,False,2
+Cached Domain Credentials,0.022,1.0,-0.278,Low,4,True,Active Directory Configuration | Operating System Configuration | Password Policies | Privileged Account Management | User Training,False,1
+Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,0.022,1.0,-0.278,Low,4,True,Data Loss Prevention | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation,False,1
+Account Manipulation,0.02,1.0,-0.28,Low,4,True,Disable or Remove Feature or Program | Multi-factor Authentication | Network Segmentation | Operating System Configuration | Privileged Account Management | Restrict File and Directory Permissions | User Account Management,False,0
+Clear Linux or Mac System Logs,0.02,1.0,-0.28,Low,4,True,Encrypt Sensitive Information | Remote Data Storage | Restrict File and Directory Permissions,False,0
+DCSync,0.02,1.0,-0.28,Low,4,True,Active Directory Configuration | Password Policies | Privileged Account Management,False,0
+Databases,0.02,1.0,-0.28,Low,4,True,Audit | Encrypt Sensitive Information | Software Configuration | User Account Management | User Training,False,0
+Email Collection,0.02,1.0,-0.28,Low,4,True,Audit | Encrypt Sensitive Information | Multi-factor Authentication | Out-of-Band Communications Channel,False,0
+Credentials from Password Stores,0.019,1.0,-0.281,Low,12,True,Password Policies | Privileged Account Management | Update Software,False,4
+Spearphishing Attachment,0.018,1.0,-0.282,Low,78,True,Antivirus/Antimalware | Audit | Network Intrusion Prevention | Restrict Web-Based Content | Software Configuration | User Account Management | User Training,False,7
+Embedded Payloads,-0.084,0.667,-0.283,Low,3,True,Antivirus/Antimalware | Behavior Prevention on Endpoint,False,1
+Pass the Ticket,0.017,1.0,-0.283,Low,3,True,Active Directory Configuration | Password Policies | Privileged Account Management | User Account Management,False,1
+Software Deployment Tools,0.017,1.0,-0.283,Low,7,True,Active Directory Configuration | Limit Software Installation | Multi-factor Authentication | Network Segmentation | Password Policies | Privileged Account Management | Remote Data Storage | Update Software | User Account Management | User Training,False,2
+Supply Chain Compromise,0.017,1.0,-0.283,Low,3,True,Application Developer Guidance | Boot Integrity | Limit Software Installation | Update Software | User Account Management | Vulnerability Scanning,False,1
+Additional Cloud Roles,0.015,1.0,-0.285,Low,3,True,Multi-factor Authentication | Privileged Account Management | User Account Management,False,0
+Additional Email Delegate Permissions,0.015,1.0,-0.285,Low,3,True,Disable or Remove Feature or Program | Multi-factor Authentication | Privileged Account Management,False,0
+Adversary-in-the-Middle,0.015,1.0,-0.285,Low,3,True,Disable or Remove Feature or Program | Encrypt Sensitive Information | Filter Network Traffic | Limit Access to Resource Over Network | Network Intrusion Prevention | Network Segmentation | User Training,False,0
+Create Account,0.015,1.0,-0.285,Low,3,True,Multi-factor Authentication | Network Segmentation | Operating System Configuration | Privileged Account Management,False,0
+Credentials in Registry,0.015,1.0,-0.285,Low,3,True,Audit | Password Policies | Privileged Account Management,False,0
+Kerberoasting,0.015,1.0,-0.285,Low,3,True,Encrypt Sensitive Information | Password Policies | Privileged Account Management,False,0
+Messaging Applications,0.015,1.0,-0.285,Low,3,True,Audit | Out-of-Band Communications Channel | User Training,False,0
+Password Guessing,0.015,1.0,-0.285,Low,3,True,Account Use Policies | Multi-factor Authentication | Password Policies | Update Software,False,0
+Private Keys,0.015,1.0,-0.285,Low,6,True,Audit | Encrypt Sensitive Information | Password Policies | Restrict File and Directory Permissions,False,1
+SSH Authorized Keys,0.015,1.0,-0.285,Low,3,True,Disable or Remove Feature or Program | Restrict File and Directory Permissions | User Account Management,False,0
+Systemd Service,0.015,1.0,-0.285,Low,3,True,Limit Software Installation | Privileged Account Management | Restrict File and Directory Permissions | User Account Management,False,0
+Malicious File,0.012,1.0,-0.288,Low,86,True,Behavior Prevention on Endpoint | Execution Prevention | User Training,False,8
+ARP Cache Poisoning,0.01,1.0,-0.29,Low,2,True,Disable or Remove Feature or Program | Encrypt Sensitive Information | Filter Network Traffic | Limit Access to Resource Over Network | Network Intrusion Prevention | User Training,False,0
+Application Access Token,0.01,1.0,-0.29,Low,2,True,Account Use Policies | Application Developer Guidance | Audit | Encrypt Sensitive Information | Restrict Web-Based Content,False,0
+Clear Mailbox Data,0.01,1.0,-0.29,Low,2,True,Audit | Remote Data Storage | Restrict File and Directory Permissions,False,0
+Code Signing Policy Modification,0.01,1.0,-0.29,Low,2,True,Boot Integrity | Privileged Account Management | Restrict Registry Permissions,False,0
+Credential Stuffing,0.01,1.0,-0.29,Low,2,True,Account Use Policies | Multi-factor Authentication | Password Policies | User Account Management,False,0
+Disable or Modify Windows Event Log,0.01,1.0,-0.29,Low,2,True,Audit | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,False,0
+Exfiltration Over Alternative Protocol,0.01,1.0,-0.29,Low,2,True,Data Loss Prevention | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation | Restrict File and Directory Permissions | User Account Management,False,0
+Exfiltration over USB,0.01,1.0,-0.29,Low,2,True,Data Loss Prevention | Disable or Remove Feature or Program | Limit Hardware Installation,False,0
+Exploitation for Stealth,0.01,1.0,-0.29,Low,2,True,Application Isolation and Sandboxing | Exploit Protection | Threat Intelligence Program | Update Software,False,0
+Group Policy Preferences,0.01,1.0,-0.29,Low,2,True,Active Directory Configuration | Audit | Update Software,False,0
+Name Resolution Poisoning and SMB Relay,0.01,1.0,-0.29,Low,2,True,Disable or Remove Feature or Program | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation,False,0
+Office Application Startup,0.01,1.0,-0.29,Low,2,True,Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Software Configuration | Update Software,False,0
+Steal Application Access Token,0.01,1.0,-0.29,Low,2,True,Audit | Restrict Web-Based Content | User Account Management | User Training,False,0
+System Binary Proxy Execution,0.01,1.0,-0.29,Low,2,True,Disable or Remove Feature or Program | Execution Prevention | Exploit Protection | Filter Network Traffic | Privileged Account Management | Restrict Web-Based Content,False,0
+User Execution,0.01,1.0,-0.29,Low,2,True,Behavior Prevention on Endpoint | Execution Prevention | Limit Software Installation | Network Intrusion Prevention | Restrict Web-Based Content | User Training,False,0
+Data Destruction,0.006,1.0,-0.293,Low,6,True,Data Backup | Multi-factor Authentication | User Account Management,False,1
+Abuse Elevation Control Mechanism,0.005,1.0,-0.295,Low,1,True,Audit | Execution Prevention | Operating System Configuration | Privileged Account Management | Restrict File and Directory Permissions | Update Software | User Account Control | User Account Management,False,0
+Additional Cloud Credentials,0.005,1.0,-0.295,Low,1,True,Disable or Remove Feature or Program | Multi-factor Authentication | Network Segmentation | Privileged Account Management | User Account Management,False,0
+Browser Extensions,0.005,1.0,-0.295,Low,1,True,Audit | Execution Prevention | Limit Software Installation | Update Software | User Training,False,0
+COR_PROFILER,0.005,1.0,-0.295,Low,1,True,Execution Prevention | Restrict Registry Permissions | User Account Management,False,0
+Cloud Instance Metadata API,0.005,1.0,-0.295,Low,1,True,Disable or Remove Feature or Program | Filter Network Traffic | Limit Access to Resource Over Network,False,0
+Confluence,0.005,1.0,-0.295,Low,1,True,Audit | User Account Management | User Training,False,0
+Container Administration Command,0.005,1.0,-0.295,Low,1,True,Disable or Remove Feature or Program | Execution Prevention | Limit Access to Resource Over Network | Privileged Account Management | User Account Management,False,0
+Container and Resource Discovery,0.005,1.0,-0.295,Low,1,True,Limit Access to Resource Over Network | Network Segmentation | User Account Management,False,0
+Data Manipulation,0.005,1.0,-0.295,Low,1,True,Encrypt Sensitive Information | Network Segmentation | Remote Data Storage | Restrict File and Directory Permissions,False,0
+Data from Information Repositories,0.005,1.0,-0.295,Low,1,True,Audit | Encrypt Sensitive Information | Multi-factor Authentication | Out-of-Band Communications Channel | Software Configuration | User Account Management | User Training,False,0
+Deploy Container,0.005,1.0,-0.295,Low,1,True,Audit | Limit Access to Resource Over Network | Network Segmentation | User Account Management,False,0
+Domain Controller Authentication,0.005,1.0,-0.295,Low,1,True,Multi-factor Authentication | Privileged Account Management | Privileged Process Integrity | User Training,False,0
+Escape to Host,0.005,1.0,-0.295,Low,1,True,Application Isolation and Sandboxing | Disable or Remove Feature or Program | Execution Prevention | Privileged Account Management | Update Software,False,0
+Executable Installer File Permissions Weakness,0.005,1.0,-0.295,Low,1,True,Audit | User Account Control | User Account Management,False,0
+Exploitation for Credential Access,0.005,1.0,-0.295,Low,1,True,Application Developer Guidance | Application Isolation and Sandboxing | Exploit Protection | Threat Intelligence Program | Update Software,False,0
+Hybrid Identity,0.005,1.0,-0.295,Low,1,True,Audit | Multi-factor Authentication | Privileged Account Management,False,0
+IDE Extensions,0.005,1.0,-0.295,Low,1,True,Audit | Execution Prevention | Limit Software Installation | Update Software | User Training,False,0
+Malicious Image,0.005,1.0,-0.295,Low,1,True,Audit | Code Signing | Network Intrusion Prevention | User Training,False,0
+Malicious Library,0.005,1.0,-0.295,Low,1,True,Limit Software Installation | Network Intrusion Prevention | User Training,False,0
+Modify Authentication Process,0.005,1.0,-0.295,Low,1,True,Audit | Multi-factor Authentication | Operating System Configuration | Password Policies | Privileged Account Management | Privileged Process Integrity | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management,False,0
+Multi-Factor Authentication,0.005,1.0,-0.295,Low,1,True,Audit | Multi-factor Authentication | User Account Management,False,0
+Network Boundary Bridging,0.005,1.0,-0.295,Low,1,True,Credential Access Protection | Filter Network Traffic | Multi-factor Authentication | Password Policies | Privileged Account Management,False,0
+Network Device Configuration Dump,0.005,1.0,-0.295,Low,1,True,Encrypt Sensitive Information | Filter Network Traffic | Network Intrusion Prevention | Network Segmentation | Software Configuration | Update Software,False,0
+Network Device Firewall,0.005,1.0,-0.295,Low,1,True,Audit | Update Software | User Account Management,False,0
+PowerShell Profile,0.005,1.0,-0.295,Low,1,True,Code Signing | Restrict File and Directory Permissions | Software Configuration,False,0
+RDP Hijacking,0.005,1.0,-0.295,Low,1,True,Audit | Disable or Remove Feature or Program | Limit Access to Resource Over Network | Network Segmentation | Operating System Configuration | Privileged Account Management | User Account Management,False,0
+Steal or Forge Authentication Certificates,0.005,1.0,-0.295,Low,1,True,Active Directory Configuration | Audit | Disable or Remove Feature or Program | Encrypt Sensitive Information,False,0
+Steal or Forge Kerberos Tickets,0.005,1.0,-0.295,Low,1,True,Active Directory Configuration | Audit | Credential Access Protection | Encrypt Sensitive Information | Password Policies | Privileged Account Management,False,0
+Stored Data Manipulation,0.005,1.0,-0.295,Low,1,True,Encrypt Sensitive Information | Remote Data Storage | Restrict File and Directory Permissions,False,0
+Subvert Trust Controls,0.005,1.0,-0.295,Low,1,True,Execution Prevention | Operating System Configuration | Privileged Account Management | Restrict Registry Permissions | Software Configuration,False,0
+Unsecured Credentials,0.005,1.0,-0.295,Low,1,True,Active Directory Configuration | Audit | Encrypt Sensitive Information | Filter Network Traffic | Limit Access to Resource Over Network | Operating System Configuration | Password Policies | Privileged Account Management | Restrict File and Directory Permissions | Update Software | User Training,False,0
+Wi-Fi Networks,0.005,1.0,-0.295,Low,1,True,Encrypt Sensitive Information | Multi-factor Authentication | Network Segmentation,False,0
+XDG Autostart Entries,0.005,1.0,-0.295,Low,1,True,Limit Software Installation | Restrict File and Directory Permissions | User Account Management,False,0
+vSphere Installation Bundles,0.005,1.0,-0.295,Low,1,True,Audit | Boot Integrity | Code Signing,False,0
+Cloud Account,-0.018,1.0,-0.318,Low,3,True,Audit | Multi-factor Authentication | Network Segmentation | Privileged Account Management | User Account Management,False,0
+VNC,-0.029,1.0,-0.329,Low,4,True,Audit | Disable or Remove Feature or Program | Filter Network Traffic | Limit Software Installation,False,1
+LSA Secrets,-0.032,1.0,-0.332,Low,10,True,Password Policies | Privileged Account Management | User Training,False,1
+Accessibility Features,-0.034,1.0,-0.334,Low,6,True,Execution Prevention | Limit Access to Resource Over Network | Operating System Configuration,False,2
+Dynamic Data Exchange,-0.057,1.0,-0.357,Low,11,True,Application Isolation and Sandboxing | Behavior Prevention on Endpoint | Disable or Remove Feature or Program | Software Configuration,False,3
+Credentials,-0.273,0.333,-0.373,Low,5,True,Pre-compromise,False,1
+At,-0.084,1.0,-0.384,Low,3,True,Audit | Operating System Configuration | Privileged Account Management | User Account Management,False,1
+Multi-Factor Authentication Request Generation,-0.084,1.0,-0.384,Low,3,True,Account Use Policies | Multi-factor Authentication | User Training,False,1
+Transfer Data to Cloud Account,-0.084,1.0,-0.384,Low,3,True,Data Loss Prevention | Filter Network Traffic | Software Configuration | User Account Management,False,1
+Shortcut Modification,-0.179,1.0,-0.479,Low,4,True,Execution Prevention | Restrict File and Directory Permissions | User Account Management,False,1
+Acquire Infrastructure,-0.558,0.333,-0.658,Low,8,True,Pre-compromise,False,1

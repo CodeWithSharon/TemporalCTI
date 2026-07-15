@@ -1,0 +1,21 @@
+technique,source,priority,score,mitigations
+Impersonation,EMERGING,CRITICAL,7.0,Threat Intelligence Program | User Training
+Disable or Modify System Firewall,EMERGING,CRITICAL,4.0,Audit | Restrict File and Directory Permissions | Restrict Registry Permissions | User Account Management
+Credentials In Files,EMERGING,CRITICAL,3.0,Audit | Password Policies | Restrict File and Directory Permissions | User Training
+Lateral Tool Transfer,EMERGING,CRITICAL,3.0,Filter Network Traffic | Network Intrusion Prevention
+Asymmetric Cryptography,EMERGING,HIGH,2.0,Network Intrusion Prevention | SSL/TLS Inspection
+Compression,EMERGING,HIGH,2.0,Antivirus/Antimalware
+DLL,EMERGING,HIGH,2.0,Application Developer Guidance | Audit | Execution Prevention | Restrict Library Loading | Update Software
+Data from Cloud Storage,EMERGING,HIGH,2.0,Audit | Encrypt Sensitive Information | Filter Network Traffic | Multi-factor Authentication | Restrict File and Directory Permissions | User Account Management
+Domain Groups,EMERGING,HIGH,2.0,No MITRE-published mitigation for this technique | Apply principle of least privilege | Prioritise detection/monitoring controls instead
+Email Addresses,EMERGING,HIGH,2.0,Pre-compromise
+Hidden Window,PREDICTED,CRITICAL,1.608,Execution Prevention | Limit Software Installation
+PowerShell,PREDICTED,CRITICAL,0.78,Antivirus/Antimalware | Code Signing | Disable or Remove Feature or Program | Execution Prevention | Privileged Account Management
+Remote System Discovery,PREDICTED,CRITICAL,0.78,No MITRE-published mitigation for this technique | Apply principle of least privilege | Prioritise detection/monitoring controls instead
+Hidden Window,PREDICTED,CRITICAL,0.713,Execution Prevention | Limit Software Installation
+Query Public AI Services,PREDICTED,CRITICAL,0.666,Pre-compromise
+Process Injection,PREDICTED,CRITICAL,0.664,Behavior Prevention on Endpoint | Privileged Account Management
+Email Accounts,PREDICTED,CRITICAL,0.651,Pre-compromise
+Exfiltration to Cloud Storage,PREDICTED,CRITICAL,0.651,Restrict Web-Based Content
+LSASS Memory,PREDICTED,CRITICAL,0.651,Behavior Prevention on Endpoint | Credential Access Protection | Operating System Configuration | Password Policies | Privileged Account Management | Privileged Process Integrity | User Training
+Local Account,PREDICTED,CRITICAL,0.651,Multi-factor Authentication | Operating System Configuration | Privileged Account Management

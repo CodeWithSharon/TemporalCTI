@@ -1,0 +1,231 @@
+technique,nations_sharing,nations,total_groups
+Additional Local or Domain Groups,4,China | Iran | North Korea | Russia,7
+Archive via Utility,4,China | Iran | North Korea | Russia,39
+Brute Force,4,China | Iran | North Korea | Russia,15
+Bypass User Account Control,4,China | Iran | North Korea | Russia,11
+Command Obfuscation,4,China | Iran | North Korea | Russia,29
+Command and Scripting Interpreter,4,China | Iran | North Korea | Russia,17
+Credentials from Web Browsers,4,China | Iran | North Korea | Russia,23
+Data Encrypted for Impact,4,China | Iran | North Korea | Russia,18
+Data from Local System,4,China | Iran | North Korea | Russia,45
+Deobfuscate/Decode Files or Information,4,China | Iran | North Korea | Russia,38
+Disable or Modify Tools,4,China | Iran | North Korea | Russia,32
+Domains,4,China | Iran | North Korea | Russia,46
+Drive-by Compromise,4,China | Iran | North Korea | Russia,31
+Email Accounts,4,China | Iran | North Korea | Russia,27
+Email Addresses,4,China | Iran | North Korea | Russia,14
+Encrypted/Encoded File,4,China | Iran | North Korea | Russia,40
+Exfiltration Over C2 Channel,4,China | Iran | North Korea | Russia,27
+Exfiltration to Cloud Storage,4,China | Iran | North Korea | Russia,25
+Exploit Public-Facing Application,4,China | Iran | North Korea | Russia,44
+Exploitation for Client Execution,4,China | Iran | North Korea | Russia,41
+External Proxy,4,China | Iran | North Korea | Russia,11
+External Remote Services,4,China | Iran | North Korea | Russia,28
+File Deletion,4,China | Iran | North Korea | Russia,47
+File and Directory Discovery,4,China | Iran | North Korea | Russia,51
+Hidden Window,4,China | Iran | North Korea | Russia,18
+Impersonation,4,China | Iran | North Korea | Russia,15
+Ingress Tool Transfer,4,China | Iran | North Korea | Russia,86
+Internal Proxy,4,China | Iran | North Korea | Russia,9
+JavaScript,4,China | Iran | North Korea | Russia,26
+Keylogging,4,China | Iran | North Korea | Russia,26
+LSASS Memory,4,China | Iran | North Korea | Russia,44
+Local Account,4,China | Iran | North Korea | Russia,29
+Local Data Staging,4,China | Iran | North Korea | Russia,28
+Malicious File,4,China | Iran | North Korea | Russia,86
+Malicious Link,4,China | Iran | North Korea | Russia,49
+Match Legitimate Resource Name or Location,4,China | Iran | North Korea | Russia,61
+Modify Registry,4,China | Iran | North Korea | Russia,29
+Mshta,4,China | Iran | North Korea | Russia,17
+Network Share Discovery,4,China | Iran | North Korea | Russia,16
+Password Spraying,4,China | Iran | North Korea | Russia,11
+Peripheral Device Discovery,4,China | Iran | North Korea | Russia,9
+PowerShell,4,China | Iran | North Korea | Russia,85
+Process Discovery,4,China | Iran | North Korea | Russia,41
+Python,4,China | Iran | North Korea | Russia,18
+Query Registry,4,China | Iran | North Korea | Russia,19
+Registry Run Keys / Startup Folder,4,China | Iran | North Korea | Russia,56
+Remote Desktop Protocol,4,China | Iran | North Korea | Russia,37
+Remote Email Collection,4,China | Iran | North Korea | Russia,13
+Rundll32,4,China | Iran | North Korea | Russia,26
+SMB/Windows Admin Shares,4,China | Iran | North Korea | Russia,27
+SSH,4,China | Iran | North Korea | Russia,19
+Scheduled Task,4,China | Iran | North Korea | Russia,54
+Screen Capture,4,China | Iran | North Korea | Russia,19
+Security Software Discovery,4,China | Iran | North Korea | Russia,27
+Software Packing,4,China | Iran | North Korea | Russia,23
+Spearphishing Attachment,4,China | Iran | North Korea | Russia,78
+Spearphishing Link,4,China | Iran | North Korea | Russia,53
+Standard Encoding,4,China | Iran | North Korea | Russia,11
+Symmetric Cryptography,4,China | Iran | North Korea | Russia,14
+System Checks,4,China | Iran | North Korea | Russia,7
+System Information Discovery,4,China | Iran | North Korea | Russia,57
+System Network Configuration Discovery,4,China | Iran | North Korea | Russia,43
+System Network Connections Discovery,4,China | Iran | North Korea | Russia,32
+System Owner/User Discovery,4,China | Iran | North Korea | Russia,40
+System Service Discovery,4,China | Iran | North Korea | Russia,15
+Upload Malware,4,China | Iran | North Korea | Russia,27
+Valid Accounts,4,China | Iran | North Korea | Russia,45
+Visual Basic,4,China | Iran | North Korea | Russia,46
+Web Protocols,4,China | Iran | North Korea | Russia,57
+Web Services,4,China | Iran | North Korea | Russia,28
+Web Shell,4,China | Iran | North Korea | Russia,31
+Windows Command Shell,4,China | Iran | North Korea | Russia,73
+Windows Management Instrumentation,4,China | Iran | North Korea | Russia,42
+Accessibility Features,3,China | Iran | Russia,6
+Archive Collected Data,3,China | North Korea | Russia,13
+Automated Collection,3,China | Iran | Russia,21
+Automated Exfiltration,3,China | North Korea | Russia,7
+Bidirectional Communication,3,Iran | North Korea | Russia,16
+Binary Padding,3,China | North Korea | Russia,8
+Bootkit,3,China | North Korea | Russia,3
+Browser Information Discovery,3,China | Iran | North Korea,7
+Clear Command History,3,China | Iran | North Korea,8
+Clear Windows Event Logs,3,China | North Korea | Russia,14
+Cloud Accounts,3,China | Iran | Russia,12
+Code Signing,3,China | Iran | North Korea,27
+Code Signing Certificates,3,China | Iran | North Korea,10
+Compiled HTML File,3,China | Iran | North Korea,5
+Component Object Model,3,Iran | North Korea | Russia,4
+Credentials,3,China | Iran | Russia,5
+Credentials In Files,3,Iran | North Korea | Russia,14
+DLL,3,China | Iran | North Korea,35
+Data from Network Shared Drive,3,China | Iran | Russia,8
+Digital Certificates,3,China | North Korea | Russia,11
+Domain Account,3,China | Iran | Russia,32
+Domain Accounts,3,China | Iran | Russia,19
+Domain Groups,3,China | Iran | Russia,13
+Dynamic Data Exchange,3,Iran | North Korea | Russia,11
+Establish Accounts,3,China | Iran | North Korea,5
+Exfiltration Over Unencrypted Non-C2 Protocol,3,China | Iran | North Korea,11
+Exploitation for Privilege Escalation,3,China | Iran | Russia,22
+Exploitation of Remote Services,3,China | Iran | Russia,11
+Fallback Channels,3,China | Iran | North Korea,5
+File Transfer Protocols,3,China | North Korea | Russia,5
+Gather Victim Identity Information,3,China | Iran | Russia,10
+Gather Victim Org Information,3,China | North Korea | Russia,7
+Hidden Files and Directories,3,China | North Korea | Russia,12
+Indicator Removal from Tools,3,China | Iran | Russia,7
+Internal Spearphishing,3,Iran | North Korea | Russia,6
+Internet Connection Discovery,3,China | Iran | Russia,11
+Junk Code Insertion,3,China | North Korea | Russia,6
+LNK Icon Smuggling,3,China | North Korea | Russia,3
+LSA Secrets,3,China | Iran | Russia,10
+Lateral Tool Transfer,3,China | Iran | Russia,19
+Local Groups,3,China | Iran | Russia,7
+Masquerade Task or Service,3,China | Iran | North Korea,23
+Masquerading,3,China | Iran | Russia,20
+Multi-Stage Channels,3,China | Iran | North Korea,4
+NTDS,3,China | Iran | Russia,18
+Native API,3,China | North Korea | Russia,20
+Network Service Discovery,3,China | Iran | North Korea,31
+Network Sniffing,3,Iran | North Korea | Russia,8
+Non-Standard Port,3,Iran | North Korea | Russia,17
+OS Credential Dumping,3,China | Iran | Russia,13
+Obfuscated Files or Information,3,China | North Korea | Russia,18
+Pass the Hash,3,China | North Korea | Russia,11
+Password Policy Discovery,3,China | Iran | Russia,3
+Process Injection,3,China | North Korea | Russia,15
+Proxy,3,China | Iran | Russia,19
+Remote Desktop Software,3,China | Iran | North Korea,11
+Remote System Discovery,3,China | Iran | Russia,40
+Search Victim-Owned Websites,3,China | North Korea | Russia,6
+Server,3,China | North Korea | Russia,15
+Service Execution,3,China | Iran | North Korea,16
+Social Media Accounts,3,Iran | North Korea | Russia,18
+Software,3,Iran | North Korea | Russia,3
+Spearphishing via Service,3,Iran | North Korea | Russia,14
+Steganography,3,China | Iran | North Korea,10
+System Time Discovery,3,China | North Korea | Russia,14
+Timestomp,3,China | North Korea | Russia,11
+Trusted Relationship,3,China | Iran | Russia,12
+Vulnerability Scanning,3,China | Iran | Russia,14
+Web Service,3,China | Iran | Russia,15
+Windows Management Instrumentation Event Subscription,3,China | Iran | Russia,10
+Windows Service,3,China | Iran | North Korea,26
+Acquire Infrastructure,2,North Korea | Russia,8
+Additional Email Delegate Permissions,2,Iran | Russia,3
+Adversary-in-the-Middle,2,China | North Korea,3
+Application Window Discovery,2,China | North Korea,3
+Archive via Custom Method,2,China | North Korea,7
+BITS Jobs,2,China | Iran,5
+Boot or Logon Initialization Scripts,2,China | Russia,4
+Botnet,2,China | Russia,7
+Clipboard Data,2,Iran | North Korea,4
+Code Signing Policy Modification,2,Iran | Russia,2
+Compile After Delivery,2,Iran | Russia,4
+Compression,2,North Korea | Russia,10
+Compromise Software Supply Chain,2,China | Russia,9
+Create Process with Token,2,North Korea | Russia,2
+Credentials from Password Stores,2,China | Iran,12
+DNS,2,China | Iran,11
+Data Destruction,2,North Korea | Russia,6
+Data Transfer Size Limits,2,China | Russia,5
+Data from Removable Media,2,Iran | Russia,4
+Dead Drop Resolver,2,China | North Korea,6
+Delay Execution,2,China | North Korea,2
+Disable or Modify System Firewall,2,North Korea | Russia,13
+Disk Content Wipe,2,North Korea | Russia,3
+Disk Structure Wipe,2,North Korea | Russia,6
+Domain Trust Discovery,2,China | Iran,10
+Double File Extension,2,China | North Korea,2
+Dynamic API Resolution,2,China | North Korea,3
+Dynamic Resolution,2,North Korea | Russia,8
+Dynamic-link Library Injection,2,North Korea | Russia,10
+Email Account,2,Iran | Russia,4
+Email Forwarding Rule,2,North Korea | Russia,5
+Employee Names,2,North Korea | Russia,3
+Encrypted Channel,2,Iran | Russia,4
+Exfiltration Over Web Service,2,Iran | Russia,4
+Fast Flux DNS,2,China | Russia,3
+Gather Victim Network Information,2,China | Russia,3
+Group Policy Modification,2,China | Russia,5
+Hidden Users,2,North Korea | Russia,2
+IP Addresses,2,Iran | North Korea,3
+Indicator Removal,2,China | North Korea,4
+Internal Defacement,2,North Korea | Russia,3
+Local Accounts,2,North Korea | Russia,12
+Local Email Collection,2,China | Iran,8
+Local Storage Discovery,2,China | North Korea,10
+Mail Protocols,2,North Korea | Russia,6
+Malicious Copy and Paste,2,Iran | North Korea,3
+Mark-of-the-Web Bypass,2,North Korea | Russia,3
+Masquerade Account Name,2,Iran | Russia,4
+Multi-Factor Authentication Interception,2,China | North Korea,4
+Multi-hop Proxy,2,China | Russia,11
+Network Devices,2,China | Russia,4
+Network Topology,2,China | Iran,4
+Non-Application Layer Protocol,2,China | Russia,12
+Pass the Ticket,2,China | Russia,3
+Password Managers,2,Iran | Russia,7
+Phishing,2,Iran | North Korea,8
+Phishing for Information,2,North Korea | Russia,5
+Private Keys,2,China | North Korea,6
+Process Hollowing,2,China | North Korea,8
+Protocol Tunneling,2,China | Iran,15
+Protocol or Service Impersonation,2,China | North Korea,3
+Reflective Code Loading,2,North Korea | Russia,4
+Regsvr32,2,China | North Korea,11
+Remote Access Tools,2,Iran | Russia,12
+Remote Data Staging,2,China | Russia,11
+Rename Legitimate Utilities,2,China | North Korea,6
+Replication Through Removable Media,2,China | Russia,8
+Rootkit,2,China | Russia,6
+Search Open Technical Databases,2,North Korea | Russia,2
+Search Open Websites/Domains,2,China | Russia,6
+Security Account Manager,2,China | Russia,14
+Service Stop,2,North Korea | Russia,7
+Sharepoint,2,China | Russia,7
+Shortcut Modification,2,Iran | North Korea,4
+Software Deployment Tools,2,China | Russia,7
+Software Discovery,2,China | Iran,11
+Steal Web Session Cookie,2,North Korea | Russia,8
+Supply Chain Compromise,2,Iran | Russia,3
+System Binary Proxy Execution,2,China | North Korea,2
+Taint Shared Content,2,China | Russia,5
+Traffic Signaling,2,China | North Korea,3
+VNC,2,Iran | Russia,4
+Virtual Private Server,2,China | Russia,18
+Vulnerabilities,2,China | Russia,3
+Windows Credential Manager,2,Iran | Russia,4
+Windows Host Firewall,2,Iran | North Korea,6

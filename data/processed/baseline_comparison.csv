@@ -1,0 +1,4 @@
+model,total_groups,precision_at_1,precision_at_3,precision_at_5
+Random,39,0.026,0.051,0.077
+Frequency (popularity),39,0.051,0.333,0.436
+TemporalCTI (Hybrid Markov),39,0.128,0.308,0.41

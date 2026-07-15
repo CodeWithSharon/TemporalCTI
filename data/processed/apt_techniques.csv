@@ -1,0 +1,4519 @@
+APT_Group,Technique,Year
+APT28,Encrypted/Encoded File,2017
+TA2541,Internet Connection Discovery,2023
+APT39,Tool,2021
+Kimsuky,Security Software Discovery,2022
+Fox Kitten,Local Account,2020
+Turla,Exploitation for Privilege Escalation,2021
+Wizard Spider,Dynamic-link Library Injection,2020
+Volt Typhoon,Private Keys,2024
+Volt Typhoon,System Network Configuration Discovery,2023
+Tropic Trooper,Encrypted Channel,2020
+FIN5,Tool,2021
+MuddyWater,Visual Basic,2020
+Storm-1811,SSH,2025
+Gamaredon Group,Automated Collection,2020
+Gorgon Group,Hidden Window,2019
+Moses Staff,Tool,2022
+HAFNIUM,Botnet,2025
+TA505,Malicious File,2019
+FIN8,Spearphishing Link,2018
+APT39,Scheduled Task,2019
+Turla,Data from Local System,2019
+Thrip,Tool,2021
+FIN4,Spearphishing Attachment,2019
+Rocke,File Deletion,2020
+menuPass,Fast Flux DNS,2020
+VOID MANTICORE,Group Policy Modification,2026
+Gamaredon Group,Hidden Window,2022
+APT32,PowerShell,2017
+APT29,Cloud API,2023
+menuPass,Trusted Relationship,2018
+Turla,System Time Discovery,2017
+Earth Lusca,Web Services,2022
+Sea Turtle,Tool,2025
+Sandworm Team,Windows Management Instrumentation,2021
+Threat Group-3390,Deobfuscate/Decode Files or Information,2018
+APT-C-36,Malicious File,2020
+Gamaredon Group,Match Legitimate Resource Name or Location,2022
+Mofang,Malicious File,2020
+Transparent Tribe,Drive-by Compromise,2021
+Naikon,Network Service Discovery,2021
+Patchwork,Registry Run Keys / Startup Folder,2017
+APT41,Ingress Tool Transfer,2020
+Turla,Local Accounts,2020
+Magic Hound,Visual Basic,2018
+HAFNIUM,Account Manipulation,2023
+ZIRCONIUM,System Information Discovery,2021
+Fox Kitten,Brute Force,2020
+Orangeworm,SMB/Windows Admin Shares,2018
+Kimsuky,Deobfuscate/Decode Files or Information,2022
+TeamTNT,System Network Connections Discovery,2021
+APT28,Office Test,2017
+APT37,Credentials from Web Browsers,2018
+POLONIUM,Exfiltration to Cloud Storage,2022
+Scattered Spider,Messaging Applications,2024
+Aquatic Panda,System Information Discovery,2022
+Saint Bear,Web Services,2024
+CopyKittens,Code Signing,2018
+Mustard Tempest,Domains,2024
+APT19,Malicious File,2018
+Kimsuky,Phishing for Information,2024
+Windshift,Security Software Discovery,2021
+Kimsuky,Component Object Model,2026
+Silence,Spearphishing Attachment,2019
+Moonstone Sleet,Spearphishing via Service,2024
+FIN6,Windows Command Shell,2020
+APT32,Web Service,2020
+Ke3chang,Malware,2022
+LAPSUS$,Credentials,2022
+Play,File Deletion,2024
+BlackTech,Native API,2022
+APT32,Gather Victim Identity Information,2021
+Kimsuky,External Remote Services,2020
+MuddyWater,Symmetric Cryptography,2022
+FIN7,Service Execution,2025
+OilRig,Network Service Discovery,2018
+INC Ransom,Network Share Discovery,2024
+Aoqin Dragon,Exploitation for Client Execution,2022
+APT-C-36,Audio-Visual Content,2026
+Sandworm Team,Trusted Relationship,2020
+MirrorFace,System Information Discovery,2026
+Molerats,Malicious File,2020
+Chimera,System Owner/User Discovery,2021
+TA505,Domains,2022
+MuddyWater,Match Legitimate Resource Name or Location,2018
+APT19,Command and Scripting Interpreter,2018
+APT37,Visual Basic,2020
+APT-C-36,JavaScript,2026
+UNC3886,Exploitation for Credential Access,2025
+HEXANE,System Network Connections Discovery,2022
+Wizard Spider,Email Accounts,2023
+Turla,System Network Connections Discovery,2017
+Sowbug,Match Legitimate Resource Name or Location,2018
+APT41,Exploitation for Client Execution,2019
+Storm-1811,Cloud Accounts,2025
+Mustang Panda,IDE Tunneling,2025
+Tropic Trooper,Winlogon Helper DLL,2019
+WIRTE,Regsvr32,2019
+Earth Lusca,Print Processors,2022
+Gamaredon Group,Automated Exfiltration,2020
+Medusa Group,File and Directory Discovery,2025
+Volt Typhoon,Process Discovery,2023
+UNC3886,Local Data Staging,2025
+Volt Typhoon,System Binary Proxy Execution,2024
+Gamaredon Group,Junk Code Insertion,2020
+Volt Typhoon,Data from Local System,2023
+APT39,Credentials from Password Stores,2020
+Moses Staff,Encrypted/Encoded File,2022
+menuPass,External Proxy,2017
+Chimera,Archive via Utility,2020
+LazyScripter,Rundll32,2021
+Storm-1811,SMB/Windows Admin Shares,2025
+Saint Bear,Code Signing,2024
+BRONZE BUTLER,Windows Command Shell,2018
+Gamaredon Group,Web Service,2020
+Threat Group-3390,Network Share Connection Removal,2017
+FIN8,Valid Accounts,2018
+GOLD SOUTHFIELD,Trusted Relationship,2020
+Fox Kitten,Social Media Accounts,2021
+Mustang Panda,Exfiltration over USB,2021
+Fox Kitten,LSASS Memory,2020
+Salt Typhoon,Exploit Public-Facing Application,2025
+APT41,Multi-Stage Channels,2020
+Silence,Command Obfuscation,2019
+Group5,Encrypted/Encoded File,2017
+Rocke,Network Service Discovery,2020
+APT38,Disable or Modify Tools,2025
+APT32,Spearphishing Link,2020
+Threat Group-3390,Security Account Manager,2020
+Lazarus Group,Rundll32,2022
+admin@338,File and Directory Discovery,2017
+VOID MANTICORE,Masquerade Task or Service,2026
+Wizard Spider,Pass the Hash,2023
+OilRig,Data from Removable Media,2024
+Earth Lusca,Mshta,2022
+APT29,Windows Management Instrumentation Event Subscription,2017
+Darkhotel,Spearphishing Attachment,2019
+RedCurl,Python,2024
+Rocke,Systemd Service,2020
+APT3,Archive via Utility,2018
+Cobalt Group,Dynamic Data Exchange,2018
+Rocke,Non-Standard Port,2020
+APT39,Network Share Discovery,2020
+Stealth Falcon,Credentials from Password Stores,2017
+Agrius,LSASS Memory,2024
+CopyKittens,Tool,2021
+Indrik Spider,Service Stop,2021
+APT41,Compute Hijacking,2019
+Akira,Binary Padding,2024
+menuPass,Clear Command History,2021
+Turla,System Network Configuration Discovery,2017
+Kimsuky,Python,2020
+APT41,Valid Accounts,2019
+APT32,Network Share Discovery,2020
+Sandworm Team,Spearphishing Link,2020
+ZIRCONIUM,Bidirectional Communication,2021
+VOID MANTICORE,Domain Account,2026
+Confucius,Spearphishing Link,2021
+Velvet Ant,Unix Shell,2025
+Naikon,Domain Accounts,2021
+APT32,Command and Scripting Interpreter,2020
+BlackTech,Digital Certificates,2022
+Chimera,Local Groups,2021
+Medusa Group,Prevent Command History Logging,2025
+Sea Turtle,Compile After Delivery,2024
+BITTER,Dynamic Data Exchange,2022
+TA2541,Compression,2025
+FIN8,Web Service,2021
+Mustang Panda,Email Accounts,2025
+Sowbug,System Information Discovery,2018
+Patchwork,Dead Drop Resolver,2017
+APT41,Archive via Utility,2019
+Earth Lusca,Server,2022
+HEXANE,Internal Spearphishing,2022
+AppleJeus,Financial Theft,2025
+Wizard Spider,Service Stop,2020
+Play,System Network Configuration Discovery,2024
+VOID MANTICORE,Python,2026
+Carbanak,Bidirectional Communication,2017
+Wizard Spider,Remote System Discovery,2020
+Windshift,Drive-by Compromise,2020
+Indrik Spider,Create Account,2021
+Cobalt Group,Logon Script (Windows),2019
+Volt Typhoon,Local Storage Discovery,2023
+APT41,Scheduled Task,2019
+menuPass,File Deletion,2018
+APT33,Group Policy Preferences,2020
+Magic Hound,Malicious File,2021
+FIN7,Exploitation of Remote Services,2021
+APT32,Timestomp,2017
+UNC3886,Malware,2025
+BlackByte,OS Credential Dumping,2024
+Gorgon Group,Windows Command Shell,2018
+Scattered Spider,Inhibit System Recovery,2025
+FIN13,Gather Victim Identity Information,2023
+Velvet Ant,Disable or Modify Tools,2025
+Mustang Panda,Stage Capabilities,2022
+ToddyCat,Disable or Modify System Firewall,2024
+Sandworm Team,Disk Structure Wipe,2020
+RedCurl,Domain Account,2024
+FIN7,Data Encrypted for Impact,2021
+OilRig,Ingress Tool Transfer,2018
+Medusa Group,Acquire Access,2025
+Volt Typhoon,Credentials from Web Browsers,2024
+Tropic Trooper,Windows Command Shell,2020
+Dragonfly,Screen Capture,2021
+APT32,Match Legitimate Resource Name or Location,2017
+Silent Librarian,Tool,2021
+Suckfly,OS Credential Dumping,2017
+Dragonfly,Domain Groups,2021
+Axiom,Valid Accounts,2022
+admin@338,Exploitation for Client Execution,2019
+LuminousMoth,Code Signing,2023
+Sandworm Team,LSASS Memory,2020
+MirrorFace,Security Account Manager,2026
+APT38,Process Injection,2025
+Evilnum,Ingress Tool Transfer,2021
+RedCurl,Asymmetric Cryptography,2024
+menuPass,Deobfuscate/Decode Files or Information,2018
+TA2541,Malicious Link,2023
+Saint Bear,Spearphishing Attachment,2024
+MuddyWater,Phishing,2026
+APT29,Malicious File,2018
+Gamaredon Group,Domains,2022
+LuminousMoth,Hidden Files and Directories,2023
+RedCurl,Malicious File,2024
+GALLIUM,LSASS Memory,2019
+Kimsuky,Web Shell,2020
+Volt Typhoon,Server,2023
+Malteiro,Security Software Discovery,2024
+Silence,PowerShell,2020
+APT41,Software Packing,2024
+APT33,Ingress Tool Transfer,2019
+Silent Librarian,Email Collection,2021
+Dragonfly,Modify Registry,2021
+Wizard Spider,System Information Discovery,2020
+Leviathan,Shortcut Modification,2018
+Mustang Panda,Domain Account,2025
+Gamaredon Group,Registry Run Keys / Startup Folder,2020
+Mustang Panda,Exfiltration to Cloud Storage,2025
+LAPSUS$,Valid Accounts,2022
+Winter Vivern,Vulnerability Scanning,2024
+menuPass,InstallUtil,2020
+Magic Hound,Vulnerability Scanning,2022
+VOID MANTICORE,Domain Accounts,2026
+BlackOasis,Obfuscated Files or Information,2018
+Turla,Databases,2020
+Aquatic Panda,Domain Accounts,2024
+Silence,External Proxy,2020
+CURIUM,Malicious File,2023
+FIN8,Data Encrypted for Impact,2023
+menuPass,Encrypted/Encoded File,2018
+Leviathan,Ingress Tool Transfer,2018
+Blue Mockingbird,SMB/Windows Admin Shares,2020
+Tropic Trooper,Network Service Discovery,2019
+Sowbug,Keylogging,2018
+BackdoorDiplomacy,Local Data Staging,2021
+Gamaredon Group,File Deletion,2020
+APT37,Process Discovery,2018
+Magic Hound,Scheduled Task,2022
+INC Ransom,Disable or Modify Tools,2024
+Indrik Spider,PowerShell,2021
+LAPSUS$,External Remote Services,2022
+Storm-1811,Ingress Tool Transfer,2025
+Cinnamon Tempest,Exfiltration to Cloud Storage,2023
+FIN13,Windows Remote Management,2023
+FIN6,Non-Application Layer Protocol,2020
+GOLD SOUTHFIELD,Compromise Software Supply Chain,2020
+Ke3chang,LSA Secrets,2020
+Leviathan,Deobfuscate/Decode Files or Information,2018
+Akira,Disable or Modify Tools,2024
+Kimsuky,Registry Run Keys / Startup Folder,2019
+Magic Hound,Domains,2021
+Threat Group-3390,System Owner/User Discovery,2022
+Rocke,Rootkit,2020
+APT19,Modify Registry,2018
+Fox Kitten,Web Shell,2020
+Volt Typhoon,Gather Victim Org Information,2024
+FIN7,Malicious Link,2021
+TA2541,Upload Malware,2023
+APT28,Multi-hop Proxy,2021
+Wizard Spider,Data from Local System,2023
+Sandworm Team,Deobfuscate/Decode Files or Information,2020
+FIN7,Replication Through Removable Media,2022
+APT19,PowerShell,2018
+Volt Typhoon,Query Registry,2023
+Carbanak,Disable or Modify System Firewall,2017
+FIN6,Password Cracking,2020
+Sandworm Team,Credentials from Web Browsers,2020
+menuPass,Network Service Discovery,2017
+Storm-1811,Spearphishing Link,2025
+Evilnum,Remote Desktop Software,2021
+HAFNIUM,System Owner/User Discovery,2023
+Turla,Domain Account,2020
+Windshift,Malicious Link,2020
+APT42,System Information Discovery,2025
+APT39,Clipboard Data,2020
+Lazarus Group,Keylogging,2017
+Gamaredon Group,Ingress Tool Transfer,2017
+Magic Hound,Registry Run Keys / Startup Folder,2018
+Cinnamon Tempest,Windows Command Shell,2024
+Aquatic Panda,Security Software Discovery,2022
+APT39,Web Protocols,2020
+Sea Turtle,DNS Server,2024
+menuPass,Keylogging,2019
+Blue Mockingbird,Service Execution,2020
+Magic Hound,Data Encrypted for Impact,2023
+Medusa Group,Disable or Modify Tools,2025
+APT41,Clear Command History,2019
+Machete,Python,2019
+Leafminer,LSA Secrets,2020
+Chimera,Process Discovery,2021
+Tonto Team,Exploitation for Privilege Escalation,2021
+APT38,Space after Filename,2025
+BackdoorDiplomacy,Malware,2021
+Naikon,DLL,2020
+LAPSUS$,Gather Victim Identity Information,2022
+Threat Group-3390,External Remote Services,2017
+BlackByte,Internal Defacement,2024
+BRONZE BUTLER,Pass the Ticket,2018
+Tropic Trooper,Native API,2020
+Moonstone Sleet,System Information Discovery,2024
+Sandworm Team,Match Legitimate Resource Name or Location,2020
+FIN6,NTDS,2020
+Kimsuky,Disable or Modify System Firewall,2020
+Mustang Panda,Exfiltration Over Unencrypted Non-C2 Protocol,2025
+APT37,Windows Command Shell,2018
+APT29,Windows Management Instrumentation,2017
+APT33,Password Spraying,2019
+WIRTE,Windows Command Shell,2026
+Andariel,Spearphishing Attachment,2021
+PROMETHIUM,Malicious File,2020
+APT5,Process Injection,2024
+PLATINUM,Drive-by Compromise,2018
+Darkhotel,System Information Discovery,2019
+Ember Bear,Exploitation for Client Execution,2024
+TA2541,Encrypted/Encoded File,2023
+Dragonfly,File and Directory Discovery,2021
+Storm-1811,Encrypted/Encoded File,2025
+Ke3chang,Web Protocols,2018
+Sidewinder,Dynamic Data Exchange,2021
+Turla,Security Software Discovery,2020
+LAPSUS$,Messaging Applications,2022
+Agrius,Remote System Discovery,2024
+APT39,SSH,2019
+FIN7,Hidden Files and Directories,2025
+Threat Group-3390,Upload Malware,2022
+Sandworm Team,Server,2024
+Stealth Falcon,System Information Discovery,2017
+Ember Bear,File Deletion,2024
+APT-C-36,Process Hollowing,2026
+HEXANE,Ingress Tool Transfer,2022
+APT28,Rundll32,2017
+Silent Librarian,Employee Names,2021
+BITTER,Exploitation for Client Execution,2022
+APT41,Windows Management Instrumentation,2019
+TA2541,Process Injection,2023
+Rocke,Disable or Modify System Firewall,2020
+Ke3chang,Remote System Discovery,2018
+WIRTE,Upload Malware,2026
+APT29,Password Guessing,2023
+DarkHydrus,Spearphishing Attachment,2018
+Threat Group-3390,Automated Collection,2017
+WIRTE,Impersonation,2026
+APT32,Rename Legitimate Utilities,2020
+Scattered Spider,External Remote Services,2023
+Mustang Panda,Double File Extension,2021
+Kimsuky,Email Forwarding Rule,2020
+FIN6,Web Service,2019
+TA551,Domain Generation Algorithms,2021
+TA578,Web Services,2024
+Agrius,Lateral Tool Transfer,2024
+Metador,Ingress Tool Transfer,2023
+Sandworm Team,Steal Web Session Cookie,2024
+VOID MANTICORE,Gather Victim Identity Information,2026
+Lazarus Group,Registry Run Keys / Startup Folder,2017
+EXOTIC LILY,Social Media Accounts,2022
+FIN4,Remote Email Collection,2019
+HAFNIUM,Cloud Accounts,2025
+APT32,Query Registry,2019
+Scattered Spider,Multi-Factor Authentication,2024
+APT32,SMB/Windows Admin Shares,2019
+APT33,LSASS Memory,2019
+FIN7,Data from Local System,2021
+Medusa Group,Native API,2025
+APT28,Steal Application Access Token,2019
+FIN7,Application Shimming,2017
+Patchwork,Data from Local System,2017
+Magic Hound,Internet Connection Discovery,2023
+Gamaredon Group,Modify Registry,2020
+Rocke,Application Layer Protocol,2020
+Leviathan,Drive-by Compromise,2021
+Magic Hound,Hidden Window,2019
+Medusa Group,Exfiltration to Cloud Storage,2025
+Tropic Trooper,Web Protocols,2020
+Medusa Group,Local Account,2025
+Malteiro,Financial Theft,2024
+Higaisa,Local Storage Discovery,2025
+Tropic Trooper,Automated Collection,2020
+Turla,Proxy,2019
+Turla,Code Signing Policy Modification,2021
+Ke3chang,Right-to-Left Override,2019
+BRONZE BUTLER,Registry Run Keys / Startup Folder,2018
+Moonstone Sleet,Social Media Accounts,2024
+Gorgon Group,Registry Run Keys / Startup Folder,2018
+GALLIUM,Domain Account,2019
+Mofang,Spearphishing Link,2020
+FIN7,Exploit Public-Facing Application,2023
+APT32,Ingress Tool Transfer,2018
+APT19,System Information Discovery,2018
+Wizard Spider,Code Signing,2020
+LazyScripter,JavaScript,2021
+Kimsuky,Local Storage Discovery,2025
+APT29,Cloud Accounts,2023
+CURIUM,Domains,2024
+Fox Kitten,Windows Command Shell,2020
+APT42,Input Capture,2025
+Silent Librarian,Domains,2021
+Medusa Group,PowerShell,2025
+Aquatic Panda,Command Obfuscation,2022
+FIN13,Data Manipulation,2023
+Chimera,Local Storage Discovery,2021
+Evilnum,Spearphishing Link,2021
+APT1,Archive via Utility,2017
+Leviathan,Encrypted/Encoded File,2018
+APT39,Service Execution,2020
+Confucius,Web Protocols,2021
+Daggerfly,Code Signing Certificates,2024
+FIN7,Junk Code Insertion,2023
+APT1,System Service Discovery,2019
+Wizard Spider,Spearphishing Link,2020
+Ember Bear,Disk Structure Wipe,2024
+Volatile Cedar,Web Shell,2021
+TA505,Web Protocols,2020
+Velvet Ant,Local Accounts,2025
+Stealth Falcon,Data from Local System,2017
+Volatile Cedar,Wordlist Scanning,2022
+Lazarus Group,Visual Basic,2022
+Axiom,Phishing,2022
+Elderwood,Malicious File,2018
+ToddyCat,Windows Command Shell,2024
+Gamaredon Group,Windows Management Instrumentation,2022
+Gamaredon Group,Security Software Discovery,2025
+APT3,Masquerade Account Name,2024
+APT28,Local Data Staging,2017
+BRONZE BUTLER,Match Legitimate Resource Name or Location,2018
+Winter Vivern,System Owner/User Discovery,2024
+BlackByte,Domain Accounts,2024
+OilRig,Exfiltration Over Unencrypted Non-C2 Protocol,2018
+Transparent Tribe,Exploitation for Client Execution,2021
+Ke3chang,Domain Groups,2017
+Medusa Group,Ingress Tool Transfer,2025
+Kimsuky,Social Media,2021
+Leviathan,PowerShell,2018
+Leviathan,Email Accounts,2021
+Sandworm Team,Domain Properties,2020
+BackdoorDiplomacy,DLL,2021
+Dark Caracal,Spearphishing via Service,2018
+Velvet Ant,Asymmetric Cryptography,2025
+APT41,Network Share Discovery,2019
+ToddyCat,Archive via Utility,2024
+TA2541,Ingress Tool Transfer,2023
+Windshift,Process Discovery,2021
+APT28,Logon Script (Windows),2018
+Medusa Group,Lateral Tool Transfer,2025
+Nomadic Octopus,Hidden Window,2021
+Threat Group-3390,Tool,2021
+Magic Hound,Default Accounts,2023
+EXOTIC LILY,Email Accounts,2022
+Kimsuky,Rundll32,2022
+APT32,Domains,2020
+BRONZE BUTLER,Standard Encoding,2018
+APT41,Windows Command Shell,2019
+Lazarus Group,Tool,2022
+Kimsuky,Credentials from Web Browsers,2019
+VOID MANTICORE,Software Deployment Tools,2026
+APT41,SMB/Windows Admin Shares,2020
+Higaisa,Internal Proxy,2021
+Threat Group-3390,Remote System Discovery,2018
+APT37,Steganography,2020
+PROMETHIUM,Match Legitimate Resource Name or Location,2020
+BackdoorDiplomacy,Masquerade Task or Service,2021
+Dark Caracal,Compiled HTML File,2018
+APT41,BITS Jobs,2020
+TA505,Deobfuscate/Decode Files or Information,2022
+Contagious Interview,Malware,2025
+MoustachedBouncer,Exploitation for Privilege Escalation,2023
+SideCopy,System Information Discovery,2022
+APT19,Encrypted/Encoded File,2018
+Mustang Panda,Remote System Discovery,2025
+APT38,Ingress Tool Transfer,2019
+Higaisa,DLL,2021
+Silent Librarian,Link Target,2021
+Volt Typhoon,Vulnerabilities,2024
+Medusa Group,Clear Command History,2025
+APT28,Exploitation for Privilege Escalation,2017
+Stealth Falcon,System Network Configuration Discovery,2017
+APT32,Web Shell,2018
+Gamaredon Group,Command Obfuscation,2023
+Sandworm Team,Data from Local System,2020
+APT41,Permission Groups Discovery,2024
+Carbanak,Valid Accounts,2017
+Volt Typhoon,Ingress Tool Transfer,2024
+APT3,Software Packing,2018
+FIN6,Service Execution,2019
+Inception,Credentials from Web Browsers,2020
+Magic Hound,Protocol Tunneling,2023
+Gamaredon Group,System Owner/User Discovery,2017
+Turla,Domain Groups,2020
+APT41,External Remote Services,2019
+FIN6,Valid Accounts,2017
+Contagious Interview,Remote Desktop Software,2025
+Higaisa,Windows Command Shell,2021
+Confucius,Visual Basic,2022
+Rocke,Process Discovery,2020
+FIN10,System Owner/User Discovery,2017
+GALLIUM,Web Shell,2019
+APT-C-36,Domains,2026
+Sidewinder,Malicious File,2021
+Suckfly,Network Service Discovery,2017
+Malteiro,Credentials from Web Browsers,2024
+Threat Group-3390,Windows Command Shell,2017
+Contagious Interview,Command Obfuscation,2025
+Ember Bear,Windows Management Instrumentation,2024
+ZIRCONIUM,Deobfuscate/Decode Files or Information,2021
+Aquatic Panda,Windows Service,2024
+INC Ransom,Phishing,2024
+Aquatic Panda,Account Discovery,2024
+Higaisa,Compression,2025
+Kimsuky,Additional Local or Domain Groups,2022
+Silence,Process Injection,2020
+MuddyWater,System Network Configuration Discovery,2019
+BRONZE BUTLER,File Deletion,2018
+Scattered Spider,Spearphishing Voice,2024
+APT33,Cloud Accounts,2020
+Chimera,System Network Configuration Discovery,2021
+APT42,Local Account,2025
+Scattered Spider,Impersonation,2024
+Wizard Spider,External Remote Services,2020
+Magic Hound,Remote Desktop Protocol,2022
+Dragonfly,Template Injection,2021
+Scattered Spider,Create Cloud Instance,2024
+Axiom,DNS Server,2022
+APT29,Bypass User Account Control,2017
+OilRig,Data from Local System,2024
+DarkHydrus,Forced Authentication,2018
+Poseidon Group,Domain Account,2017
+Contagious Interview,Exfiltration Over Unencrypted Non-C2 Protocol,2025
+Kimsuky,Impersonation,2026
+APT42,Query Public AI Services,2026
+WIRTE,Visual Basic,2019
+Dragonfly,Brute Force,2021
+Aoqin Dragon,File and Directory Discovery,2022
+BRONZE BUTLER,PowerShell,2018
+Confucius,Registry Run Keys / Startup Folder,2021
+Wizard Spider,Windows Command Shell,2020
+Turla,Winlogon Helper DLL,2018
+Mustang Panda,File Deletion,2021
+FIN7,Malicious File,2018
+LazyScripter,Malicious Link,2022
+APT42,Security Software Discovery,2025
+APT28,Exploitation for Client Execution,2019
+Winter Vivern,Deobfuscate/Decode Files or Information,2024
+INC Ransom,Domain Groups,2024
+LAPSUS$,NTDS,2022
+TeamTNT,Escape to Host,2021
+Silence,Visual Basic,2019
+Lazarus Group,Spearphishing Attachment,2018
+Sea Turtle,Archive via Utility,2024
+Medusa Group,Remote Desktop Protocol,2025
+Dark Caracal,File and Directory Discovery,2018
+Group5,Keylogging,2017
+Sandworm Team,Visual Basic,2020
+FIN10,PowerShell,2017
+Earth Lusca,System Service Discovery,2022
+APT28,Search Open Technical Databases,2025
+BackdoorDiplomacy,Exploit Public-Facing Application,2021
+FIN4,Visual Basic,2019
+APT37,Scheduled Task,2021
+TeamTNT,Credentials In Files,2021
+APT33,Web Protocols,2019
+Cobalt Group,File Deletion,2018
+FIN13,File and Directory Discovery,2023
+APT32,Keylogging,2020
+Dragonfly,Remote System Discovery,2021
+Patchwork,Spearphishing Attachment,2018
+Contagious Interview,Unix Shell,2025
+Sidewinder,Mshta,2021
+Agrius,Deobfuscate/Decode Files or Information,2024
+Gamaredon Group,One-Way Communication,2024
+Dragonfly,Forced Authentication,2021
+APT42,Credentials from Web Browsers,2025
+Gorgon Group,Malicious File,2018
+APT41,Fallback Channels,2019
+TA551,Rundll32,2021
+UNC3886,PowerShell,2025
+LuminousMoth,Drive-by Target,2023
+Darkhotel,File and Directory Discovery,2021
+Windshift,Spearphishing Link,2020
+Lazarus Group,Email Accounts,2022
+TeamTNT,System Service Discovery,2022
+LAPSUS$,Credentials from Web Browsers,2022
+Turla,Web Services,2020
+Storm-0501,Inhibit System Recovery,2025
+LuminousMoth,Upload Malware,2023
+ToddyCat,SMB/Windows Admin Shares,2024
+MirrorFace,Proxy,2026
+PLATINUM,Process Injection,2018
+menuPass,Ingress Tool Transfer,2017
+WIRTE,Spearphishing Attachment,2022
+HAFNIUM,LSASS Memory,2021
+Andariel,Ingress Tool Transfer,2021
+Ferocious Kitten,Right-to-Left Override,2021
+Patchwork,Software Packing,2017
+OilRig,Deobfuscate/Decode Files or Information,2018
+APT3,Multi-Stage Channels,2017
+Chimera,Domain Trust Discovery,2021
+Gamaredon Group,Peripheral Device Discovery,2017
+TeamTNT,Vulnerability Scanning,2021
+Silence,Service Execution,2019
+Lazarus Group,Password Spraying,2017
+ZIRCONIUM,Masquerading,2021
+Rancor,Web Protocols,2018
+Akira,External Remote Services,2024
+Windigo,Drive-by Compromise,2021
+UNC3886,Port Knocking,2025
+LuminousMoth,Match Legitimate Resource Name or Location,2023
+RTM,Spearphishing Attachment,2020
+Dragonfly,Drive-by Target,2021
+Sandworm Team,Malware,2020
+Threat Group-3390,File Deletion,2017
+Leafminer,Credentials In Files,2020
+Nomadic Octopus,Ingress Tool Transfer,2021
+Tropic Trooper,Spearphishing Attachment,2019
+FIN13,Local Account,2023
+APT39,SMB/Windows Admin Shares,2020
+Kimsuky,Non-Standard Encoding,2026
+FIN7,Exfiltration to Cloud Storage,2021
+ZIRCONIUM,Exploitation for Privilege Escalation,2021
+Higaisa,XSL Script Processing,2021
+Winter Vivern,Scheduled Task,2024
+UNC3886,Virtual Machine Discovery,2025
+Inception,Web Service,2020
+APT5,Local Data Staging,2024
+FIN13,Masquerading,2023
+Medusa Group,Social Media Accounts,2025
+Leviathan,Multi-hop Proxy,2021
+APT29,Match Legitimate Resource Name or Location,2021
+OilRig,Spearphishing Link,2018
+Gamaredon Group,Virtual Private Server,2024
+APT28,Application Access Token,2019
+Cobalt Group,JavaScript,2020
+Windshift,Windows Management Instrumentation,2021
+CURIUM,PowerShell,2024
+Kimsuky,Spearphishing Attachment,2019
+OilRig,Malicious Link,2020
+MuddyWater,Exploitation of Remote Services,2022
+Gamaredon Group,Rundll32,2020
+RTM,Remote Desktop Software,2020
+APT28,Template Injection,2019
+SideCopy,System Network Configuration Discovery,2022
+OilRig,Screen Capture,2018
+WIRTE,Match Legitimate Resource Name or Location,2022
+Higaisa,Symmetric Cryptography,2021
+Mustang Panda,InstallUtil,2021
+Chimera,Query Registry,2021
+Aoqin Dragon,Software Packing,2022
+Axiom,Accessibility Features,2017
+APT41,Impersonation,2024
+Storm-0501,Security Software Discovery,2025
+Chimera,Credentials,2021
+Gamaredon Group,Component Object Model,2020
+Storm-0501,Domain Account,2025
+Patchwork,Local Data Staging,2018
+Saint Bear,Virtualization/Sandbox Evasion,2024
+DarkVishnya,PowerShell,2020
+OilRig,Password Filter DLL,2024
+LAPSUS$,Create Cloud Instance,2022
+Leviathan,Remote Desktop Protocol,2019
+APT37,Audio Capture,2018
+Leviathan,Domains,2021
+Wizard Spider,Archive via Utility,2023
+APT39,External Proxy,2020
+Contagious Interview,Virtualization/Sandbox Evasion,2025
+TeamTNT,Cloud Instance Metadata API,2021
+APT42,System Network Configuration Discovery,2025
+FIN6,Spearphishing via Service,2019
+FIN8,Asymmetric Cryptography,2018
+Mustang Panda,Code Signing,2025
+VOID MANTICORE,LSASS Memory,2026
+Storm-0501,Trust Modification,2025
+BlackByte,Masquerade File Type,2024
+BlackByte,Process Hollowing,2024
+EXOTIC LILY,Malicious File,2022
+SilverTerrier,Web Protocols,2020
+TeamTNT,Linux and Mac Permissions,2021
+Lazarus Group,Spearphishing via Service,2022
+APT37,Disk Structure Wipe,2018
+APT-C-36,Scheduled Task,2020
+Sandworm Team,Vulnerability Scanning,2020
+Storm-0501,Software Packing,2025
+APT29,Remote Email Collection,2023
+Andariel,IP Addresses,2021
+ToddyCat,Match Legitimate Resource Name or Location,2024
+The White Company,Software Packing,2019
+BRONZE BUTLER,Scheduled Task,2020
+GALLIUM,Scheduled Task,2019
+Chimera,Sharepoint,2021
+Ember Bear,Credentials In Files,2024
+Higaisa,Exploitation for Client Execution,2021
+Kimsuky,Mail Protocols,2020
+Winter Vivern,System Information Discovery,2024
+ToddyCat,File and Directory Discovery,2024
+Threat Group-3390,Network Service Discovery,2017
+RTM,DLL,2020
+Lazarus Group,Dynamic API Resolution,2022
+GALLIUM,Server,2021
+Turla,Visual Basic,2019
+Cobalt Group,Command Obfuscation,2018
+OilRig,Cached Domain Credentials,2020
+Fox Kitten,Accessibility Features,2020
+Moonstone Sleet,Spearphishing Link,2024
+HEXANE,Command Obfuscation,2022
+MuddyWater,Proxy,2026
+ZIRCONIUM,Windows Command Shell,2021
+BlackByte,Scheduled Task,2024
+APT-C-36,Upload Malware,2026
+APT3,File and Directory Discovery,2018
+Cobalt Group,PowerShell,2018
+DarkHydrus,PowerShell,2018
+APT41,Network Boundary Bridging,2024
+Fox Kitten,Protocol Tunneling,2020
+Saint Bear,Upload Malware,2024
+Tonto Team,Python,2021
+APT28,Symmetric Cryptography,2019
+FIN7,Mshta,2018
+APT32,Junk Code Insertion,2018
+UNC3886,Default Accounts,2025
+APT39,DNS,2020
+Kimsuky,Malicious Link,2022
+Kimsuky,Social Media Accounts,2022
+Darkhotel,Security Software Discovery,2019
+OilRig,Credentials In Files,2019
+Windshift,System Owner/User Discovery,2021
+OilRig,Remote Access Tools,2024
+Cinnamon Tempest,PowerShell,2023
+Volt Typhoon,Screen Capture,2024
+APT19,Windows Service,2018
+Chimera,Windows Command Shell,2021
+Wizard Spider,Service Execution,2020
+Threat Group-3390,LSASS Memory,2020
+Magic Hound,Web Services,2022
+Molerats,Spearphishing Attachment,2020
+APT41,Registry Run Keys / Startup Folder,2019
+TA505,Disable or Modify Tools,2022
+TA577,Malicious Link,2024
+APT1,Remote Desktop Protocol,2017
+Kimsuky,Match Legitimate Resource Name or Location,2022
+Storm-0501,Windows Remote Management,2025
+MuddyWater,Exfiltration to Cloud Storage,2026
+APT28,NTDS,2021
+FIN8,Windows Command Shell,2018
+Mustang Panda,Masquerade File Type,2025
+Mustang Panda,LNK Icon Smuggling,2025
+GALLIUM,System Network Configuration Discovery,2019
+Sandworm Team,External Defacement,2020
+Contagious Interview,Domains,2025
+VOID MANTICORE,Protocol Tunneling,2026
+Aquatic Panda,Remote Desktop Protocol,2024
+HAFNIUM,Remote System Discovery,2023
+Play,Data Transfer Size Limits,2024
+Volt Typhoon,Scan Databases,2024
+Volt Typhoon,Keylogging,2024
+APT42,Email Accounts,2025
+Lazarus Group,Exploitation for Client Execution,2018
+Mustang Panda,Digital Certificates,2025
+Machete,Malicious Link,2020
+APT38,Malicious File,2021
+APT33,Credentials In Files,2020
+Saint Bear,Malicious Link,2024
+Kimsuky,Tool,2021
+APT28,SMB/Windows Admin Shares,2021
+FIN6,Archive via Custom Method,2017
+Lazarus Group,Local Storage Discovery,2025
+Group5,File Deletion,2017
+Cobalt Group,XSL Script Processing,2018
+FIN13,System Network Configuration Discovery,2023
+Mustang Panda,System Network Configuration Discovery,2021
+Rocke,Hidden Files and Directories,2020
+LAPSUS$,DNS Server,2023
+TeamTNT,Systemctl,2022
+Volt Typhoon,Browser Information Discovery,2024
+HAFNIUM,Trusted Relationship,2025
+Tonto Team,External Proxy,2021
+APT19,Rundll32,2018
+Threat Group-1314,SMB/Windows Admin Shares,2017
+Chimera,File Deletion,2021
+Mustang Panda,JavaScript,2025
+UNC3886,vSphere Installation Bundles,2025
+LAPSUS$,Service Stop,2023
+APT42,Boot or Logon Autostart Execution,2025
+Leviathan,Regsvr32,2018
+menuPass,NTDS,2020
+Kimsuky,Native API,2026
+BRONZE BUTLER,Archive via Utility,2018
+menuPass,Native API,2020
+menuPass,Archive via Utility,2017
+Transparent Tribe,Domains,2021
+OilRig,Tool,2024
+UNC3886,ESXi Administration Command,2025
+Silent Librarian,Email Accounts,2021
+HAFNIUM,Web Shell,2021
+Rocke,Private Keys,2020
+Blue Mockingbird,Proxy,2020
+Sidewinder,Malicious Link,2021
+Kimsuky,Server,2022
+Play,External Remote Services,2024
+Gamaredon Group,Query Registry,2025
+Volt Typhoon,Web Shell,2023
+Dragonfly,Valid Accounts,2021
+menuPass,System Network Configuration Discovery,2017
+Star Blizzard,Valid Accounts,2024
+Magic Hound,Windows Management Instrumentation,2022
+APT18,System Information Discovery,2019
+Fox Kitten,SSH,2020
+BITTER,Dynamic Resolution,2022
+Medusa Group,Web Protocols,2025
+Sandworm Team,Exfiltration Over C2 Channel,2020
+Group5,Screen Capture,2017
+Inception,Malicious File,2020
+Threat Group-1314,Windows Command Shell,2017
+FIN7,Disable or Modify System Firewall,2025
+Strider,Password Filter DLL,2017
+APT28,Valid Accounts,2017
+Kimsuky,Command Obfuscation,2025
+Sowbug,OS Credential Dumping,2018
+Metador,Malware,2023
+APT28,Hidden Files and Directories,2018
+LAPSUS$,Proxy,2022
+Winter Vivern,Exfiltration Over C2 Channel,2024
+HAFNIUM,Gather Victim Network Information,2021
+OilRig,Upload Malware,2024
+MoustachedBouncer,Proxy,2023
+Sandworm Team,Endpoint Denial of Service,2020
+Volt Typhoon,System Location Discovery,2024
+Wizard Spider,Registry Run Keys / Startup Folder,2020
+VOID MANTICORE,Remote Desktop Protocol,2026
+TA505,Command Obfuscation,2023
+GALLIUM,Ingress Tool Transfer,2019
+Dragonfly,Data from Local System,2021
+Ember Bear,Exfiltration to Cloud Storage,2024
+Magic Hound,Determine Physical Locations,2023
+Winter Vivern,Screen Capture,2024
+MuddyWater,Credentials In Files,2019
+OilRig,Windows Management Instrumentation,2018
+Indrik Spider,Group Policy Modification,2021
+Kimsuky,Service Stop,2026
+Lotus Blossom,Remote System Discovery,2025
+Rocke,Timestomp,2020
+APT41,Additional Local or Domain Groups,2023
+APT41,Group Policy Modification,2024
+FIN7,Valid Accounts,2021
+Kimsuky,Masquerade Task or Service,2020
+APT29,Steal or Forge Authentication Certificates,2022
+Fox Kitten,Browser Information Discovery,2020
+Ke3chang,Sharepoint,2018
+Magic Hound,Local Account,2022
+Wizard Spider,Remote Desktop Protocol,2020
+Storm-0501,Financial Theft,2025
+APT29,Web Services,2020
+APT12,Spearphishing Attachment,2019
+Cobalt Group,Spearphishing Attachment,2018
+APT42,Visual Basic,2025
+FIN8,Tool,2023
+BRONZE BUTLER,File and Directory Discovery,2018
+Gamaredon Group,Compile After Delivery,2020
+Lazarus Group,KernelCallbackTable,2022
+FIN13,SSH,2023
+Moonstone Sleet,Scheduled Task,2024
+TA2541,Registry Run Keys / Startup Folder,2023
+Leviathan,Credentials,2021
+Velvet Ant,RC Scripts,2025
+FIN7,System Time Discovery,2025
+TA577,Email Accounts,2024
+Ke3chang,System Language Discovery,2022
+Moonstone Sleet,Embedded Payloads,2024
+APT41,Exploit Public-Facing Application,2020
+Higaisa,Deobfuscate/Decode Files or Information,2021
+Lotus Blossom,Windows Management Instrumentation,2025
+Kimsuky,Search Victim-Owned Websites,2022
+Stealth Falcon,Process Discovery,2017
+FIN6,Masquerade Task or Service,2019
+Patchwork,Spearphishing Link,2018
+Lazarus Group,Windows Host Firewall,2020
+BITTER,Tool,2022
+Threat Group-3390,Exploitation for Privilege Escalation,2017
+Ember Bear,Multi-hop Proxy,2024
+Winter Vivern,Windows Command Shell,2024
+Gamaredon Group,Multi-hop Proxy,2025
+APT29,Timestomp,2023
+FIN13,Network Share Discovery,2023
+TA505,Encrypted/Encoded File,2019
+FIN13,External Remote Services,2023
+WIRTE,Spearphishing Link,2026
+Sea Turtle,Clear Linux or Mac System Logs,2024
+RedEcho,Non-Standard Port,2024
+Cinnamon Tempest,Protocol Tunneling,2023
+APT37,Web Protocols,2018
+Deep Panda,Remote System Discovery,2018
+Gamaredon Group,Web Protocols,2017
+BlackByte,Remote Desktop Protocol,2024
+Mustang Panda,Archive via Custom Method,2021
+Volt Typhoon,Masquerade File Type,2023
+Poseidon Group,Process Discovery,2017
+Lazarus Group,Bootkit,2017
+Magic Hound,Spearphishing via Service,2020
+MirrorFace,Template Injection,2026
+Windshift,Invalid Code Signature,2020
+Cobalt Group,Odbcconf,2019
+Dragonfly,Tool,2021
+Volt Typhoon,Exploits,2024
+Wizard Spider,File Deletion,2020
+TeamTNT,Scanning IP Blocks,2021
+Leafminer,JavaScript,2018
+APT33,Registry Run Keys / Startup Folder,2019
+BRONZE BUTLER,Dead Drop Resolver,2018
+Lazarus Group,File Deletion,2017
+BITTER,Non-Application Layer Protocol,2022
+Moonstone Sleet,Registry Run Keys / Startup Folder,2024
+AppleJeus,Phishing,2025
+Turla,Modify Registry,2023
+WIRTE,Deobfuscate/Decode Files or Information,2019
+Leviathan,Local Data Staging,2018
+Volt Typhoon,System Time Discovery,2024
+Moafee,Binary Padding,2017
+Wizard Spider,Masquerade Task or Service,2020
+APT39,Exploit Public-Facing Application,2020
+Gamaredon Group,Dynamic Resolution,2022
+TA505,Malicious Link,2020
+Scattered Spider,Exploitation for Privilege Escalation,2023
+LAPSUS$,Impersonation,2023
+Dark Caracal,Software Packing,2018
+Chimera,DLL,2021
+BRONZE BUTLER,Visual Basic,2020
+INC Ransom,System Network Connections Discovery,2024
+Sandworm Team,Domain Accounts,2020
+Gamaredon Group,Office Application Startup,2020
+Agrius,Security Account Manager,2024
+APT28,Virtual Private Server,2024
+GALLIUM,Local Data Staging,2019
+Ke3chang,File and Directory Discovery,2017
+Ember Bear,Protocol Tunneling,2024
+Star Blizzard,Impersonation,2026
+Kimsuky,Search Open Technical Databases,2025
+Star Blizzard,Email Accounts,2024
+Molerats,Process Discovery,2017
+Darkhotel,Replication Through Removable Media,2017
+Ke3chang,Process Discovery,2017
+Chimera,Command Obfuscation,2020
+APT-C-36,Malware,2026
+RedCurl,Malware,2024
+GCMAN,VNC,2020
+DarkVishnya,Non-Standard Port,2020
+Contagious Interview,Unix Shell Configuration Modification,2025
+Confucius,PowerShell,2021
+TA2541,Security Software Discovery,2023
+menuPass,Domains,2020
+RedCurl,Data from Network Shared Drive,2024
+VOID MANTICORE,Email Accounts,2026
+Evilnum,DLL,2021
+Rocke,Boot or Logon Initialization Scripts,2020
+Mustang Panda,PowerShell,2021
+Volt Typhoon,Windows Management Instrumentation,2023
+Storm-1811,Deobfuscate/Decode Files or Information,2025
+TA505,Msiexec,2019
+TeamTNT,Systemd Service,2021
+APT32,Non-Standard Port,2020
+CopyKittens,Archive via Utility,2018
+FIN8,Windows Management Instrumentation,2018
+Dragonfly,Disable or Modify System Firewall,2021
+FIN6,Registry Run Keys / Startup Folder,2017
+FIN7,System Owner/User Discovery,2023
+Mustang Panda,Process Discovery,2021
+Mustang Panda,Search Open Websites/Domains,2025
+Moonstone Sleet,Web Protocols,2024
+BlackByte,Remote Access Tools,2024
+FIN4,Email Hiding Rules,2019
+Kimsuky,File Deletion,2019
+APT-C-36,Botnet,2026
+BITTER,Domains,2022
+DarkVishnya,Remote Access Tools,2020
+APT1,Email Accounts,2020
+Metador,Web Protocols,2023
+Wizard Spider,Windows Management Instrumentation,2020
+MuddyWater,CMSTP,2018
+APT41,Keylogging,2019
+Salt Typhoon,Tool,2025
+APT5,Remote Desktop Protocol,2024
+Ke3chang,Command and Scripting Interpreter,2017
+Lotus Blossom,System Network Connections Discovery,2025
+APT39,Brute Force,2020
+Agrius,Data from Local System,2024
+Higaisa,Native API,2021
+RTM,Malicious File,2020
+Turla,Brute Force,2017
+FIN8,LSASS Memory,2018
+Play,Remote System Discovery,2024
+WIRTE,Tool,2021
+APT28,Network Denial of Service,2020
+Fox Kitten,Exploit Public-Facing Application,2020
+DarkHydrus,Malicious File,2018
+APT38,Data from Local System,2021
+Dragonfly,Registry Run Keys / Startup Folder,2021
+RedCurl,File and Directory Discovery,2024
+VOID MANTICORE,Credential Stuffing,2026
+FIN7,Registry Run Keys / Startup Folder,2017
+FIN7,JavaScript,2020
+APT41,Data from Local System,2021
+VOID MANTICORE,Trusted Relationship,2026
+Windigo,File and Directory Discovery,2021
+APT39,LSASS Memory,2019
+Storm-1811,Spearphishing Voice,2025
+FIN7,Reflective Code Loading,2025
+Cinnamon Tempest,Tool,2023
+Winter Vivern,Local Email Collection,2024
+FIN10,Lateral Tool Transfer,2017
+Kimsuky,Keylogging,2019
+UNC3886,Exploitation for Client Execution,2025
+Fox Kitten,Archive via Utility,2020
+APT38,Mshta,2025
+Threat Group-3390,Exploitation of Remote Services,2019
+CURIUM,Email Accounts,2024
+Indrik Spider,Kerberoasting,2024
+Ember Bear,Acquire Infrastructure,2024
+Rancor,Msiexec,2019
+Kimsuky,Bidirectional Communication,2022
+Rancor,Visual Basic,2020
+Ember Bear,Web Shell,2024
+RedCurl,Malicious Link,2024
+Volt Typhoon,Gather Victim Host Information,2024
+MuddyWater,Local Data Staging,2022
+Earth Lusca,Obfuscated Files or Information,2022
+GALLIUM,Exploit Public-Facing Application,2019
+APT29,Boot or Logon Initialization Scripts,2023
+FIN13,Archive via Utility,2023
+APT41,NTDS,2024
+Ferocious Kitten,Domains,2021
+APT12,Bidirectional Communication,2019
+Chimera,Local Data Staging,2021
+Ferocious Kitten,Malicious File,2021
+Sidewinder,System Owner/User Discovery,2021
+Naikon,Windows Management Instrumentation,2021
+APT39,Data from Local System,2020
+APT32,Mail Protocols,2020
+Medusa Group,Valid Accounts,2025
+LAPSUS$,Business Relationships,2022
+Cinnamon Tempest,SMB/Windows Admin Shares,2023
+Contagious Interview,System Information Discovery,2025
+Blue Mockingbird,Rundll32,2020
+Mustang Panda,Shared Modules,2025
+APT28,Screen Capture,2017
+LuminousMoth,Exfiltration Over C2 Channel,2023
+APT29,Malware,2021
+MirrorFace,Masquerade File Type,2026
+HEXANE,Local Groups,2022
+Sidewinder,Command Obfuscation,2023
+FIN13,Internet Connection Discovery,2023
+APT32,Upload Malware,2021
+Lazarus Group,Name Resolution Poisoning and SMB Relay,2022
+PLATINUM,Spearphishing Attachment,2018
+Kimsuky,Pass the Hash,2020
+Chimera,System Service Discovery,2021
+admin@338,System Network Connections Discovery,2017
+APT42,Steal Web Session Cookie,2025
+Gamaredon Group,System Checks,2025
+Threat Group-3390,Drive-by Target,2021
+Turla,Local Account,2020
+Salt Typhoon,Network Sniffing,2025
+APT32,DLL,2018
+TA459,Malicious File,2018
+Scattered Spider,Steal Web Session Cookie,2024
+VOID MANTICORE,Malware,2026
+Inception,Symmetric Cryptography,2020
+Silence,Native API,2019
+Wizard Spider,Domain Account,2020
+APT38,Browser Information Discovery,2021
+APT-C-36,Virtual Private Server,2026
+Contagious Interview,Launch Agent,2025
+Cinnamon Tempest,Ingress Tool Transfer,2023
+Fox Kitten,Proxy,2020
+Threat Group-3390,Compromise Software Supply Chain,2021
+BlackByte,Data Encrypted for Impact,2024
+Salt Typhoon,Network Topology,2025
+HEXANE,Social Media Accounts,2022
+Volt Typhoon,Identify Roles,2024
+APT3,Malicious Link,2021
+Mustard Tempest,Server,2024
+Moonstone Sleet,Gather Victim Org Information,2024
+Akira,Steal or Forge Kerberos Tickets,2024
+Lazarus Group,System Binary Proxy Execution,2022
+LAPSUS$,Code Repositories,2022
+APT-C-36,Obfuscated Files or Information,2020
+FIN6,File Deletion,2020
+APT32,PubPrn,2018
+HEXANE,System Information Discovery,2022
+APT30,Spearphishing Attachment,2020
+Salt Typhoon,Password Cracking,2025
+APT29,Dynamic Resolution,2023
+Leviathan,Internal Spearphishing,2021
+RTM,Dead Drop Resolver,2017
+Daggerfly,Local Account,2024
+Lazarus Group,Social Media Accounts,2022
+Blue Mockingbird,Access Token Manipulation,2020
+APT28,Phishing for Information,2021
+VOID MANTICORE,Social Media Accounts,2026
+Kimsuky,Software Packing,2021
+Tonto Team,OS Credential Dumping,2021
+Sea Turtle,Ignore Process Interrupts,2024
+DarkHydrus,Hidden Window,2019
+APT32,Office Application Startup,2019
+TA2541,Scheduled Task,2023
+MuddyWater,Screen Capture,2019
+Dragonfly,Ingress Tool Transfer,2021
+menuPass,Security Account Manager,2017
+TeamTNT,Match Legitimate Resource Name or Location,2022
+TA2541,System Information Discovery,2023
+Dragonfly,Spearphishing Attachment,2021
+Mofang,Spearphishing Attachment,2020
+Sandworm Team,External Remote Services,2020
+Mustang Panda,Non-Application Layer Protocol,2025
+Earth Lusca,Domain Trust Discovery,2022
+Sandworm Team,Scheduled Task,2024
+Lazarus Group,SMB/Windows Admin Shares,2017
+Silence,Software Deployment Tools,2020
+Patchwork,Standard Encoding,2017
+Lazarus Group,Malware,2021
+Ke3chang,LSASS Memory,2017
+Mofang,Compression,2025
+Sea Turtle,Exploit Public-Facing Application,2024
+GALLIUM,Obfuscated Files or Information,2019
+RedCurl,Indirect Command Execution,2024
+UNC3886,SSH,2025
+APT-C-36,Web Services,2026
+Threat Group-3390,Registry Run Keys / Startup Folder,2018
+Turla,Bidirectional Communication,2018
+ToddyCat,System Network Connections Discovery,2024
+TeamTNT,Disable or Modify System Firewall,2021
+RedCurl,Credentials In Files,2024
+POLONIUM,Web Services,2022
+Leviathan,Binary Padding,2018
+Scattered Spider,Cloud Service Dashboard,2024
+APT41,System Network Connections Discovery,2019
+Magic Hound,Disable or Modify Windows Event Log,2023
+MirrorFace,Exploit Public-Facing Application,2026
+LuminousMoth,Exfiltration to Cloud Storage,2023
+Sidewinder,Spearphishing Attachment,2021
+Windshift,Spearphishing via Service,2020
+Ember Bear,Brute Force,2024
+Contagious Interview,Visual Basic,2025
+Wizard Spider,Ingress Tool Transfer,2023
+Darkhotel,Match Legitimate Resource Name or Location,2021
+BlackByte,Valid Accounts,2024
+Higaisa,System Network Configuration Discovery,2021
+Leviathan,Compression,2025
+APT19,Deobfuscate/Decode Files or Information,2018
+Earth Lusca,Spearphishing Link,2022
+Rocke,Software Packing,2020
+Higaisa,Masquerade Task or Service,2021
+MuddyWater,Python,2021
+GALLIUM,Pass the Hash,2019
+APT3,System Information Discovery,2018
+GALLIUM,Data from Local System,2019
+APT42,Upload Malware,2025
+menuPass,Data from Local System,2019
+Kimsuky,Process Hollowing,2022
+MirrorFace,Visual Basic,2026
+Wizard Spider,System Owner/User Discovery,2020
+Mustang Panda,Malicious Link,2021
+MuddyWater,Command Obfuscation,2018
+APT32,Drive-by Compromise,2018
+Poseidon Group,Local Account,2020
+FIN13,Visual Basic,2023
+Magic Hound,File and Directory Discovery,2018
+Velvet Ant,DLL,2025
+Gamaredon Group,Exfiltration Over C2 Channel,2017
+APT1,Match Legitimate Resource Name or Location,2017
+FIN6,Credentials from Web Browsers,2020
+Kimsuky,Exploit Public-Facing Application,2022
+Fox Kitten,Remote Desktop Protocol,2020
+Machete,Spearphishing Attachment,2019
+LazyScripter,Malicious File,2022
+BlackByte,PowerShell,2024
+MirrorFace,Tool,2026
+BlackTech,Right-to-Left Override,2020
+Kimsuky,Double File Extension,2025
+Mustang Panda,Symmetric Cryptography,2021
+Machete,Malicious File,2019
+INC Ransom,Lateral Tool Transfer,2024
+BlackByte,System Information Discovery,2024
+LuminousMoth,Registry Run Keys / Startup Folder,2023
+Star Blizzard,Upload Malware,2024
+Storm-0501,Cloud Secrets Management Stores,2025
+Turla,Malware,2020
+Aquatic Panda,Vulnerability Scanning,2022
+Moonstone Sleet,Spearphishing Attachment,2024
+Velvet Ant,Windows Management Instrumentation,2025
+APT3,Local Account,2018
+CopyKittens,Rundll32,2018
+Sandworm Team,Server,2020
+Mustang Panda,Domains,2021
+Dragonfly,Server,2021
+APT39,Network Service Discovery,2019
+APT3,SMB/Windows Admin Shares,2018
+BITTER,Spearphishing Attachment,2022
+POLONIUM,Bidirectional Communication,2022
+CURIUM,Web Shell,2024
+HAFNIUM,PowerShell,2021
+FIN7,Upload Malware,2023
+APT38,System Network Connections Discovery,2019
+Scattered Spider,PowerShell,2025
+Inception,Spearphishing Attachment,2020
+Lazarus Group,Dynamic-link Library Injection,2018
+Wizard Spider,SMB/Windows Admin Shares,2020
+Rancor,Scheduled Task,2018
+OilRig,System Network Configuration Discovery,2018
+TeamTNT,File and Directory Discovery,2022
+APT28,Data Transfer Size Limits,2021
+Contagious Interview,Execution Guardrails,2025
+GOLD SOUTHFIELD,Screen Capture,2020
+Lotus Blossom,Steal Web Session Cookie,2025
+UNC3886,Rundll32,2025
+Gamaredon Group,Native API,2020
+APT3,Exfiltration Over C2 Channel,2018
+APT19,Spearphishing Attachment,2018
+TeamTNT,Domains,2021
+Lazarus Group,Bidirectional Communication,2022
+APT28,Brute Force,2021
+Velvet Ant,Application Layer Protocol,2025
+MuddyWater,Spearphishing Attachment,2018
+OilRig,Windows Credential Manager,2020
+RedCurl,GUI Input Capture,2024
+APT3,Credentials In Files,2018
+Sea Turtle,Virtual Private Server,2024
+FIN13,Domain Account,2023
+Fox Kitten,NTDS,2020
+RTM,Drive-by Compromise,2020
+Rocke,Cron,2020
+Turla,Process Injection,2018
+UNC3886,Fallback Channels,2025
+APT41,Web Protocols,2020
+Fox Kitten,Ingress Tool Transfer,2020
+APT32,System Network Configuration Discovery,2019
+APT39,Command and Scripting Interpreter,2019
+APT3,Remote System Discovery,2018
+TeamTNT,Process Discovery,2021
+OilRig,Match Legitimate Resource Name or Location,2025
+TeamTNT,Windows Service,2021
+Ke3chang,Exploit Public-Facing Application,2022
+Windigo,Software Discovery,2021
+APT1,Pass the Hash,2017
+Turla,Tool,2021
+Silence,Scheduled Task,2019
+PLATINUM,Exploitation for Privilege Escalation,2018
+MuddyWater,Credentials from Web Browsers,2019
+APT28,Timestomp,2017
+Wizard Spider,Scheduled Task,2020
+RedCurl,Web Service,2024
+Scattered Spider,Domain Account,2024
+GOLD SOUTHFIELD,Phishing,2020
+Dragonfly,Masquerade Account Name,2021
+Malteiro,Malicious File,2024
+Molerats,Compression,2020
+RedCurl,Automated Exfiltration,2024
+FIN8,Remote Desktop Protocol,2018
+Tonto Team,Spearphishing Attachment,2021
+Water Galura,Social Media Accounts,2025
+WIRTE,System Checks,2026
+LAPSUS$,Malware,2022
+Contagious Interview,Web Services,2025
+APT41,Domain Generation Algorithms,2019
+APT3,Domain Accounts,2018
+Lazarus Group,System Information Discovery,2017
+Chimera,NTDS,2020
+Tropic Trooper,File and Directory Discovery,2020
+APT33,Exfiltration Over Unencrypted Non-C2 Protocol,2019
+TeamTNT,Local Data Staging,2022
+Kimsuky,Automated Exfiltration,2026
+Sandworm Team,Malicious Link,2020
+Tropic Trooper,Local Storage Discovery,2025
+Kimsuky,Establish Accounts,2025
+Chimera,Local Email Collection,2021
+Agrius,Windows Command Shell,2024
+APT39,Malicious Link,2020
+ZIRCONIUM,Phishing for Information,2021
+Magic Hound,Spearphishing Link,2018
+APT38,Spearphishing Attachment,2021
+Medusa Group,System Network Configuration Discovery,2025
+APT37,Dynamic Data Exchange,2018
+Chimera,Remote System Discovery,2021
+Sandworm Team,PowerShell,2020
+OilRig,External Remote Services,2018
+BRONZE BUTLER,Screen Capture,2018
+admin@338,Malicious File,2019
+Patchwork,PowerShell,2017
+Sidewinder,Web Protocols,2021
+Volt Typhoon,NTDS,2023
+Deep Panda,Hidden Window,2019
+Transparent Tribe,Drive-by Target,2021
+BackdoorDiplomacy,Obfuscated Files or Information,2021
+APT39,System Owner/User Discovery,2019
+Mustang Panda,System Network Connections Discovery,2021
+Magic Hound,Process Discovery,2018
+VOID MANTICORE,System Information Discovery,2026
+Indrik Spider,LSASS Memory,2021
+OilRig,Valid Accounts,2018
+APT29,Spearphishing Link,2018
+Storm-1811,Domain Trust Discovery,2025
+APT39,Keylogging,2020
+RedCurl,Web Protocols,2024
+Windshift,Ingress Tool Transfer,2021
+CopyKittens,PowerShell,2018
+Cleaver,Malware,2020
+Turla,Password Policy Discovery,2020
+Turla,Match Legitimate Resource Name or Location,2024
+TeamTNT,Container CLI/API,2025
+FIN5,Clear Windows Event Logs,2018
+Kimsuky,Email Accounts,2022
+BRONZE BUTLER,Taint Shared Content,2020
+Stealth Falcon,Windows Credential Manager,2020
+VOID MANTICORE,Data Encrypted for Impact,2026
+FIN13,DLL,2023
+Patchwork,Credentials from Web Browsers,2017
+Silence,Modify Registry,2020
+Wizard Spider,Windows Credential Manager,2023
+Cobalt Group,Web Protocols,2018
+APT-C-36,Tool,2021
+Inception,Tool,2021
+HEXANE,Process Discovery,2022
+Higaisa,Malicious File,2021
+Suckfly,Code Signing,2017
+Silence,Valid Accounts,2020
+MirrorFace,LSASS Memory,2026
+ZIRCONIUM,Python,2021
+APT41,Modify Registry,2019
+ZIRCONIUM,Symmetric Cryptography,2021
+admin@338,System Information Discovery,2017
+OilRig,System Network Connections Discovery,2018
+APT28,Drive-by Compromise,2022
+TeamTNT,Security Software Discovery,2021
+Volt Typhoon,Gather Victim Identity Information,2024
+Star Blizzard,Acquire Infrastructure,2024
+APT42,Scheduled Task,2025
+APT39,Python,2020
+Sea Turtle,Local Email Collection,2024
+Lazarus Group,Match Legitimate Resource Name or Location,2021
+FIN5,Automated Collection,2018
+Windshift,Registry Run Keys / Startup Folder,2021
+Mustang Panda,Windows Management Instrumentation,2021
+APT19,System Network Configuration Discovery,2018
+Turla,Ingress Tool Transfer,2018
+Storm-1811,Windows Permissions,2025
+WIRTE,Local Email Collection,2026
+LAPSUS$,Email Accounts,2022
+Kimsuky,Timestomp,2020
+Aquatic Panda,DLL,2022
+Mustang Panda,NTDS,2021
+Volt Typhoon,PowerShell,2023
+Windshift,Web Protocols,2021
+menuPass,Code Signing,2021
+FIN13,NTDS,2023
+Leafminer,Drive-by Compromise,2018
+Moonstone Sleet,System Network Configuration Discovery,2024
+Moonstone Sleet,Phishing for Information,2024
+Kimsuky,Code Signing,2020
+Higaisa,Hidden Window,2021
+APT28,LSASS Memory,2017
+Star Blizzard,Remote Email Collection,2024
+Dark Caracal,Drive-by Compromise,2018
+Darkhotel,Keylogging,2017
+FIN13,Network Service Discovery,2023
+APT41,Wordlist Scanning,2024
+Scattered Spider,Unix Shell,2025
+Storm-0501,Cloud Account,2025
+BRONZE BUTLER,Disable or Modify Tools,2020
+Indrik Spider,System Service Discovery,2021
+Scarlet Mimic,Right-to-Left Override,2019
+HAFNIUM,Exploitation for Privilege Escalation,2025
+IndigoZebra,Web Services,2021
+APT3,Registry Run Keys / Startup Folder,2018
+Mustang Panda,Software Deployment Tools,2025
+Naikon,Malicious File,2020
+Saint Bear,Malicious File,2024
+Lazarus Group,Account Manipulation,2017
+BackdoorDiplomacy,Peripheral Device Discovery,2021
+MuddyWater,Security Software Discovery,2019
+BRONZE BUTLER,LSASS Memory,2018
+LuminousMoth,Spearphishing Link,2023
+TA505,Mark-of-the-Web Bypass,2021
+Contagious Interview,Acquire Infrastructure,2025
+Volt Typhoon,Network Devices,2023
+Kimsuky,Local Data Staging,2020
+APT32,OS Credential Dumping,2020
+menuPass,Exploit Public-Facing Application,2021
+OilRig,LSASS Memory,2018
+Medusa Group,System Information Discovery,2025
+WIRTE,Compression,2026
+HEXANE,Exfiltration to Cloud Storage,2022
+APT42,Screen Capture,2025
+OilRig,Keylogging,2018
+FIN8,Spearphishing Attachment,2018
+TA505,Credentials from Web Browsers,2019
+Lazarus Group,Internal Defacement,2020
+Earth Lusca,Visual Basic,2022
+Threat Group-3390,Keylogging,2017
+APT29,Exploitation for Privilege Escalation,2022
+Chimera,Pass the Hash,2021
+Kimsuky,Domains,2022
+OilRig,Encrypted/Encoded File,2018
+UNC3886,Exploitation for Privilege Escalation,2025
+LuminousMoth,Tool,2023
+Play,Command Obfuscation,2024
+Aquatic Panda,System Service Discovery,2022
+MuddyWater,External Proxy,2019
+APT3,Keylogging,2017
+BlackTech,Spearphishing Link,2020
+Daggerfly,Ingress Tool Transfer,2024
+APT29,Disable or Modify Cloud Log,2024
+VOID MANTICORE,Brute Force,2026
+Scattered Spider,Malware,2025
+Wizard Spider,Local Account,2023
+IndigoZebra,Domains,2021
+Lazarus Group,Data from Local System,2017
+APT37,Malicious File,2018
+APT29,Software Packing,2017
+Mustard Tempest,System Information Discovery,2023
+MuddyWater,Component Object Model,2019
+BlackByte,Disable or Modify Tools,2024
+Sea Turtle,Install Digital Certificate,2024
+Sandworm Team,Spearphishing Attachment,2020
+Turla,Web Protocols,2018
+APT33,Cached Domain Credentials,2020
+Agrius,Network Service Discovery,2024
+INC Ransom,Application Layer Protocol,2024
+UNC3886,Exploit Public-Facing Application,2025
+Storm-1811,Malicious File,2025
+Transparent Tribe,Spearphishing Attachment,2021
+Fox Kitten,Domain Account,2020
+HAFNIUM,Web Protocols,2021
+TeamTNT,Registry Run Keys / Startup Folder,2021
+UNC3886,Valid Accounts,2025
+Threat Group-3390,Ingress Tool Transfer,2017
+APT33,Windows Management Instrumentation Event Subscription,2020
+Salt Typhoon,Disable or Modify System Firewall,2025
+HAFNIUM,Remote Email Collection,2021
+Silence,JavaScript,2020
+APT28,Gather Victim Org Information,2025
+OilRig,Local Groups,2018
+Kimsuky,Disable or Modify Tools,2019
+APT18,DNS,2020
+Earth Lusca,System Network Connections Discovery,2022
+TA505,Domain Accounts,2020
+admin@338,Match Legitimate Resource Name or Location,2017
+Indrik Spider,Server,2021
+RedCurl,Local Email Collection,2024
+OilRig,Malicious File,2018
+Play,Security Software Discovery,2024
+Turla,Remote System Discovery,2017
+LazyScripter,Masquerading,2021
+Magic Hound,Proxy,2023
+TA505,Rundll32,2019
+Indrik Spider,Exfiltration to Cloud Storage,2024
+Darkhotel,Exploitation for Client Execution,2021
+FIN6,Exfiltration Over Unencrypted Non-C2 Protocol,2020
+MuddyWater,Malicious Link,2021
+Storm-0501,Data from Cloud Storage,2025
+Scattered Spider,Email Collection,2024
+Earth Lusca,Exfiltration to Cloud Storage,2022
+Ember Bear,Supply Chain Compromise,2024
+APT42,Tool,2025
+WIRTE,Local Data Staging,2026
+Kimsuky,Reflective Code Loading,2024
+Storm-0501,Rundll32,2025
+HEXANE,Application Window Discovery,2022
+LAPSUS$,Trusted Relationship,2022
+Magic Hound,Drive-by Compromise,2022
+MoustachedBouncer,PowerShell,2023
+MuddyWater,Cached Domain Credentials,2020
+INC Ransom,Remote Desktop Protocol,2024
+Andariel,Process Discovery,2021
+Inception,Encrypted/Encoded File,2020
+APT29,Additional Email Delegate Permissions,2023
+Darkhotel,System Network Configuration Discovery,2019
+Fox Kitten,Network Service Discovery,2020
+Star Blizzard,Email Forwarding Rule,2024
+OilRig,System Information Discovery,2018
+Winnti Group,Ingress Tool Transfer,2022
+The White Company,Security Software Discovery,2019
+Fox Kitten,File and Directory Discovery,2020
+Earth Lusca,Drive-by Compromise,2022
+Threat Group-3390,Query Registry,2018
+Volt Typhoon,System Owner/User Discovery,2023
+Blue Mockingbird,Regsvr32,2020
+APT-C-36,Email Accounts,2026
+Volt Typhoon,Gather Victim Network Information,2024
+Cobalt Group,Malicious Link,2020
+Metador,Tool,2023
+MoustachedBouncer,Remote Data Staging,2023
+APT3,Remote Desktop Protocol,2018
+Volt Typhoon,Multi-hop Proxy,2024
+UNC3886,LSASS Memory,2025
+APT28,Cloud Accounts,2021
+Sea Turtle,Trusted Relationship,2024
+MuddyWater,Malicious Copy and Paste,2026
+Blue Mockingbird,Tool,2021
+Leviathan,Windows Management Instrumentation Event Subscription,2018
+menuPass,Valid Accounts,2017
+Volt Typhoon,Search Open Websites/Domains,2024
+Earth Lusca,SSH Authorized Keys,2022
+Gallmaker,Malicious File,2019
+MirrorFace,Data from Local System,2026
+APT38,System Shutdown/Reboot,2019
+Kimsuky,LSASS Memory,2020
+Leafminer,Process Doppelgänging,2020
+Lotus Blossom,Query Registry,2025
+GALLIUM,Tool,2021
+APT33,PowerShell,2019
+Tropic Trooper,System Network Connections Discovery,2020
+MirrorFace,Spearphishing Link,2026
+Moses Staff,SMB/Windows Admin Shares,2022
+Dragonfly,PowerShell,2021
+Threat Group-1314,Domain Accounts,2017
+Sandworm Team,Command Obfuscation,2023
+DarkHydrus,Template Injection,2018
+admin@338,System Service Discovery,2017
+Moonstone Sleet,Email Addresses,2024
+Leafminer,Command Obfuscation,2018
+Silent Librarian,Valid Accounts,2021
+APT33,Network Sniffing,2019
+Magic Hound,IP Addresses,2023
+Mustang Panda,Malicious File,2021
+Gallmaker,Obfuscated Files or Information,2019
+Mustang Panda,Spearphishing Link,2023
+Kimsuky,System Time Discovery,2026
+LAPSUS$,DCSync,2022
+Machete,Visual Basic,2020
+Thrip,Remote Desktop Software,2018
+BRONZE BUTLER,Data from Network Shared Drive,2018
+APT-C-36,Malicious Link,2026
+WIRTE,Web Protocols,2019
+MuddyWater,Exfiltration Over C2 Channel,2020
+LazyScripter,Windows Command Shell,2021
+HAFNIUM,Windows Command Shell,2023
+MirrorFace,File Deletion,2026
+APT5,File and Directory Discovery,2024
+Chimera,Domain Controller Authentication,2020
+BRONZE BUTLER,Right-to-Left Override,2020
+FIN6,Automated Collection,2017
+Sidewinder,PowerShell,2021
+Akira,Remote Access Tools,2024
+APT41,Accessibility Features,2019
+Blue Mockingbird,COR_PROFILER,2020
+Kimsuky,Windows Command Shell,2022
+HAFNIUM,File and Directory Discovery,2023
+Wizard Spider,Winlogon Helper DLL,2020
+Threat Group-3390,Disable or Modify Windows Event Log,2017
+Machete,Spearphishing Link,2019
+BRONZE BUTLER,Data from Local System,2018
+APT41,Credentials from Password Stores,2024
+Gamaredon Group,Taint Shared Content,2020
+FIN6,Tool,2021
+HEXANE,Remote Desktop Protocol,2022
+UNC3886,Windows Command Shell,2025
+Transparent Tribe,Spearphishing Link,2021
+Lazarus Group,Local Data Staging,2017
+INC Ransom,Data Encrypted for Impact,2024
+Contagious Interview,Search Threat Vendor Data,2025
+Salt Typhoon,SSH Authorized Keys,2025
+TA551,Masquerading,2021
+Storm-0501,Group Policy Modification,2025
+APT29,Ingress Tool Transfer,2021
+Axiom,Exploitation for Client Execution,2022
+Chimera,File and Directory Discovery,2021
+Gamaredon Group,Data from Network Shared Drive,2020
+Tropic Trooper,Dynamic-link Library Injection,2019
+OilRig,Supply Chain Compromise,2024
+Magic Hound,Exfiltration Over Web Service,2023
+Thrip,PowerShell,2018
+menuPass,System Network Connections Discovery,2017
+Volt Typhoon,External Remote Services,2024
+APT1,System Network Configuration Discovery,2019
+Salt Typhoon,Protocol Tunneling,2025
+Tonto Team,Exploitation of Remote Services,2021
+INC Ransom,File Deletion,2024
+APT38,Drive-by Compromise,2019
+VOID MANTICORE,Cloud Accounts,2026
+Patchwork,Windows Command Shell,2017
+Mustang Panda,Windows Command Shell,2021
+Carbanak,Windows Service,2017
+MuddyWater,Exploitation for Client Execution,2020
+Lotus Blossom,Modify Registry,2025
+MirrorFace,Domain Account,2026
+APT37,Bidirectional Communication,2018
+Darkhotel,Taint Shared Content,2017
+Molerats,Msiexec,2020
+APT28,Deobfuscate/Decode Files or Information,2018
+Carbanak,Remote Access Tools,2018
+ToddyCat,Remote System Discovery,2024
+Chimera,Tool,2021
+APT28,Pass the Hash,2017
+LAPSUS$,User Execution,2022
+Sandworm Team,Databases,2024
+Volt Typhoon,Internal Proxy,2023
+Magic Hound,System Information Discovery,2018
+Volt Typhoon,Tool,2023
+Indrik Spider,Remote Desktop Protocol,2024
+Volt Typhoon,Match Legitimate Resource Name or Location,2023
+Magic Hound,Email Account,2022
+Aquatic Panda,Rundll32,2024
+APT32,Windows Command Shell,2019
+Cleaver,LSASS Memory,2017
+APT32,Archive Collected Data,2019
+BackdoorDiplomacy,System Network Connections Discovery,2021
+PROMETHIUM,Drive-by Compromise,2020
+APT28,Mail Protocols,2017
+OilRig,Spearphishing Attachment,2018
+Elderwood,Malicious Link,2020
+TA2541,Match Legitimate Resource Name or Location,2023
+Lazarus Group,Query Registry,2017
+Suckfly,Valid Accounts,2017
+HAFNIUM,Rundll32,2021
+Mustang Panda,Obfuscated Files or Information,2021
+Andariel,Exploitation for Client Execution,2021
+DarkVishnya,Windows Service,2020
+Lotus Blossom,Multi-hop Proxy,2025
+Akira,Remote System Discovery,2024
+Leviathan,Protocol Tunneling,2021
+APT39,Spearphishing Link,2019
+Malteiro,Credentials from Password Stores,2024
+RedCurl,Obfuscated Files or Information,2024
+APT33,Malicious Link,2018
+Evilnum,Steal Web Session Cookie,2021
+APT19,DLL,2018
+Turla,Peripheral Device Discovery,2020
+Indrik Spider,Email Accounts,2023
+Scattered Spider,Systemd Service,2025
+Medusa Group,Domain Groups,2025
+RedEcho,Asymmetric Cryptography,2024
+Dragonfly,Malicious File,2021
+APT32,Exfiltration Over C2 Channel,2019
+Darkhotel,Windows Command Shell,2019
+BlackByte,Web Protocols,2024
+Gamaredon Group,Malicious File,2020
+Volt Typhoon,Deobfuscate/Decode Files or Information,2025
+Molerats,Registry Run Keys / Startup Folder,2020
+CURIUM,Exfiltration Over C2 Channel,2024
+Patchwork,Visual Basic,2020
+Wizard Spider,Local Data Staging,2023
+menuPass,Scheduled Task,2017
+Gamaredon Group,Data from Local System,2020
+Gamaredon Group,LNK Icon Smuggling,2025
+APT38,Tool,2021
+APT28,Communication Through Removable Media,2017
+MuddyWater,Standard Encoding,2020
+APT39,File Deletion,2021
+Kimsuky,Encrypted/Encoded File,2026
+APT17,Web Services,2020
+Ke3chang,System Information Discovery,2017
+VOID MANTICORE,Audio Capture,2026
+Kimsuky,Archive via Custom Method,2019
+BRONZE BUTLER,System Time Discovery,2018
+Sowbug,File and Directory Discovery,2018
+Dragonfly,Compromise Software Supply Chain,2020
+Axiom,Botnet,2022
+UNC3886,File and Directory Discovery,2025
+LAPSUS$,Exploitation for Privilege Escalation,2022
+OilRig,Remote Desktop Protocol,2018
+Scattered Spider,Domain Groups,2025
+Windshift,System Information Discovery,2021
+Indrik Spider,Clear Windows Event Logs,2021
+Storm-0501,Remote Desktop Software,2025
+Rocke,Web Protocols,2020
+Lazarus Group,Spearphishing Link,2022
+Ke3chang,System Network Connections Discovery,2017
+Turla,Internal Proxy,2021
+Kimsuky,LNK Icon Smuggling,2025
+TeamTNT,Peripheral Device Discovery,2022
+APT28,Bootkit,2017
+FIN13,LSASS Memory,2023
+APT39,Query Registry,2020
+OilRig,PowerShell,2018
+FIN8,Security Software Discovery,2018
+Scattered Spider,Code Repositories,2024
+FIN13,Deobfuscate/Decode Files or Information,2023
+Higaisa,Protocol or Service Impersonation,2021
+menuPass,Archive Collected Data,2019
+Turla,JavaScript,2021
+Tropic Trooper,Steganography,2020
+MuddyWater,Malicious File,2018
+Stealth Falcon,System Owner/User Discovery,2017
+APT32,Exploitation for Client Execution,2019
+VOID MANTICORE,Virtual Private Server,2026
+Threat Group-3390,Bypass User Account Control,2018
+Patchwork,Malicious File,2018
+Threat Group-3390,DLL,2018
+APT5,Archive via Utility,2024
+Patchwork,Process Hollowing,2017
+Gamaredon Group,VNC,2022
+Velvet Ant,System Network Connections Discovery,2025
+Stealth Falcon,Web Protocols,2017
+RedCurl,Spearphishing Link,2024
+Patchwork,Remote Desktop Protocol,2017
+Threat Group-3390,Data Transfer Size Limits,2017
+Stealth Falcon,Scheduled Task,2017
+Magic Hound,Screen Capture,2018
+Threat Group-3390,Valid Accounts,2017
+Transparent Tribe,Encrypted/Encoded File,2021
+WIRTE,Malicious File,2022
+FIN13,Protocol Tunneling,2023
+Earth Lusca,Malicious File,2022
+Agrius,Brute Force,2024
+APT41,File Transfer Protocols,2020
+LAPSUS$,Purchase Technical Data,2022
+Play,Ingress Tool Transfer,2024
+LazyScripter,Spearphishing Attachment,2021
+Scattered Spider,Credentials In Files,2024
+Equation,Peripheral Device Discovery,2017
+Stealth Falcon,Exfiltration Over C2 Channel,2017
+Medusa Group,Email Accounts,2025
+Rocke,Unix Shell,2020
+Aoqin Dragon,Replication Through Removable Media,2022
+MirrorFace,Malicious File,2026
+Kimsuky,System Information Discovery,2019
+Tropic Trooper,Asymmetric Cryptography,2019
+MuddyWater,Domains,2026
+VOID MANTICORE,Password Guessing,2026
+Mustang Panda,Email Accounts,2022
+Magic Hound,PowerShell,2018
+TeamTNT,Private Keys,2021
+WIRTE,Non-Standard Port,2022
+Wizard Spider,Exfiltration to Cloud Storage,2023
+Leviathan,Spearphishing Link,2018
+Velvet Ant,Non-Standard Port,2025
+Dragonfly,Exploitation of Remote Services,2021
+FIN8,Token Impersonation/Theft,2021
+Tropic Trooper,DNS,2020
+Scattered Spider,Proxy,2025
+TeamTNT,Web Protocols,2021
+FIN10,Remote Desktop Protocol,2017
+APT28,Domains,2020
+menuPass,Windows Management Instrumentation,2017
+Contagious Interview,Social Media Accounts,2025
+APT33,Credentials from Web Browsers,2020
+Kimsuky,Change Default File Association,2019
+Storm-0501,Regsvr32,2025
+PROMETHIUM,Digital Certificates,2020
+Star Blizzard,Spearphishing Link,2024
+OilRig,Asymmetric Cryptography,2018
+TA577,JavaScript,2024
+Lazarus Group,Mshta,2022
+Volatile Cedar,Exploit Public-Facing Application,2021
+TA2541,Spearphishing Link,2023
+FIN7,Link Target,2025
+ZIRCONIUM,Network Devices,2024
+Kimsuky,Hidden Users,2022
+Mustang Panda,Windows Management Instrumentation Event Subscription,2021
+APT41,Lateral Tool Transfer,2024
+Threat Group-3390,Local Data Staging,2017
+Aquatic Panda,Data from Local System,2024
+Blue Mockingbird,System Information Discovery,2020
+Tropic Trooper,Automated Exfiltration,2020
+Indrik Spider,Gather Victim Network Information,2024
+Magic Hound,System Network Connections Discovery,2022
+APT37,Bypass User Account Control,2019
+Dark Caracal,Web Protocols,2018
+LAPSUS$,Additional Cloud Roles,2022
+Magic Hound,Email Addresses,2021
+ZIRCONIUM,Ingress Tool Transfer,2021
+Saint Bear,Impersonation,2024
+Star Blizzard,Social Media Accounts,2024
+BlackByte,Exfiltration Over Web Service,2024
+MuddyWater,Spearphishing Link,2021
+Sandworm Team,Keylogging,2020
+Star Blizzard,Domains,2024
+Threat Group-3390,Data from Local System,2017
+APT41,Rundll32,2020
+Wizard Spider,Exfiltration Over Unencrypted Non-C2 Protocol,2020
+Ember Bear,Establish Accounts,2024
+BlackTech,SSH,2022
+LAPSUS$,Data from Local System,2022
+Lotus Blossom,Archive via Utility,2025
+APT33,Encrypted/Encoded File,2019
+Ember Bear,External Defacement,2024
+Aquatic Panda,Ingress Tool Transfer,2022
+BlackByte,Process Injection,2024
+Volt Typhoon,Permission Groups Discovery,2024
+Ember Bear,Non-Standard Port,2024
+TA505,Upload Malware,2022
+Gallmaker,Spearphishing Attachment,2019
+APT28,Credentials,2021
+APT41,Remote System Discovery,2024
+HEXANE,Software Discovery,2022
+FIN7,Protocol Tunneling,2025
+APT38,Mutual Exclusion,2025
+IndigoZebra,Ingress Tool Transfer,2021
+Contagious Interview,Artificial Intelligence,2025
+Ember Bear,Password Spraying,2024
+BITTER,Malicious File,2022
+admin@338,System Network Configuration Discovery,2017
+Contagious Interview,Keychain,2025
+Scattered Spider,Account Discovery,2025
+APT41,Credentials from Web Browsers,2024
+APT38,Bypass User Account Control,2025
+Lazarus Group,DLL,2022
+APT41,Dynamic Linker Hijacking,2020
+Malteiro,System Language Discovery,2024
+MirrorFace,System Service Discovery,2026
+APT19,Standard Encoding,2018
+admin@338,Spearphishing Attachment,2019
+APT41,Compromise Software Supply Chain,2019
+Dragonfly,Clear Windows Event Logs,2021
+GALLIUM,Indicator Removal from Tools,2019
+Earth Lusca,Scheduled Task,2025
+APT37,Command and Scripting Interpreter,2021
+Medusa Group,Security Software Discovery,2025
+APT38,System Information Discovery,2021
+Axiom,Remote Desktop Protocol,2017
+LazyScripter,Mshta,2021
+APT39,AutoHotKey & AutoIT,2024
+FIN8,PowerShell,2018
+Earth Lusca,Tool,2022
+Cobalt Group,Tool,2021
+Lazarus Group,Code Signing,2022
+UNC3886,Boot or Logon Initialization Scripts,2025
+Moonstone Sleet,Malware,2024
+Ember Bear,Security Account Manager,2024
+Darkhotel,Registry Run Keys / Startup Folder,2017
+APT42,PowerShell,2025
+Storm-0501,Cloud Services,2025
+Gamaredon Group,Process Injection,2025
+Mustard Tempest,Malicious Link,2023
+Scattered Spider,Domains,2025
+APT29,Mshta,2022
+Velvet Ant,Lateral Tool Transfer,2025
+Lazarus Group,Timestomp,2017
+Dragonfly,Archive Collected Data,2021
+Moonstone Sleet,Compromise Software Supply Chain,2024
+Indrik Spider,Query Registry,2024
+OilRig,Windows Host Firewall,2024
+Ember Bear,Pass the Hash,2024
+Gorgon Group,Native API,2018
+APT19,Web Protocols,2018
+FIN7,Compromise Software Supply Chain,2023
+Turla,Group Policy Discovery,2021
+Sandworm Team,NTDS,2023
+Wizard Spider,Exfiltration Over C2 Channel,2020
+Sandworm Team,Bidirectional Communication,2020
+Mustard Tempest,Drive-by Compromise,2024
+Sidewinder,Process Discovery,2021
+Storm-1811,Remote Desktop Software,2025
+TA505,Tool,2022
+Kimsuky,System Checks,2026
+Gorgon Group,Visual Basic,2018
+HAFNIUM,Sharepoint,2025
+Contagious Interview,File Deletion,2025
+Molerats,Credentials from Web Browsers,2017
+MuddyWater,Exploit Public-Facing Application,2022
+Nomadic Octopus,PowerShell,2021
+Medusa Group,Upload Tool,2025
+Sea Turtle,Web Shell,2024
+Dragonfly,Business Relationships,2021
+APT39,BITS Jobs,2020
+VOID MANTICORE,Hidden Window,2026
+Kimsuky,Query Public AI Services,2025
+Deep Panda,Windows Management Instrumentation,2017
+Dragonfly,Local Account,2021
+APT37,Python,2021
+Magic Hound,Email Collection,2021
+Naikon,Remote System Discovery,2021
+SideCopy,Security Software Discovery,2022
+TA459,PowerShell,2018
+APT28,Automated Collection,2018
+PLATINUM,Non-Application Layer Protocol,2018
+Darkhotel,Process Discovery,2019
+APT1,Local Email Collection,2017
+menuPass,Process Hollowing,2018
+Chimera,Service Execution,2021
+Salt Typhoon,Clear Linux or Mac System Logs,2025
+HAFNIUM,Standard Encoding,2021
+Medusa Group,Hidden Window,2025
+Andariel,Malware,2021
+Play,Exfiltration Over Alternative Protocol,2024
+LuminousMoth,Archive Collected Data,2023
+APT39,Exfiltration Over C2 Channel,2020
+APT28,Spearphishing Link,2022
+Molerats,Deobfuscate/Decode Files or Information,2020
+BackdoorDiplomacy,Dynamic-link Library Injection,2021
+Gamaredon Group,Upload Malware,2022
+APT29,Accessibility Features,2017
+Moses Staff,Local Account,2022
+Scattered Spider,Password Managers,2025
+Dragonfly,Python,2021
+EXOTIC LILY,Exploitation for Client Execution,2022
+VOID MANTICORE,External Remote Services,2026
+Tropic Trooper,Local Accounts,2020
+GALLIUM,External Proxy,2019
+BlackByte,Exploit Public-Facing Application,2024
+Storm-0501,Cloud Service Discovery,2025
+Ke3chang,Automated Collection,2022
+Dragonfly,Domain Account,2021
+Patchwork,Binary Padding,2018
+APT39,Screen Capture,2020
+Tonto Team,Ingress Tool Transfer,2021
+Cobalt Group,Visual Basic,2018
+Dragonfly,File Transfer Protocols,2021
+FIN10,Local Accounts,2020
+SideCopy,Native API,2022
+BlackByte,Network Service Discovery,2024
+APT28,Web Protocols,2020
+APT42,Web Service,2025
+Turla,Lateral Tool Transfer,2020
+APT29,HTML Smuggling,2022
+Moonstone Sleet,System Owner/User Discovery,2024
+menuPass,SSH,2017
+Rocke,Dynamic Linker Hijacking,2020
+Chimera,External Remote Services,2020
+Lazarus Group,Indirect Command Execution,2022
+TA505,Permission Groups Discovery,2020
+APT39,Internal Proxy,2019
+APT39,Encrypted/Encoded File,2021
+Saint Bear,Command and Scripting Interpreter,2024
+Blue Mockingbird,Remote Desktop Protocol,2020
+Storm-1811,Email Bombing,2025
+Elderwood,Exploitation for Client Execution,2018
+APT28,Junk Data,2017
+MuddyWater,Windows Command Shell,2019
+Elderwood,Spearphishing Link,2018
+Threat Group-3390,System Network Connections Discovery,2017
+TeamTNT,Remote Access Tools,2021
+LuminousMoth,Web Protocols,2023
+Naikon,Registry Run Keys / Startup Folder,2021
+Cobalt Group,Security Software Discovery,2019
+Volt Typhoon,Exploit Public-Facing Application,2023
+APT28,Exploitation of Remote Services,2018
+MuddyWater,Web Services,2021
+Ember Bear,External Remote Services,2024
+Tonto Team,Local Groups,2021
+Kimsuky,Exfiltration to Cloud Storage,2022
+Ember Bear,Vulnerability Scanning,2024
+APT39,Code Signing Policy Modification,2021
+Lazarus Group,Digital Certificates,2021
+BRONZE BUTLER,Drive-by Compromise,2018
+Mustang Panda,Log Enumeration,2025
+HEXANE,Scheduled Task,2022
+Kimsuky,Email Addresses,2021
+Malteiro,Spearphishing Attachment,2024
+UNC3886,Hypervisor CLI,2025
+FIN7,Input Injection,2025
+Aquatic Panda,Modify Registry,2024
+APT5,Domain Accounts,2024
+Threat Group-3390,Malicious File,2021
+FIN13,Malware,2023
+VOID MANTICORE,Automated Collection,2026
+Confucius,Automated Collection,2021
+HAFNIUM,Password Spraying,2025
+PROMETHIUM,Registry Run Keys / Startup Folder,2020
+APT29,Device Registration,2023
+APT28,Wi-Fi Networks,2025
+FIN6,Domain Account,2017
+TA505,Data Encrypted for Impact,2019
+SilverTerrier,File Transfer Protocols,2020
+APT41,Compiled HTML File,2019
+Contagious Interview,Social Media,2025
+LazyScripter,PowerShell,2021
+APT3,Windows Service,2018
+Leafminer,File and Directory Discovery,2018
+Cobalt Group,Asymmetric Cryptography,2018
+Silence,Malicious File,2019
+FIN4,Multi-hop Proxy,2019
+BlackTech,Code Signing Certificates,2022
+Magic Hound,Additional Email Delegate Permissions,2020
+Patchwork,Code Signing Certificates,2020
+Silence,Code Signing,2020
+Chimera,Domain Accounts,2021
+FIN7,Spearphishing Attachment,2018
+Play,Tool,2024
+Indrik Spider,Modify Registry,2024
+VOID MANTICORE,Inhibit System Recovery,2026
+BRONZE BUTLER,Python,2020
+Volt Typhoon,Windows Command Shell,2023
+Ke3chang,System Service Discovery,2017
+Sidewinder,Registry Run Keys / Startup Folder,2021
+APT41,Boot or Logon Initialization Scripts,2024
+Star Blizzard,Tool,2024
+Cleaver,ARP Cache Poisoning,2020
+Threat Group-3390,Spearphishing Attachment,2021
+Moses Staff,System Network Configuration Discovery,2022
+Storm-0501,Domain Trust Discovery,2025
+Patchwork,Drive-by Compromise,2018
+Cobalt Group,Windows Command Shell,2020
+IndigoZebra,Malicious File,2021
+VOID MANTICORE,Credentials in Registry,2026
+Kimsuky,Mshta,2019
+RedCurl,Credentials in Registry,2024
+OilRig,Email Accounts,2024
+Turla,Dynamic-link Library Injection,2020
+SideCopy,Match Legitimate Resource Name or Location,2022
+FIN8,Internet Connection Discovery,2023
+Saint Bear,Modify Registry,2024
+APT29,Valid Accounts,2023
+Fox Kitten,Exploitation of Remote Services,2020
+Wizard Spider,Code Signing Certificates,2020
+APT32,Credentials in Registry,2020
+Ember Bear,Network Service Discovery,2024
+FIN6,JavaScript,2020
+Blue Mockingbird,Match Legitimate Resource Name or Location,2020
+APT1,Remote Email Collection,2020
+Scattered Spider,Spearphishing Link,2025
+Moonstone Sleet,Upload Malware,2024
+Volt Typhoon,Software Packing,2024
+MirrorFace,Domain Trust Discovery,2026
+FIN8,File Deletion,2018
+APT37,Obfuscated Files or Information,2018
+Ke3chang,Security Account Manager,2020
+Wizard Spider,Malicious File,2020
+APT3,Ingress Tool Transfer,2018
+RedCurl,LSASS Memory,2024
+Scattered Spider,User Execution,2024
+APT32,System Network Connections Discovery,2019
+Cobalt Group,Remote Desktop Protocol,2018
+LuminousMoth,Malicious Link,2023
+Dragonfly,Exploit Public-Facing Application,2021
+Sandworm Team,Lateral Tool Transfer,2021
+Medusa Group,Exploit Public-Facing Application,2025
+APT19,Hidden Window,2019
+VOID MANTICORE,Remote Desktop Software,2026
+Magic Hound,Credentials,2021
+Kimsuky,Data from Local System,2019
+Axiom,RDP Hijacking,2022
+TA459,Spearphishing Attachment,2018
+APT32,Visual Basic,2020
+Turla,Fileless Storage,2019
+ToddyCat,Native API,2024
+TA505,Visual Basic,2019
+MirrorFace,Spearphishing Attachment,2026
+Sandworm Team,Email Accounts,2020
+APT-C-36,Junk Code Insertion,2026
+Volt Typhoon,Local Data Staging,2023
+TeamTNT,Encrypted/Encoded File,2021
+Salt Typhoon,Exfiltration Over Unencrypted Non-C2 Protocol,2025
+TA2541,Tool,2023
+Gamaredon Group,System Information Discovery,2017
+Volt Typhoon,Peripheral Device Discovery,2024
+Volt Typhoon,Application Window Discovery,2024
+TA459,Exploitation for Client Execution,2018
+Storm-0501,Masquerade Task or Service,2025
+Threat Group-3390,Compression,2025
+APT18,Encrypted/Encoded File,2019
+APT32,Fileless Storage,2023
+OilRig,Web Protocols,2018
+Threat Group-3390,System Network Configuration Discovery,2017
+Dragonfly,External Remote Services,2021
+Sea Turtle,Valid Accounts,2024
+OilRig,File Deletion,2018
+APT38,System Owner/User Discovery,2021
+Medusa Group,Financial Theft,2025
+TA505,JavaScript,2020
+Play,Malware,2024
+Patchwork,Exploitation for Client Execution,2018
+Scattered Spider,File and Directory Discovery,2024
+APT1,Spearphishing Link,2020
+APT33,LSA Secrets,2020
+GALLIUM,External Remote Services,2019
+APT39,Valid Accounts,2019
+SideCopy,Mshta,2022
+Magic Hound,Software,2023
+FIN6,Access Token Manipulation,2020
+APT5,Cron,2024
+Inception,Exploitation for Client Execution,2020
+MuddyWater,Compile After Delivery,2019
+APT28,Replication Through Removable Media,2017
+Cinnamon Tempest,Domain Accounts,2023
+Rocke,Disable or Modify Tools,2020
+Magic Hound,Data from Local System,2022
+Cinnamon Tempest,Windows Management Instrumentation,2023
+APT28,Token Impersonation/Theft,2017
+Ember Bear,Virtual Private Server,2024
+HAFNIUM,Client Configurations,2021
+Scattered Spider,Trust Modification,2024
+Scattered Spider,Exfiltration Over C2 Channel,2025
+BRONZE BUTLER,Tool,2021
+Magic Hound,Email Accounts,2021
+Malteiro,Deobfuscate/Decode Files or Information,2024
+GALLIUM,Remote System Discovery,2019
+Scattered Spider,SSH,2025
+FIN13,Match Legitimate Resource Name or Location,2023
+Wizard Spider,PowerShell,2020
+Wizard Spider,Name Resolution Poisoning and SMB Relay,2020
+FIN4,Spearphishing Link,2019
+Elderwood,Encrypted/Encoded File,2018
+Dragonfly,Security Account Manager,2021
+HAFNIUM,Cloud Secrets Management Stores,2025
+BackdoorDiplomacy,Ingress Tool Transfer,2021
+Inception,System Information Discovery,2020
+VOID MANTICORE,Match Legitimate Resource Name or Location,2026
+Kimsuky,Steal Web Session Cookie,2025
+ZIRCONIUM,Registry Run Keys / Startup Folder,2021
+Lazarus Group,Disk Structure Wipe,2019
+ZIRCONIUM,Multi-hop Proxy,2024
+UNC3886,Archive via Custom Method,2025
+Lazarus Group,Disable or Modify Tools,2017
+Kimsuky,Private Keys,2026
+APT5,LSASS Memory,2024
+Threat Group-3390,Remote Data Staging,2020
+APT29,Exploitation for Client Execution,2018
+Lotus Blossom,Internet Connection Discovery,2025
+Rocke,Portable Executable Injection,2020
+Storm-1811,Impersonation,2025
+FIN13,Web Shell,2023
+menuPass,Remote Data Staging,2020
+Kimsuky,Remote Email Collection,2022
+FIN13,Credentials In Files,2023
+VOID MANTICORE,Selective Exclusion,2026
+Gorgon Group,Process Hollowing,2018
+FIN7,Web Services,2023
+Rancor,Windows Management Instrumentation Event Subscription,2024
+HAFNIUM,Data from Local System,2023
+Evilnum,File Deletion,2021
+Mustang Panda,Adversary-in-the-Middle,2025
+Gamaredon Group,Visual Basic,2020
+Mustang Panda,Replication Through Removable Media,2021
+Blue Mockingbird,Compute Hijacking,2020
+Higaisa,Spearphishing Attachment,2021
+Contagious Interview,Mail Protocols,2025
+UNC3886,Digital Certificates,2025
+APT5,Local Account,2024
+Aquatic Panda,System Owner/User Discovery,2024
+APT33,Visual Basic,2020
+Patchwork,BITS Jobs,2020
+APT33,Valid Accounts,2018
+LAPSUS$,Multi-Factor Authentication Request Generation,2022
+Sea Turtle,Local Accounts,2024
+APT29,Scheduled Task,2017
+OilRig,Command and Scripting Interpreter,2018
+APT28,Registry Run Keys / Startup Folder,2021
+TeamTNT,External Remote Services,2021
+Indrik Spider,Data Encrypted for Impact,2021
+Aquatic Panda,Clear Windows Event Logs,2024
+APT38,Clipboard Data,2019
+VOID MANTICORE,PowerShell,2026
+CopyKittens,Proxy,2022
+VOID MANTICORE,Valid Accounts,2026
+TeamTNT,Unix Shell,2021
+APT28,Network Sniffing,2018
+Leviathan,Exploit Public-Facing Application,2025
+DarkVishnya,Tool,2021
+Mustang Panda,Deobfuscate/Decode Files or Information,2025
+Leviathan,SSH,2019
+Confucius,Exfiltration Over C2 Channel,2021
+Contagious Interview,Masquerading,2025
+Scattered Spider,Direct Volume Access,2024
+Threat Group-3390,PowerShell,2017
+RedCurl,Local Account,2024
+Chimera,Remote Desktop Protocol,2020
+Scattered Spider,Remote System Discovery,2024
+FIN6,Asymmetric Cryptography,2017
+Lazarus Group,Deobfuscate/Decode Files or Information,2022
+APT29,LSA Secrets,2023
+HEXANE,DNS Server,2022
+RedCurl,Symmetric Cryptography,2024
+Kimsuky,Web Portal Capture,2026
+The White Company,File Deletion,2019
+Volt Typhoon,System Checks,2023
+Chimera,Exfiltration to Cloud Storage,2021
+Sidewinder,Security Software Discovery,2021
+Indrik Spider,Credentials In Files,2024
+TA577,Windows Command Shell,2024
+Leafminer,Remote Email Collection,2018
+Winter Vivern,Masquerade Task or Service,2024
+HEXANE,Email Accounts,2022
+TA505,Email Account,2020
+Kimsuky,Browser Extensions,2019
+Darkhotel,Malicious File,2019
+Axiom,Drive-by Compromise,2022
+Play,Domain Accounts,2024
+SilverTerrier,Mail Protocols,2019
+FIN6,Windows Management Instrumentation,2019
+Akira,Domain Trust Discovery,2024
+VOID MANTICORE,Data Staged,2026
+Akira,Sharepoint,2024
+Cinnamon Tempest,Python,2023
+VOID MANTICORE,Sharepoint,2026
+Turla,SMB/Windows Admin Shares,2017
+TA2541,Dynamic Resolution,2023
+Medusa Group,System Owner/User Discovery,2025
+SideCopy,System Location Discovery,2022
+BlackByte,Windows Service,2024
+MuddyWater,System Network Connections Discovery,2021
+Magic Hound,Social Media Accounts,2021
+INC Ransom,Data Staged,2024
+APT28,Bidirectional Communication,2021
+Chimera,Lateral Tool Transfer,2021
+Kimsuky,Process Discovery,2022
+FIN6,Code Signing,2019
+Lazarus Group,Valid Accounts,2022
+Mustang Panda,System Information Discovery,2021
+Dark Caracal,Registry Run Keys / Startup Folder,2018
+VOID MANTICORE,Screen Capture,2026
+Tropic Trooper,Hidden Files and Directories,2019
+TA459,Visual Basic,2018
+Tonto Team,Network Share Discovery,2021
+Tropic Trooper,Malicious File,2020
+APT41,Windows Service,2019
+ZIRCONIUM,Domains,2021
+Lazarus Group,Web Protocols,2018
+Evilnum,JavaScript,2021
+Storm-0501,OS Credential Dumping,2025
+BRONZE BUTLER,Ingress Tool Transfer,2018
+Sandworm Team,Rundll32,2020
+BlackByte,SMB/Windows Admin Shares,2024
+Threat Group-3390,Trusted Relationship,2021
+Volt Typhoon,Software Discovery,2023
+MirrorFace,DLL,2026
+Lazarus Group,Multi-Stage Channels,2022
+MirrorFace,Process Discovery,2026
+BlackByte,Remote System Discovery,2024
+OilRig,Code Signing,2024
+Aoqin Dragon,Malicious File,2022
+Stealth Falcon,Credentials from Web Browsers,2020
+FIN7,Malware,2020
+Saint Bear,Disable or Modify Tools,2024
+Gamaredon Group,Spearphishing Attachment,2020
+Daggerfly,Web Protocols,2024
+FIN8,Domain Trust Discovery,2021
+MuddyWater,PowerShell,2018
+Darkhotel,Code Signing,2017
+Earth Lusca,Python,2022
+Storm-0501,Conditional Access Policies,2025
+APT37,Ingress Tool Transfer,2018
+Gamaredon Group,Bidirectional Communication,2025
+APT-C-36,DLL,2026
+Winter Vivern,Ingress Tool Transfer,2024
+Axiom,OS Credential Dumping,2017
+Gamaredon Group,Screen Capture,2020
+APT32,Malicious Link,2020
+HEXANE,Keylogging,2022
+Play,Process Discovery,2024
+BlackTech,DLL,2021
+Gamaredon Group,Process Discovery,2022
+Andariel,Drive-by Compromise,2021
+Cobalt Group,Windows Service,2018
+APT38,Keylogging,2019
+UNC3886,Abuse Elevation Control Mechanism,2025
+Contagious Interview,File and Directory Discovery,2025
+MoustachedBouncer,Screen Capture,2023
+Scattered Spider,Email Hiding Rules,2024
+menuPass,DLL,2017
+PLATINUM,Keylogging,2018
+Saint Bear,Email Addresses,2024
+APT41,Domain Account,2024
+Scattered Spider,System Information Discovery,2025
+APT28,Exfiltration Over Web Service,2021
+APT32,Hidden Files and Directories,2019
+Sandworm Team,Obfuscated Files or Information,2020
+LuminousMoth,Steal Web Session Cookie,2023
+Threat Group-3390,LSA Secrets,2017
+UNC3886,Non-Application Layer Protocol,2025
+APT3,Accessibility Features,2018
+CURIUM,Web Services,2024
+Medusa Group,Software Deployment Tools,2025
+Mustang Panda,Malware,2025
+INC Ransom,Financial Theft,2024
+Ember Bear,Log Enumeration,2024
+Chimera,Web Protocols,2021
+Mustang Panda,Upload Malware,2022
+APT39,Match Legitimate Resource Name or Location,2020
+The White Company,Spearphishing Attachment,2019
+Ember Bear,Video Capture,2024
+Inception,Web Protocols,2020
+APT37,Data from Local System,2018
+BlackByte,Domain Trust Discovery,2024
+FIN13,Security Account Manager,2023
+DarkVishnya,Network Service Discovery,2020
+TA2541,Spearphishing Attachment,2023
+TA551,Regsvr32,2021
+Volt Typhoon,Modify Registry,2024
+Ember Bear,LSA Secrets,2024
+Magic Hound,Web Protocols,2018
+FIN6,Remote System Discovery,2017
+Kimsuky,Malicious File,2020
+Kimsuky,Web Services,2022
+Winter Vivern,Spearphishing Attachment,2024
+Storm-1811,Domain Account,2025
+Leviathan,Archive Collected Data,2021
+Storm-0501,Cloud Infrastructure Discovery,2025
+APT39,Software Packing,2019
+FIN7,Windows Management Instrumentation,2021
+The White Company,Exploitation for Client Execution,2019
+Transparent Tribe,Match Legitimate Resource Name or Location,2021
+HEXANE,Credentials from Password Stores,2022
+Elderwood,Spearphishing Attachment,2018
+APT18,Windows Command Shell,2019
+ToddyCat,Domain Accounts,2024
+Magic Hound,Tool,2021
+Sandworm Team,Inhibit System Recovery,2024
+Magic Hound,Disable or Modify Tools,2022
+FIN8,Archive via Utility,2018
+CURIUM,System Information Discovery,2024
+Rocke,Ingress Tool Transfer,2020
+Contagious Interview,Code Repositories,2025
+APT33,Scheduled Task,2019
+Medusa Group,Inhibit System Recovery,2025
+Lazarus Group,Rename Legitimate Utilities,2022
+Malteiro,Dynamic-link Library Injection,2024
+APT38,Native API,2021
+APT32,Service Execution,2019
+Storm-0501,Cloud Accounts,2025
+Velvet Ant,Disable or Modify System Firewall,2025
+Kimsuky,Local Account,2022
+PLATINUM,Malicious File,2018
+Scattered Spider,Multi-Factor Authentication Request Generation,2023
+APT32,File Deletion,2019
+Elderwood,Drive-by Compromise,2018
+APT41,DNS,2019
+Volt Typhoon,Network Topology,2024
+BackdoorDiplomacy,Non-Application Layer Protocol,2021
+APT29,Mark-of-the-Web Bypass,2022
+Akira,Remote Desktop Protocol,2024
+Medusa Group,Command Obfuscation,2025
+HEXANE,Windows Management Instrumentation Event Subscription,2024
+Ember Bear,Non-Application Layer Protocol,2024
+Lazarus Group,Web Services,2021
+FIN8,Modify Registry,2018
+Moonstone Sleet,Browser Information Discovery,2024
+menuPass,Rename Legitimate Utilities,2020
+menuPass,Spearphishing Attachment,2018
+Kimsuky,Ingress Tool Transfer,2020
+Sidewinder,System Time Discovery,2021
+Aquatic Panda,File Deletion,2022
+Scattered Spider,Remote Desktop Protocol,2025
+LazyScripter,Upload Malware,2022
+ToddyCat,Scheduled Task,2024
+Fox Kitten,VNC,2020
+GALLIUM,Security Account Manager,2019
+APT41,Pass the Hash,2024
+APT39,Local Data Staging,2020
+Turla,Windows Credential Manager,2019
+FIN7,VNC,2021
+Ke3chang,Deobfuscate/Decode Files or Information,2022
+Kimsuky,Junk Code Insertion,2025
+Dragonfly,Virtual Private Server,2021
+UNC3886,Password Managers,2025
+Magic Hound,LSASS Memory,2018
+HEXANE,Email Addresses,2022
+Kimsuky,Compression,2026
+Blue Mockingbird,Exploit Public-Facing Application,2020
+APT41,File and Directory Discovery,2020
+APT41,Vulnerability Scanning,2024
+Storm-1811,Domains,2025
+UNC3886,Indicator Removal from Tools,2025
+MuddyWater,Office Template Macros,2020
+Kimsuky,Search Engines,2022
+Fox Kitten,PowerShell,2020
+RedCurl,Archive via Utility,2024
+APT38,Rename Legitimate Utilities,2025
+Ke3chang,Remote Email Collection,2018
+OilRig,Local Account,2020
+Windshift,Masquerading,2020
+APT29,Security Account Manager,2023
+APT32,Mshta,2019
+Medusa Group,Windows Command Shell,2025
+Lazarus Group,Application Window Discovery,2017
+Inception,Visual Basic,2020
+Fox Kitten,Encrypted/Encoded File,2020
+Dark Caracal,Malicious File,2018
+MuddyWater,Tool,2021
+OilRig,Clipboard Data,2024
+IndigoZebra,Email Accounts,2021
+MuddyWater,Steganography,2020
+Rancor,Malicious File,2018
+Sowbug,Data from Network Shared Drive,2018
+Patchwork,DLL,2018
+Poseidon Group,System Service Discovery,2017
+BlackByte,Service Execution,2024
+Sea Turtle,Domains,2024
+MirrorFace,System Network Configuration Discovery,2026
+TA551,Malicious File,2021
+UNC3886,Rootkit,2025
+UNC3886,Clear Network Connection History and Configurations,2025
+Blue Mockingbird,Windows Management Instrumentation Event Subscription,2020
+Contagious Interview,Establish Accounts,2025
+Aquatic Panda,LSASS Memory,2022
+Mustard Tempest,Malvertising,2023
+APT12,Exploitation for Client Execution,2019
+Kimsuky,Browser Session Hijacking,2025
+Ke3chang,Archive via Utility,2017
+FIN13,Network Topology,2023
+Inception,Mshta,2020
+Confucius,Exploitation for Client Execution,2021
+Gamaredon Group,Internal Defacement,2022
+FIN13,Make and Impersonate Token,2023
+Agrius,Masquerading,2024
+Medusa Group,Windows Management Instrumentation,2025
+Kimsuky,Clipboard Data,2026
+Sandworm Team,Non-Standard Port,2020
+APT39,Remote System Discovery,2019
+HAFNIUM,Email Addresses,2021
+Gorgon Group,Spearphishing Attachment,2018
+TA578,Search Victim-Owned Websites,2024
+Turla,Windows Management Instrumentation Event Subscription,2019
+Aquatic Panda,Remote Services,2024
+APT37,Exploitation for Client Execution,2018
+Daggerfly,Malicious Link,2024
+TA551,Command Obfuscation,2021
+Wizard Spider,Windows Remote Management,2020
+UNC3886,Python,2025
+Aquatic Panda,Unix Shell,2024
+HEXANE,Visual Basic,2022
+FIN6,Data from Local System,2020
+Water Galura,Financial Theft,2025
+BlackByte,Domain Account,2024
+LAPSUS$,Chat Messages,2023
+Contagious Interview,Upload Malware,2025
+MuddyWater,Registry Run Keys / Startup Folder,2018
+APT41,Remote Desktop Protocol,2019
+Ke3chang,Local Account,2020
+GALLIUM,Windows Command Shell,2019
+Threat Group-3390,Domains,2023
+FIN5,External Proxy,2018
+VOID MANTICORE,Windows Host Firewall,2026
+Ember Bear,Remote Services,2024
+APT28,Component Object Model Hijacking,2017
+Dragonfly,System Owner/User Discovery,2021
+Volt Typhoon,Symmetric Cryptography,2023
+HAFNIUM,Ingress Tool Transfer,2021
+Kimsuky,Local Accounts,2021
+POLONIUM,Tool,2022
+Orangeworm,Web Protocols,2018
+Mustang Panda,Domain Groups,2025
+Fox Kitten,Command Obfuscation,2023
+APT33,Standard Encoding,2019
+Contagious Interview,Financial Theft,2025
+APT32,Process Injection,2020
+APT5,Security Account Manager,2024
+Gorgon Group,Deobfuscate/Decode Files or Information,2018
+Lazarus Group,Archive Collected Data,2017
+Wizard Spider,Data Staged,2020
+Ke3chang,SMB/Windows Admin Shares,2017
+Ember Bear,PowerShell,2024
+Wizard Spider,Windows Service,2020
+ZIRCONIUM,Masquerade Task or Service,2021
+INC Ransom,Ingress Tool Transfer,2024
+Volt Typhoon,Domain Groups,2023
+APT28,Archive Collected Data,2018
+FIN8,System Owner/User Discovery,2023
+APT29,External Proxy,2024
+APT29,Spearphishing via Service,2021
+MirrorFace,Malware,2026
+FIN6,Exploitation for Privilege Escalation,2017
+APT41,Environmental Keying,2020
+FIN7,Kerberoasting,2021
+Turla,Windows Command Shell,2019
+Higaisa,Scheduled Transfer,2021
+APT32,Masquerading,2020
+Tropic Trooper,DLL,2019
+Contagious Interview,Symmetric Cryptography,2025
+FIN7,Hidden Window,2025
+TeamTNT,Compute Hijacking,2021
+Lotus Blossom,Access Token Manipulation,2025
+FIN13,Data from Local System,2023
+Chimera,Browser Information Discovery,2021
+Rocke,Deobfuscate/Decode Files or Information,2020
+BlackByte,Inhibit System Recovery,2024
+Saint Bear,Windows Command Shell,2024
+INC Ransom,Windows Command Shell,2024
+Volt Typhoon,Virtual Private Server,2024
+FIN7,Bidirectional Communication,2018
+Turla,Archive via Utility,2019
+Sandworm Team,System Owner/User Discovery,2020
+APT32,Pass the Ticket,2019
+Mustang Panda,Debugger Evasion,2025
+Threat Group-1314,Software Deployment Tools,2017
+Star Blizzard,JavaScript,2024
+APT37,System Shutdown/Reboot,2019
+Aquatic Panda,Disable or Modify Tools,2022
+Storm-1811,Windows Command Shell,2025
+Elderwood,Ingress Tool Transfer,2018
+Sidewinder,System Information Discovery,2021
+APT3,LSASS Memory,2017
+Chimera,Ingress Tool Transfer,2020
+Ke3chang,Cloud Accounts,2022
+TA505,Code Signing,2019
+Storm-0501,Delete Cloud Instance,2025
+Lazarus Group,System Owner/User Discovery,2017
+DarkVishnya,Hardware Additions,2020
+Agrius,Domain Accounts,2024
+Play,File and Directory Discovery,2024
+Aoqin Dragon,Lateral Tool Transfer,2022
+menuPass,Data from Network Shared Drive,2017
+BITTER,Upload Malware,2022
+Magic Hound,Exploit Public-Facing Application,2022
+LuminousMoth,DLL,2023
+Sowbug,Archive via Utility,2018
+SideCopy,DLL,2022
+Nomadic Octopus,Malicious File,2021
+Tropic Trooper,File Deletion,2020
+Cinnamon Tempest,Financial Theft,2023
+Leviathan,Vulnerability Scanning,2025
+FIN13,Pass the Hash,2023
+Contagious Interview,Exfiltration Over Web Service,2025
+APT29,PowerShell,2017
+Salt Typhoon,Create Account,2025
+APT41,Query Registry,2024
+Wizard Spider,Security Software Discovery,2020
+Dragonfly,Network Share Discovery,2021
+APT29,Trusted Relationship,2021
+Sowbug,Windows Command Shell,2018
+TeamTNT,Rootkit,2021
+Andariel,Data from Local System,2021
+Scattered Spider,Data from Cloud Storage,2024
+Lazarus Group,Email Addresses,2022
+LuminousMoth,Digital Certificates,2023
+TeamTNT,Exfiltration Over Alternative Protocol,2022
+Machete,Windows Command Shell,2020
+Volt Typhoon,Lateral Tool Transfer,2023
+Lotus Blossom,File and Directory Discovery,2025
+Wizard Spider,Domain Accounts,2020
+Rocke,System Information Discovery,2020
+MuddyWater,File and Directory Discovery,2019
+APT33,Tool,2021
+Windigo,Command and Scripting Interpreter,2021
+Dragonfly,Additional Local or Domain Groups,2021
+Aoqin Dragon,Malware,2022
+EXOTIC LILY,Spearphishing Link,2022
+Leviathan,Visual Basic,2018
+Molerats,PowerShell,2020
+APT39,Registry Run Keys / Startup Folder,2019
+APT-C-36,Visual Basic,2020
+Mustang Panda,Indicator Removal,2025
+RedEcho,Web Protocols,2024
+FIN7,Windows Command Shell,2020
+CURIUM,Spearphishing Attachment,2024
+Carbanak,Tool,2021
+APT37,Process Injection,2018
+Rocke,Security Software Discovery,2020
+Patchwork,Scheduled Task,2018
+TA505,Dynamic Data Exchange,2019
+Chimera,Credential Stuffing,2021
+Threat Group-3390,Windows Remote Management,2017
+Wizard Spider,Inhibit System Recovery,2023
+APT29,RC Scripts,2023
+APT28,OS Credential Dumping,2020
+Winnti Group,Code Signing,2017
+APT29,Binary Padding,2021
+APT32,Rundll32,2020
+RedCurl,PowerShell,2024
+APT28,File and Directory Discovery,2017
+Axiom,Exploit Public-Facing Application,2018
+Ember Bear,Masquerading,2024
+HEXANE,Brute Force,2022
+Play,LSASS Memory,2024
+MirrorFace,Archive via Utility,2026
+Dragonfly,Scheduled Task,2021
+Naikon,Add-ins,2020
+Scattered Spider,Phishing for Information,2023
+Storm-1811,Input Capture,2025
+Threat Group-3390,Upload Tool,2021
+Axiom,Steganography,2020
+Confucius,Mshta,2022
+Naikon,Masquerade Task or Service,2021
+Cinnamon Tempest,DLL,2023
+Magic Hound,Masquerade Account Name,2024
+Silence,File Deletion,2019
+Poseidon Group,System Network Connections Discovery,2017
+Tropic Trooper,Process Discovery,2019
+APT41,System Owner/User Discovery,2019
+Kimsuky,Archive via Utility,2022
+LAPSUS$,Email Forwarding Rule,2022
+Sidewinder,DLL,2021
+Storm-1811,Data Encrypted for Impact,2025
+OilRig,System Service Discovery,2018
+BlackByte,Exploitation for Privilege Escalation,2024
+APT38,Modify Registry,2019
+Lazarus Group,Server,2022
+EXOTIC LILY,Malicious Link,2022
+APT-C-36,Written Content,2026
+Turla,Python,2021
+APT32,Command Obfuscation,2023
+Moonstone Sleet,Service Execution,2024
+Volt Typhoon,Domain Accounts,2023
+Darkhotel,System Checks,2021
+BackdoorDiplomacy,Match Legitimate Resource Name or Location,2021
+Ferocious Kitten,Match Legitimate Resource Name or Location,2021
+Andariel,System Network Connections Discovery,2021
+OilRig,Visual Basic,2021
+Inception,PowerShell,2020
+Naikon,Security Software Discovery,2017
+VOID MANTICORE,Malicious File,2026
+APT-C-36,Cloud Accounts,2026
+Chimera,Password Policy Discovery,2021
+Moonstone Sleet,Email Accounts,2024
+Cobalt Group,Malicious File,2018
+Volt Typhoon,Local Account,2024
+BRONZE BUTLER,Domain Account,2018
+Mustang Panda,Software Discovery,2021
+TeamTNT,Container Administration Command,2021
+APT29,Digital Certificates,2020
+RedCurl,Trusted Relationship,2024
+CopyKittens,Archive via Custom Method,2018
+APT5,Botnet,2025
+Equation,Hidden File System,2020
+Fox Kitten,Messaging Applications,2020
+OilRig,Brute Force,2018
+Magic Hound,Spearphishing Link,2021
+VOID MANTICORE,Registry Run Keys / Startup Folder,2026
+Sandworm Team,Search Victim-Owned Websites,2020
+Kimsuky,Code Signing Certificates,2025
+Threat Group-3390,Process Hollowing,2018
+APT38,Runtime Data Manipulation,2019
+Gamaredon Group,Disable or Modify Tools,2020
+TA2541,Disable or Modify Tools,2023
+Winter Vivern,Web Services,2024
+APT37,Spearphishing Attachment,2018
+HAFNIUM,Data from Cloud Storage,2025
+Saint Bear,PowerShell,2024
+Transparent Tribe,Malicious File,2021
+Ke3chang,Windows Service,2018
+Sandworm Team,Email Addresses,2020
+Axiom,Archive Collected Data,2022
+VOID MANTICORE,Data Destruction,2026
+PLATINUM,Masquerading,2019
+Volt Typhoon,Unix Shell,2024
+UNC3886,Disable or Modify Tools,2025
+Windigo,System Information Discovery,2021
+Sea Turtle,Remote Data Staging,2025
+Silence,Remote Desktop Protocol,2020
+ZIRCONIUM,Spearphishing Link,2021
+admin@338,Local Account,2017
+BRONZE BUTLER,At,2018
+Mustang Panda,Protocol or Service Impersonation,2025
+Dragonfly,Hidden Users,2021
+ZIRCONIUM,Credentials from Web Browsers,2021
+MuddyWater,Ingress Tool Transfer,2019
+Nomadic Octopus,Masquerading,2021
+APT3,Non-Application Layer Protocol,2017
+Threat Group-3390,Exploitation for Client Execution,2019
+Mustang Panda,DLL,2021
+BRONZE BUTLER,Remote System Discovery,2018
+Turla,Disable or Modify Tools,2019
+PLATINUM,Ingress Tool Transfer,2018
+ToddyCat,Spearphishing via Service,2024
+FIN7,Rundll32,2023
+APT39,Malicious File,2019
+Volt Typhoon,Archive via Utility,2023
+Daggerfly,System Information Discovery,2024
+APT3,Scheduled Task,2017
+APT39,Spearphishing Attachment,2019
+Cobalt Group,Compromise Software Supply Chain,2020
+FIN7,Domain Account,2025
+APT37,System Owner/User Discovery,2018
+BRONZE BUTLER,Binary Padding,2018
+Indrik Spider,Malware,2023
+HAFNIUM,Application Access Token,2025
+UNC3886,Search Threat Vendor Data,2025
+RedCurl,Registry Run Keys / Startup Folder,2024
+LuminousMoth,Data from Local System,2023
+FIN7,Dynamic Data Exchange,2018
+FIN8,Exfiltration Over Unencrypted Non-C2 Protocol,2018
+menuPass,Domain Account,2017
+TA505,Spearphishing Link,2019
+UNC3886,RC Scripts,2025
+FIN13,Keylogging,2023
+HAFNIUM,Exfiltration to Cloud Storage,2021
+RedCurl,Automated Collection,2024
+Kimsuky,Process Injection,2019
+Threat Group-3390,Web Shell,2019
+Lazarus Group,Indicator Removal,2022
+menuPass,PowerShell,2017
+APT39,Ingress Tool Transfer,2020
+Whitefly,Match Legitimate Resource Name or Location,2020
+OilRig,Spearphishing via Service,2019
+APT5,Clear Command History,2024
+Windshift,Software Discovery,2021
+APT33,Symmetric Cryptography,2019
+BlackTech,Exploit Public-Facing Application,2020
+BlackByte,Upload Malware,2024
+APT42,Virtual Private Server,2025
+RedCurl,Transfer Data to Cloud Account,2024
+Lazarus Group,Disk Content Wipe,2019
+Kimsuky,Malicious Copy and Paste,2026
+APT12,Malicious File,2019
+Threat Group-3390,Drive-by Compromise,2018
+Ke3chang,Tool,2021
+BRONZE BUTLER,Steganography,2020
+Scattered Spider,Create Account,2024
+Chimera,Domain Account,2020
+BRONZE BUTLER,Exploitation for Client Execution,2018
+Storm-1811,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,2025
+Earth Lusca,Deobfuscate/Decode Files or Information,2022
+MuddyWater,Disable or Modify Tools,2021
+Play,Exploit Public-Facing Application,2024
+admin@338,Windows Command Shell,2017
+Turla,File/Path Exclusions,2024
+APT-C-36,Search Open Websites/Domains,2026
+GOLD SOUTHFIELD,PowerShell,2020
+HAFNIUM,Automated Collection,2025
+Volt Typhoon,Network Service Discovery,2024
+GALLIUM,System Owner/User Discovery,2019
+FIN7,PowerShell,2017
+BlackByte,Execution Guardrails,2024
+LazyScripter,Domains,2022
+RedCurl,Network Service Discovery,2024
+Volt Typhoon,Direct Volume Access,2024
+Aquatic Panda,Log Enumeration,2024
+Volt Typhoon,File and Directory Discovery,2024
+FIN7,User Activity Based Checks,2019
+Aquatic Panda,Masquerade Task or Service,2024
+APT32,Windows Management Instrumentation,2019
+MuddyWater,Archive via Utility,2019
+FIN8,Web Protocols,2021
+Moses Staff,Ingress Tool Transfer,2022
+Wizard Spider,LSASS Memory,2023
+Sidewinder,JavaScript,2021
+Indrik Spider,Ingress Tool Transfer,2021
+VOID MANTICORE,Exploit Public-Facing Application,2026
+APT32,Spearphishing Attachment,2018
+APT29,Web Shell,2021
+CURIUM,Spearphishing Link,2024
+FIN7,Process Discovery,2025
+Akira,PowerShell,2024
+APT41,System Information Discovery,2024
+Sandworm Team,Proxy,2020
+FIN7,Drive-by Target,2023
+Mustard Tempest,Ingress Tool Transfer,2023
+Cobalt Group,Registry Run Keys / Startup Folder,2018
+Play,Valid Accounts,2024
+Volt Typhoon,Internet Connection Discovery,2024
+FIN5,Valid Accounts,2018
+BITTER,Encrypted/Encoded File,2022
+TA2541,Software Packing,2023
+TA551,Ingress Tool Transfer,2021
+Leviathan,Spearphishing Attachment,2018
+Mustang Panda,Archive via Utility,2021
+Tonto Team,Web Shell,2021
+BlackByte,Archive Collected Data,2024
+Kimsuky,Screen Capture,2025
+Mustang Panda,Dynamic API Resolution,2025
+Scattered Spider,Valid Accounts,2025
+Agrius,Windows Service,2024
+APT5,PowerShell,2024
+Cobalt Group,Network Service Discovery,2018
+APT41,LSASS Memory,2019
+Sandworm Team,Supply Chain Compromise,2024
+Patchwork,System Information Discovery,2017
+Leviathan,Code Signing,2018
+MirrorFace,Windows Management Instrumentation,2026
+Dragonfly,Spearphishing Link,2021
+APT32,Software Deployment Tools,2017
+POLONIUM,Proxy,2022
+Fox Kitten,Masquerade Task or Service,2020
+APT17,Establish Accounts,2020
+Gallmaker,Dynamic Data Exchange,2019
+BlackByte,Web Shell,2024
+Chimera,Windows Management Instrumentation,2020
+Storm-1811,Local Data Staging,2025
+FIN6,Command Obfuscation,2020
+POLONIUM,Valid Accounts,2022
+Threat Group-3390,Archive via Library,2017
+Tropic Trooper,System Owner/User Discovery,2019
+OilRig,System Owner/User Discovery,2018
+Volt Typhoon,Network Security Appliances,2024
+APT29,Multi-hop Proxy,2018
+menuPass,LSA Secrets,2020
+Leafminer,LSASS Memory,2018
+LAPSUS$,Data Destruction,2022
+FIN13,Permission Groups Discovery,2023
+MirrorFace,System Language Discovery,2026
+HAFNIUM,Non-Application Layer Protocol,2021
+APT3,Rundll32,2018
+APT5,Timestomp,2024
+Gamaredon Group,PowerShell,2022
+Earth Lusca,JavaScript,2022
+Turla,Internet Connection Discovery,2021
+Medusa Group,Data Encrypted for Impact,2025
+Chimera,Windows Remote Management,2021
+UNC3886,Exploits,2025
+Molerats,Ingress Tool Transfer,2020
+Volt Typhoon,LSASS Memory,2023
+FIN6,Disable or Modify Tools,2020
+INC Ransom,Transfer Data to Cloud Account,2024
+Nomadic Octopus,Spearphishing Attachment,2021
+Saint Bear,Encrypted/Encoded File,2024
+RedCurl,Data from Local System,2024
+APT29,Malicious Link,2021
+APT38,Domains,2025
+Patchwork,Modify Registry,2018
+VOID MANTICORE,Web Services,2026
+Molerats,Spearphishing Link,2020
+APT1,Local Account,2019
+Medusa Group,Device Driver Discovery,2025
+APT5,Disable or Modify Tools,2024
+Leafminer,Cached Domain Credentials,2020
+TeamTNT,PowerShell,2021
+Mustard Tempest,Drive-by Target,2024
+Sandworm Team,Valid Accounts,2020
+Kimsuky,Visual Basic,2020
+Earth Lusca,Archive via Utility,2022
+OilRig,Modify Registry,2024
+Wizard Spider,Security Account Manager,2020
+HAFNIUM,Local Accounts,2021
+LuminousMoth,Link Target,2023
+Leviathan,Server,2025
+APT38,File and Directory Discovery,2021
+Carbanak,Match Legitimate Resource Name or Location,2017
+FIN6,PowerShell,2017
+SideCopy,Spearphishing Attachment,2022
+RedCurl,Rundll32,2024
+APT5,Log Enumeration,2024
+Sea Turtle,Prevent Command History Logging,2024
+FIN7,Non-Standard Port,2020
+IndigoZebra,Tool,2021
+Cinnamon Tempest,Taint Shared Content,2023
+APT33,Archive via Utility,2019
+APT3,Windows Command Shell,2017
+APT38,Deobfuscate/Decode Files or Information,2025
+Gorgon Group,Portable Executable Injection,2018
+APT-C-36,External Remote Services,2026
+Metador,File Deletion,2023
+Agrius,Password Spraying,2024
+ToddyCat,Domain Groups,2024
+APT28,Peripheral Device Discovery,2017
+Deep Panda,SMB/Windows Admin Shares,2017
+APT3,System Owner/User Discovery,2017
+Tropic Trooper,Match Legitimate Resource Name or Location,2020
+Turla,Server,2020
+HAFNIUM,Internet Connection Discovery,2023
+Leviathan,LSASS Memory,2020
+APT38,Disk Structure Wipe,2019
+menuPass,Windows Command Shell,2017
+ZIRCONIUM,Software Packing,2021
+TA505,PowerShell,2019
+FIN8,Remote Data Staging,2018
+LAPSUS$,Multi-Factor Authentication Interception,2022
+APT38,Malicious Link,2025
+BITTER,Web Protocols,2022
+HAFNIUM,Process Discovery,2023
+Cobalt Group,Ingress Tool Transfer,2018
+Sidewinder,Automated Exfiltration,2021
+Patchwork,Automated Collection,2018
+Machete,Msiexec,2020
+GALLIUM,Code Signing,2021
+MuddyWater,Deobfuscate/Decode Files or Information,2018
+Lazarus Group,System Shutdown/Reboot,2019
+Kimsuky,Browser Information Discovery,2026
+Akira,Exfiltration to Cloud Storage,2024
+Velvet Ant,Data Encoding,2025
+FIN6,Remote Data Staging,2020
+FIN8,Malicious Link,2020
+TA551,Mshta,2021
+Ke3chang,Ingress Tool Transfer,2022
+Wizard Spider,Windows Permissions,2020
+LAPSUS$,Sharepoint,2022
+Velvet Ant,Internal Proxy,2025
+menuPass,Exploitation of Remote Services,2020
+FIN13,Financial Theft,2023
+Sea Turtle,External Remote Services,2024
+Rocke,Registry Run Keys / Startup Folder,2020
+Earth Lusca,Proxy,2022
+Patchwork,Security Software Discovery,2017
+Lazarus Group,Native API,2022
+Deep Panda,Process Discovery,2017
+Cobalt Group,Protocol Tunneling,2020
+DarkVishnya,Network Sniffing,2020
+Contagious Interview,Malicious Link,2025
+FIN7,Domain Groups,2023
+VOID MANTICORE,Web Service,2026
+Transparent Tribe,Hidden Files and Directories,2021
+APT29,Hide Infrastructure,2024
+Mustang Panda,Protocol Tunneling,2025
+APT-C-36,Ingress Tool Transfer,2020
+ToddyCat,Windows Management Instrumentation,2024
+RedCurl,Email Account,2024
+Magic Hound,Additional Local or Domain Groups,2023
+HAFNIUM,Archive via Utility,2021
+BlackTech,Network Service Discovery,2022
+Kimsuky,Gather Victim Org Information,2022
+Malteiro,System Information Discovery,2024
+Sea Turtle,Exploitation for Client Execution,2025
+VOID MANTICORE,Remote Email Collection,2026
+Naikon,Scheduled Task,2021
+Silent Librarian,Search Victim-Owned Websites,2021
+Machete,Match Legitimate Resource Name or Location,2020
+Leafminer,Password Spraying,2018
+Dragonfly,Command and Scripting Interpreter,2021
+FIN6,Scheduled Task,2017
+Storm-0501,System Language Discovery,2025
+menuPass,Local Data Staging,2017
+FIN7,System Information Discovery,2025
+APT32,Masquerade Task or Service,2020
+Leviathan,Malicious Link,2020
+Indrik Spider,Match Legitimate Resource Name or Location,2021
+Play,SMB/Windows Admin Shares,2024
+APT19,Tool,2021
+FIN7,Command and Scripting Interpreter,2018
+APT39,OS Credential Dumping,2020
+APT28,Data from Local System,2018
+VOID MANTICORE,Disk Structure Wipe,2026
+OilRig,System Checks,2021
+Turla,Exfiltration to Cloud Storage,2019
+SideCopy,Domains,2022
+VOID MANTICORE,Disk Content Wipe,2026
+Ember Bear,Remote System Discovery,2024
+APT32,Encrypted/Encoded File,2017
+Rocke,Remote System Discovery,2020
+GCMAN,SSH,2017
+Rocke,Web Service,2020
+MirrorFace,Local Email Collection,2026
+APT38,Msiexec,2025
+Volt Typhoon,Botnet,2024
+APT32,Scheduled Task,2017
+Axiom,Data from Local System,2022
+Kimsuky,Network Sniffing,2020
+TA577,Embedded Payloads,2024
+Earth Lusca,Match Legitimate Resource Name or Location,2022
+APT41,Code Repositories,2024
+Indrik Spider,SSH,2024
+APT3,Exploitation for Client Execution,2021
+APT28,Password Guessing,2020
+Fox Kitten,Password Managers,2020
+FIN6,Protocol Tunneling,2017
+Kimsuky,Windows Service,2019
+Gamaredon Group,Scheduled Task,2020
+Lazarus Group,Standard Encoding,2018
+Molerats,Malicious Link,2020
+Ember Bear,Email Collection,2024
+Contagious Interview,Gather Victim Identity Information,2025
+Velvet Ant,Match Legitimate Resource Name or Location,2025
+TeamTNT,Upload Malware,2021
+APT3,Permission Groups Discovery,2018
+Agrius,Automated Collection,2024
+Turla,Create Process with Token,2019
+Sandworm Team,SMB/Windows Admin Shares,2021
+APT33,Exploitation for Client Execution,2019
+Ajax Security Team,Ingress Tool Transfer,2021
+Gamaredon Group,File and Directory Discovery,2020
+OilRig,Peripheral Device Discovery,2021
+HEXANE,Tool,2022
+Tonto Team,Malicious File,2021
+OilRig,Domain Account,2018
+Silence,Screen Capture,2019
+Kimsuky,Remote Desktop Protocol,2021
+Mofang,Encrypted/Encoded File,2020
+Darkhotel,Deobfuscate/Decode Files or Information,2019
+Volt Typhoon,System Network Connections Discovery,2023
+APT32,Hidden Window,2019
+APT38,Stored Data Manipulation,2019
+Sandworm Team,Exploit Public-Facing Application,2024
+Cinnamon Tempest,Valid Accounts,2023
+TeamTNT,Clear Linux or Mac System Logs,2021
+Darkhotel,Encrypted/Encoded File,2019
+FIN7,Scheduled Task,2017
+FIN7,Remote Access Tools,2023
+Dragonfly,Drive-by Compromise,2020
+Leviathan,Social Media Accounts,2021
+Storm-0501,Brute Force,2025
+Gamaredon Group,Execution Guardrails,2024
+GOLD SOUTHFIELD,External Remote Services,2020
+TA2541,Domains,2023
+Kimsuky,File and Directory Discovery,2019
+APT29,Hybrid Identity,2022
+APT41,Data Transfer Size Limits,2024
+Scattered Spider,Ingress Tool Transfer,2025
+Patchwork,Ingress Tool Transfer,2017
+FIN13,Account Discovery,2023
+FIN13,Default Accounts,2023
+APT33,Credentials from Password Stores,2020
+Scattered Spider,Protocol Tunneling,2025
+Gorgon Group,Modify Registry,2018
+TA2541,Process Hollowing,2023
+Magic Hound,System Network Configuration Discovery,2018
+Kimsuky,Obfuscated Files or Information,2020
+Lazarus Group,Protocol or Service Impersonation,2020
+Ke3chang,DNS,2020
+APT5,Exploit Public-Facing Application,2024
+SideCopy,Upload Malware,2022
+Sandworm Team,Software,2020
+MuddyWater,LSA Secrets,2020
+OilRig,Process Discovery,2018
+VOID MANTICORE,Cloud Administration Command,2026
+TA505,Software Packing,2020
+EXOTIC LILY,Upload Malware,2022
+RedCurl,Scheduled Task,2024
+UNC3886,Ignore Process Interrupts,2025
+FIN4,Web Protocols,2019
+LAPSUS$,Identify Roles,2022
+Kimsuky,Spearphishing Link,2020
+Storm-1811,Registry Run Keys / Startup Folder,2025
+Kimsuky,Phishing,2025
+Transparent Tribe,Malicious Link,2021
+APT32,Local Account,2020
+Wizard Spider,Process Injection,2023
+APT41,Proxy,2019
+Wizard Spider,Lateral Tool Transfer,2020
+APT3,Data from Local System,2018
+Wizard Spider,BITS Jobs,2023
+Storm-0501,Vulnerabilities,2025
+Mustang Panda,Spearphishing Link,2021
+OilRig,Scheduled Task,2018
+BlackByte,Virtual Private Server,2024
+DarkVishnya,Brute Force,2020
+Storm-0501,Digital Certificates,2025
+Rancor,Ingress Tool Transfer,2018
+Chimera,Password Spraying,2021
+APT38,Windows Service,2021
+Dragonfly,NTDS,2021
+APT18,File and Directory Discovery,2019
+Nomadic Octopus,Windows Command Shell,2021
+Silent Librarian,Spearphishing Link,2021
+Contagious Interview,Exfiltration Over C2 Channel,2025
+APT3,Hidden Window,2019
+Ke3chang,NTDS,2022
+Scattered Spider,Exfiltration to Cloud Storage,2024
+BlackByte,System Network Configuration Discovery,2024
+BlackByte,System Language Discovery,2024
+APT-C-36,Match Legitimate Resource Name or Location,2026
+APT29,External Remote Services,2021
+Kimsuky,Malware,2022
+Inception,Process Discovery,2020
+Molerats,Visual Basic,2020
+FIN5,Remote System Discovery,2018
+Winter Vivern,Automated Exfiltration,2024
+APT38,Clear Windows Event Logs,2019
+BITTER,Exploitation for Privilege Escalation,2022
+BITTER,Encrypted Channel,2022
+APT32,Registry Run Keys / Startup Folder,2019
+GALLIUM,Software Packing,2019
+Medusa Group,Domain Account,2025
+ToddyCat,Non-Application Layer Protocol,2024
+Elderwood,Software Packing,2018
+Magic Hound,Network Service Discovery,2023
+Aquatic Panda,SMB/Windows Admin Shares,2024
+Scattered Spider,Email Forwarding Rule,2025
+Inception,Software Discovery,2020
+Mustang Panda,Exfiltration Over C2 Channel,2025
+Medusa Group,Network Service Discovery,2025
+Aquatic Panda,Windows Command Shell,2022
+PittyTiger,Valid Accounts,2017
+Cinnamon Tempest,Windows Service,2023
+Wizard Spider,Backup Software Discovery,2023
+Lotus Blossom,Windows Service,2025
+Volt Typhoon,Local Groups,2023
+Chimera,System Network Connections Discovery,2021
+admin@338,Local Groups,2017
+Sandworm Team,Standard Encoding,2020
+Ember Bear,Automated Collection,2024
+APT29,Data from Local System,2023
+APT32,JavaScript,2020
+Sandworm Team,Upload Malware,2024
+MuddyWater,Scheduled Task,2020
+APT28,Email Accounts,2022
+APT19,Drive-by Compromise,2018
+OilRig,Automated Collection,2018
+BRONZE BUTLER,Malicious File,2018
+FIN13,PowerShell,2023
+Sidewinder,File and Directory Discovery,2021
+Gamaredon Group,Replication Through Removable Media,2025
+Leafminer,Tool,2021
+APT32,Spearphishing Link,2019
+Moonstone Sleet,Virtual Private Server,2024
+UNC3886,Lateral Tool Transfer,2025
+Velvet Ant,External Remote Services,2025
+Saint Bear,JavaScript,2024
+The White Company,Malicious File,2019
+APT18,At,2017
+Kimsuky,Regsvr32,2022
+Sidewinder,System Network Configuration Discovery,2021
+Lazarus Group,Internal Proxy,2022
+TA551,Spearphishing Attachment,2021
+TeamTNT,Software Packing,2021
+Earth Lusca,DLL,2022
+FIN8,Clear Windows Event Logs,2018
+SideCopy,Ingress Tool Transfer,2022
+FIN7,Match Legitimate Resource Name or Location,2021
+APT5,Additional Local or Domain Groups,2024
+APT38,Network Device Firewall,2025
+Confucius,Scheduled Task,2021
+Contagious Interview,Spearphishing via Service,2025
+APT1,Spearphishing Attachment,2020
+APT19,Command Obfuscation,2023
+Moses Staff,Exploit Public-Facing Application,2022
+Storm-1811,Tool,2025
+GALLIUM,DLL,2019
+The White Company,System Time Discovery,2019
+FIN7,Masquerade Task or Service,2017
+Daggerfly,Scheduled Task,2024
+Sidewinder,Encrypted/Encoded File,2021
+Sea Turtle,Adversary-in-the-Middle,2024
+Gamaredon Group,Fast Flux DNS,2024
+Gamaredon Group,Template Injection,2020
+EXOTIC LILY,Search Victim-Owned Websites,2022
+Cobalt Group,Regsvr32,2018
+BRONZE BUTLER,Software Discovery,2020
+Lazarus Group,External Proxy,2018
+APT3,PowerShell,2017
+APT32,Network Service Discovery,2019
+LAPSUS$,Domain Account,2022
+APT37,Peripheral Device Discovery,2019
+Star Blizzard,Spearphishing Attachment,2024
+BRONZE BUTLER,Bypass User Account Control,2018
+Scattered Spider,Permission Groups Discovery,2025
+FIN13,Scheduled Task,2023
+Tonto Team,Exploitation for Client Execution,2021
+Winter Vivern,Malicious Link,2024
+UNC3886,Unix Shell,2025
+Darkhotel,System Time Discovery,2021
+APT5,System Network Connections Discovery,2024
+Wizard Spider,Web Protocols,2020
+Higaisa,Encrypted/Encoded File,2021
+Winter Vivern,Exploit Public-Facing Application,2024
+Gorgon Group,Ingress Tool Transfer,2018
+APT38,Data Destruction,2019
+APT5,Indicator Removal,2024
+PROMETHIUM,Masquerade Task or Service,2020
+LAPSUS$,Delete Cloud Instance,2022
+Velvet Ant,Exploitation for Stealth,2025
+HEXANE,Remote System Discovery,2022
+FIN6,Archive Collected Data,2017
+Kimsuky,System Service Discovery,2022
+Higaisa,Visual Basic,2021
+APT32,NTFS File Attributes,2019
+Molerats,Code Signing,2017
+MuddyWater,Mshta,2018
+APT42,Standard Encoding,2025
+Winnti Group,Domains,2022
+Ember Bear,Scheduled Task,2024
+Star Blizzard,Steal Web Session Cookie,2024
+Andariel,Malicious File,2021
+FIN10,File Deletion,2017
+CURIUM,Server,2024
+APT5,Keylogging,2024
+Sandworm Team,Business Relationships,2020
+OilRig,Code Signing Certificates,2024
+Star Blizzard,Malicious File,2024
+OilRig,Exploitation for Client Execution,2024
+APT32,System Information Discovery,2018
+APT29,Multi-Factor Authentication Request Generation,2022
+Kimsuky,Modify Registry,2020
+Sandworm Team,Malicious File,2020
+SilverTerrier,Financial Theft,2023
+APT12,DNS Calculation,2020
+Wizard Spider,Network Share Discovery,2020
+Moonstone Sleet,LSASS Memory,2024
+VOID MANTICORE,Web Protocols,2026
+APT29,Exploit Public-Facing Application,2020
+Kimsuky,PowerShell,2019
+Tropic Trooper,Encrypted/Encoded File,2019
+APT32,LSASS Memory,2019
+Kimsuky,Multi-Factor Authentication Interception,2022
+Dragonfly,Local Data Staging,2021
+Lazarus Group,System Network Configuration Discovery,2017
+Kimsuky,Upload Malware,2022
+APT28,Process Discovery,2017
+APT32,Pass the Hash,2019
+APT-C-36,Spearphishing Link,2026
+LAPSUS$,Email Addresses,2022
+Cleaver,Social Media Accounts,2020
+APT3,System Network Connections Discovery,2018
+Winter Vivern,Web Portal Capture,2024
+APT32,System Owner/User Discovery,2018
+Magic Hound,Local Email Collection,2018
+Mustang Panda,Timestomp,2025
+Daggerfly,Security Account Manager,2024
+Gorgon Group,Shortcut Modification,2018
+TA505,Credentials In Files,2019
+OilRig,Fallback Channels,2018
+APT33,Exploitation for Privilege Escalation,2019
+Storm-0501,Transfer Data to Cloud Account,2025
+Patchwork,Code Signing,2020
+Mustang Panda,Web Shell,2025
+Star Blizzard,Gather Victim Identity Information,2024
+APT3,Indicator Removal from Tools,2018
+Scattered Spider,System Network Configuration Discovery,2025
+Chimera,Remote Email Collection,2021
+Akira,Archive via Utility,2024
+Moonstone Sleet,Encrypted/Encoded File,2024
+Lazarus Group,Clear Command History,2022
+Magic Hound,Web Shell,2022
+MirrorFace,Remote System Discovery,2026
+Sidewinder,Match Legitimate Resource Name or Location,2021
+MuddyWater,Dynamic Data Exchange,2019
+UNC3886,Timestomp,2025
+Moses Staff,Malware,2022
+APT38,Web Protocols,2019
+Kimsuky,Hidden Window,2022
+Tropic Trooper,Security Software Discovery,2019
+Ke3chang,Registry Run Keys / Startup Folder,2018
+Sandworm Team,Social Media Accounts,2020
+Aquatic Panda,Malware,2022
+Lotus Blossom,System Network Configuration Discovery,2025
+FIN10,Windows Command Shell,2017
+menuPass,File and Directory Discovery,2020
+Deep Panda,Regsvr32,2017
+Threat Group-3390,Exploit Public-Facing Application,2022
+Lazarus Group,Shortcut Modification,2018
+VOID MANTICORE,Server,2026
+Threat Group-3390,At,2017
+Kimsuky,Internal Spearphishing,2022
+Cinnamon Tempest,Group Policy Modification,2023
+Contagious Interview,Malicious Library,2025
+APT3,Local Data Staging,2018
+UNC3886,Disable or Modify System Firewall,2025
+Inception,Domain Groups,2020
+Molerats,Scheduled Task,2020
+APT41,File Deletion,2019
+TeamTNT,File Deletion,2021
+TeamTNT,Container and Resource Discovery,2021
+Tonto Team,DLL,2021
+Earth Lusca,Windows Service,2022
+Higaisa,Process Discovery,2021
+INC Ransom,Match Legitimate Resource Name or Location,2024
+Lotus Blossom,Local Account,2025
+PLATINUM,LSASS Memory,2018
+Threat Group-3390,Code Signing Certificates,2023
+VOID MANTICORE,Ingress Tool Transfer,2026
+TeamTNT,Web Service,2021
+Storm-1811,Match Legitimate Resource Name or Location,2025
+Ke3chang,Data from Local System,2017
+Ember Bear,Match Legitimate Resource Name or Location,2024
+MirrorFace,Gather Victim Org Information,2026
+Turla,Command Obfuscation,2019
+Magic Hound,Malicious Link,2021
+ToddyCat,Local Storage Discovery,2024
+APT5,File Deletion,2024
+Ajax Security Team,Credentials from Web Browsers,2021
+Cobalt Group,Exploitation for Client Execution,2018
+Lazarus Group,Drive-by Compromise,2018
+Turla,Process Discovery,2017
+APT-C-36,Execution Guardrails,2026
+APT41,Spearphishing Attachment,2019
+Turla,Spearphishing Link,2018
+INC Ransom,Tool,2024
+APT18,Valid Accounts,2017
+Wizard Spider,Modify Registry,2020
+Leviathan,Web Shell,2019
+APT39,Bidirectional Communication,2020
+Cobalt Group,Scheduled Task,2018
+Chimera,PowerShell,2020
+APT38,Rundll32,2021
+Malteiro,Encrypted/Encoded File,2024
+Ember Bear,Modify Registry,2024
+TA551,Standard Encoding,2021
+APT33,Spearphishing Attachment,2020
+Contagious Interview,Written Content,2026
+Indrik Spider,Local Account,2024
+APT39,Remote Desktop Protocol,2019
+APT42,Indicator Removal,2025
+MirrorFace,System Owner/User Discovery,2026
+Volt Typhoon,Log Enumeration,2023
+Patchwork,Spearphishing Link,2023
+Chimera,DNS,2021
+MoustachedBouncer,JavaScript,2023
+APT1,Automated Collection,2019
+Whitefly,LSASS Memory,2020
+Gamaredon Group,Internal Spearphishing,2020
+Winter Vivern,Virtual Private Server,2024
+Gamaredon Group,Reflective Code Loading,2025
+Rocke,Dead Drop Resolver,2020
+Silent Librarian,Email Forwarding Rule,2021
+ZIRCONIUM,Spearphishing Link,2023
+WIRTE,Ingress Tool Transfer,2019
+FIN8,Ingress Tool Transfer,2018
+APT32,Modify Registry,2019
+Leviathan,Network Devices,2025
+APT41,Service Execution,2020
+Lazarus Group,Windows Management Instrumentation,2017
+Sea Turtle,Unix Shell,2024
+FIN13,Exploit Public-Facing Application,2023
+TeamTNT,Local Storage Discovery,2025
+APT19,Regsvr32,2018
+APT32,Tool,2021
+Higaisa,System Time Discovery,2021
+VOID MANTICORE,Archive via Utility,2026
+Akira,Account Access Removal,2024
+Moonstone Sleet,Deobfuscate/Decode Files or Information,2024
+FIN13,System Network Connections Discovery,2023
+OilRig,Windows Command Shell,2020
+Kimsuky,Dynamic-link Library Injection,2026
+TA2541,Web Services,2023
+Aquatic Panda,Dynamic Linker Hijacking,2024
+MirrorFace,SMB/Windows Admin Shares,2026
+APT19,Registry Run Keys / Startup Folder,2018
+Windshift,Visual Basic,2021
+MirrorFace,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,2026
+APT37,Native API,2018
+Gamaredon Group,Proxy,2025
+OilRig,Domains,2024
+Sandworm Team,Remote System Discovery,2020
+Inception,Data from Local System,2020
+APT5,Compromise Host Software Binary,2024
+HAFNIUM,Clear Windows Event Logs,2025
+LazyScripter,Ingress Tool Transfer,2022
+Agrius,Web Shell,2024
+APT41,Disable or Modify Tools,2024
+menuPass,Remote System Discovery,2017
+FIN5,External Remote Services,2018
+BRONZE BUTLER,Symmetric Cryptography,2018
+Sandworm Team,Native API,2024
+Dragonfly,Domains,2021
+Gallmaker,PowerShell,2019
+ToddyCat,Exfiltration to Cloud Storage,2024
+Storm-0501,Exploit Public-Facing Application,2025
+Darkhotel,Symmetric Cryptography,2021
+FIN8,Malicious File,2018
+Confucius,File and Directory Discovery,2021
+APT29,Cloud Account,2022
+PROMETHIUM,Local Accounts,2020
+PROMETHIUM,Code Signing Certificates,2020
+Magic Hound,Domain Trust Discovery,2023
+RedCurl,Match Legitimate Resource Name or Location,2024
+APT-C-36,Masquerade Task or Service,2020
+Ember Bear,Malware,2024
+FIN6,Spearphishing Attachment,2020
+Cobalt Group,Bypass User Account Control,2018
+TA505,Fast Flux DNS,2020
+Ajax Security Team,Keylogging,2021
+Chimera,Network Share Discovery,2021
+UNC3886,Prevent Command History Logging,2025
+Suckfly,Windows Command Shell,2017
+APT3,Additional Local or Domain Groups,2018
+MuddyWater,JavaScript,2021
+BlackTech,Exploitation for Client Execution,2020
+GALLIUM,PowerShell,2019
+Lotus Blossom,Local Data Staging,2025
+Storm-0501,Private Keys,2025
+Turla,Local Groups,2020
+Wizard Spider,Kerberoasting,2020
+Transparent Tribe,Dynamic Resolution,2021
+Confucius,Spearphishing Attachment,2021
+Volt Typhoon,Credentials from Password Stores,2023
+TeamTNT,Local Account,2021
+BRONZE BUTLER,System Service Discovery,2020
+Earth Lusca,System Owner/User Discovery,2022
+FIN13,Tool,2023
+Tropic Trooper,Deobfuscate/Decode Files or Information,2019
+Magic Hound,Rundll32,2022
+APT28,Password Spraying,2020
+APT18,Registry Run Keys / Startup Folder,2019
+Gamaredon Group,Non-Application Layer Protocol,2025
+APT41,Obfuscated Files or Information,2020
+FIN13,System Information Discovery,2023
+APT38,Software Packing,2019
+APT41,Security Account Manager,2024
+OilRig,Credentials from Web Browsers,2020
+menuPass,Automated Collection,2020
+TA505,Modify Registry,2022
+Sandworm Team,Web Shell,2021
+APT18,External Remote Services,2017
+Wizard Spider,Tool,2021
+Lazarus Group,Masquerade Task or Service,2022
+Velvet Ant,Process Injection,2025
+Silence,Compiled HTML File,2019
+Mofang,Malicious Link,2020
+Magic Hound,File Deletion,2018
+Metador,Windows Management Instrumentation Event Subscription,2023
+Velvet Ant,SMB/Windows Admin Shares,2025
+APT30,Malicious File,2020
+Windigo,Data from Local System,2021
+Lotus Blossom,Tool,2025
+Thrip,Exfiltration Over Unencrypted Non-C2 Protocol,2018
+APT28,Dynamic Data Exchange,2018
+Magic Hound,Non-Standard Port,2020
+Lazarus Group,Remote Desktop Protocol,2017
+Tropic Trooper,System Information Discovery,2020
+Contagious Interview,Registry Run Keys / Startup Folder,2025
+APT41,Masquerade Task or Service,2021
+Equation,Environmental Keying,2019
+Aquatic Panda,Match Legitimate Resource Name or Location,2024
+TeamTNT,SSH,2021
+FIN13,Modify Authentication Process,2023
+BlackTech,Spearphishing Attachment,2020
+Dragonfly,Query Registry,2021
+UNC3886,Compromise Host Software Binary,2025
+OilRig,SSH,2018
+TA2541,Malware,2023
+Agrius,Exfiltration Over C2 Channel,2024
+APT28,Archive via Utility,2021
+TA505,Dynamic-link Library Injection,2020
+Tonto Team,Keylogging,2021
+WIRTE,Native API,2026
+Lazarus Group,Fallback Channels,2017
+Dragonfly,Remote Desktop Protocol,2021
+Fox Kitten,Data from Cloud Storage,2020
+APT28,Data from Removable Media,2017
+APT39,Archive via Utility,2019
+RedCurl,System Information Discovery,2024
+Contagious Interview,Non-Standard Port,2025
+VOID MANTICORE,Phishing,2026
+Magic Hound,Masquerade Task or Service,2023
+Threat Group-3390,Software Packing,2022
+HEXANE,Identify Roles,2022
+Storm-0501,Password Managers,2025
+Contagious Interview,Windows Command Shell,2025
+INC Ransom,Valid Accounts,2024
+Cleaver,Tool,2021
+Cinnamon Tempest,Deobfuscate/Decode Files or Information,2023
+Wizard Spider,Rundll32,2023
+FIN7,Remote Desktop Protocol,2021
+ZIRCONIUM,Web Services,2021
+Scattered Spider,Data Staged,2024
+Moonstone Sleet,Ingress Tool Transfer,2024
+Dragonfly,Password Cracking,2021
+ZIRCONIUM,Hide Infrastructure,2025
+APT3,Obfuscated Files or Information,2018
+Earth Lusca,Modify Registry,2022
+Silence,Ingress Tool Transfer,2020
+Earth Lusca,Remote System Discovery,2022
+Gamaredon Group,Data from Removable Media,2017
+FIN4,GUI Input Capture,2019
+Sidewinder,Exploitation for Client Execution,2021
+Tropic Trooper,Registry Run Keys / Startup Folder,2020
+Ke3chang,External Remote Services,2018
+Axiom,Virtual Private Server,2022
+FIN7,SSH,2021
+Ke3chang,System Network Configuration Discovery,2017
+Storm-1811,Lateral Tool Transfer,2025
+APT1,LSASS Memory,2017
+HAFNIUM,IP Addresses,2021
+Patchwork,Bypass User Account Control,2017
+LAPSUS$,Confluence,2022
+Turla,Deobfuscate/Decode Files or Information,2019
+Aoqin Dragon,Masquerading,2022
+BlackTech,Tool,2022
+Agrius,Exploit Public-Facing Application,2024
+TeamTNT,Masquerading,2022
+APT28,Remote Data Staging,2021
+Higaisa,Binary Padding,2021
+APT29,Internet Connection Discovery,2023
+Lotus Blossom,Domain Account,2025
+Mustang Panda,Mshta,2021
+Leviathan,OS Credential Dumping,2019
+Scattered Spider,Data Encrypted for Impact,2024
+Patchwork,File Deletion,2018
+Aquatic Panda,PowerShell,2022
+Akira,Match Legitimate Resource Name or Location,2024
+Ke3chang,Windows Command Shell,2018
+HEXANE,Credentials from Web Browsers,2022
+Kimsuky,Web Protocols,2022
+ToddyCat,PowerShell,2024
+Ke3chang,Exfiltration Over C2 Channel,2017
+FIN8,Exploitation for Privilege Escalation,2018
+Earth Lusca,Vulnerability Scanning,2022
+Magic Hound,Remote Email Collection,2022
+Storm-0501,Exfiltration to Cloud Storage,2025
+Putter Panda,Dynamic-link Library Injection,2017
+Transparent Tribe,Visual Basic,2021
+Fox Kitten,Query Registry,2020
+Wizard Spider,Malicious Link,2020
+Turla,Virtual Private Server,2020
+Cobalt Group,Process Injection,2018
+RedEcho,Dynamic Resolution,2024
+ZIRCONIUM,Msiexec,2021
+VOID MANTICORE,Account Manipulation,2026
+APT41,Code Signing,2019
+FIN13,Registry Run Keys / Startup Folder,2023
+Cobalt Group,Exploitation for Privilege Escalation,2018
+Medusa Group,Network Share Discovery,2025
+Sandworm Team,Email Account,2020
+Storm-0501,Process Discovery,2025
+Mustang Panda,Tool,2025
+Leviathan,Registry Run Keys / Startup Folder,2018
+APT28,Exploit Public-Facing Application,2020
+Star Blizzard,Web Session Cookie,2024
+BRONZE BUTLER,DLL,2020
+Gorgon Group,Disable or Modify Tools,2018
+APT29,File Deletion,2017
+Fox Kitten,Match Legitimate Resource Name or Location,2020
+CopyKittens,Hidden Window,2019
+Leviathan,External Remote Services,2021
+Cobalt Group,CMSTP,2018
+HEXANE,System Network Configuration Discovery,2022
+LuminousMoth,System Owner/User Discovery,2023
+APT39,Input Capture,2020
+APT42,Modify Registry,2025
+APT29,Tool,2021
+Contagious Interview,Encrypted/Encoded File,2025
+Volt Typhoon,Clear Network Connection History and Configurations,2023
+TeamTNT,Windows Command Shell,2021
+Sandworm Team,Data Encrypted for Impact,2023
+HAFNIUM,Exploit Public-Facing Application,2021
+LAPSUS$,Cloud Account,2022
+Storm-0501,Data Encrypted for Impact,2025
+Chimera,System Time Discovery,2021
+EXOTIC LILY,Social Media,2022
+Confucius,Exfiltration to Cloud Storage,2022
+FIN7,Identify Roles,2025
+TA2541,Asymmetric Cryptography,2023
+APT39,PowerShell,2020
+Moses Staff,Web Shell,2022
+Confucius,Ingress Tool Transfer,2021
+APT28,File Deletion,2017
+APT38,Compiled HTML File,2022
+APT41,Clear Windows Event Logs,2019
+ZIRCONIUM,Exfiltration Over C2 Channel,2021
+Salt Typhoon,Malware,2025
+MirrorFace,Windows Command Shell,2026
+TeamTNT,System Information Discovery,2021
+Contagious Interview,Email Accounts,2025
+APT32,Drive-by Target,2021
+Poseidon Group,Match Legitimate Resource Name or Location,2017
+LazyScripter,Registry Run Keys / Startup Folder,2021
+Magic Hound,Remote System Discovery,2023
+Ember Bear,Lateral Tool Transfer,2024
+Mustang Panda,Web Service,2022
+Lazarus Group,Malicious File,2018
+Gorgon Group,PowerShell,2018
+INC Ransom,Service Execution,2024
+Storm-1811,Masquerade Account Name,2025
+GOLD SOUTHFIELD,Exploit Public-Facing Application,2020
+Fox Kitten,Data from Network Shared Drive,2020
+Lazarus Group,Data Destruction,2019
+Aquatic Panda,Clear Command History,2024
+Mustang Panda,Local Data Staging,2021
+Lazarus Group,Reflective Code Loading,2022
+Naikon,Match Legitimate Resource Name or Location,2021
+Silence,Video Capture,2019
+APT39,File and Directory Discovery,2020
+Scattered Spider,Browser Information Discovery,2024
+Moses Staff,System Information Discovery,2022
+RedCurl,Credentials from Web Browsers,2024
+FIN8,Remote System Discovery,2018
+FIN4,Malicious Link,2020
+Scattered Spider,Social Media Accounts,2025
+ToddyCat,Hidden Window,2024
+APT3,Credentials from Web Browsers,2020
+Threat Group-3390,Windows Management Instrumentation,2018
+VOID MANTICORE,Exfiltration Over C2 Channel,2026
+Contagious Interview,Proxy,2025
+Wizard Spider,Command Obfuscation,2020
+HAFNIUM,Code Repositories,2025
+Cobalt Group,DNS,2020
+Winter Vivern,Command and Scripting Interpreter,2024
+OilRig,Compiled HTML File,2018
+Daggerfly,Code Signing,2024
+Sandworm Team,Service Stop,2024
+Lazarus Group,System Network Connections Discovery,2022
+Ke3chang,Match Legitimate Resource Name or Location,2022
+Magic Hound,System Owner/User Discovery,2018
+FIN13,Additional Local or Domain Groups,2023
+Mustang Panda,IDE Extensions,2025
+Lazarus Group,File and Directory Discovery,2017
+APT38,Mark-of-the-Web Bypass,2025
+Gorgon Group,Tool,2021
+Kimsuky,Employee Names,2022
+APT1,Malware,2020
+WIRTE,DLL,2026
+APT41,Data Encrypted for Impact,2019
+APT28,Network Devices,2024
+LazyScripter,DNS,2021
+Mustang Panda,Remote Desktop Software,2021
+Poseidon Group,OS Credential Dumping,2017
+ToddyCat,Remote Data Staging,2024
+Strider,Hidden File System,2020
+Putter Panda,Registry Run Keys / Startup Folder,2017
+APT41,Scan Databases,2024
+Tropic Trooper,Ingress Tool Transfer,2020
+Chimera,Data from Network Shared Drive,2021
+Patchwork,Dynamic Data Exchange,2018
+Chimera,Remote Data Staging,2021
+HEXANE,Bidirectional Communication,2022
+GOLD SOUTHFIELD,Remote Access Tools,2020
+Threat Group-3390,Exfiltration to Cloud Storage,2022
+Volatile Cedar,Ingress Tool Transfer,2021
+FIN10,Tool,2021
+Sea Turtle,Phishing,2024
+Tropic Trooper,Replication Through Removable Media,2020
+Agrius,Remote Desktop Protocol,2024
+APT33,Spearphishing Link,2018
+HEXANE,Domains,2022
+Daggerfly,Compromise Software Supply Chain,2024
+Carbanak,Rundll32,2017
+WIRTE,PowerShell,2019
+LuminousMoth,ARP Cache Poisoning,2023
+APT29,Local Accounts,2024
+Winnti Group,Rootkit,2017
+Mustang Panda,Visual Basic,2021
+Volt Typhoon,Exploitation for Privilege Escalation,2024
+APT28,Malicious File,2018
+Sandworm Team,Ingress Tool Transfer,2020
+Lazarus Group,Non-Standard Port,2020
+Lazarus Group,Exfiltration Over C2 Channel,2017
+Turla,Native API,2019
+Saint Bear,Exploitation for Client Execution,2024
+FIN7,Spearphishing Link,2021
+Sandworm Team,Tool,2020
+APT28,Match Legitimate Resource Name or Location,2021
+TeamTNT,System Network Configuration Discovery,2021
+MuddyWater,Web Protocols,2020
+Mustang Panda,Scheduled Task,2021
+ToddyCat,Data from Local System,2024
+CURIUM,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,2024
+OilRig,Domain Accounts,2024
+BlackByte,Disable or Modify System Firewall,2024
+Fox Kitten,Remote System Discovery,2020
+Ferocious Kitten,Tool,2021
+Ember Bear,Exploitation of Remote Services,2024
+APT42,Impersonation,2025
+Sidewinder,Local Data Staging,2021
+Contagious Interview,Impersonation,2025
+Threat Group-3390,Encrypted/Encoded File,2018
+Fox Kitten,Valid Accounts,2020
+TA577,Spearphishing Link,2024
+Stealth Falcon,Command and Scripting Interpreter,2017
+APT28,Sharepoint,2018
+FIN13,Masquerade Task or Service,2023
+Leviathan,One-Way Communication,2018
+Confucius,Local Storage Discovery,2021
+Turla,PowerShell,2018
+Winter Vivern,Web Protocols,2024
+FIN13,Ingress Tool Transfer,2023
+APT42,Web Protocols,2025
+Medusa Group,NTDS,2025
+Threat Group-3390,Modify Registry,2018
+Higaisa,Exfiltration Over C2 Channel,2021
+APT28,Clear Windows Event Logs,2017
+Agrius,Archive via Utility,2024
+Ember Bear,Data from Local System,2024
+OilRig,Domain Groups,2020
+APT18,Ingress Tool Transfer,2019
+LAPSUS$,Domain Groups,2022
+ZIRCONIUM,Exfiltration to Cloud Storage,2021
+Fox Kitten,Establish Accounts,2021
+Chimera,Automated Collection,2021
+Storm-0501,Additional Cloud Roles,2025
+Confucius,Web Services,2022
+APT19,System Owner/User Discovery,2018
+APT28,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,2021
+CURIUM,Virtual Private Server,2024
+Contagious Interview,Tool,2025
+Windshift,Malicious File,2020
+APT28,Keylogging,2017
+Tropic Trooper,System Network Configuration Discovery,2020
+TeamTNT,SSH Authorized Keys,2021
+Storm-0501,PowerShell,2025
+OilRig,Exploitation for Privilege Escalation,2024
+ZIRCONIUM,System Network Configuration Discovery,2021
+Patchwork,Local Storage Discovery,2025
+Lazarus Group,Domains,2021
+BackdoorDiplomacy,Network Service Discovery,2021
+Cobalt Group,Spearphishing Link,2018
+TeamTNT,Malicious Image,2021
+Volt Typhoon,Remote Desktop Protocol,2024
+ToddyCat,Exploit Public-Facing Application,2024
+MuddyWater,Non-Standard Port,2026
+APT32,Exfiltration Over Unencrypted Non-C2 Protocol,2020
+BackdoorDiplomacy,Tool,2021
+Magic Hound,Windows Host Firewall,2022
+INC Ransom,Windows Management Instrumentation,2024
+Ember Bear,Archive Collected Data,2024
+PittyTiger,Tool,2021
+Wizard Spider,Group Policy Preferences,2023
+FIN7,Visual Basic,2020
+LuminousMoth,Malware,2023
+Indrik Spider,Windows Command Shell,2021
+CURIUM,Data from Local System,2023
+Scattered Spider,Gather Victim Identity Information,2025
+Water Galura,Data Encrypted for Impact,2025
+HEXANE,Upload Malware,2022
+Earth Lusca,System Network Configuration Discovery,2022
+Sandworm Team,Exploitation for Client Execution,2020
+Magic Hound,Application Layer Protocol,2020
+Putter Panda,Disable or Modify Tools,2017
+Akira,Valid Accounts,2024
+Inception,Regsvr32,2020
+Chimera,Network Service Discovery,2021
+Play,Disable or Modify Tools,2024
+APT29,Domain Fronting,2018
+MuddyWater,Impersonation,2026
+Kimsuky,Acquire Infrastructure,2024
+APT39,Visual Basic,2020
+Ajax Security Team,Malicious File,2021
+Cobalt Group,Remote Access Tools,2018
+FIN5,Command and Scripting Interpreter,2018
+Wizard Spider,NTDS,2020
+Fox Kitten,Scheduled Task,2020
+Leviathan,Windows Management Instrumentation,2018
+VOID MANTICORE,Vulnerability Scanning,2026
+APT38,File Deletion,2019
+Patchwork,Tool,2021
+Ke3chang,Valid Accounts,2022
+Play,System Information Discovery,2024
+Storm-0501,System Information Discovery,2025
+Moonstone Sleet,Develop Capabilities,2024
+Lazarus Group,Process Discovery,2017
+MirrorFace,Disable or Modify Tools,2026
+Silence,LSASS Memory,2020
+Stealth Falcon,Windows Management Instrumentation,2017
+MirrorFace,Code Signing,2026
+CURIUM,System Time Discovery,2024
+PROMETHIUM,Port Knocking,2020
+APT42,Asymmetric Cryptography,2025
+Silent Librarian,Email Addresses,2021
+APT28,PowerShell,2018
+Volt Typhoon,Domain Account,2023
+APT28,Malicious Link,2021
+Windshift,Obfuscated Files or Information,2021
+Chimera,SMB/Windows Admin Shares,2020
+Andariel,Software,2021
+APT39,Web Shell,2019
+Wizard Spider,Valid Accounts,2020
+Sandworm Team,File and Directory Discovery,2020
+menuPass,Malicious File,2018
+LuminousMoth,File and Directory Discovery,2023
+Rancor,Spearphishing Attachment,2018
+APT3,DLL,2018
+Lazarus Group,Archive via Library,2017
+Ke3chang,Domain Account,2017
+APT-C-36,Windows Management Instrumentation,2026
+APT28,Windows Command Shell,2018
+Chimera,Scheduled Task,2020
+UNC3886,Traffic Signaling,2025
+APT28,Remote Email Collection,2018
+HEXANE,PowerShell,2022
+TA505,Ingress Tool Transfer,2019
+Storm-1811,PowerShell,2025
+Mustang Panda,Ingress Tool Transfer,2021
+Wizard Spider,Spearphishing Attachment,2020
+MoustachedBouncer,Software Packing,2023
+Ke3chang,Archive Collected Data,2017
+Evilnum,Bypass User Account Control,2021
+Contagious Interview,Develop Capabilities,2025
+Kimsuky,Scheduled Task,2022
+Chimera,Match Legitimate Resource Name or Location,2020
+Dragonfly,File Deletion,2021
+MuddyWater,Remote Desktop Software,2026
+HAFNIUM,System Network Configuration Discovery,2023
+OilRig,Protocol Tunneling,2020
+Confucius,Malicious Link,2021
+Aquatic Panda,Tool,2022
+Rocke,Clear Linux or Mac System Logs,2020
+Medusa Group,Remote System Discovery,2025
+Whitefly,Command and Scripting Interpreter,2020
+TA551,Web Protocols,2021
+Mustang Panda,Registry Run Keys / Startup Folder,2021
+APT3,Local Account,2017
+Medusa Group,Component Object Model,2025
+LAPSUS$,Cloud Accounts,2022
+Leviathan,Exploitation for Client Execution,2018
+Scattered Spider,NTDS,2024
+FIN13,Hidden Files and Directories,2023
+APT38,Prevent Command History Logging,2021
+Winter Vivern,Drive-by Compromise,2024
+Indrik Spider,Windows Management Instrumentation,2021
+Leafminer,Credentials from Password Stores,2020
+Gamaredon Group,Data Obfuscation,2024
+APT39,Deobfuscate/Decode Files or Information,2021
+APT41,Local Account,2024
+Dark Caracal,Windows Command Shell,2018
+Akira,Data Encrypted for Impact,2024
+APT-C-36,PowerShell,2026
+Mustang Panda,Spearphishing Attachment,2021
+Aoqin Dragon,Tool,2022
+APT28,External Proxy,2017
+Tropic Trooper,Windows Service,2019
+Silence,Windows Command Shell,2019
+Volatile Cedar,Vulnerability Scanning,2021
+APT42,Multi-Factor Authentication Interception,2025
+Tropic Trooper,Exploitation for Client Execution,2019
+ToddyCat,Security Software Discovery,2024
+APT33,Non-Standard Port,2020
+APT32,Lateral Tool Transfer,2020
+FIN6,Credentials from Password Stores,2020
+FIN5,File Deletion,2018
+Earth Lusca,PowerShell,2022
+Ke3chang,Obfuscated Files or Information,2022
+Volt Typhoon,Clear Windows Event Logs,2024
+TA551,Email Addresses,2021
+Indrik Spider,Local Data Staging,2021
+Stealth Falcon,Symmetric Cryptography,2017
+APT38,Web Shell,2021
+Deep Panda,Indicator Removal from Tools,2017
+Indrik Spider,Remote System Discovery,2021
+Silence,Registry Run Keys / Startup Folder,2020
+LuminousMoth,Data Transfer Size Limits,2023
+APT42,Spearphishing Link,2025
+MuddyWater,Domain Account,2021
+Moonstone Sleet,Domains,2024
+Leviathan,BITS Jobs,2018
+Chimera,Multi-Factor Authentication Interception,2021
+Sandworm Team,Domains,2020
+MuddyWater,Rundll32,2019
+Gamaredon Group,Deobfuscate/Decode Files or Information,2020
+TeamTNT,Deploy Container,2021
+BlackByte,Modify Registry,2024
+Gamaredon Group,Web Services,2025
+Leviathan,Exfiltration Over C2 Channel,2021
+FIN7,Video Capture,2018
+Ferocious Kitten,Spearphishing Attachment,2021
+TA551,Windows Command Shell,2021
+Turla,Web Service,2020
+Whitefly,Ingress Tool Transfer,2020
+Fox Kitten,Credentials In Files,2020
+Gamaredon Group,Obfuscated Files or Information,2020
+APT32,Local Accounts,2017
+Whitefly,Malicious File,2020
+Sandworm Team,Remote Access Tools,2020
+Dragonfly,Remote Email Collection,2021
+Turla,Malicious Link,2018
+INC Ransom,Remote Access Tools,2024
+Turla,System Information Discovery,2017
+Gamaredon Group,Non-Standard Port,2025
+Machete,Scheduled Task,2020
+MuddyWater,System Owner/User Discovery,2019
+APT1,Domains,2020
+Dragonfly,Web Shell,2021
+Saint Bear,Software Packing,2024
+Winter Vivern,Domains,2024
+Play,Clear Windows Event Logs,2024
+ToddyCat,Process Discovery,2024
+Storm-0501,Scheduled Task,2025
+Scattered Spider,Additional Cloud Roles,2024
+VOID MANTICORE,Financial Theft,2026
+APT28,Evil Twin,2024
+BITTER,Scheduled Task,2022
+APT28,Artificial Intelligence,2026
+FIN6,Remote Desktop Protocol,2017
+EXOTIC LILY,Email Addresses,2022
+Scattered Spider,Code Signing,2023
+Salt Typhoon,SSH,2025
+FIN13,Windows Management Instrumentation,2023
+Storm-0501,DCSync,2025
+Mustang Panda,File and Directory Discovery,2021
+Magic Hound,Windows Command Shell,2018
+Leviathan,Valid Accounts,2021
+Sidewinder,Automated Collection,2021
+Kimsuky,Email Accounts,2020
+Magic Hound,Modify Registry,2022
+APT-C-36,Dynamic Resolution,2026
+FIN7,Gather Victim Org Information,2025
+Naikon,System Network Configuration Discovery,2017
+Gamaredon Group,Compression,2025
+Deep Panda,Web Shell,2017
+Kimsuky,Develop Capabilities,2020
+APT32,Email Addresses,2021
+APT28,Impersonation,2026
+INC Ransom,Network Service Discovery,2024
+Mustang Panda,Junk Code Insertion,2021
+VOID MANTICORE,Windows Management Instrumentation,2026
+APT-C-36,Encrypted/Encoded File,2026
+APT3,System Network Configuration Discovery,2017
+WIRTE,Malicious Link,2026
+Medusa Group,Tool,2025
+Contagious Interview,Disable or Modify Tools,2025
+OilRig,Indicator Removal from Tools,2017
+APT-C-36,Steganography,2026
+Whitefly,Tool,2021
+APT28,Hidden Window,2019
+FIN6,Malicious File,2020
+Earth Lusca,Process Discovery,2022
+Sandworm Team,Data Destruction,2020
+OilRig,Query Registry,2018
+Sidewinder,Ingress Tool Transfer,2021
+APT29,Encrypted Channel,2022
+VOID MANTICORE,Tool,2026
+MuddyWater,Network Topology,2026
+Patchwork,Indicator Removal from Tools,2018
+Lazarus Group,Archive via Custom Method,2020
+Stealth Falcon,Query Registry,2017
+BlackByte,File Deletion,2024
+Leviathan,Remote Data Staging,2021
+APT28,Data from Network Shared Drive,2021
+Sea Turtle,Acquire Infrastructure,2024
+APT1,Network Share Discovery,2019
+APT-C-36,Spearphishing Attachment,2020
+APT28,Masquerading,2021
+OilRig,Masquerading,2021
+Rocke,Python,2020
+Ember Bear,Exploit Public-Facing Application,2024
+APT29,Registry Run Keys / Startup Folder,2017
+CURIUM,Social Media Accounts,2023
+Mustang Panda,Automated Collection,2021
+Silent Librarian,Digital Certificates,2021
+ZIRCONIUM,Query Registry,2021
+APT41,Unix Shell,2020
+Magic Hound,Wi-Fi Discovery,2023
+APT42,Windows Management Instrumentation,2025
+Indrik Spider,JavaScript,2021
+Ke3chang,System Owner/User Discovery,2022
+Lazarus Group,Encrypted/Encoded File,2017
+FIN8,Asynchronous Procedure Call,2021
+TeamTNT,Disable or Modify Tools,2021
+TA505,Spearphishing Attachment,2019
+HAFNIUM,Hidden Files and Directories,2023
+Medusa Group,Disable or Modify System Firewall,2025
+Silence,Match Legitimate Resource Name or Location,2020
+BITTER,Masquerade Task or Service,2022
+MirrorFace,Encrypted/Encoded File,2026
+BlackTech,Malicious Link,2020
+APT1,System Network Connections Discovery,2019
+APT5,Process Discovery,2024
+MuddyWater,Bypass User Account Control,2019
+MuddyWater,Bidirectional Communication,2021
+Ke3chang,Automated Exfiltration,2022
+INC Ransom,Exploit Public-Facing Application,2024
+Storm-1811,Spearphishing via Service,2025
+Sidewinder,Spearphishing Link,2021
+Sea Turtle,Digital Certificates,2024
+APT32,Clear Windows Event Logs,2018
+APT41,Bootkit,2019
+Scattered Spider,Cloud Accounts,2025
+Earth Lusca,Windows Management Instrumentation,2022
+Lotus Blossom,Network Service Discovery,2025
+HEXANE,Gather Victim Identity Information,2022
+APT42,Domains,2025
+Putter Panda,Encrypted/Encoded File,2017
+Tropic Trooper,Software Discovery,2020
+APT5,Cloud Accounts,2024
+DarkVishnya,Network Share Discovery,2020
+Moses Staff,Code Signing,2022
+Kimsuky,Exfiltration Over C2 Channel,2019
+Medusa Group,Software Packing,2025
+Star Blizzard,Search Open Websites/Domains,2024
+LAPSUS$,Account Access Removal,2022
+APT37,Registry Run Keys / Startup Folder,2018
+Magic Hound,Clear Command History,2022
+APT-C-36,Impersonation,2026
+Volt Typhoon,System Service Discovery,2024
+TeamTNT,Application Layer Protocol,2021
+Velvet Ant,File and Directory Discovery,2025
+Silence,Tool,2021
+Patchwork,Command Obfuscation,2018
+Earth Lusca,Malware,2022
+Chimera,Local Account,2021
+APT32,Malicious File,2018
+Rocke,Match Legitimate Resource Name or Location,2020
+Play,Financial Theft,2024
+APT39,Local Account,2020
+Kimsuky,Dynamic API Resolution,2026
+Moonstone Sleet,Data Encrypted for Impact,2024
+Axiom,Subvert Trust Controls,2022
+Chimera,Timestomp,2021
+LazyScripter,Visual Basic,2021
+Winter Vivern,PowerShell,2024
+RedCurl,Spearphishing Attachment,2024
+Higaisa,Scheduled Task,2021
+SideCopy,Software Discovery,2022
+Rocke,Linux and Mac Permissions,2020
+Storm-0501,Additional Cloud Credentials,2025
+TA578,Malicious Link,2024
+Earth Lusca,Steganography,2022
+Sandworm Team,Search Open Websites/Domains,2020
+APT38,Scheduled Task,2021
+Ajax Security Team,Spearphishing via Service,2021
+LAPSUS$,Spearphishing Voice,2023
+Machete,Drive-by Compromise,2021
+MuddyWater,Multi-Stage Channels,2019
+Silence,Non-Standard Port,2020
+APT38,Data Encrypted for Impact,2019
+Sandworm Team,Acquire Infrastructure,2024
+APT39,AppInit DLLs,2021
+GALLIUM,System Network Connections Discovery,2019
+APT37,System Information Discovery,2018
+Indrik Spider,Domain Accounts,2021
+Moonstone Sleet,Malicious File,2024
+MirrorFace,NTDS,2026
+Volt Typhoon,Proxy,2023
+Threat Group-3390,Password Managers,2022
+MirrorFace,Password Filter DLL,2026
+RedEcho,Domains,2024
+Metador,Non-Application Layer Protocol,2023
+Medusa Group,File Deletion,2025
+APT1,Data from Local System,2017
+Mustang Panda,OS Credential Dumping,2025
+Aquatic Panda,SSH,2024
+Gamaredon Group,Digital Certificates,2025
+APT32,Remote System Discovery,2019
+FIN7,Code Signing,2018
+Blue Mockingbird,Modify Registry,2020
+Leviathan,Exfiltration to Cloud Storage,2020
+Darkhotel,Ingress Tool Transfer,2021
+TA551,Steganography,2021
+FIN13,Remote Desktop Protocol,2023
+APT29,Vulnerability Scanning,2021
+FIN7,Tool,2023
+TA2541,Mshta,2023
+Turla,Query Registry,2017
+Dragonfly,System Network Configuration Discovery,2021
+APT5,Web Shell,2024
+RedCurl,Hidden Files and Directories,2024
+Mustang Panda,Executable Installer File Permissions Weakness,2025
+BlackByte,Deobfuscate/Decode Files or Information,2024
+Storm-1811,DLL,2025
+Patchwork,Match Legitimate Resource Name or Location,2017
+Mustard Tempest,Upload Malware,2024
+Evilnum,Malicious Link,2021
+Lazarus Group,Windows Service,2017
+HEXANE,Password Spraying,2022
+APT29,Cloud Administration Command,2023
+Lotus Blossom,Internal Proxy,2025
+OilRig,Web Shell,2018
+Magic Hound,Encrypted/Encoded File,2018
+Indrik Spider,Malicious File,2021
+APT-C-36,Hidden Window,2026
+Blue Mockingbird,Windows Command Shell,2020
+MirrorFace,Windows Host Firewall,2026
+Daggerfly,Server,2024
+APT32,Linux and Mac Permissions,2019
+APT3,File Deletion,2018
+BlackByte,Make and Impersonate Token,2024
+Threat Group-3390,Local Account,2017
+APT28,Spearphishing Attachment,2018
+Tropic Trooper,Exfiltration over USB,2020
+APT38,Disable or Modify System Firewall,2021
+Sandworm Team,System Network Connections Discovery,2020
+APT32,File and Directory Discovery,2019
+LAPSUS$,Password Managers,2023
+FIN5,Local Data Staging,2018
+PROMETHIUM,Code Signing,2020
+Kimsuky,Remote Desktop Software,2019
+Higaisa,Web Protocols,2021
+PLATINUM,Credential API Hooking,2018
+Volt Typhoon,Unsecured Credentials,2024
+Gamaredon Group,Malicious Link,2024
+Darkhotel,Drive-by Compromise,2019
+OilRig,Password Policy Discovery,2018
+Gamaredon Group,Mshta,2022
+APT38,Security Software Discovery,2021
+GALLIUM,Exfiltration Over C2 Channel,2019
+Inception,Multi-hop Proxy,2020
+Daggerfly,DLL,2024
+FIN13,Web Protocols,2023
+BRONZE BUTLER,Spearphishing Attachment,2018
+RedCurl,Visual Basic,2024
+UNC3886,System Time Discovery,2025
+BlackByte,Windows Command Shell,2024
+Daggerfly,Rename Legitimate Utilities,2024
+APT38,Process Discovery,2019
+APT42,Keylogging,2025
+VOID MANTICORE,Compression,2026
+APT5,Windows Command Shell,2024
+Wizard Spider,Disable or Modify Tools,2020
+Magic Hound,Keylogging,2018
+UNC3886,File Deletion,2025
+BlackByte,Security Software Discovery,2024
+APT32,Web Protocols,2018
+RedCurl,File Deletion,2024
+Contagious Interview,XDG Autostart Entries,2025
+APT42,Clear Mailbox Data,2025
+Sandworm Team,File Deletion,2020
+Blue Mockingbird,Windows Management Instrumentation,2020
+FIN8,Code Signing Certificates,2023
+Mustang Panda,LSASS Memory,2025
+Magic Hound,Gather Victim Identity Information,2021
+Kimsuky,JavaScript,2020
+Gamaredon Group,Disk Content Wipe,2022
+BlackByte,Lateral Tool Transfer,2024
+APT1,Tool,2021
+EXOTIC LILY,Domains,2022
+BRONZE BUTLER,Web Protocols,2018
+APT29,Pass the Ticket,2017
+Scattered Spider,Private Keys,2024
+Scattered Spider,Clear Mailbox Data,2025
+ZIRCONIUM,Malicious Link,2021
+WIRTE,Command Obfuscation,2026
+LuminousMoth,Replication Through Removable Media,2023
+Blue Mockingbird,LSASS Memory,2020
+Dark Caracal,Encrypted/Encoded File,2018
+Inception,Registry Run Keys / Startup Folder,2020
+OilRig,Windows Service,2024
+Kimsuky,Adversary-in-the-Middle,2020
+Fox Kitten,Data from Local System,2020
+TA2541,Visual Basic,2023
+RedCurl,Taint Shared Content,2024
+Rocke,Obfuscated Files or Information,2020
+Sandworm Team,Web Protocols,2020
+Cinnamon Tempest,Exploit Public-Facing Application,2023
+Moonstone Sleet,Obfuscated Files or Information,2024
+APT28,Vulnerability Scanning,2021
+Metador,Encrypted/Encoded File,2023
+APT38,PowerShell,2021
+Tonto Team,PowerShell,2021
+BRONZE BUTLER,Masquerading,2020
+Gamaredon Group,Internet Connection Discovery,2022
+Aquatic Panda,Windows Management Instrumentation,2024
+Scattered Spider,Cloud Services,2024
+APT41,Dead Drop Resolver,2019
+Metador,Windows Command Shell,2023
+Kimsuky,Query Registry,2022
+Scattered Spider,Remote Desktop Software,2024
+Turla,Indicator Removal from Tools,2018
+Earth Lusca,Exploitation of Remote Services,2022
+EXOTIC LILY,Spearphishing Attachment,2022
+Sandworm Team,Compromise Software Supply Chain,2020
+Sandworm Team,Domain Account,2020
+APT3,External Proxy,2018
+FIN7,Windows Service,2018
+APT41,Network Service Discovery,2019
+HAFNIUM,NTDS,2021
+APT3,Process Discovery,2018
+Medusa Group,Service Execution,2025
+Magic Hound,Match Legitimate Resource Name or Location,2022
+Molerats,JavaScript,2020
+Aquatic Panda,Archive via Utility,2022
+Whitefly,Exploitation for Privilege Escalation,2020
+BRONZE BUTLER,Deobfuscate/Decode Files or Information,2018
+Silence,Remote System Discovery,2020
+Magic Hound,Ingress Tool Transfer,2018
+APT41,Rootkit,2019
+APT-C-36,Non-Standard Port,2020
+Sandworm Team,Botnet,2022
+APT39,Shortcut Modification,2019
+Earth Lusca,Bypass User Account Control,2022
+Inception,File and Directory Discovery,2020
+TeamTNT,Cloud API,2023
+Rocke,SSH,2020
+Kimsuky,Mutual Exclusion,2026
+Mustang Panda,Code Signing Certificates,2025
+Leafminer,Credentials from Web Browsers,2020
+Mustang Panda,Web Protocols,2021
+BlackByte,Ingress Tool Transfer,2024
+SideCopy,Malicious File,2022
+FIN7,Deobfuscate/Decode Files or Information,2025
+APT28,Web Shell,2021
+Scattered Spider,Disable or Modify Tools,2025
+TA578,JavaScript,2024
+Gallmaker,Archive via Utility,2019
+Darkhotel,User Activity Based Checks,2021
+Moses Staff,Windows Host Firewall,2022
+VOID MANTICORE,Impersonation,2026
+Winter Vivern,Automated Collection,2024
+Storm-0501,Cloud API,2025
+Volt Typhoon,Email Addresses,2024
+FIN7,Local Accounts,2023
+Inception,Template Injection,2020
+Ember Bear,OS Credential Dumping,2024
+Mustang Panda,Traffic Signaling,2025
+Leafminer,Remote System Discovery,2018
+Kimsuky,Exploits,2022
+Sandworm Team,Network Sniffing,2020
+FIN6,Command and Scripting Interpreter,2017
+Leviathan,Dynamic Data Exchange,2021
+Medusa Group,Remote Access Tools,2025
+FIN6,Databases,2020
+HEXANE,Internet Connection Discovery,2022
+ZIRCONIUM,System Owner/User Discovery,2021
+Kimsuky,System Network Configuration Discovery,2022
+Kimsuky,Traffic Signaling,2025
+FIN13,Local Data Staging,2023
+GALLIUM,Rename Legitimate Utilities,2019
+RedCurl,Windows Command Shell,2024
+LuminousMoth,Scheduled Task,2023
+Play,Local Accounts,2024
+Turla,Data from Removable Media,2019
+APT29,Email Accounts,2022
+Patchwork,File and Directory Discovery,2017
+Strider,Internal Proxy,2017
+INC Ransom,Archive via Utility,2024
+FIN4,Malicious File,2019
+Dragonfly,Exploitation for Client Execution,2021
+MuddyWater,Windows Management Instrumentation,2019
+LazyScripter,Command Obfuscation,2021
+APT28,Additional Email Delegate Permissions,2021
+MuddyWater,LSASS Memory,2018
+APT28,Rootkit,2019
+FIN13,Internal Proxy,2023
+FIN5,Brute Force,2018
+APT41,System Network Configuration Discovery,2019
+Kimsuky,Binary Padding,2025
+Kimsuky,Dynamic Resolution,2026
+FIN8,Command Obfuscation,2018
+TeamTNT,Deobfuscate/Decode Files or Information,2022
+UNC3886,Archive via Utility,2025
+Sea Turtle,Web Protocols,2024
+BITTER,Ingress Tool Transfer,2022
+MirrorFace,File Transfer Protocols,2026
+Medusa Group,Web Services,2025
+APT32,Social Media Accounts,2020
+GOLD SOUTHFIELD,Command Obfuscation,2020
+Turla,PowerShell Profile,2019
+Rocke,Exploit Public-Facing Application,2020
+MuddyWater,DLL,2022
+APT38,Transmitted Data Manipulation,2019
+Mustang Panda,Command and Scripting Interpreter,2025
+Turla,Drive-by Compromise,2020
+Kimsuky,Dead Drop Resolver,2025
+APT38,Windows Command Shell,2019
+APT41,Local Account,2019
+FIN6,Network Service Discovery,2017
+APT-C-36,Internal Spearphishing,2026
+FIN10,Valid Accounts,2017
+Mustang Panda,Network Service Discovery,2025
+Scattered Spider,Financial Theft,2024
+HEXANE,Malicious File,2022
+Agrius,Disable or Modify Tools,2024
+APT5,SSH,2024
+APT28,Ingress Tool Transfer,2017
+Ke3chang,Service Execution,2018
+Mustard Tempest,SEO Poisoning,2023
+Whitefly,Encrypted/Encoded File,2020
+Threat Group-3390,Web Protocols,2018
+Wizard Spider,Exploitation of Remote Services,2020
+Higaisa,Registry Run Keys / Startup Folder,2021
+LAPSUS$,Virtual Private Server,2022
+Kimsuky,Credentials In Files,2021
+Higaisa,System Information Discovery,2021
+Tropic Trooper,Web Shell,2020
+INC Ransom,Domain Account,2024
+Medusa Group,Multi-hop Proxy,2025
+Medusa Group,MMC,2025
+Contagious Interview,Python,2025
+Indrik Spider,Disable or Modify Tools,2021
+SideCopy,Visual Basic,2022
+Cinnamon Tempest,Proxy,2024
+Volt Typhoon,Data Staged,2023
+DarkHydrus,Tool,2021
+GALLIUM,Lateral Tool Transfer,2021
+Kimsuky,System Owner/User Discovery,2026
+OilRig,Credentials from Password Stores,2020
+Sidewinder,Visual Basic,2021
+Dragonfly,Vulnerability Scanning,2021
+Turla,Mail Protocols,2020
+APT42,Data from Cloud Storage,2025
+Evilnum,Credentials from Password Stores,2021
+APT41,DLL,2020
+OilRig,Malware,2024
+MirrorFace,Remote Data Staging,2026
+Scattered Spider,Conditional Access Policies,2024
+Lotus Blossom,Domain Trust Discovery,2025
+FIN8,Scheduled Task,2018
+HAFNIUM,Virtual Private Server,2021
+Earth Lusca,Malicious Link,2022
+EXOTIC LILY,Web Service,2022
+EXOTIC LILY,Spearphishing via Service,2022
+Mustard Tempest,Match Legitimate Resource Name or Location,2024
+Carbanak,Masquerade Task or Service,2020
+Medusa Group,Code Signing,2025
+Winnti Group,File and Directory Discovery,2022
+Mustang Panda,DCSync,2025
+LazyScripter,Web Services,2022
+Dark Caracal,Data from Local System,2018
+Scattered Spider,Account Manipulation,2025
+FIN4,Valid Accounts,2019
+Magic Hound,Lateral Tool Transfer,2023
+Medusa Group,Asymmetric Cryptography,2025
+Agrius,Acquire Infrastructure,2024
+BlackByte,Query Registry,2024
+Magic Hound,Bidirectional Communication,2018
+Chimera,Valid Accounts,2020
+Fox Kitten,Command and Scripting Interpreter,2020
+APT28,Tool,2021
+FIN13,Windows Command Shell,2023
+APT29,Python,2020
+Magic Hound,Archive via Utility,2018
+APT29,Password Spraying,2021
+TeamTNT,Clear Command History,2021
+Equation,Component Firmware,2019
+Kimsuky,Delay Execution,2026
+APT37,Invalid Code Signature,2018
+Ember Bear,Scanning IP Blocks,2024
+FIN7,Fallback Channels,2021
+Volt Typhoon,Valid Accounts,2024
+GALLIUM,Windows Management Instrumentation,2019
+BlackByte,Exfiltration Over C2 Channel,2024
+Medusa Group,Service Stop,2025
+Indrik Spider,Password Managers,2024
+Mustard Tempest,Spearphishing Link,2024
+Ke3chang,Golden Ticket,2018
+OilRig,LSA Secrets,2020
+Sea Turtle,Databases,2024
+MuddyWater,Software Discovery,2021
+MuddyWater,Credentials from Password Stores,2020
+Tropic Trooper,Template Injection,2019
+Dragonfly,LSA Secrets,2021
+Sandworm Team,Social Media Accounts,2024
+Blue Mockingbird,Scheduled Task,2020
+Contagious Interview,JavaScript,2025
+FIN8,Windows Management Instrumentation Event Subscription,2021
+FIN7,DNS,2018
+Medusa Group,Modify Registry,2025
+APT38,Service Execution,2021
+Confucius,Template Injection,2021
+APT38,Cron,2021
+MirrorFace,Clear Windows Event Logs,2026
+Earth Lusca,LSASS Memory,2022
+APT32,Windows Service,2020
+TA505,Native API,2022
+Sea Turtle,DNS Server,2025
+Sidewinder,Software Discovery,2021
+Fox Kitten,SMB/Windows Admin Shares,2020
+Contagious Interview,Virtual Private Server,2025
+APT32,Exploitation for Privilege Escalation,2017
+Chimera,Exfiltration Over C2 Channel,2021
+APT3,Password Cracking,2018
+Contagious Interview,Audio-Visual Content,2026
+FIN7,Screen Capture,2018
+Earth Lusca,DCSync,2022
+Play,PowerShell,2024
+LAPSUS$,Tool,2022
+RTM,Registry Run Keys / Startup Folder,2020
+APT29,Spearphishing Attachment,2018
+MuddyWater,System Information Discovery,2019
+Leviathan,Dynamic-link Library Injection,2021
+APT28,Data from Information Repositories,2021
+LazyScripter,Web Service,2021
+Wizard Spider,System Network Configuration Discovery,2020
+Whitefly,DLL,2020
+Lazarus Group,Create Process with Token,2017
+APT1,Windows Command Shell,2017
+menuPass,Match Legitimate Resource Name or Location,2019
+Silent Librarian,Password Spraying,2021
+APT38,Visual Basic,2021
+APT37,Drive-by Compromise,2018
+WIRTE,Domains,2026
+Sandworm Team,Vulnerabilities,2020
+Sandworm Team,Employee Names,2020
+Storm-1811,Masquerading,2025
+Leviathan,Exploits,2025
+Blue Mockingbird,Encrypted/Encoded File,2020
+Lazarus Group,Network Service Discovery,2022
+Magic Hound,Command Obfuscation,2023
+LuminousMoth,Ingress Tool Transfer,2023
+BlackByte,Registry Run Keys / Startup Folder,2024
+Earth Lusca,Upload Malware,2022
+Akira,Financial Theft,2024
+WIRTE,Exfiltration Over C2 Channel,2026
+IndigoZebra,Spearphishing Attachment,2021
+TeamTNT,Network Service Discovery,2021
+Dragonfly,Windows Command Shell,2021
+Contagious Interview,Malicious File,2025
+Lazarus Group,Gather Victim Org Information,2022
+Dark Caracal,Screen Capture,2018
+Leafminer,Local Account,2018
+MirrorFace,File and Directory Discovery,2026
+Sandworm Team,System Information Discovery,2020
+Chimera,Protocol Tunneling,2021
+Magic Hound,Encrypted Channel,2023
+LazyScripter,Malware,2022
+MuddyWater,Internal Spearphishing,2026
+Volt Typhoon,Search Victim-Owned Websites,2024
+TeamTNT,Ingress Tool Transfer,2021
+MoustachedBouncer,Content Injection,2023
+Winter Vivern,File and Directory Discovery,2024
+Lazarus Group,Service Stop,2019
+CURIUM,Spearphishing via Service,2023
+Leafminer,Network Service Discovery,2018
+ToddyCat,Domain Account,2024
+Rancor,Windows Command Shell,2018
+menuPass,Remote Desktop Protocol,2017
+APT38,Brute Force,2021
+Daggerfly,Rundll32,2024
+FIN4,Keylogging,2019
+Ember Bear,LSASS Memory,2024
+VOID MANTICORE,Domains,2026
+Velvet Ant,Network Sniffing,2025
+Kimsuky,Ignore Process Interrupts,2026
+Earth Lusca,Domains,2022
+Mustang Panda,Match Legitimate Resource Name or Location,2021
+Lazarus Group,Symmetric Cryptography,2017
+Sandworm Team,Masquerading,2024
+Mustang Panda,Native API,2025
+Mustang Panda,Exploitation for Client Execution,2021
+Ajax Security Team,Spearphishing Attachment,2021
+APT41,PowerShell,2019
+Wizard Spider,Domain Account,2023
+Contagious Interview,Malicious Copy and Paste,2025
+FIN10,Registry Run Keys / Startup Folder,2017
+Mustang Panda,Delay Execution,2025
+FIN8,SMB/Windows Admin Shares,2018
+Volt Typhoon,File Deletion,2023
+Leviathan,Malicious File,2018
+FIN7,Command Obfuscation,2018
+CURIUM,Drive-by Compromise,2024
+ZIRCONIUM,System Time Discovery,2021
+APT29,Steal Application Access Token,2024
+UNC3886,Process Discovery,2025
+Ke3chang,Keylogging,2018
+Ember Bear,DNS,2024
+Play,Archive via Utility,2024
+Confucius,Malicious File,2021
+Rocke,Compute Hijacking,2020
+Medusa Group,System Shutdown/Reboot,2025
+Sowbug,Network Share Discovery,2018
+HEXANE,System Owner/User Discovery,2022
+Blue Mockingbird,PowerShell,2020
+MirrorFace,Impersonation,2026
+FIN6,LSASS Memory,2017
+CURIUM,Drive-by Target,2024
+HAFNIUM,Web Services,2021
+Tropic Trooper,Network Share Discovery,2019
+UNC3886,Network Sniffing,2025
+APT28,Trusted Relationship,2018
+Lotus Blossom,Archive via Custom Method,2025
+FIN10,Scheduled Task,2017
+PROMETHIUM,Windows Service,2020
+Lazarus Group,SSH,2022
+Mustang Panda,Hidden Files and Directories,2021
+APT41,Match Legitimate Resource Name or Location,2019
+Aquatic Panda,Pass the Hash,2024
+Winter Vivern,JavaScript,2024
+Rocke,Compile After Delivery,2020
+Velvet Ant,Service Execution,2025
+Higaisa,JavaScript,2021
+Kimsuky,Domains,2020
+Indrik Spider,Acquire Infrastructure,2024
+FIN13,SMB/Windows Admin Shares,2023
+Ember Bear,Default Accounts,2024
+MirrorFace,Remote Desktop Protocol,2026
+Malteiro,Visual Basic,2024
+Lazarus Group,System Time Discovery,2018
+Kimsuky,Spearphishing Link,2019
+Lazarus Group,Hidden Files and Directories,2018
+Gamaredon Group,Tool,2024
+FIN8,System Information Discovery,2023
+MuddyWater,Process Discovery,2019
+LazyScripter,Spearphishing Link,2021
+Tropic Trooper,Standard Encoding,2020
+Scattered Spider,Cloud Infrastructure Discovery,2024
+FIN7,Ingress Tool Transfer,2017
+APT38,Network Share Discovery,2021
+POLONIUM,Trusted Relationship,2022
+GALLIUM,Archive via Utility,2019
+Turla,Registry Run Keys / Startup Folder,2018
+APT28,Exploitation for Stealth,2018
+APT32,Web Services,2020
+VOID MANTICORE,Data from Local System,2026
+Earth Lusca,Exploit Public-Facing Application,2022
+Threat Group-3390,Windows Service,2018
+Kimsuky,Financial Theft,2024
+Agrius,Local Data Staging,2024
+APT5,Match Legitimate Resource Name or Location,2024
+TA2541,Windows Management Instrumentation,2023
+WIRTE,Email Accounts,2026
+APT42,Match Legitimate Resource Name or Location,2025
+Lazarus Group,PowerShell,2022
+APT3,Spearphishing Link,2021
+Deep Panda,PowerShell,2017
+APT41,Tool,2021
+Storm-1811,System Owner/User Discovery,2025
+Winter Vivern,Masquerading,2024
+Fox Kitten,Web Service,2021
+APT32,Regsvr32,2017
+BackdoorDiplomacy,Web Shell,2021
+Lazarus Group,Windows Command Shell,2020
+APT18,Web Protocols,2019
+Turla,File and Directory Discovery,2017
+Wizard Spider,Remote Services,2023
+Play,Windows Command Shell,2024
+Lazarus Group,Embedded Payloads,2025
+Salt Typhoon,Network Device Configuration Dump,2025
+APT16,Server,2020
+APT33,Malicious File,2020
+APT28,External Remote Services,2021
+APT28,Web Services,2022
+Medusa Group,Process Discovery,2025
+APT41,Process Injection,2019
+Chimera,Clear Windows Event Logs,2021
+APT1,Process Discovery,2019
+Daggerfly,PowerShell,2024
+Blue Mockingbird,Windows Service,2020
+Ke3chang,Botnet,2025
+Medusa Group,LSASS Memory,2025
+APT29,Cloud Services,2023
+Patchwork,System Owner/User Discovery,2017
+BlackByte,Network Share Discovery,2024
+APT18,File Deletion,2017
+Stealth Falcon,PowerShell,2017
+Lazarus Group,Scheduled Task,2022
+Sandworm Team,Software Deployment Tools,2023
+APT41,Brute Force,2019
+BlackTech,Malicious File,2020
+Windigo,Proxy,2021
+Gamaredon Group,Windows Command Shell,2017
+menuPass,Tool,2021
+Lazarus Group,Exfiltration Over Unencrypted Non-C2 Protocol,2017
+FIN7,Domains,2021
+EXOTIC LILY,Search Closed Sources,2022
+Medusa Group,Bypass User Account Control,2025
+Naikon,Spearphishing Attachment,2020
+Magic Hound,Domain Accounts,2023
+TA2541,PowerShell,2023
+BlackByte,Windows Management Instrumentation,2024
+Ember Bear,Exploits,2024
+Contagious Interview,Search Open Websites/Domains,2025
+HAFNIUM,Domain Account,2021
+Volt Typhoon,Remote System Discovery,2023
+LuminousMoth,Modify Registry,2023
+Indrik Spider,Valid Accounts,2024
+Lazarus Group,Ingress Tool Transfer,2017
+Scattered Spider,Tool,2025
+APT38,Timestomp,2021
+TA505,Malware,2022
+Turla,System Service Discovery,2017
+VOID MANTICORE,Video Capture,2026
+Patchwork,Malicious Link,2020
+GALLIUM,Valid Accounts,2019
+Andariel,Steganography,2021
+Windshift,Spearphishing Attachment,2020
+TA505,Windows Command Shell,2020
+Winnti Group,Process Discovery,2017
+Leviathan,Steganography,2021
+TeamTNT,Malware,2021
+UNC3886,Masquerade Task or Service,2025
+Deep Panda,Accessibility Features,2017
+Daggerfly,Query Registry,2024
+Storm-0501,Data Destruction,2025
+MuddyWater,Malware,2026
+Chimera,Native API,2020
+menuPass,Masquerading,2020
+Patchwork,Archive Collected Data,2018
+OilRig,Outlook Home Page,2020
+Darkhotel,Virtualization/Sandbox Evasion,2021
+Medusa Group,Windows Service,2025
+OilRig,DNS,2020
+Medusa Group,Web Shell,2025
+Daggerfly,Drive-by Compromise,2024
+Poseidon Group,PowerShell,2017
+Mustang Panda,Web Services,2025
+Evilnum,System Checks,2021
+TA2541,Malicious File,2023
+Contagious Interview,Exfiltration to Cloud Storage,2025
+Kimsuky,File Transfer Protocols,2020

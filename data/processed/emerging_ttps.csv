@@ -1,0 +1,23 @@
+technique,start_year,end_year,start_count,end_count,peak_count,peak_year,growth,growth_rate,acceleration,years_tracked
+Impersonation,2023,2026,1,8,8,2026,7,7.0,3,4
+Disable or Modify System Firewall,2017,2025,1,5,5,2025,4,4.0,2,5
+Credentials In Files,2018,2024,1,4,4,2024,3,3.0,1,6
+Lateral Tool Transfer,2017,2025,1,4,5,2024,3,3.0,-3,7
+Asymmetric Cryptography,2017,2025,1,3,3,2018,2,2.0,-1,6
+Compression,2020,2026,1,3,6,2025,2,2.0,-8,3
+DLL,2017,2026,1,3,8,2021,2,2.0,-3,10
+Data from Cloud Storage,2020,2025,1,3,3,2025,2,2.0,2,3
+Domain Groups,2017,2025,1,3,3,2020,2,2.0,-1,7
+Email Addresses,2020,2024,1,3,6,2021,2,2.0,-6,4
+Exfiltration Over Unencrypted Non-C2 Protocol,2017,2025,1,3,3,2018,2,2.0,-2,5
+Local Storage Discovery,2021,2025,2,6,6,2025,4,2.0,6,4
+Multi-hop Proxy,2018,2025,1,3,3,2024,2,2.0,0,6
+Network Sniffing,2018,2025,1,3,3,2020,2,2.0,0,4
+Non-Application Layer Protocol,2017,2025,1,3,3,2025,2,2.0,1,8
+Password Managers,2020,2025,1,3,3,2025,2,2.0,2,5
+Service Execution,2018,2025,1,3,4,2020,2,2.0,-2,6
+Steal Web Session Cookie,2021,2025,1,3,3,2024,2,2.0,0,4
+Digital Certificates,2020,2025,2,4,4,2025,2,1.0,3,6
+SSH,2017,2025,2,4,4,2025,2,1.0,2,9
+Security Software Discovery,2017,2025,2,4,5,2019,2,1.0,1,9
+Unix Shell,2020,2025,2,4,4,2025,2,1.0,2,4

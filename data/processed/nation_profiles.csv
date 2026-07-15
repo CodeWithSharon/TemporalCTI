@@ -1,0 +1,6 @@
+nation,total_groups,unique_techniques,total_records,top_techniques,most_active_year
+Russia,9,234,485,Malicious File | PowerShell | Data from Local System | Ingress Tool Transfer | Spearphishing Attachment,2021
+China,17,220,607,Archive via Utility | Ingress Tool Transfer | Windows Command Shell | DLL | Match Legitimate Resource Name or Location,2021
+North Korea,6,191,315,Data from Local System | Ingress Tool Transfer | Malicious File | Process Discovery | Spearphishing Attachment,2022
+Iran,8,171,359,LSASS Memory | Ingress Tool Transfer | PowerShell | Scheduled Task | Archive via Utility,2020
+Others,130,393,2624,Malicious File | PowerShell | Ingress Tool Transfer | Spearphishing Attachment | Windows Command Shell,2024

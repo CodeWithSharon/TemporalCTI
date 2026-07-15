@@ -1,0 +1,3722 @@
+apt_group,technique,last_seen,first_seen,years_active,years_since_last_use
+APT1,Archive via Utility,2017,2017,1,9
+APT1,Data from Local System,2017,2017,1,9
+APT1,LSASS Memory,2017,2017,1,9
+APT1,Local Email Collection,2017,2017,1,9
+APT1,Match Legitimate Resource Name or Location,2017,2017,1,9
+APT1,Pass the Hash,2017,2017,1,9
+APT1,Remote Desktop Protocol,2017,2017,1,9
+APT1,Windows Command Shell,2017,2017,1,9
+APT18,At,2017,2017,1,9
+APT18,External Remote Services,2017,2017,1,9
+APT18,File Deletion,2017,2017,1,9
+APT18,Valid Accounts,2017,2017,1,9
+APT28,Bootkit,2017,2017,1,9
+APT28,Clear Windows Event Logs,2017,2017,1,9
+APT28,Communication Through Removable Media,2017,2017,1,9
+APT28,Component Object Model Hijacking,2017,2017,1,9
+APT28,Data from Removable Media,2017,2017,1,9
+APT28,Encrypted/Encoded File,2017,2017,1,9
+APT28,Exploitation for Privilege Escalation,2017,2017,1,9
+APT28,External Proxy,2017,2017,1,9
+APT28,File Deletion,2017,2017,1,9
+APT28,File and Directory Discovery,2017,2017,1,9
+APT28,Ingress Tool Transfer,2017,2017,1,9
+APT28,Junk Data,2017,2017,1,9
+APT28,Keylogging,2017,2017,1,9
+APT28,LSASS Memory,2017,2017,1,9
+APT28,Local Data Staging,2017,2017,1,9
+APT28,Mail Protocols,2017,2017,1,9
+APT28,Office Test,2017,2017,1,9
+APT28,Pass the Hash,2017,2017,1,9
+APT28,Peripheral Device Discovery,2017,2017,1,9
+APT28,Process Discovery,2017,2017,1,9
+APT28,Replication Through Removable Media,2017,2017,1,9
+APT28,Rundll32,2017,2017,1,9
+APT28,Screen Capture,2017,2017,1,9
+APT28,Timestomp,2017,2017,1,9
+APT28,Token Impersonation/Theft,2017,2017,1,9
+APT28,Valid Accounts,2017,2017,1,9
+APT29,Accessibility Features,2017,2017,1,9
+APT29,Bypass User Account Control,2017,2017,1,9
+APT29,File Deletion,2017,2017,1,9
+APT29,Pass the Ticket,2017,2017,1,9
+APT29,PowerShell,2017,2017,1,9
+APT29,Registry Run Keys / Startup Folder,2017,2017,1,9
+APT29,Scheduled Task,2017,2017,1,9
+APT29,Software Packing,2017,2017,1,9
+APT29,Windows Management Instrumentation,2017,2017,1,9
+APT29,Windows Management Instrumentation Event Subscription,2017,2017,1,9
+APT3,Keylogging,2017,2017,1,9
+APT3,LSASS Memory,2017,2017,1,9
+APT3,Multi-Stage Channels,2017,2017,1,9
+APT3,Non-Application Layer Protocol,2017,2017,1,9
+APT3,PowerShell,2017,2017,1,9
+APT3,Scheduled Task,2017,2017,1,9
+APT3,System Network Configuration Discovery,2017,2017,1,9
+APT3,System Owner/User Discovery,2017,2017,1,9
+APT3,Windows Command Shell,2017,2017,1,9
+APT32,Encrypted/Encoded File,2017,2017,1,9
+APT32,Exploitation for Privilege Escalation,2017,2017,1,9
+APT32,Local Accounts,2017,2017,1,9
+APT32,Match Legitimate Resource Name or Location,2017,2017,1,9
+APT32,PowerShell,2017,2017,1,9
+APT32,Regsvr32,2017,2017,1,9
+APT32,Scheduled Task,2017,2017,1,9
+APT32,Software Deployment Tools,2017,2017,1,9
+APT32,Timestomp,2017,2017,1,9
+Axiom,Accessibility Features,2017,2017,1,9
+Axiom,OS Credential Dumping,2017,2017,1,9
+Axiom,Remote Desktop Protocol,2017,2017,1,9
+Carbanak,Bidirectional Communication,2017,2017,1,9
+Carbanak,Disable or Modify System Firewall,2017,2017,1,9
+Carbanak,Match Legitimate Resource Name or Location,2017,2017,1,9
+Carbanak,Rundll32,2017,2017,1,9
+Carbanak,Valid Accounts,2017,2017,1,9
+Carbanak,Windows Service,2017,2017,1,9
+Cleaver,LSASS Memory,2017,2017,1,9
+Darkhotel,Code Signing,2017,2017,1,9
+Darkhotel,Keylogging,2017,2017,1,9
+Darkhotel,Registry Run Keys / Startup Folder,2017,2017,1,9
+Darkhotel,Replication Through Removable Media,2017,2017,1,9
+Darkhotel,Taint Shared Content,2017,2017,1,9
+Deep Panda,Accessibility Features,2017,2017,1,9
+Deep Panda,Indicator Removal from Tools,2017,2017,1,9
+Deep Panda,PowerShell,2017,2017,1,9
+Deep Panda,Process Discovery,2017,2017,1,9
+Deep Panda,Regsvr32,2017,2017,1,9
+Deep Panda,SMB/Windows Admin Shares,2017,2017,1,9
+Deep Panda,Web Shell,2017,2017,1,9
+Deep Panda,Windows Management Instrumentation,2017,2017,1,9
+Equation,Peripheral Device Discovery,2017,2017,1,9
+FIN10,File Deletion,2017,2017,1,9
+FIN10,Lateral Tool Transfer,2017,2017,1,9
+FIN10,PowerShell,2017,2017,1,9
+FIN10,Registry Run Keys / Startup Folder,2017,2017,1,9
+FIN10,Remote Desktop Protocol,2017,2017,1,9
+FIN10,Scheduled Task,2017,2017,1,9
+FIN10,System Owner/User Discovery,2017,2017,1,9
+FIN10,Valid Accounts,2017,2017,1,9
+FIN10,Windows Command Shell,2017,2017,1,9
+FIN6,Archive Collected Data,2017,2017,1,9
+FIN6,Archive via Custom Method,2017,2017,1,9
+FIN6,Asymmetric Cryptography,2017,2017,1,9
+FIN6,Automated Collection,2017,2017,1,9
+FIN6,Command and Scripting Interpreter,2017,2017,1,9
+FIN6,Domain Account,2017,2017,1,9
+FIN6,Exploitation for Privilege Escalation,2017,2017,1,9
+FIN6,LSASS Memory,2017,2017,1,9
+FIN6,Network Service Discovery,2017,2017,1,9
+FIN6,PowerShell,2017,2017,1,9
+FIN6,Protocol Tunneling,2017,2017,1,9
+FIN6,Registry Run Keys / Startup Folder,2017,2017,1,9
+FIN6,Remote Desktop Protocol,2017,2017,1,9
+FIN6,Remote System Discovery,2017,2017,1,9
+FIN6,Scheduled Task,2017,2017,1,9
+FIN6,Valid Accounts,2017,2017,1,9
+FIN7,Application Shimming,2017,2017,1,9
+FIN7,Ingress Tool Transfer,2017,2017,1,9
+FIN7,Masquerade Task or Service,2017,2017,1,9
+FIN7,PowerShell,2017,2017,1,9
+FIN7,Registry Run Keys / Startup Folder,2017,2017,1,9
+FIN7,Scheduled Task,2017,2017,1,9
+GCMAN,SSH,2017,2017,1,9
+Gamaredon Group,Data from Removable Media,2017,2017,1,9
+Gamaredon Group,Exfiltration Over C2 Channel,2017,2017,1,9
+Gamaredon Group,Ingress Tool Transfer,2017,2017,1,9
+Gamaredon Group,Peripheral Device Discovery,2017,2017,1,9
+Gamaredon Group,System Information Discovery,2017,2017,1,9
+Gamaredon Group,System Owner/User Discovery,2017,2017,1,9
+Gamaredon Group,Web Protocols,2017,2017,1,9
+Gamaredon Group,Windows Command Shell,2017,2017,1,9
+Group5,Encrypted/Encoded File,2017,2017,1,9
+Group5,File Deletion,2017,2017,1,9
+Group5,Keylogging,2017,2017,1,9
+Group5,Screen Capture,2017,2017,1,9
+Ke3chang,Archive Collected Data,2017,2017,1,9
+Ke3chang,Archive via Utility,2017,2017,1,9
+Ke3chang,Command and Scripting Interpreter,2017,2017,1,9
+Ke3chang,Data from Local System,2017,2017,1,9
+Ke3chang,Domain Account,2017,2017,1,9
+Ke3chang,Domain Groups,2017,2017,1,9
+Ke3chang,Exfiltration Over C2 Channel,2017,2017,1,9
+Ke3chang,File and Directory Discovery,2017,2017,1,9
+Ke3chang,LSASS Memory,2017,2017,1,9
+Ke3chang,Process Discovery,2017,2017,1,9
+Ke3chang,SMB/Windows Admin Shares,2017,2017,1,9
+Ke3chang,System Information Discovery,2017,2017,1,9
+Ke3chang,System Network Configuration Discovery,2017,2017,1,9
+Ke3chang,System Network Connections Discovery,2017,2017,1,9
+Ke3chang,System Service Discovery,2017,2017,1,9
+Lazarus Group,Account Manipulation,2017,2017,1,9
+Lazarus Group,Application Window Discovery,2017,2017,1,9
+Lazarus Group,Archive Collected Data,2017,2017,1,9
+Lazarus Group,Archive via Library,2017,2017,1,9
+Lazarus Group,Bootkit,2017,2017,1,9
+Lazarus Group,Create Process with Token,2017,2017,1,9
+Lazarus Group,Data from Local System,2017,2017,1,9
+Lazarus Group,Disable or Modify Tools,2017,2017,1,9
+Lazarus Group,Encrypted/Encoded File,2017,2017,1,9
+Lazarus Group,Exfiltration Over C2 Channel,2017,2017,1,9
+Lazarus Group,Exfiltration Over Unencrypted Non-C2 Protocol,2017,2017,1,9
+Lazarus Group,Fallback Channels,2017,2017,1,9
+Lazarus Group,File Deletion,2017,2017,1,9
+Lazarus Group,File and Directory Discovery,2017,2017,1,9
+Lazarus Group,Ingress Tool Transfer,2017,2017,1,9
+Lazarus Group,Keylogging,2017,2017,1,9
+Lazarus Group,Local Data Staging,2017,2017,1,9
+Lazarus Group,Password Spraying,2017,2017,1,9
+Lazarus Group,Process Discovery,2017,2017,1,9
+Lazarus Group,Query Registry,2017,2017,1,9
+Lazarus Group,Registry Run Keys / Startup Folder,2017,2017,1,9
+Lazarus Group,Remote Desktop Protocol,2017,2017,1,9
+Lazarus Group,SMB/Windows Admin Shares,2017,2017,1,9
+Lazarus Group,Symmetric Cryptography,2017,2017,1,9
+Lazarus Group,System Information Discovery,2017,2017,1,9
+Lazarus Group,System Network Configuration Discovery,2017,2017,1,9
+Lazarus Group,System Owner/User Discovery,2017,2017,1,9
+Lazarus Group,Timestomp,2017,2017,1,9
+Lazarus Group,Windows Management Instrumentation,2017,2017,1,9
+Lazarus Group,Windows Service,2017,2017,1,9
+Moafee,Binary Padding,2017,2017,1,9
+Molerats,Code Signing,2017,2017,1,9
+Molerats,Credentials from Web Browsers,2017,2017,1,9
+Molerats,Process Discovery,2017,2017,1,9
+Naikon,Security Software Discovery,2017,2017,1,9
+Naikon,System Network Configuration Discovery,2017,2017,1,9
+OilRig,Indicator Removal from Tools,2017,2017,1,9
+Patchwork,Bypass User Account Control,2017,2017,1,9
+Patchwork,Credentials from Web Browsers,2017,2017,1,9
+Patchwork,Data from Local System,2017,2017,1,9
+Patchwork,Dead Drop Resolver,2017,2017,1,9
+Patchwork,File and Directory Discovery,2017,2017,1,9
+Patchwork,Ingress Tool Transfer,2017,2017,1,9
+Patchwork,Match Legitimate Resource Name or Location,2017,2017,1,9
+Patchwork,PowerShell,2017,2017,1,9
+Patchwork,Process Hollowing,2017,2017,1,9
+Patchwork,Registry Run Keys / Startup Folder,2017,2017,1,9
+Patchwork,Remote Desktop Protocol,2017,2017,1,9
+Patchwork,Security Software Discovery,2017,2017,1,9
+Patchwork,Software Packing,2017,2017,1,9
+Patchwork,Standard Encoding,2017,2017,1,9
+Patchwork,System Information Discovery,2017,2017,1,9
+Patchwork,System Owner/User Discovery,2017,2017,1,9
+Patchwork,Windows Command Shell,2017,2017,1,9
+PittyTiger,Valid Accounts,2017,2017,1,9
+Poseidon Group,Domain Account,2017,2017,1,9
+Poseidon Group,Match Legitimate Resource Name or Location,2017,2017,1,9
+Poseidon Group,OS Credential Dumping,2017,2017,1,9
+Poseidon Group,PowerShell,2017,2017,1,9
+Poseidon Group,Process Discovery,2017,2017,1,9
+Poseidon Group,System Network Connections Discovery,2017,2017,1,9
+Poseidon Group,System Service Discovery,2017,2017,1,9
+Putter Panda,Disable or Modify Tools,2017,2017,1,9
+Putter Panda,Dynamic-link Library Injection,2017,2017,1,9
+Putter Panda,Encrypted/Encoded File,2017,2017,1,9
+Putter Panda,Registry Run Keys / Startup Folder,2017,2017,1,9
+RTM,Dead Drop Resolver,2017,2017,1,9
+Stealth Falcon,Command and Scripting Interpreter,2017,2017,1,9
+Stealth Falcon,Credentials from Password Stores,2017,2017,1,9
+Stealth Falcon,Data from Local System,2017,2017,1,9
+Stealth Falcon,Exfiltration Over C2 Channel,2017,2017,1,9
+Stealth Falcon,PowerShell,2017,2017,1,9
+Stealth Falcon,Process Discovery,2017,2017,1,9
+Stealth Falcon,Query Registry,2017,2017,1,9
+Stealth Falcon,Scheduled Task,2017,2017,1,9
+Stealth Falcon,Symmetric Cryptography,2017,2017,1,9
+Stealth Falcon,System Information Discovery,2017,2017,1,9
+Stealth Falcon,System Network Configuration Discovery,2017,2017,1,9
+Stealth Falcon,System Owner/User Discovery,2017,2017,1,9
+Stealth Falcon,Web Protocols,2017,2017,1,9
+Stealth Falcon,Windows Management Instrumentation,2017,2017,1,9
+Strider,Internal Proxy,2017,2017,1,9
+Strider,Password Filter DLL,2017,2017,1,9
+Suckfly,Code Signing,2017,2017,1,9
+Suckfly,Network Service Discovery,2017,2017,1,9
+Suckfly,OS Credential Dumping,2017,2017,1,9
+Suckfly,Valid Accounts,2017,2017,1,9
+Suckfly,Windows Command Shell,2017,2017,1,9
+Threat Group-1314,Domain Accounts,2017,2017,1,9
+Threat Group-1314,SMB/Windows Admin Shares,2017,2017,1,9
+Threat Group-1314,Software Deployment Tools,2017,2017,1,9
+Threat Group-1314,Windows Command Shell,2017,2017,1,9
+Threat Group-3390,Archive via Library,2017,2017,1,9
+Threat Group-3390,At,2017,2017,1,9
+Threat Group-3390,Automated Collection,2017,2017,1,9
+Threat Group-3390,Data Transfer Size Limits,2017,2017,1,9
+Threat Group-3390,Data from Local System,2017,2017,1,9
+Threat Group-3390,Disable or Modify Windows Event Log,2017,2017,1,9
+Threat Group-3390,Exploitation for Privilege Escalation,2017,2017,1,9
+Threat Group-3390,External Remote Services,2017,2017,1,9
+Threat Group-3390,File Deletion,2017,2017,1,9
+Threat Group-3390,Ingress Tool Transfer,2017,2017,1,9
+Threat Group-3390,Keylogging,2017,2017,1,9
+Threat Group-3390,LSA Secrets,2017,2017,1,9
+Threat Group-3390,Local Account,2017,2017,1,9
+Threat Group-3390,Local Data Staging,2017,2017,1,9
+Threat Group-3390,Network Service Discovery,2017,2017,1,9
+Threat Group-3390,Network Share Connection Removal,2017,2017,1,9
+Threat Group-3390,PowerShell,2017,2017,1,9
+Threat Group-3390,System Network Configuration Discovery,2017,2017,1,9
+Threat Group-3390,System Network Connections Discovery,2017,2017,1,9
+Threat Group-3390,Valid Accounts,2017,2017,1,9
+Threat Group-3390,Windows Command Shell,2017,2017,1,9
+Threat Group-3390,Windows Remote Management,2017,2017,1,9
+Turla,Brute Force,2017,2017,1,9
+Turla,File and Directory Discovery,2017,2017,1,9
+Turla,Process Discovery,2017,2017,1,9
+Turla,Query Registry,2017,2017,1,9
+Turla,Remote System Discovery,2017,2017,1,9
+Turla,SMB/Windows Admin Shares,2017,2017,1,9
+Turla,System Information Discovery,2017,2017,1,9
+Turla,System Network Configuration Discovery,2017,2017,1,9
+Turla,System Network Connections Discovery,2017,2017,1,9
+Turla,System Service Discovery,2017,2017,1,9
+Turla,System Time Discovery,2017,2017,1,9
+Winnti Group,Code Signing,2017,2017,1,9
+Winnti Group,Process Discovery,2017,2017,1,9
+Winnti Group,Rootkit,2017,2017,1,9
+admin@338,File and Directory Discovery,2017,2017,1,9
+admin@338,Local Account,2017,2017,1,9
+admin@338,Local Groups,2017,2017,1,9
+admin@338,Match Legitimate Resource Name or Location,2017,2017,1,9
+admin@338,System Information Discovery,2017,2017,1,9
+admin@338,System Network Configuration Discovery,2017,2017,1,9
+admin@338,System Network Connections Discovery,2017,2017,1,9
+admin@338,System Service Discovery,2017,2017,1,9
+admin@338,Windows Command Shell,2017,2017,1,9
+menuPass,Archive via Utility,2017,2017,1,9
+menuPass,DLL,2017,2017,1,9
+menuPass,Data from Network Shared Drive,2017,2017,1,9
+menuPass,Domain Account,2017,2017,1,9
+menuPass,External Proxy,2017,2017,1,9
+menuPass,Ingress Tool Transfer,2017,2017,1,9
+menuPass,Local Data Staging,2017,2017,1,9
+menuPass,Network Service Discovery,2017,2017,1,9
+menuPass,PowerShell,2017,2017,1,9
+menuPass,Remote Desktop Protocol,2017,2017,1,9
+menuPass,Remote System Discovery,2017,2017,1,9
+menuPass,SSH,2017,2017,1,9
+menuPass,Scheduled Task,2017,2017,1,9
+menuPass,Security Account Manager,2017,2017,1,9
+menuPass,System Network Configuration Discovery,2017,2017,1,9
+menuPass,System Network Connections Discovery,2017,2017,1,9
+menuPass,Valid Accounts,2017,2017,1,9
+menuPass,Windows Command Shell,2017,2017,1,9
+menuPass,Windows Management Instrumentation,2017,2017,1,9
+APT19,Command and Scripting Interpreter,2018,2018,1,8
+APT19,DLL,2018,2018,1,8
+APT19,Deobfuscate/Decode Files or Information,2018,2018,1,8
+APT19,Drive-by Compromise,2018,2018,1,8
+APT19,Encrypted/Encoded File,2018,2018,1,8
+APT19,Malicious File,2018,2018,1,8
+APT19,Modify Registry,2018,2018,1,8
+APT19,PowerShell,2018,2018,1,8
+APT19,Registry Run Keys / Startup Folder,2018,2018,1,8
+APT19,Regsvr32,2018,2018,1,8
+APT19,Rundll32,2018,2018,1,8
+APT19,Spearphishing Attachment,2018,2018,1,8
+APT19,Standard Encoding,2018,2018,1,8
+APT19,System Information Discovery,2018,2018,1,8
+APT19,System Network Configuration Discovery,2018,2018,1,8
+APT19,System Owner/User Discovery,2018,2018,1,8
+APT19,Web Protocols,2018,2018,1,8
+APT19,Windows Service,2018,2018,1,8
+APT28,Archive Collected Data,2018,2018,1,8
+APT28,Automated Collection,2018,2018,1,8
+APT28,Data from Local System,2018,2018,1,8
+APT28,Deobfuscate/Decode Files or Information,2018,2018,1,8
+APT28,Dynamic Data Exchange,2018,2018,1,8
+APT28,Exploitation for Stealth,2018,2018,1,8
+APT28,Exploitation of Remote Services,2018,2018,1,8
+APT28,Hidden Files and Directories,2018,2018,1,8
+APT28,Logon Script (Windows),2018,2018,1,8
+APT28,Malicious File,2018,2018,1,8
+APT28,Network Sniffing,2018,2018,1,8
+APT28,PowerShell,2018,2018,1,8
+APT28,Remote Email Collection,2018,2018,1,8
+APT28,Sharepoint,2018,2018,1,8
+APT28,Spearphishing Attachment,2018,2018,1,8
+APT28,Trusted Relationship,2018,2018,1,8
+APT28,Windows Command Shell,2018,2018,1,8
+APT29,Domain Fronting,2018,2018,1,8
+APT29,Exploitation for Client Execution,2018,2018,1,8
+APT29,Malicious File,2018,2018,1,8
+APT29,Multi-hop Proxy,2018,2018,1,8
+APT29,Spearphishing Attachment,2018,2018,1,8
+APT29,Spearphishing Link,2018,2018,1,8
+APT3,Accessibility Features,2018,2018,1,8
+APT3,Additional Local or Domain Groups,2018,2018,1,8
+APT3,Archive via Utility,2018,2018,1,8
+APT3,Credentials In Files,2018,2018,1,8
+APT3,DLL,2018,2018,1,8
+APT3,Data from Local System,2018,2018,1,8
+APT3,Domain Accounts,2018,2018,1,8
+APT3,Exfiltration Over C2 Channel,2018,2018,1,8
+APT3,External Proxy,2018,2018,1,8
+APT3,File Deletion,2018,2018,1,8
+APT3,File and Directory Discovery,2018,2018,1,8
+APT3,Indicator Removal from Tools,2018,2018,1,8
+APT3,Ingress Tool Transfer,2018,2018,1,8
+APT3,Local Account,2018,2017,2,8
+APT3,Local Data Staging,2018,2018,1,8
+APT3,Obfuscated Files or Information,2018,2018,1,8
+APT3,Password Cracking,2018,2018,1,8
+APT3,Permission Groups Discovery,2018,2018,1,8
+APT3,Process Discovery,2018,2018,1,8
+APT3,Registry Run Keys / Startup Folder,2018,2018,1,8
+APT3,Remote Desktop Protocol,2018,2018,1,8
+APT3,Remote System Discovery,2018,2018,1,8
+APT3,Rundll32,2018,2018,1,8
+APT3,SMB/Windows Admin Shares,2018,2018,1,8
+APT3,Software Packing,2018,2018,1,8
+APT3,System Information Discovery,2018,2018,1,8
+APT3,System Network Connections Discovery,2018,2018,1,8
+APT3,Windows Service,2018,2018,1,8
+APT32,Clear Windows Event Logs,2018,2018,1,8
+APT32,DLL,2018,2018,1,8
+APT32,Drive-by Compromise,2018,2018,1,8
+APT32,Ingress Tool Transfer,2018,2018,1,8
+APT32,Junk Code Insertion,2018,2018,1,8
+APT32,Malicious File,2018,2018,1,8
+APT32,PubPrn,2018,2018,1,8
+APT32,Spearphishing Attachment,2018,2018,1,8
+APT32,System Information Discovery,2018,2018,1,8
+APT32,System Owner/User Discovery,2018,2018,1,8
+APT32,Web Protocols,2018,2018,1,8
+APT32,Web Shell,2018,2018,1,8
+APT33,Malicious Link,2018,2018,1,8
+APT33,Spearphishing Link,2018,2018,1,8
+APT33,Valid Accounts,2018,2018,1,8
+APT37,Audio Capture,2018,2018,1,8
+APT37,Bidirectional Communication,2018,2018,1,8
+APT37,Credentials from Web Browsers,2018,2018,1,8
+APT37,Data from Local System,2018,2018,1,8
+APT37,Disk Structure Wipe,2018,2018,1,8
+APT37,Drive-by Compromise,2018,2018,1,8
+APT37,Dynamic Data Exchange,2018,2018,1,8
+APT37,Exploitation for Client Execution,2018,2018,1,8
+APT37,Ingress Tool Transfer,2018,2018,1,8
+APT37,Invalid Code Signature,2018,2018,1,8
+APT37,Malicious File,2018,2018,1,8
+APT37,Native API,2018,2018,1,8
+APT37,Obfuscated Files or Information,2018,2018,1,8
+APT37,Process Discovery,2018,2018,1,8
+APT37,Process Injection,2018,2018,1,8
+APT37,Registry Run Keys / Startup Folder,2018,2018,1,8
+APT37,Spearphishing Attachment,2018,2018,1,8
+APT37,System Information Discovery,2018,2018,1,8
+APT37,System Owner/User Discovery,2018,2018,1,8
+APT37,Web Protocols,2018,2018,1,8
+APT37,Windows Command Shell,2018,2018,1,8
+Axiom,Exploit Public-Facing Application,2018,2018,1,8
+BRONZE BUTLER,Archive via Utility,2018,2018,1,8
+BRONZE BUTLER,At,2018,2018,1,8
+BRONZE BUTLER,Binary Padding,2018,2018,1,8
+BRONZE BUTLER,Bypass User Account Control,2018,2018,1,8
+BRONZE BUTLER,Data from Local System,2018,2018,1,8
+BRONZE BUTLER,Data from Network Shared Drive,2018,2018,1,8
+BRONZE BUTLER,Dead Drop Resolver,2018,2018,1,8
+BRONZE BUTLER,Deobfuscate/Decode Files or Information,2018,2018,1,8
+BRONZE BUTLER,Domain Account,2018,2018,1,8
+BRONZE BUTLER,Drive-by Compromise,2018,2018,1,8
+BRONZE BUTLER,Exploitation for Client Execution,2018,2018,1,8
+BRONZE BUTLER,File Deletion,2018,2018,1,8
+BRONZE BUTLER,File and Directory Discovery,2018,2018,1,8
+BRONZE BUTLER,Ingress Tool Transfer,2018,2018,1,8
+BRONZE BUTLER,LSASS Memory,2018,2018,1,8
+BRONZE BUTLER,Malicious File,2018,2018,1,8
+BRONZE BUTLER,Match Legitimate Resource Name or Location,2018,2018,1,8
+BRONZE BUTLER,Pass the Ticket,2018,2018,1,8
+BRONZE BUTLER,PowerShell,2018,2018,1,8
+BRONZE BUTLER,Registry Run Keys / Startup Folder,2018,2018,1,8
+BRONZE BUTLER,Remote System Discovery,2018,2018,1,8
+BRONZE BUTLER,Screen Capture,2018,2018,1,8
+BRONZE BUTLER,Spearphishing Attachment,2018,2018,1,8
+BRONZE BUTLER,Standard Encoding,2018,2018,1,8
+BRONZE BUTLER,Symmetric Cryptography,2018,2018,1,8
+BRONZE BUTLER,System Time Discovery,2018,2018,1,8
+BRONZE BUTLER,Web Protocols,2018,2018,1,8
+BRONZE BUTLER,Windows Command Shell,2018,2018,1,8
+BlackOasis,Obfuscated Files or Information,2018,2018,1,8
+Carbanak,Remote Access Tools,2018,2018,1,8
+Cobalt Group,Asymmetric Cryptography,2018,2018,1,8
+Cobalt Group,Bypass User Account Control,2018,2018,1,8
+Cobalt Group,CMSTP,2018,2018,1,8
+Cobalt Group,Command Obfuscation,2018,2018,1,8
+Cobalt Group,Dynamic Data Exchange,2018,2018,1,8
+Cobalt Group,Exploitation for Client Execution,2018,2018,1,8
+Cobalt Group,Exploitation for Privilege Escalation,2018,2018,1,8
+Cobalt Group,File Deletion,2018,2018,1,8
+Cobalt Group,Ingress Tool Transfer,2018,2018,1,8
+Cobalt Group,Malicious File,2018,2018,1,8
+Cobalt Group,Network Service Discovery,2018,2018,1,8
+Cobalt Group,PowerShell,2018,2018,1,8
+Cobalt Group,Process Injection,2018,2018,1,8
+Cobalt Group,Registry Run Keys / Startup Folder,2018,2018,1,8
+Cobalt Group,Regsvr32,2018,2018,1,8
+Cobalt Group,Remote Access Tools,2018,2018,1,8
+Cobalt Group,Remote Desktop Protocol,2018,2018,1,8
+Cobalt Group,Scheduled Task,2018,2018,1,8
+Cobalt Group,Spearphishing Attachment,2018,2018,1,8
+Cobalt Group,Spearphishing Link,2018,2018,1,8
+Cobalt Group,Visual Basic,2018,2018,1,8
+Cobalt Group,Web Protocols,2018,2018,1,8
+Cobalt Group,Windows Service,2018,2018,1,8
+Cobalt Group,XSL Script Processing,2018,2018,1,8
+CopyKittens,Archive via Custom Method,2018,2018,1,8
+CopyKittens,Archive via Utility,2018,2018,1,8
+CopyKittens,Code Signing,2018,2018,1,8
+CopyKittens,PowerShell,2018,2018,1,8
+CopyKittens,Rundll32,2018,2018,1,8
+Dark Caracal,Compiled HTML File,2018,2018,1,8
+Dark Caracal,Data from Local System,2018,2018,1,8
+Dark Caracal,Drive-by Compromise,2018,2018,1,8
+Dark Caracal,Encrypted/Encoded File,2018,2018,1,8
+Dark Caracal,File and Directory Discovery,2018,2018,1,8
+Dark Caracal,Malicious File,2018,2018,1,8
+Dark Caracal,Registry Run Keys / Startup Folder,2018,2018,1,8
+Dark Caracal,Screen Capture,2018,2018,1,8
+Dark Caracal,Software Packing,2018,2018,1,8
+Dark Caracal,Spearphishing via Service,2018,2018,1,8
+Dark Caracal,Web Protocols,2018,2018,1,8
+Dark Caracal,Windows Command Shell,2018,2018,1,8
+DarkHydrus,Forced Authentication,2018,2018,1,8
+DarkHydrus,Malicious File,2018,2018,1,8
+DarkHydrus,PowerShell,2018,2018,1,8
+DarkHydrus,Spearphishing Attachment,2018,2018,1,8
+DarkHydrus,Template Injection,2018,2018,1,8
+Deep Panda,Remote System Discovery,2018,2018,1,8
+Elderwood,Drive-by Compromise,2018,2018,1,8
+Elderwood,Encrypted/Encoded File,2018,2018,1,8
+Elderwood,Exploitation for Client Execution,2018,2018,1,8
+Elderwood,Ingress Tool Transfer,2018,2018,1,8
+Elderwood,Malicious File,2018,2018,1,8
+Elderwood,Software Packing,2018,2018,1,8
+Elderwood,Spearphishing Attachment,2018,2018,1,8
+Elderwood,Spearphishing Link,2018,2018,1,8
+FIN5,Automated Collection,2018,2018,1,8
+FIN5,Brute Force,2018,2018,1,8
+FIN5,Clear Windows Event Logs,2018,2018,1,8
+FIN5,Command and Scripting Interpreter,2018,2018,1,8
+FIN5,External Proxy,2018,2018,1,8
+FIN5,External Remote Services,2018,2018,1,8
+FIN5,File Deletion,2018,2018,1,8
+FIN5,Local Data Staging,2018,2018,1,8
+FIN5,Remote System Discovery,2018,2018,1,8
+FIN5,Valid Accounts,2018,2018,1,8
+FIN7,Bidirectional Communication,2018,2018,1,8
+FIN7,Code Signing,2018,2018,1,8
+FIN7,Command Obfuscation,2018,2018,1,8
+FIN7,Command and Scripting Interpreter,2018,2018,1,8
+FIN7,DNS,2018,2018,1,8
+FIN7,Dynamic Data Exchange,2018,2018,1,8
+FIN7,Malicious File,2018,2018,1,8
+FIN7,Mshta,2018,2018,1,8
+FIN7,Screen Capture,2018,2018,1,8
+FIN7,Spearphishing Attachment,2018,2018,1,8
+FIN7,Video Capture,2018,2018,1,8
+FIN7,Windows Service,2018,2018,1,8
+FIN8,Archive via Utility,2018,2018,1,8
+FIN8,Asymmetric Cryptography,2018,2018,1,8
+FIN8,Clear Windows Event Logs,2018,2018,1,8
+FIN8,Command Obfuscation,2018,2018,1,8
+FIN8,Exfiltration Over Unencrypted Non-C2 Protocol,2018,2018,1,8
+FIN8,Exploitation for Privilege Escalation,2018,2018,1,8
+FIN8,File Deletion,2018,2018,1,8
+FIN8,Ingress Tool Transfer,2018,2018,1,8
+FIN8,LSASS Memory,2018,2018,1,8
+FIN8,Malicious File,2018,2018,1,8
+FIN8,Modify Registry,2018,2018,1,8
+FIN8,PowerShell,2018,2018,1,8
+FIN8,Remote Data Staging,2018,2018,1,8
+FIN8,Remote Desktop Protocol,2018,2018,1,8
+FIN8,Remote System Discovery,2018,2018,1,8
+FIN8,SMB/Windows Admin Shares,2018,2018,1,8
+FIN8,Scheduled Task,2018,2018,1,8
+FIN8,Security Software Discovery,2018,2018,1,8
+FIN8,Spearphishing Attachment,2018,2018,1,8
+FIN8,Spearphishing Link,2018,2018,1,8
+FIN8,Valid Accounts,2018,2018,1,8
+FIN8,Windows Command Shell,2018,2018,1,8
+FIN8,Windows Management Instrumentation,2018,2018,1,8
+Gorgon Group,Deobfuscate/Decode Files or Information,2018,2018,1,8
+Gorgon Group,Disable or Modify Tools,2018,2018,1,8
+Gorgon Group,Ingress Tool Transfer,2018,2018,1,8
+Gorgon Group,Malicious File,2018,2018,1,8
+Gorgon Group,Modify Registry,2018,2018,1,8
+Gorgon Group,Native API,2018,2018,1,8
+Gorgon Group,Portable Executable Injection,2018,2018,1,8
+Gorgon Group,PowerShell,2018,2018,1,8
+Gorgon Group,Process Hollowing,2018,2018,1,8
+Gorgon Group,Registry Run Keys / Startup Folder,2018,2018,1,8
+Gorgon Group,Shortcut Modification,2018,2018,1,8
+Gorgon Group,Spearphishing Attachment,2018,2018,1,8
+Gorgon Group,Visual Basic,2018,2018,1,8
+Gorgon Group,Windows Command Shell,2018,2018,1,8
+Ke3chang,External Remote Services,2018,2018,1,8
+Ke3chang,Golden Ticket,2018,2018,1,8
+Ke3chang,Keylogging,2018,2018,1,8
+Ke3chang,Registry Run Keys / Startup Folder,2018,2018,1,8
+Ke3chang,Remote Email Collection,2018,2018,1,8
+Ke3chang,Remote System Discovery,2018,2018,1,8
+Ke3chang,Service Execution,2018,2018,1,8
+Ke3chang,Sharepoint,2018,2018,1,8
+Ke3chang,Web Protocols,2018,2018,1,8
+Ke3chang,Windows Command Shell,2018,2018,1,8
+Ke3chang,Windows Service,2018,2018,1,8
+Lazarus Group,Drive-by Compromise,2018,2018,1,8
+Lazarus Group,Dynamic-link Library Injection,2018,2018,1,8
+Lazarus Group,Exploitation for Client Execution,2018,2018,1,8
+Lazarus Group,External Proxy,2018,2018,1,8
+Lazarus Group,Hidden Files and Directories,2018,2018,1,8
+Lazarus Group,Malicious File,2018,2018,1,8
+Lazarus Group,Shortcut Modification,2018,2018,1,8
+Lazarus Group,Spearphishing Attachment,2018,2018,1,8
+Lazarus Group,Standard Encoding,2018,2018,1,8
+Lazarus Group,System Time Discovery,2018,2018,1,8
+Lazarus Group,Web Protocols,2018,2018,1,8
+Leafminer,Command Obfuscation,2018,2018,1,8
+Leafminer,Drive-by Compromise,2018,2018,1,8
+Leafminer,File and Directory Discovery,2018,2018,1,8
+Leafminer,JavaScript,2018,2018,1,8
+Leafminer,LSASS Memory,2018,2018,1,8
+Leafminer,Local Account,2018,2018,1,8
+Leafminer,Network Service Discovery,2018,2018,1,8
+Leafminer,Password Spraying,2018,2018,1,8
+Leafminer,Remote Email Collection,2018,2018,1,8
+Leafminer,Remote System Discovery,2018,2018,1,8
+Leviathan,BITS Jobs,2018,2018,1,8
+Leviathan,Binary Padding,2018,2018,1,8
+Leviathan,Code Signing,2018,2018,1,8
+Leviathan,Deobfuscate/Decode Files or Information,2018,2018,1,8
+Leviathan,Encrypted/Encoded File,2018,2018,1,8
+Leviathan,Exploitation for Client Execution,2018,2018,1,8
+Leviathan,Ingress Tool Transfer,2018,2018,1,8
+Leviathan,Local Data Staging,2018,2018,1,8
+Leviathan,Malicious File,2018,2018,1,8
+Leviathan,One-Way Communication,2018,2018,1,8
+Leviathan,PowerShell,2018,2018,1,8
+Leviathan,Registry Run Keys / Startup Folder,2018,2018,1,8
+Leviathan,Regsvr32,2018,2018,1,8
+Leviathan,Shortcut Modification,2018,2018,1,8
+Leviathan,Spearphishing Attachment,2018,2018,1,8
+Leviathan,Spearphishing Link,2018,2018,1,8
+Leviathan,Visual Basic,2018,2018,1,8
+Leviathan,Windows Management Instrumentation,2018,2018,1,8
+Leviathan,Windows Management Instrumentation Event Subscription,2018,2018,1,8
+Magic Hound,Archive via Utility,2018,2018,1,8
+Magic Hound,Bidirectional Communication,2018,2018,1,8
+Magic Hound,Encrypted/Encoded File,2018,2018,1,8
+Magic Hound,File Deletion,2018,2018,1,8
+Magic Hound,File and Directory Discovery,2018,2018,1,8
+Magic Hound,Ingress Tool Transfer,2018,2018,1,8
+Magic Hound,Keylogging,2018,2018,1,8
+Magic Hound,LSASS Memory,2018,2018,1,8
+Magic Hound,Local Email Collection,2018,2018,1,8
+Magic Hound,PowerShell,2018,2018,1,8
+Magic Hound,Process Discovery,2018,2018,1,8
+Magic Hound,Registry Run Keys / Startup Folder,2018,2018,1,8
+Magic Hound,Screen Capture,2018,2018,1,8
+Magic Hound,System Information Discovery,2018,2018,1,8
+Magic Hound,System Network Configuration Discovery,2018,2018,1,8
+Magic Hound,System Owner/User Discovery,2018,2018,1,8
+Magic Hound,Visual Basic,2018,2018,1,8
+Magic Hound,Web Protocols,2018,2018,1,8
+Magic Hound,Windows Command Shell,2018,2018,1,8
+MuddyWater,CMSTP,2018,2018,1,8
+MuddyWater,Command Obfuscation,2018,2018,1,8
+MuddyWater,Deobfuscate/Decode Files or Information,2018,2018,1,8
+MuddyWater,LSASS Memory,2018,2018,1,8
+MuddyWater,Malicious File,2018,2018,1,8
+MuddyWater,Match Legitimate Resource Name or Location,2018,2018,1,8
+MuddyWater,Mshta,2018,2018,1,8
+MuddyWater,PowerShell,2018,2018,1,8
+MuddyWater,Registry Run Keys / Startup Folder,2018,2018,1,8
+MuddyWater,Spearphishing Attachment,2018,2018,1,8
+OilRig,Asymmetric Cryptography,2018,2018,1,8
+OilRig,Automated Collection,2018,2018,1,8
+OilRig,Brute Force,2018,2018,1,8
+OilRig,Command and Scripting Interpreter,2018,2018,1,8
+OilRig,Compiled HTML File,2018,2018,1,8
+OilRig,Deobfuscate/Decode Files or Information,2018,2018,1,8
+OilRig,Domain Account,2018,2018,1,8
+OilRig,Encrypted/Encoded File,2018,2018,1,8
+OilRig,Exfiltration Over Unencrypted Non-C2 Protocol,2018,2018,1,8
+OilRig,External Remote Services,2018,2018,1,8
+OilRig,Fallback Channels,2018,2018,1,8
+OilRig,File Deletion,2018,2018,1,8
+OilRig,Ingress Tool Transfer,2018,2018,1,8
+OilRig,Keylogging,2018,2018,1,8
+OilRig,LSASS Memory,2018,2018,1,8
+OilRig,Local Groups,2018,2018,1,8
+OilRig,Malicious File,2018,2018,1,8
+OilRig,Network Service Discovery,2018,2018,1,8
+OilRig,Password Policy Discovery,2018,2018,1,8
+OilRig,PowerShell,2018,2018,1,8
+OilRig,Process Discovery,2018,2018,1,8
+OilRig,Query Registry,2018,2018,1,8
+OilRig,Remote Desktop Protocol,2018,2018,1,8
+OilRig,SSH,2018,2018,1,8
+OilRig,Scheduled Task,2018,2018,1,8
+OilRig,Screen Capture,2018,2018,1,8
+OilRig,Spearphishing Attachment,2018,2018,1,8
+OilRig,Spearphishing Link,2018,2018,1,8
+OilRig,System Information Discovery,2018,2018,1,8
+OilRig,System Network Configuration Discovery,2018,2018,1,8
+OilRig,System Network Connections Discovery,2018,2018,1,8
+OilRig,System Owner/User Discovery,2018,2018,1,8
+OilRig,System Service Discovery,2018,2018,1,8
+OilRig,Valid Accounts,2018,2018,1,8
+OilRig,Web Protocols,2018,2018,1,8
+OilRig,Web Shell,2018,2018,1,8
+OilRig,Windows Management Instrumentation,2018,2018,1,8
+Orangeworm,SMB/Windows Admin Shares,2018,2018,1,8
+Orangeworm,Web Protocols,2018,2018,1,8
+PLATINUM,Credential API Hooking,2018,2018,1,8
+PLATINUM,Drive-by Compromise,2018,2018,1,8
+PLATINUM,Exploitation for Privilege Escalation,2018,2018,1,8
+PLATINUM,Ingress Tool Transfer,2018,2018,1,8
+PLATINUM,Keylogging,2018,2018,1,8
+PLATINUM,LSASS Memory,2018,2018,1,8
+PLATINUM,Malicious File,2018,2018,1,8
+PLATINUM,Non-Application Layer Protocol,2018,2018,1,8
+PLATINUM,Process Injection,2018,2018,1,8
+PLATINUM,Spearphishing Attachment,2018,2018,1,8
+Patchwork,Archive Collected Data,2018,2018,1,8
+Patchwork,Automated Collection,2018,2018,1,8
+Patchwork,Binary Padding,2018,2018,1,8
+Patchwork,Command Obfuscation,2018,2018,1,8
+Patchwork,DLL,2018,2018,1,8
+Patchwork,Drive-by Compromise,2018,2018,1,8
+Patchwork,Dynamic Data Exchange,2018,2018,1,8
+Patchwork,Exploitation for Client Execution,2018,2018,1,8
+Patchwork,File Deletion,2018,2018,1,8
+Patchwork,Indicator Removal from Tools,2018,2018,1,8
+Patchwork,Local Data Staging,2018,2018,1,8
+Patchwork,Malicious File,2018,2018,1,8
+Patchwork,Modify Registry,2018,2018,1,8
+Patchwork,Scheduled Task,2018,2018,1,8
+Patchwork,Spearphishing Attachment,2018,2018,1,8
+Rancor,Ingress Tool Transfer,2018,2018,1,8
+Rancor,Malicious File,2018,2018,1,8
+Rancor,Scheduled Task,2018,2018,1,8
+Rancor,Spearphishing Attachment,2018,2018,1,8
+Rancor,Web Protocols,2018,2018,1,8
+Rancor,Windows Command Shell,2018,2018,1,8
+Sowbug,Archive via Utility,2018,2018,1,8
+Sowbug,Data from Network Shared Drive,2018,2018,1,8
+Sowbug,File and Directory Discovery,2018,2018,1,8
+Sowbug,Keylogging,2018,2018,1,8
+Sowbug,Match Legitimate Resource Name or Location,2018,2018,1,8
+Sowbug,Network Share Discovery,2018,2018,1,8
+Sowbug,OS Credential Dumping,2018,2018,1,8
+Sowbug,System Information Discovery,2018,2018,1,8
+Sowbug,Windows Command Shell,2018,2018,1,8
+TA459,Exploitation for Client Execution,2018,2018,1,8
+TA459,Malicious File,2018,2018,1,8
+TA459,PowerShell,2018,2018,1,8
+TA459,Spearphishing Attachment,2018,2018,1,8
+TA459,Visual Basic,2018,2018,1,8
+Threat Group-3390,Bypass User Account Control,2018,2018,1,8
+Threat Group-3390,DLL,2018,2018,1,8
+Threat Group-3390,Deobfuscate/Decode Files or Information,2018,2018,1,8
+Threat Group-3390,Drive-by Compromise,2018,2018,1,8
+Threat Group-3390,Encrypted/Encoded File,2018,2018,1,8
+Threat Group-3390,Modify Registry,2018,2018,1,8
+Threat Group-3390,Process Hollowing,2018,2018,1,8
+Threat Group-3390,Query Registry,2018,2018,1,8
+Threat Group-3390,Registry Run Keys / Startup Folder,2018,2018,1,8
+Threat Group-3390,Remote System Discovery,2018,2018,1,8
+Threat Group-3390,Web Protocols,2018,2018,1,8
+Threat Group-3390,Windows Management Instrumentation,2018,2018,1,8
+Threat Group-3390,Windows Service,2018,2018,1,8
+Thrip,Exfiltration Over Unencrypted Non-C2 Protocol,2018,2018,1,8
+Thrip,PowerShell,2018,2018,1,8
+Thrip,Remote Desktop Software,2018,2018,1,8
+Turla,Bidirectional Communication,2018,2018,1,8
+Turla,Indicator Removal from Tools,2018,2018,1,8
+Turla,Ingress Tool Transfer,2018,2018,1,8
+Turla,Malicious Link,2018,2018,1,8
+Turla,PowerShell,2018,2018,1,8
+Turla,Process Injection,2018,2018,1,8
+Turla,Registry Run Keys / Startup Folder,2018,2018,1,8
+Turla,Spearphishing Link,2018,2018,1,8
+Turla,Web Protocols,2018,2018,1,8
+Turla,Winlogon Helper DLL,2018,2018,1,8
+menuPass,Deobfuscate/Decode Files or Information,2018,2018,1,8
+menuPass,Encrypted/Encoded File,2018,2018,1,8
+menuPass,File Deletion,2018,2018,1,8
+menuPass,Malicious File,2018,2018,1,8
+menuPass,Process Hollowing,2018,2018,1,8
+menuPass,Spearphishing Attachment,2018,2018,1,8
+menuPass,Trusted Relationship,2018,2018,1,8
+APT1,Automated Collection,2019,2019,1,7
+APT1,Local Account,2019,2019,1,7
+APT1,Network Share Discovery,2019,2019,1,7
+APT1,Process Discovery,2019,2019,1,7
+APT1,System Network Configuration Discovery,2019,2019,1,7
+APT1,System Network Connections Discovery,2019,2019,1,7
+APT1,System Service Discovery,2019,2019,1,7
+APT12,Bidirectional Communication,2019,2019,1,7
+APT12,Exploitation for Client Execution,2019,2019,1,7
+APT12,Malicious File,2019,2019,1,7
+APT12,Spearphishing Attachment,2019,2019,1,7
+APT18,Encrypted/Encoded File,2019,2019,1,7
+APT18,File and Directory Discovery,2019,2019,1,7
+APT18,Ingress Tool Transfer,2019,2019,1,7
+APT18,Registry Run Keys / Startup Folder,2019,2019,1,7
+APT18,System Information Discovery,2019,2019,1,7
+APT18,Web Protocols,2019,2019,1,7
+APT18,Windows Command Shell,2019,2019,1,7
+APT19,Hidden Window,2019,2019,1,7
+APT28,Application Access Token,2019,2019,1,7
+APT28,Exploitation for Client Execution,2019,2019,1,7
+APT28,Hidden Window,2019,2019,1,7
+APT28,Rootkit,2019,2019,1,7
+APT28,Steal Application Access Token,2019,2019,1,7
+APT28,Symmetric Cryptography,2019,2019,1,7
+APT28,Template Injection,2019,2019,1,7
+APT3,Hidden Window,2019,2019,1,7
+APT32,Archive Collected Data,2019,2019,1,7
+APT32,Exfiltration Over C2 Channel,2019,2019,1,7
+APT32,Exploitation for Client Execution,2019,2019,1,7
+APT32,File Deletion,2019,2019,1,7
+APT32,File and Directory Discovery,2019,2019,1,7
+APT32,Hidden Files and Directories,2019,2019,1,7
+APT32,Hidden Window,2019,2019,1,7
+APT32,LSASS Memory,2019,2019,1,7
+APT32,Linux and Mac Permissions,2019,2019,1,7
+APT32,Modify Registry,2019,2019,1,7
+APT32,Mshta,2019,2019,1,7
+APT32,NTFS File Attributes,2019,2019,1,7
+APT32,Network Service Discovery,2019,2019,1,7
+APT32,Office Application Startup,2019,2019,1,7
+APT32,Pass the Hash,2019,2019,1,7
+APT32,Pass the Ticket,2019,2019,1,7
+APT32,Query Registry,2019,2019,1,7
+APT32,Registry Run Keys / Startup Folder,2019,2019,1,7
+APT32,Remote System Discovery,2019,2019,1,7
+APT32,SMB/Windows Admin Shares,2019,2019,1,7
+APT32,Service Execution,2019,2019,1,7
+APT32,System Network Configuration Discovery,2019,2019,1,7
+APT32,System Network Connections Discovery,2019,2019,1,7
+APT32,Windows Command Shell,2019,2019,1,7
+APT32,Windows Management Instrumentation,2019,2019,1,7
+APT33,Archive via Utility,2019,2019,1,7
+APT33,Encrypted/Encoded File,2019,2019,1,7
+APT33,Exfiltration Over Unencrypted Non-C2 Protocol,2019,2019,1,7
+APT33,Exploitation for Client Execution,2019,2019,1,7
+APT33,Exploitation for Privilege Escalation,2019,2019,1,7
+APT33,Ingress Tool Transfer,2019,2019,1,7
+APT33,LSASS Memory,2019,2019,1,7
+APT33,Network Sniffing,2019,2019,1,7
+APT33,Password Spraying,2019,2019,1,7
+APT33,PowerShell,2019,2019,1,7
+APT33,Registry Run Keys / Startup Folder,2019,2019,1,7
+APT33,Scheduled Task,2019,2019,1,7
+APT33,Standard Encoding,2019,2019,1,7
+APT33,Symmetric Cryptography,2019,2019,1,7
+APT33,Web Protocols,2019,2019,1,7
+APT37,Bypass User Account Control,2019,2019,1,7
+APT37,Peripheral Device Discovery,2019,2019,1,7
+APT37,System Shutdown/Reboot,2019,2019,1,7
+APT38,Clear Windows Event Logs,2019,2019,1,7
+APT38,Clipboard Data,2019,2019,1,7
+APT38,Data Destruction,2019,2019,1,7
+APT38,Data Encrypted for Impact,2019,2019,1,7
+APT38,Disk Structure Wipe,2019,2019,1,7
+APT38,Drive-by Compromise,2019,2019,1,7
+APT38,File Deletion,2019,2019,1,7
+APT38,Ingress Tool Transfer,2019,2019,1,7
+APT38,Keylogging,2019,2019,1,7
+APT38,Modify Registry,2019,2019,1,7
+APT38,Process Discovery,2019,2019,1,7
+APT38,Runtime Data Manipulation,2019,2019,1,7
+APT38,Software Packing,2019,2019,1,7
+APT38,Stored Data Manipulation,2019,2019,1,7
+APT38,System Network Connections Discovery,2019,2019,1,7
+APT38,System Shutdown/Reboot,2019,2019,1,7
+APT38,Transmitted Data Manipulation,2019,2019,1,7
+APT38,Web Protocols,2019,2019,1,7
+APT38,Windows Command Shell,2019,2019,1,7
+APT39,Archive via Utility,2019,2019,1,7
+APT39,Command and Scripting Interpreter,2019,2019,1,7
+APT39,Internal Proxy,2019,2019,1,7
+APT39,LSASS Memory,2019,2019,1,7
+APT39,Malicious File,2019,2019,1,7
+APT39,Network Service Discovery,2019,2019,1,7
+APT39,Registry Run Keys / Startup Folder,2019,2019,1,7
+APT39,Remote Desktop Protocol,2019,2019,1,7
+APT39,Remote System Discovery,2019,2019,1,7
+APT39,SSH,2019,2019,1,7
+APT39,Scheduled Task,2019,2019,1,7
+APT39,Shortcut Modification,2019,2019,1,7
+APT39,Software Packing,2019,2019,1,7
+APT39,Spearphishing Attachment,2019,2019,1,7
+APT39,Spearphishing Link,2019,2019,1,7
+APT39,System Owner/User Discovery,2019,2019,1,7
+APT39,Valid Accounts,2019,2019,1,7
+APT39,Web Shell,2019,2019,1,7
+APT41,Accessibility Features,2019,2019,1,7
+APT41,Archive via Utility,2019,2019,1,7
+APT41,Bootkit,2019,2019,1,7
+APT41,Brute Force,2019,2019,1,7
+APT41,Clear Command History,2019,2019,1,7
+APT41,Clear Windows Event Logs,2019,2019,1,7
+APT41,Code Signing,2019,2019,1,7
+APT41,Compiled HTML File,2019,2019,1,7
+APT41,Compromise Software Supply Chain,2019,2019,1,7
+APT41,Compute Hijacking,2019,2019,1,7
+APT41,DNS,2019,2019,1,7
+APT41,Data Encrypted for Impact,2019,2019,1,7
+APT41,Dead Drop Resolver,2019,2019,1,7
+APT41,Domain Generation Algorithms,2019,2019,1,7
+APT41,Exploitation for Client Execution,2019,2019,1,7
+APT41,External Remote Services,2019,2019,1,7
+APT41,Fallback Channels,2019,2019,1,7
+APT41,File Deletion,2019,2019,1,7
+APT41,Keylogging,2019,2019,1,7
+APT41,LSASS Memory,2019,2019,1,7
+APT41,Match Legitimate Resource Name or Location,2019,2019,1,7
+APT41,Modify Registry,2019,2019,1,7
+APT41,Network Service Discovery,2019,2019,1,7
+APT41,Network Share Discovery,2019,2019,1,7
+APT41,PowerShell,2019,2019,1,7
+APT41,Process Injection,2019,2019,1,7
+APT41,Proxy,2019,2019,1,7
+APT41,Registry Run Keys / Startup Folder,2019,2019,1,7
+APT41,Remote Desktop Protocol,2019,2019,1,7
+APT41,Rootkit,2019,2019,1,7
+APT41,Scheduled Task,2019,2019,1,7
+APT41,Spearphishing Attachment,2019,2019,1,7
+APT41,System Network Configuration Discovery,2019,2019,1,7
+APT41,System Network Connections Discovery,2019,2019,1,7
+APT41,System Owner/User Discovery,2019,2019,1,7
+APT41,Valid Accounts,2019,2019,1,7
+APT41,Windows Command Shell,2019,2019,1,7
+APT41,Windows Management Instrumentation,2019,2019,1,7
+APT41,Windows Service,2019,2019,1,7
+Cobalt Group,Logon Script (Windows),2019,2019,1,7
+Cobalt Group,Odbcconf,2019,2019,1,7
+Cobalt Group,Security Software Discovery,2019,2019,1,7
+CopyKittens,Hidden Window,2019,2019,1,7
+DarkHydrus,Hidden Window,2019,2019,1,7
+Darkhotel,Deobfuscate/Decode Files or Information,2019,2019,1,7
+Darkhotel,Drive-by Compromise,2019,2019,1,7
+Darkhotel,Encrypted/Encoded File,2019,2019,1,7
+Darkhotel,Malicious File,2019,2019,1,7
+Darkhotel,Process Discovery,2019,2019,1,7
+Darkhotel,Security Software Discovery,2019,2019,1,7
+Darkhotel,Spearphishing Attachment,2019,2019,1,7
+Darkhotel,System Information Discovery,2019,2019,1,7
+Darkhotel,System Network Configuration Discovery,2019,2019,1,7
+Darkhotel,Windows Command Shell,2019,2019,1,7
+Deep Panda,Hidden Window,2019,2019,1,7
+Equation,Component Firmware,2019,2019,1,7
+Equation,Environmental Keying,2019,2019,1,7
+FIN4,Email Hiding Rules,2019,2019,1,7
+FIN4,GUI Input Capture,2019,2019,1,7
+FIN4,Keylogging,2019,2019,1,7
+FIN4,Malicious File,2019,2019,1,7
+FIN4,Multi-hop Proxy,2019,2019,1,7
+FIN4,Remote Email Collection,2019,2019,1,7
+FIN4,Spearphishing Attachment,2019,2019,1,7
+FIN4,Spearphishing Link,2019,2019,1,7
+FIN4,Valid Accounts,2019,2019,1,7
+FIN4,Visual Basic,2019,2019,1,7
+FIN4,Web Protocols,2019,2019,1,7
+FIN6,Code Signing,2019,2019,1,7
+FIN6,Masquerade Task or Service,2019,2019,1,7
+FIN6,Service Execution,2019,2019,1,7
+FIN6,Spearphishing via Service,2019,2019,1,7
+FIN6,Web Service,2019,2019,1,7
+FIN6,Windows Management Instrumentation,2019,2019,1,7
+FIN7,User Activity Based Checks,2019,2019,1,7
+GALLIUM,Archive via Utility,2019,2019,1,7
+GALLIUM,DLL,2019,2019,1,7
+GALLIUM,Data from Local System,2019,2019,1,7
+GALLIUM,Domain Account,2019,2019,1,7
+GALLIUM,Exfiltration Over C2 Channel,2019,2019,1,7
+GALLIUM,Exploit Public-Facing Application,2019,2019,1,7
+GALLIUM,External Proxy,2019,2019,1,7
+GALLIUM,External Remote Services,2019,2019,1,7
+GALLIUM,Indicator Removal from Tools,2019,2019,1,7
+GALLIUM,Ingress Tool Transfer,2019,2019,1,7
+GALLIUM,LSASS Memory,2019,2019,1,7
+GALLIUM,Local Data Staging,2019,2019,1,7
+GALLIUM,Obfuscated Files or Information,2019,2019,1,7
+GALLIUM,Pass the Hash,2019,2019,1,7
+GALLIUM,PowerShell,2019,2019,1,7
+GALLIUM,Remote System Discovery,2019,2019,1,7
+GALLIUM,Rename Legitimate Utilities,2019,2019,1,7
+GALLIUM,Scheduled Task,2019,2019,1,7
+GALLIUM,Security Account Manager,2019,2019,1,7
+GALLIUM,Software Packing,2019,2019,1,7
+GALLIUM,System Network Configuration Discovery,2019,2019,1,7
+GALLIUM,System Network Connections Discovery,2019,2019,1,7
+GALLIUM,System Owner/User Discovery,2019,2019,1,7
+GALLIUM,Valid Accounts,2019,2019,1,7
+GALLIUM,Web Shell,2019,2019,1,7
+GALLIUM,Windows Command Shell,2019,2019,1,7
+GALLIUM,Windows Management Instrumentation,2019,2019,1,7
+Gallmaker,Archive via Utility,2019,2019,1,7
+Gallmaker,Dynamic Data Exchange,2019,2019,1,7
+Gallmaker,Malicious File,2019,2019,1,7
+Gallmaker,Obfuscated Files or Information,2019,2019,1,7
+Gallmaker,PowerShell,2019,2019,1,7
+Gallmaker,Spearphishing Attachment,2019,2019,1,7
+Gorgon Group,Hidden Window,2019,2019,1,7
+Ke3chang,Right-to-Left Override,2019,2019,1,7
+Kimsuky,Archive via Custom Method,2019,2019,1,7
+Kimsuky,Browser Extensions,2019,2019,1,7
+Kimsuky,Change Default File Association,2019,2019,1,7
+Kimsuky,Credentials from Web Browsers,2019,2019,1,7
+Kimsuky,Data from Local System,2019,2019,1,7
+Kimsuky,Disable or Modify Tools,2019,2019,1,7
+Kimsuky,Exfiltration Over C2 Channel,2019,2019,1,7
+Kimsuky,File Deletion,2019,2019,1,7
+Kimsuky,File and Directory Discovery,2019,2019,1,7
+Kimsuky,Keylogging,2019,2019,1,7
+Kimsuky,Mshta,2019,2019,1,7
+Kimsuky,PowerShell,2019,2019,1,7
+Kimsuky,Process Injection,2019,2019,1,7
+Kimsuky,Registry Run Keys / Startup Folder,2019,2019,1,7
+Kimsuky,Remote Desktop Software,2019,2019,1,7
+Kimsuky,Spearphishing Attachment,2019,2019,1,7
+Kimsuky,System Information Discovery,2019,2019,1,7
+Kimsuky,Windows Service,2019,2019,1,7
+Lazarus Group,Data Destruction,2019,2019,1,7
+Lazarus Group,Disk Content Wipe,2019,2019,1,7
+Lazarus Group,Disk Structure Wipe,2019,2019,1,7
+Lazarus Group,Service Stop,2019,2019,1,7
+Lazarus Group,System Shutdown/Reboot,2019,2019,1,7
+Leviathan,OS Credential Dumping,2019,2019,1,7
+Leviathan,Remote Desktop Protocol,2019,2019,1,7
+Leviathan,SSH,2019,2019,1,7
+Leviathan,Web Shell,2019,2019,1,7
+Machete,Malicious File,2019,2019,1,7
+Machete,Python,2019,2019,1,7
+Machete,Spearphishing Attachment,2019,2019,1,7
+Machete,Spearphishing Link,2019,2019,1,7
+Magic Hound,Hidden Window,2019,2019,1,7
+MuddyWater,Archive via Utility,2019,2019,1,7
+MuddyWater,Bypass User Account Control,2019,2019,1,7
+MuddyWater,Compile After Delivery,2019,2019,1,7
+MuddyWater,Component Object Model,2019,2019,1,7
+MuddyWater,Credentials In Files,2019,2019,1,7
+MuddyWater,Credentials from Web Browsers,2019,2019,1,7
+MuddyWater,Dynamic Data Exchange,2019,2019,1,7
+MuddyWater,External Proxy,2019,2019,1,7
+MuddyWater,File and Directory Discovery,2019,2019,1,7
+MuddyWater,Ingress Tool Transfer,2019,2019,1,7
+MuddyWater,Multi-Stage Channels,2019,2019,1,7
+MuddyWater,Process Discovery,2019,2019,1,7
+MuddyWater,Rundll32,2019,2019,1,7
+MuddyWater,Screen Capture,2019,2019,1,7
+MuddyWater,Security Software Discovery,2019,2019,1,7
+MuddyWater,System Information Discovery,2019,2019,1,7
+MuddyWater,System Network Configuration Discovery,2019,2019,1,7
+MuddyWater,System Owner/User Discovery,2019,2019,1,7
+MuddyWater,Windows Command Shell,2019,2019,1,7
+MuddyWater,Windows Management Instrumentation,2019,2019,1,7
+OilRig,Credentials In Files,2019,2019,1,7
+OilRig,Spearphishing via Service,2019,2019,1,7
+PLATINUM,Masquerading,2019,2019,1,7
+Rancor,Msiexec,2019,2019,1,7
+Scarlet Mimic,Right-to-Left Override,2019,2019,1,7
+Silence,Command Obfuscation,2019,2019,1,7
+Silence,Compiled HTML File,2019,2019,1,7
+Silence,File Deletion,2019,2019,1,7
+Silence,Malicious File,2019,2019,1,7
+Silence,Native API,2019,2019,1,7
+Silence,Scheduled Task,2019,2019,1,7
+Silence,Screen Capture,2019,2019,1,7
+Silence,Service Execution,2019,2019,1,7
+Silence,Spearphishing Attachment,2019,2019,1,7
+Silence,Video Capture,2019,2019,1,7
+Silence,Visual Basic,2019,2019,1,7
+Silence,Windows Command Shell,2019,2019,1,7
+SilverTerrier,Mail Protocols,2019,2019,1,7
+TA505,Code Signing,2019,2019,1,7
+TA505,Credentials In Files,2019,2019,1,7
+TA505,Credentials from Web Browsers,2019,2019,1,7
+TA505,Data Encrypted for Impact,2019,2019,1,7
+TA505,Dynamic Data Exchange,2019,2019,1,7
+TA505,Encrypted/Encoded File,2019,2019,1,7
+TA505,Ingress Tool Transfer,2019,2019,1,7
+TA505,Malicious File,2019,2019,1,7
+TA505,Msiexec,2019,2019,1,7
+TA505,PowerShell,2019,2019,1,7
+TA505,Rundll32,2019,2019,1,7
+TA505,Spearphishing Attachment,2019,2019,1,7
+TA505,Spearphishing Link,2019,2019,1,7
+TA505,Visual Basic,2019,2019,1,7
+The White Company,Exploitation for Client Execution,2019,2019,1,7
+The White Company,File Deletion,2019,2019,1,7
+The White Company,Malicious File,2019,2019,1,7
+The White Company,Security Software Discovery,2019,2019,1,7
+The White Company,Software Packing,2019,2019,1,7
+The White Company,Spearphishing Attachment,2019,2019,1,7
+The White Company,System Time Discovery,2019,2019,1,7
+Threat Group-3390,Exploitation for Client Execution,2019,2019,1,7
+Threat Group-3390,Exploitation of Remote Services,2019,2019,1,7
+Threat Group-3390,Web Shell,2019,2019,1,7
+Tropic Trooper,Asymmetric Cryptography,2019,2019,1,7
+Tropic Trooper,DLL,2019,2019,1,7
+Tropic Trooper,Deobfuscate/Decode Files or Information,2019,2019,1,7
+Tropic Trooper,Dynamic-link Library Injection,2019,2019,1,7
+Tropic Trooper,Encrypted/Encoded File,2019,2019,1,7
+Tropic Trooper,Exploitation for Client Execution,2019,2019,1,7
+Tropic Trooper,Hidden Files and Directories,2019,2019,1,7
+Tropic Trooper,Network Service Discovery,2019,2019,1,7
+Tropic Trooper,Network Share Discovery,2019,2019,1,7
+Tropic Trooper,Process Discovery,2019,2019,1,7
+Tropic Trooper,Security Software Discovery,2019,2019,1,7
+Tropic Trooper,Spearphishing Attachment,2019,2019,1,7
+Tropic Trooper,System Owner/User Discovery,2019,2019,1,7
+Tropic Trooper,Template Injection,2019,2019,1,7
+Tropic Trooper,Windows Service,2019,2019,1,7
+Tropic Trooper,Winlogon Helper DLL,2019,2019,1,7
+Turla,Archive via Utility,2019,2019,1,7
+Turla,Command Obfuscation,2019,2019,1,7
+Turla,Create Process with Token,2019,2019,1,7
+Turla,Data from Local System,2019,2019,1,7
+Turla,Data from Removable Media,2019,2019,1,7
+Turla,Deobfuscate/Decode Files or Information,2019,2019,1,7
+Turla,Disable or Modify Tools,2019,2019,1,7
+Turla,Exfiltration to Cloud Storage,2019,2019,1,7
+Turla,Fileless Storage,2019,2019,1,7
+Turla,Native API,2019,2019,1,7
+Turla,PowerShell Profile,2019,2019,1,7
+Turla,Proxy,2019,2019,1,7
+Turla,Visual Basic,2019,2019,1,7
+Turla,Windows Command Shell,2019,2019,1,7
+Turla,Windows Credential Manager,2019,2019,1,7
+Turla,Windows Management Instrumentation Event Subscription,2019,2019,1,7
+WIRTE,Deobfuscate/Decode Files or Information,2019,2019,1,7
+WIRTE,Ingress Tool Transfer,2019,2019,1,7
+WIRTE,PowerShell,2019,2019,1,7
+WIRTE,Regsvr32,2019,2019,1,7
+WIRTE,Visual Basic,2019,2019,1,7
+WIRTE,Web Protocols,2019,2019,1,7
+admin@338,Exploitation for Client Execution,2019,2019,1,7
+admin@338,Malicious File,2019,2019,1,7
+admin@338,Spearphishing Attachment,2019,2019,1,7
+menuPass,Archive Collected Data,2019,2019,1,7
+menuPass,Data from Local System,2019,2019,1,7
+menuPass,Keylogging,2019,2019,1,7
+menuPass,Match Legitimate Resource Name or Location,2019,2019,1,7
+APT-C-36,Ingress Tool Transfer,2020,2020,1,6
+APT-C-36,Malicious File,2020,2020,1,6
+APT-C-36,Masquerade Task or Service,2020,2020,1,6
+APT-C-36,Non-Standard Port,2020,2020,1,6
+APT-C-36,Obfuscated Files or Information,2020,2020,1,6
+APT-C-36,Scheduled Task,2020,2020,1,6
+APT-C-36,Spearphishing Attachment,2020,2020,1,6
+APT-C-36,Visual Basic,2020,2020,1,6
+APT1,Domains,2020,2020,1,6
+APT1,Email Accounts,2020,2020,1,6
+APT1,Remote Email Collection,2020,2020,1,6
+APT1,Spearphishing Attachment,2020,2020,1,6
+APT1,Spearphishing Link,2020,2020,1,6
+APT12,DNS Calculation,2020,2020,1,6
+APT16,Server,2020,2020,1,6
+APT17,Establish Accounts,2020,2020,1,6
+APT17,Web Services,2020,2020,1,6
+APT18,DNS,2020,2020,1,6
+APT28,Domains,2020,2020,1,6
+APT28,Exploit Public-Facing Application,2020,2020,1,6
+APT28,Network Denial of Service,2020,2020,1,6
+APT28,OS Credential Dumping,2020,2020,1,6
+APT28,Password Guessing,2020,2020,1,6
+APT28,Password Spraying,2020,2020,1,6
+APT28,Web Protocols,2020,2020,1,6
+APT29,Digital Certificates,2020,2020,1,6
+APT29,Exploit Public-Facing Application,2020,2020,1,6
+APT29,Python,2020,2020,1,6
+APT29,Web Services,2020,2020,1,6
+APT3,Credentials from Web Browsers,2020,2020,1,6
+APT30,Malicious File,2020,2020,1,6
+APT30,Spearphishing Attachment,2020,2020,1,6
+APT32,Command and Scripting Interpreter,2020,2020,1,6
+APT32,Credentials in Registry,2020,2020,1,6
+APT32,Domains,2020,2020,1,6
+APT32,Exfiltration Over Unencrypted Non-C2 Protocol,2020,2020,1,6
+APT32,JavaScript,2020,2020,1,6
+APT32,Keylogging,2020,2020,1,6
+APT32,Lateral Tool Transfer,2020,2020,1,6
+APT32,Local Account,2020,2020,1,6
+APT32,Mail Protocols,2020,2020,1,6
+APT32,Malicious Link,2020,2020,1,6
+APT32,Masquerade Task or Service,2020,2020,1,6
+APT32,Masquerading,2020,2020,1,6
+APT32,Network Share Discovery,2020,2020,1,6
+APT32,Non-Standard Port,2020,2020,1,6
+APT32,OS Credential Dumping,2020,2020,1,6
+APT32,Process Injection,2020,2020,1,6
+APT32,Rename Legitimate Utilities,2020,2020,1,6
+APT32,Rundll32,2020,2020,1,6
+APT32,Social Media Accounts,2020,2020,1,6
+APT32,Spearphishing Link,2020,2019,2,6
+APT32,Visual Basic,2020,2020,1,6
+APT32,Web Service,2020,2020,1,6
+APT32,Web Services,2020,2020,1,6
+APT32,Windows Service,2020,2020,1,6
+APT33,Cached Domain Credentials,2020,2020,1,6
+APT33,Cloud Accounts,2020,2020,1,6
+APT33,Credentials In Files,2020,2020,1,6
+APT33,Credentials from Password Stores,2020,2020,1,6
+APT33,Credentials from Web Browsers,2020,2020,1,6
+APT33,Group Policy Preferences,2020,2020,1,6
+APT33,LSA Secrets,2020,2020,1,6
+APT33,Malicious File,2020,2020,1,6
+APT33,Non-Standard Port,2020,2020,1,6
+APT33,Spearphishing Attachment,2020,2020,1,6
+APT33,Visual Basic,2020,2020,1,6
+APT33,Windows Management Instrumentation Event Subscription,2020,2020,1,6
+APT37,Steganography,2020,2020,1,6
+APT37,Visual Basic,2020,2020,1,6
+APT39,BITS Jobs,2020,2020,1,6
+APT39,Bidirectional Communication,2020,2020,1,6
+APT39,Brute Force,2020,2020,1,6
+APT39,Clipboard Data,2020,2020,1,6
+APT39,Credentials from Password Stores,2020,2020,1,6
+APT39,DNS,2020,2020,1,6
+APT39,Data from Local System,2020,2020,1,6
+APT39,Exfiltration Over C2 Channel,2020,2020,1,6
+APT39,Exploit Public-Facing Application,2020,2020,1,6
+APT39,External Proxy,2020,2020,1,6
+APT39,File and Directory Discovery,2020,2020,1,6
+APT39,Ingress Tool Transfer,2020,2020,1,6
+APT39,Input Capture,2020,2020,1,6
+APT39,Keylogging,2020,2020,1,6
+APT39,Local Account,2020,2020,1,6
+APT39,Local Data Staging,2020,2020,1,6
+APT39,Malicious Link,2020,2020,1,6
+APT39,Match Legitimate Resource Name or Location,2020,2020,1,6
+APT39,Network Share Discovery,2020,2020,1,6
+APT39,OS Credential Dumping,2020,2020,1,6
+APT39,PowerShell,2020,2020,1,6
+APT39,Python,2020,2020,1,6
+APT39,Query Registry,2020,2020,1,6
+APT39,SMB/Windows Admin Shares,2020,2020,1,6
+APT39,Screen Capture,2020,2020,1,6
+APT39,Service Execution,2020,2020,1,6
+APT39,Visual Basic,2020,2020,1,6
+APT39,Web Protocols,2020,2020,1,6
+APT41,BITS Jobs,2020,2020,1,6
+APT41,DLL,2020,2020,1,6
+APT41,Dynamic Linker Hijacking,2020,2020,1,6
+APT41,Environmental Keying,2020,2020,1,6
+APT41,Exploit Public-Facing Application,2020,2020,1,6
+APT41,File Transfer Protocols,2020,2020,1,6
+APT41,File and Directory Discovery,2020,2020,1,6
+APT41,Ingress Tool Transfer,2020,2020,1,6
+APT41,Multi-Stage Channels,2020,2020,1,6
+APT41,Obfuscated Files or Information,2020,2020,1,6
+APT41,Rundll32,2020,2020,1,6
+APT41,SMB/Windows Admin Shares,2020,2020,1,6
+APT41,Service Execution,2020,2020,1,6
+APT41,Unix Shell,2020,2020,1,6
+APT41,Web Protocols,2020,2020,1,6
+Axiom,Steganography,2020,2020,1,6
+BRONZE BUTLER,DLL,2020,2020,1,6
+BRONZE BUTLER,Disable or Modify Tools,2020,2020,1,6
+BRONZE BUTLER,Masquerading,2020,2020,1,6
+BRONZE BUTLER,Python,2020,2020,1,6
+BRONZE BUTLER,Right-to-Left Override,2020,2020,1,6
+BRONZE BUTLER,Scheduled Task,2020,2020,1,6
+BRONZE BUTLER,Software Discovery,2020,2020,1,6
+BRONZE BUTLER,Steganography,2020,2020,1,6
+BRONZE BUTLER,System Service Discovery,2020,2020,1,6
+BRONZE BUTLER,Taint Shared Content,2020,2020,1,6
+BRONZE BUTLER,Visual Basic,2020,2020,1,6
+BlackTech,Exploit Public-Facing Application,2020,2020,1,6
+BlackTech,Exploitation for Client Execution,2020,2020,1,6
+BlackTech,Malicious File,2020,2020,1,6
+BlackTech,Malicious Link,2020,2020,1,6
+BlackTech,Right-to-Left Override,2020,2020,1,6
+BlackTech,Spearphishing Attachment,2020,2020,1,6
+BlackTech,Spearphishing Link,2020,2020,1,6
+Blue Mockingbird,Access Token Manipulation,2020,2020,1,6
+Blue Mockingbird,COR_PROFILER,2020,2020,1,6
+Blue Mockingbird,Compute Hijacking,2020,2020,1,6
+Blue Mockingbird,Encrypted/Encoded File,2020,2020,1,6
+Blue Mockingbird,Exploit Public-Facing Application,2020,2020,1,6
+Blue Mockingbird,LSASS Memory,2020,2020,1,6
+Blue Mockingbird,Match Legitimate Resource Name or Location,2020,2020,1,6
+Blue Mockingbird,Modify Registry,2020,2020,1,6
+Blue Mockingbird,PowerShell,2020,2020,1,6
+Blue Mockingbird,Proxy,2020,2020,1,6
+Blue Mockingbird,Regsvr32,2020,2020,1,6
+Blue Mockingbird,Remote Desktop Protocol,2020,2020,1,6
+Blue Mockingbird,Rundll32,2020,2020,1,6
+Blue Mockingbird,SMB/Windows Admin Shares,2020,2020,1,6
+Blue Mockingbird,Scheduled Task,2020,2020,1,6
+Blue Mockingbird,Service Execution,2020,2020,1,6
+Blue Mockingbird,System Information Discovery,2020,2020,1,6
+Blue Mockingbird,Windows Command Shell,2020,2020,1,6
+Blue Mockingbird,Windows Management Instrumentation,2020,2020,1,6
+Blue Mockingbird,Windows Management Instrumentation Event Subscription,2020,2020,1,6
+Blue Mockingbird,Windows Service,2020,2020,1,6
+Carbanak,Masquerade Task or Service,2020,2020,1,6
+Chimera,Archive via Utility,2020,2020,1,6
+Chimera,Command Obfuscation,2020,2020,1,6
+Chimera,Domain Account,2020,2020,1,6
+Chimera,Domain Controller Authentication,2020,2020,1,6
+Chimera,External Remote Services,2020,2020,1,6
+Chimera,Ingress Tool Transfer,2020,2020,1,6
+Chimera,Match Legitimate Resource Name or Location,2020,2020,1,6
+Chimera,NTDS,2020,2020,1,6
+Chimera,Native API,2020,2020,1,6
+Chimera,PowerShell,2020,2020,1,6
+Chimera,Remote Desktop Protocol,2020,2020,1,6
+Chimera,SMB/Windows Admin Shares,2020,2020,1,6
+Chimera,Scheduled Task,2020,2020,1,6
+Chimera,Valid Accounts,2020,2020,1,6
+Chimera,Windows Management Instrumentation,2020,2020,1,6
+Cleaver,ARP Cache Poisoning,2020,2020,1,6
+Cleaver,Social Media Accounts,2020,2020,1,6
+Cobalt Group,Compromise Software Supply Chain,2020,2020,1,6
+Cobalt Group,DNS,2020,2020,1,6
+Cobalt Group,JavaScript,2020,2020,1,6
+Cobalt Group,Malicious Link,2020,2020,1,6
+Cobalt Group,Protocol Tunneling,2020,2020,1,6
+Cobalt Group,Windows Command Shell,2020,2020,1,6
+DarkVishnya,Brute Force,2020,2020,1,6
+DarkVishnya,Hardware Additions,2020,2020,1,6
+DarkVishnya,Network Service Discovery,2020,2020,1,6
+DarkVishnya,Network Share Discovery,2020,2020,1,6
+DarkVishnya,Network Sniffing,2020,2020,1,6
+DarkVishnya,Non-Standard Port,2020,2020,1,6
+DarkVishnya,PowerShell,2020,2020,1,6
+DarkVishnya,Remote Access Tools,2020,2020,1,6
+DarkVishnya,Windows Service,2020,2020,1,6
+Dragonfly,Compromise Software Supply Chain,2020,2020,1,6
+Dragonfly,Drive-by Compromise,2020,2020,1,6
+Elderwood,Malicious Link,2020,2020,1,6
+Equation,Hidden File System,2020,2020,1,6
+FIN10,Local Accounts,2020,2020,1,6
+FIN4,Malicious Link,2020,2020,1,6
+FIN6,Access Token Manipulation,2020,2020,1,6
+FIN6,Command Obfuscation,2020,2020,1,6
+FIN6,Credentials from Password Stores,2020,2020,1,6
+FIN6,Credentials from Web Browsers,2020,2020,1,6
+FIN6,Data from Local System,2020,2020,1,6
+FIN6,Databases,2020,2020,1,6
+FIN6,Disable or Modify Tools,2020,2020,1,6
+FIN6,Exfiltration Over Unencrypted Non-C2 Protocol,2020,2020,1,6
+FIN6,File Deletion,2020,2020,1,6
+FIN6,JavaScript,2020,2020,1,6
+FIN6,Malicious File,2020,2020,1,6
+FIN6,NTDS,2020,2020,1,6
+FIN6,Non-Application Layer Protocol,2020,2020,1,6
+FIN6,Password Cracking,2020,2020,1,6
+FIN6,Remote Data Staging,2020,2020,1,6
+FIN6,Spearphishing Attachment,2020,2020,1,6
+FIN6,Windows Command Shell,2020,2020,1,6
+FIN7,JavaScript,2020,2020,1,6
+FIN7,Non-Standard Port,2020,2020,1,6
+FIN7,Visual Basic,2020,2020,1,6
+FIN7,Windows Command Shell,2020,2020,1,6
+FIN8,Malicious Link,2020,2020,1,6
+Fox Kitten,Accessibility Features,2020,2020,1,6
+Fox Kitten,Archive via Utility,2020,2020,1,6
+Fox Kitten,Browser Information Discovery,2020,2020,1,6
+Fox Kitten,Brute Force,2020,2020,1,6
+Fox Kitten,Command and Scripting Interpreter,2020,2020,1,6
+Fox Kitten,Credentials In Files,2020,2020,1,6
+Fox Kitten,Data from Cloud Storage,2020,2020,1,6
+Fox Kitten,Data from Local System,2020,2020,1,6
+Fox Kitten,Data from Network Shared Drive,2020,2020,1,6
+Fox Kitten,Domain Account,2020,2020,1,6
+Fox Kitten,Encrypted/Encoded File,2020,2020,1,6
+Fox Kitten,Exploit Public-Facing Application,2020,2020,1,6
+Fox Kitten,Exploitation of Remote Services,2020,2020,1,6
+Fox Kitten,File and Directory Discovery,2020,2020,1,6
+Fox Kitten,Ingress Tool Transfer,2020,2020,1,6
+Fox Kitten,LSASS Memory,2020,2020,1,6
+Fox Kitten,Local Account,2020,2020,1,6
+Fox Kitten,Masquerade Task or Service,2020,2020,1,6
+Fox Kitten,Match Legitimate Resource Name or Location,2020,2020,1,6
+Fox Kitten,Messaging Applications,2020,2020,1,6
+Fox Kitten,NTDS,2020,2020,1,6
+Fox Kitten,Network Service Discovery,2020,2020,1,6
+Fox Kitten,Password Managers,2020,2020,1,6
+Fox Kitten,PowerShell,2020,2020,1,6
+Fox Kitten,Protocol Tunneling,2020,2020,1,6
+Fox Kitten,Proxy,2020,2020,1,6
+Fox Kitten,Query Registry,2020,2020,1,6
+Fox Kitten,Remote Desktop Protocol,2020,2020,1,6
+Fox Kitten,Remote System Discovery,2020,2020,1,6
+Fox Kitten,SMB/Windows Admin Shares,2020,2020,1,6
+Fox Kitten,SSH,2020,2020,1,6
+Fox Kitten,Scheduled Task,2020,2020,1,6
+Fox Kitten,VNC,2020,2020,1,6
+Fox Kitten,Valid Accounts,2020,2020,1,6
+Fox Kitten,Web Shell,2020,2020,1,6
+Fox Kitten,Windows Command Shell,2020,2020,1,6
+GCMAN,VNC,2020,2020,1,6
+GOLD SOUTHFIELD,Command Obfuscation,2020,2020,1,6
+GOLD SOUTHFIELD,Compromise Software Supply Chain,2020,2020,1,6
+GOLD SOUTHFIELD,Exploit Public-Facing Application,2020,2020,1,6
+GOLD SOUTHFIELD,External Remote Services,2020,2020,1,6
+GOLD SOUTHFIELD,Phishing,2020,2020,1,6
+GOLD SOUTHFIELD,PowerShell,2020,2020,1,6
+GOLD SOUTHFIELD,Remote Access Tools,2020,2020,1,6
+GOLD SOUTHFIELD,Screen Capture,2020,2020,1,6
+GOLD SOUTHFIELD,Trusted Relationship,2020,2020,1,6
+Gamaredon Group,Automated Collection,2020,2020,1,6
+Gamaredon Group,Automated Exfiltration,2020,2020,1,6
+Gamaredon Group,Compile After Delivery,2020,2020,1,6
+Gamaredon Group,Component Object Model,2020,2020,1,6
+Gamaredon Group,Data from Local System,2020,2020,1,6
+Gamaredon Group,Data from Network Shared Drive,2020,2020,1,6
+Gamaredon Group,Deobfuscate/Decode Files or Information,2020,2020,1,6
+Gamaredon Group,Disable or Modify Tools,2020,2020,1,6
+Gamaredon Group,File Deletion,2020,2020,1,6
+Gamaredon Group,File and Directory Discovery,2020,2020,1,6
+Gamaredon Group,Internal Spearphishing,2020,2020,1,6
+Gamaredon Group,Junk Code Insertion,2020,2020,1,6
+Gamaredon Group,Malicious File,2020,2020,1,6
+Gamaredon Group,Modify Registry,2020,2020,1,6
+Gamaredon Group,Native API,2020,2020,1,6
+Gamaredon Group,Obfuscated Files or Information,2020,2020,1,6
+Gamaredon Group,Office Application Startup,2020,2020,1,6
+Gamaredon Group,Registry Run Keys / Startup Folder,2020,2020,1,6
+Gamaredon Group,Rundll32,2020,2020,1,6
+Gamaredon Group,Scheduled Task,2020,2020,1,6
+Gamaredon Group,Screen Capture,2020,2020,1,6
+Gamaredon Group,Spearphishing Attachment,2020,2020,1,6
+Gamaredon Group,Taint Shared Content,2020,2020,1,6
+Gamaredon Group,Template Injection,2020,2020,1,6
+Gamaredon Group,Visual Basic,2020,2020,1,6
+Gamaredon Group,Web Service,2020,2020,1,6
+Inception,Credentials from Web Browsers,2020,2020,1,6
+Inception,Data from Local System,2020,2020,1,6
+Inception,Domain Groups,2020,2020,1,6
+Inception,Encrypted/Encoded File,2020,2020,1,6
+Inception,Exploitation for Client Execution,2020,2020,1,6
+Inception,File and Directory Discovery,2020,2020,1,6
+Inception,Malicious File,2020,2020,1,6
+Inception,Mshta,2020,2020,1,6
+Inception,Multi-hop Proxy,2020,2020,1,6
+Inception,PowerShell,2020,2020,1,6
+Inception,Process Discovery,2020,2020,1,6
+Inception,Registry Run Keys / Startup Folder,2020,2020,1,6
+Inception,Regsvr32,2020,2020,1,6
+Inception,Software Discovery,2020,2020,1,6
+Inception,Spearphishing Attachment,2020,2020,1,6
+Inception,Symmetric Cryptography,2020,2020,1,6
+Inception,System Information Discovery,2020,2020,1,6
+Inception,Template Injection,2020,2020,1,6
+Inception,Visual Basic,2020,2020,1,6
+Inception,Web Protocols,2020,2020,1,6
+Inception,Web Service,2020,2020,1,6
+Ke3chang,DNS,2020,2020,1,6
+Ke3chang,LSA Secrets,2020,2020,1,6
+Ke3chang,Local Account,2020,2020,1,6
+Ke3chang,Security Account Manager,2020,2020,1,6
+Kimsuky,Adversary-in-the-Middle,2020,2020,1,6
+Kimsuky,Code Signing,2020,2020,1,6
+Kimsuky,Develop Capabilities,2020,2020,1,6
+Kimsuky,Disable or Modify System Firewall,2020,2020,1,6
+Kimsuky,Email Forwarding Rule,2020,2020,1,6
+Kimsuky,External Remote Services,2020,2020,1,6
+Kimsuky,File Transfer Protocols,2020,2020,1,6
+Kimsuky,Ingress Tool Transfer,2020,2020,1,6
+Kimsuky,JavaScript,2020,2020,1,6
+Kimsuky,LSASS Memory,2020,2020,1,6
+Kimsuky,Local Data Staging,2020,2020,1,6
+Kimsuky,Mail Protocols,2020,2020,1,6
+Kimsuky,Malicious File,2020,2020,1,6
+Kimsuky,Masquerade Task or Service,2020,2020,1,6
+Kimsuky,Modify Registry,2020,2020,1,6
+Kimsuky,Network Sniffing,2020,2020,1,6
+Kimsuky,Obfuscated Files or Information,2020,2020,1,6
+Kimsuky,Pass the Hash,2020,2020,1,6
+Kimsuky,Python,2020,2020,1,6
+Kimsuky,Spearphishing Link,2020,2019,2,6
+Kimsuky,Timestomp,2020,2020,1,6
+Kimsuky,Visual Basic,2020,2020,1,6
+Kimsuky,Web Shell,2020,2020,1,6
+Lazarus Group,Archive via Custom Method,2020,2020,1,6
+Lazarus Group,Internal Defacement,2020,2020,1,6
+Lazarus Group,Non-Standard Port,2020,2020,1,6
+Lazarus Group,Protocol or Service Impersonation,2020,2020,1,6
+Lazarus Group,Windows Command Shell,2020,2020,1,6
+Lazarus Group,Windows Host Firewall,2020,2020,1,6
+Leafminer,Cached Domain Credentials,2020,2020,1,6
+Leafminer,Credentials In Files,2020,2020,1,6
+Leafminer,Credentials from Password Stores,2020,2020,1,6
+Leafminer,Credentials from Web Browsers,2020,2020,1,6
+Leafminer,LSA Secrets,2020,2020,1,6
+Leafminer,Process Doppelgänging,2020,2020,1,6
+Leviathan,Exfiltration to Cloud Storage,2020,2020,1,6
+Leviathan,LSASS Memory,2020,2020,1,6
+Leviathan,Malicious Link,2020,2020,1,6
+Machete,Malicious Link,2020,2020,1,6
+Machete,Match Legitimate Resource Name or Location,2020,2020,1,6
+Machete,Msiexec,2020,2020,1,6
+Machete,Scheduled Task,2020,2020,1,6
+Machete,Visual Basic,2020,2020,1,6
+Machete,Windows Command Shell,2020,2020,1,6
+Magic Hound,Additional Email Delegate Permissions,2020,2020,1,6
+Magic Hound,Application Layer Protocol,2020,2020,1,6
+Magic Hound,Non-Standard Port,2020,2020,1,6
+Magic Hound,Spearphishing via Service,2020,2020,1,6
+Mofang,Encrypted/Encoded File,2020,2020,1,6
+Mofang,Malicious File,2020,2020,1,6
+Mofang,Malicious Link,2020,2020,1,6
+Mofang,Spearphishing Attachment,2020,2020,1,6
+Mofang,Spearphishing Link,2020,2020,1,6
+Molerats,Compression,2020,2020,1,6
+Molerats,Deobfuscate/Decode Files or Information,2020,2020,1,6
+Molerats,Ingress Tool Transfer,2020,2020,1,6
+Molerats,JavaScript,2020,2020,1,6
+Molerats,Malicious File,2020,2020,1,6
+Molerats,Malicious Link,2020,2020,1,6
+Molerats,Msiexec,2020,2020,1,6
+Molerats,PowerShell,2020,2020,1,6
+Molerats,Registry Run Keys / Startup Folder,2020,2020,1,6
+Molerats,Scheduled Task,2020,2020,1,6
+Molerats,Spearphishing Attachment,2020,2020,1,6
+Molerats,Spearphishing Link,2020,2020,1,6
+Molerats,Visual Basic,2020,2020,1,6
+MuddyWater,Cached Domain Credentials,2020,2020,1,6
+MuddyWater,Credentials from Password Stores,2020,2020,1,6
+MuddyWater,Exfiltration Over C2 Channel,2020,2020,1,6
+MuddyWater,Exploitation for Client Execution,2020,2020,1,6
+MuddyWater,LSA Secrets,2020,2020,1,6
+MuddyWater,Office Template Macros,2020,2020,1,6
+MuddyWater,Scheduled Task,2020,2020,1,6
+MuddyWater,Standard Encoding,2020,2020,1,6
+MuddyWater,Steganography,2020,2020,1,6
+MuddyWater,Visual Basic,2020,2020,1,6
+MuddyWater,Web Protocols,2020,2020,1,6
+Naikon,Add-ins,2020,2020,1,6
+Naikon,DLL,2020,2020,1,6
+Naikon,Malicious File,2020,2020,1,6
+Naikon,Spearphishing Attachment,2020,2020,1,6
+OilRig,Cached Domain Credentials,2020,2020,1,6
+OilRig,Credentials from Password Stores,2020,2020,1,6
+OilRig,Credentials from Web Browsers,2020,2020,1,6
+OilRig,DNS,2020,2020,1,6
+OilRig,Domain Groups,2020,2020,1,6
+OilRig,LSA Secrets,2020,2020,1,6
+OilRig,Local Account,2020,2020,1,6
+OilRig,Malicious Link,2020,2020,1,6
+OilRig,Outlook Home Page,2020,2020,1,6
+OilRig,Protocol Tunneling,2020,2020,1,6
+OilRig,Windows Command Shell,2020,2020,1,6
+OilRig,Windows Credential Manager,2020,2020,1,6
+PROMETHIUM,Code Signing,2020,2020,1,6
+PROMETHIUM,Code Signing Certificates,2020,2020,1,6
+PROMETHIUM,Digital Certificates,2020,2020,1,6
+PROMETHIUM,Drive-by Compromise,2020,2020,1,6
+PROMETHIUM,Local Accounts,2020,2020,1,6
+PROMETHIUM,Malicious File,2020,2020,1,6
+PROMETHIUM,Masquerade Task or Service,2020,2020,1,6
+PROMETHIUM,Match Legitimate Resource Name or Location,2020,2020,1,6
+PROMETHIUM,Port Knocking,2020,2020,1,6
+PROMETHIUM,Registry Run Keys / Startup Folder,2020,2020,1,6
+PROMETHIUM,Windows Service,2020,2020,1,6
+Patchwork,BITS Jobs,2020,2020,1,6
+Patchwork,Code Signing,2020,2020,1,6
+Patchwork,Code Signing Certificates,2020,2020,1,6
+Patchwork,Malicious Link,2020,2020,1,6
+Patchwork,Visual Basic,2020,2020,1,6
+Poseidon Group,Local Account,2020,2020,1,6
+RTM,DLL,2020,2020,1,6
+RTM,Drive-by Compromise,2020,2020,1,6
+RTM,Malicious File,2020,2020,1,6
+RTM,Registry Run Keys / Startup Folder,2020,2020,1,6
+RTM,Remote Desktop Software,2020,2020,1,6
+RTM,Spearphishing Attachment,2020,2020,1,6
+Rancor,Visual Basic,2020,2020,1,6
+Rocke,Application Layer Protocol,2020,2020,1,6
+Rocke,Boot or Logon Initialization Scripts,2020,2020,1,6
+Rocke,Clear Linux or Mac System Logs,2020,2020,1,6
+Rocke,Compile After Delivery,2020,2020,1,6
+Rocke,Compute Hijacking,2020,2020,1,6
+Rocke,Cron,2020,2020,1,6
+Rocke,Dead Drop Resolver,2020,2020,1,6
+Rocke,Deobfuscate/Decode Files or Information,2020,2020,1,6
+Rocke,Disable or Modify System Firewall,2020,2020,1,6
+Rocke,Disable or Modify Tools,2020,2020,1,6
+Rocke,Dynamic Linker Hijacking,2020,2020,1,6
+Rocke,Exploit Public-Facing Application,2020,2020,1,6
+Rocke,File Deletion,2020,2020,1,6
+Rocke,Hidden Files and Directories,2020,2020,1,6
+Rocke,Ingress Tool Transfer,2020,2020,1,6
+Rocke,Linux and Mac Permissions,2020,2020,1,6
+Rocke,Match Legitimate Resource Name or Location,2020,2020,1,6
+Rocke,Network Service Discovery,2020,2020,1,6
+Rocke,Non-Standard Port,2020,2020,1,6
+Rocke,Obfuscated Files or Information,2020,2020,1,6
+Rocke,Portable Executable Injection,2020,2020,1,6
+Rocke,Private Keys,2020,2020,1,6
+Rocke,Process Discovery,2020,2020,1,6
+Rocke,Python,2020,2020,1,6
+Rocke,Registry Run Keys / Startup Folder,2020,2020,1,6
+Rocke,Remote System Discovery,2020,2020,1,6
+Rocke,Rootkit,2020,2020,1,6
+Rocke,SSH,2020,2020,1,6
+Rocke,Security Software Discovery,2020,2020,1,6
+Rocke,Software Packing,2020,2020,1,6
+Rocke,System Information Discovery,2020,2020,1,6
+Rocke,Systemd Service,2020,2020,1,6
+Rocke,Timestomp,2020,2020,1,6
+Rocke,Unix Shell,2020,2020,1,6
+Rocke,Web Protocols,2020,2020,1,6
+Rocke,Web Service,2020,2020,1,6
+Sandworm Team,Bidirectional Communication,2020,2020,1,6
+Sandworm Team,Business Relationships,2020,2020,1,6
+Sandworm Team,Compromise Software Supply Chain,2020,2020,1,6
+Sandworm Team,Credentials from Web Browsers,2020,2020,1,6
+Sandworm Team,Data Destruction,2020,2020,1,6
+Sandworm Team,Data from Local System,2020,2020,1,6
+Sandworm Team,Deobfuscate/Decode Files or Information,2020,2020,1,6
+Sandworm Team,Disk Structure Wipe,2020,2020,1,6
+Sandworm Team,Domain Account,2020,2020,1,6
+Sandworm Team,Domain Accounts,2020,2020,1,6
+Sandworm Team,Domain Properties,2020,2020,1,6
+Sandworm Team,Domains,2020,2020,1,6
+Sandworm Team,Email Account,2020,2020,1,6
+Sandworm Team,Email Accounts,2020,2020,1,6
+Sandworm Team,Email Addresses,2020,2020,1,6
+Sandworm Team,Employee Names,2020,2020,1,6
+Sandworm Team,Endpoint Denial of Service,2020,2020,1,6
+Sandworm Team,Exfiltration Over C2 Channel,2020,2020,1,6
+Sandworm Team,Exploitation for Client Execution,2020,2020,1,6
+Sandworm Team,External Defacement,2020,2020,1,6
+Sandworm Team,External Remote Services,2020,2020,1,6
+Sandworm Team,File Deletion,2020,2020,1,6
+Sandworm Team,File and Directory Discovery,2020,2020,1,6
+Sandworm Team,Ingress Tool Transfer,2020,2020,1,6
+Sandworm Team,Keylogging,2020,2020,1,6
+Sandworm Team,LSASS Memory,2020,2020,1,6
+Sandworm Team,Malicious File,2020,2020,1,6
+Sandworm Team,Malicious Link,2020,2020,1,6
+Sandworm Team,Match Legitimate Resource Name or Location,2020,2020,1,6
+Sandworm Team,Network Sniffing,2020,2020,1,6
+Sandworm Team,Non-Standard Port,2020,2020,1,6
+Sandworm Team,Obfuscated Files or Information,2020,2020,1,6
+Sandworm Team,PowerShell,2020,2020,1,6
+Sandworm Team,Proxy,2020,2020,1,6
+Sandworm Team,Remote Access Tools,2020,2020,1,6
+Sandworm Team,Remote System Discovery,2020,2020,1,6
+Sandworm Team,Rundll32,2020,2020,1,6
+Sandworm Team,Search Open Websites/Domains,2020,2020,1,6
+Sandworm Team,Search Victim-Owned Websites,2020,2020,1,6
+Sandworm Team,Software,2020,2020,1,6
+Sandworm Team,Spearphishing Attachment,2020,2020,1,6
+Sandworm Team,Spearphishing Link,2020,2020,1,6
+Sandworm Team,Standard Encoding,2020,2020,1,6
+Sandworm Team,System Information Discovery,2020,2020,1,6
+Sandworm Team,System Network Connections Discovery,2020,2020,1,6
+Sandworm Team,System Owner/User Discovery,2020,2020,1,6
+Sandworm Team,Trusted Relationship,2020,2020,1,6
+Sandworm Team,Valid Accounts,2020,2020,1,6
+Sandworm Team,Visual Basic,2020,2020,1,6
+Sandworm Team,Vulnerabilities,2020,2020,1,6
+Sandworm Team,Vulnerability Scanning,2020,2020,1,6
+Sandworm Team,Web Protocols,2020,2020,1,6
+Silence,Code Signing,2020,2020,1,6
+Silence,External Proxy,2020,2020,1,6
+Silence,Ingress Tool Transfer,2020,2020,1,6
+Silence,JavaScript,2020,2020,1,6
+Silence,LSASS Memory,2020,2020,1,6
+Silence,Match Legitimate Resource Name or Location,2020,2020,1,6
+Silence,Modify Registry,2020,2020,1,6
+Silence,Non-Standard Port,2020,2020,1,6
+Silence,PowerShell,2020,2020,1,6
+Silence,Process Injection,2020,2020,1,6
+Silence,Registry Run Keys / Startup Folder,2020,2020,1,6
+Silence,Remote Desktop Protocol,2020,2020,1,6
+Silence,Remote System Discovery,2020,2020,1,6
+Silence,Software Deployment Tools,2020,2020,1,6
+Silence,Valid Accounts,2020,2020,1,6
+SilverTerrier,File Transfer Protocols,2020,2020,1,6
+SilverTerrier,Web Protocols,2020,2020,1,6
+Stealth Falcon,Credentials from Web Browsers,2020,2020,1,6
+Stealth Falcon,Windows Credential Manager,2020,2020,1,6
+Strider,Hidden File System,2020,2020,1,6
+TA505,Domain Accounts,2020,2020,1,6
+TA505,Dynamic-link Library Injection,2020,2020,1,6
+TA505,Email Account,2020,2020,1,6
+TA505,Fast Flux DNS,2020,2020,1,6
+TA505,JavaScript,2020,2020,1,6
+TA505,Malicious Link,2020,2020,1,6
+TA505,Permission Groups Discovery,2020,2020,1,6
+TA505,Software Packing,2020,2020,1,6
+TA505,Web Protocols,2020,2020,1,6
+TA505,Windows Command Shell,2020,2020,1,6
+Threat Group-3390,LSASS Memory,2020,2020,1,6
+Threat Group-3390,Remote Data Staging,2020,2020,1,6
+Threat Group-3390,Security Account Manager,2020,2020,1,6
+Tropic Trooper,Automated Collection,2020,2020,1,6
+Tropic Trooper,Automated Exfiltration,2020,2020,1,6
+Tropic Trooper,DNS,2020,2020,1,6
+Tropic Trooper,Encrypted Channel,2020,2020,1,6
+Tropic Trooper,Exfiltration over USB,2020,2020,1,6
+Tropic Trooper,File Deletion,2020,2020,1,6
+Tropic Trooper,File and Directory Discovery,2020,2020,1,6
+Tropic Trooper,Ingress Tool Transfer,2020,2020,1,6
+Tropic Trooper,Local Accounts,2020,2020,1,6
+Tropic Trooper,Malicious File,2020,2020,1,6
+Tropic Trooper,Match Legitimate Resource Name or Location,2020,2020,1,6
+Tropic Trooper,Native API,2020,2020,1,6
+Tropic Trooper,Registry Run Keys / Startup Folder,2020,2020,1,6
+Tropic Trooper,Replication Through Removable Media,2020,2020,1,6
+Tropic Trooper,Software Discovery,2020,2020,1,6
+Tropic Trooper,Standard Encoding,2020,2020,1,6
+Tropic Trooper,Steganography,2020,2020,1,6
+Tropic Trooper,System Information Discovery,2020,2020,1,6
+Tropic Trooper,System Network Configuration Discovery,2020,2020,1,6
+Tropic Trooper,System Network Connections Discovery,2020,2020,1,6
+Tropic Trooper,Web Protocols,2020,2020,1,6
+Tropic Trooper,Web Shell,2020,2020,1,6
+Tropic Trooper,Windows Command Shell,2020,2020,1,6
+Turla,Databases,2020,2020,1,6
+Turla,Domain Account,2020,2020,1,6
+Turla,Domain Groups,2020,2020,1,6
+Turla,Drive-by Compromise,2020,2020,1,6
+Turla,Dynamic-link Library Injection,2020,2020,1,6
+Turla,Lateral Tool Transfer,2020,2020,1,6
+Turla,Local Account,2020,2020,1,6
+Turla,Local Accounts,2020,2020,1,6
+Turla,Local Groups,2020,2020,1,6
+Turla,Mail Protocols,2020,2020,1,6
+Turla,Password Policy Discovery,2020,2020,1,6
+Turla,Peripheral Device Discovery,2020,2020,1,6
+Turla,Security Software Discovery,2020,2020,1,6
+Turla,Server,2020,2020,1,6
+Turla,Virtual Private Server,2020,2020,1,6
+Turla,Web Service,2020,2020,1,6
+Turla,Web Services,2020,2020,1,6
+Whitefly,Command and Scripting Interpreter,2020,2020,1,6
+Whitefly,DLL,2020,2020,1,6
+Whitefly,Encrypted/Encoded File,2020,2020,1,6
+Whitefly,Exploitation for Privilege Escalation,2020,2020,1,6
+Whitefly,Ingress Tool Transfer,2020,2020,1,6
+Whitefly,LSASS Memory,2020,2020,1,6
+Whitefly,Malicious File,2020,2020,1,6
+Whitefly,Match Legitimate Resource Name or Location,2020,2020,1,6
+Windshift,Drive-by Compromise,2020,2020,1,6
+Windshift,Invalid Code Signature,2020,2020,1,6
+Windshift,Malicious File,2020,2020,1,6
+Windshift,Malicious Link,2020,2020,1,6
+Windshift,Masquerading,2020,2020,1,6
+Windshift,Spearphishing Attachment,2020,2020,1,6
+Windshift,Spearphishing Link,2020,2020,1,6
+Windshift,Spearphishing via Service,2020,2020,1,6
+Wizard Spider,Code Signing,2020,2020,1,6
+Wizard Spider,Code Signing Certificates,2020,2020,1,6
+Wizard Spider,Command Obfuscation,2020,2020,1,6
+Wizard Spider,Data Staged,2020,2020,1,6
+Wizard Spider,Disable or Modify Tools,2020,2020,1,6
+Wizard Spider,Domain Accounts,2020,2020,1,6
+Wizard Spider,Dynamic-link Library Injection,2020,2020,1,6
+Wizard Spider,Exfiltration Over C2 Channel,2020,2020,1,6
+Wizard Spider,Exfiltration Over Unencrypted Non-C2 Protocol,2020,2020,1,6
+Wizard Spider,Exploitation of Remote Services,2020,2020,1,6
+Wizard Spider,External Remote Services,2020,2020,1,6
+Wizard Spider,File Deletion,2020,2020,1,6
+Wizard Spider,Kerberoasting,2020,2020,1,6
+Wizard Spider,Lateral Tool Transfer,2020,2020,1,6
+Wizard Spider,Malicious File,2020,2020,1,6
+Wizard Spider,Malicious Link,2020,2020,1,6
+Wizard Spider,Masquerade Task or Service,2020,2020,1,6
+Wizard Spider,Modify Registry,2020,2020,1,6
+Wizard Spider,NTDS,2020,2020,1,6
+Wizard Spider,Name Resolution Poisoning and SMB Relay,2020,2020,1,6
+Wizard Spider,Network Share Discovery,2020,2020,1,6
+Wizard Spider,PowerShell,2020,2020,1,6
+Wizard Spider,Registry Run Keys / Startup Folder,2020,2020,1,6
+Wizard Spider,Remote Desktop Protocol,2020,2020,1,6
+Wizard Spider,Remote System Discovery,2020,2020,1,6
+Wizard Spider,SMB/Windows Admin Shares,2020,2020,1,6
+Wizard Spider,Scheduled Task,2020,2020,1,6
+Wizard Spider,Security Account Manager,2020,2020,1,6
+Wizard Spider,Security Software Discovery,2020,2020,1,6
+Wizard Spider,Service Execution,2020,2020,1,6
+Wizard Spider,Service Stop,2020,2020,1,6
+Wizard Spider,Spearphishing Attachment,2020,2020,1,6
+Wizard Spider,Spearphishing Link,2020,2020,1,6
+Wizard Spider,System Information Discovery,2020,2020,1,6
+Wizard Spider,System Network Configuration Discovery,2020,2020,1,6
+Wizard Spider,System Owner/User Discovery,2020,2020,1,6
+Wizard Spider,Valid Accounts,2020,2020,1,6
+Wizard Spider,Web Protocols,2020,2020,1,6
+Wizard Spider,Windows Command Shell,2020,2020,1,6
+Wizard Spider,Windows Management Instrumentation,2020,2020,1,6
+Wizard Spider,Windows Permissions,2020,2020,1,6
+Wizard Spider,Windows Remote Management,2020,2020,1,6
+Wizard Spider,Windows Service,2020,2020,1,6
+Wizard Spider,Winlogon Helper DLL,2020,2020,1,6
+menuPass,Automated Collection,2020,2020,1,6
+menuPass,Domains,2020,2020,1,6
+menuPass,Exploitation of Remote Services,2020,2020,1,6
+menuPass,Fast Flux DNS,2020,2020,1,6
+menuPass,File and Directory Discovery,2020,2020,1,6
+menuPass,InstallUtil,2020,2020,1,6
+menuPass,LSA Secrets,2020,2020,1,6
+menuPass,Masquerading,2020,2020,1,6
+menuPass,NTDS,2020,2020,1,6
+menuPass,Native API,2020,2020,1,6
+menuPass,Remote Data Staging,2020,2020,1,6
+menuPass,Rename Legitimate Utilities,2020,2020,1,6
+APT28,Additional Email Delegate Permissions,2021,2021,1,5
+APT28,Archive via Utility,2021,2021,1,5
+APT28,Bidirectional Communication,2021,2021,1,5
+APT28,Brute Force,2021,2021,1,5
+APT28,Cloud Accounts,2021,2021,1,5
+APT28,Credentials,2021,2021,1,5
+APT28,Data Transfer Size Limits,2021,2021,1,5
+APT28,Data from Information Repositories,2021,2021,1,5
+APT28,Data from Network Shared Drive,2021,2021,1,5
+APT28,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,2021,2021,1,5
+APT28,Exfiltration Over Web Service,2021,2021,1,5
+APT28,External Remote Services,2021,2021,1,5
+APT28,Malicious Link,2021,2021,1,5
+APT28,Masquerading,2021,2021,1,5
+APT28,Match Legitimate Resource Name or Location,2021,2021,1,5
+APT28,Multi-hop Proxy,2021,2021,1,5
+APT28,NTDS,2021,2021,1,5
+APT28,Phishing for Information,2021,2021,1,5
+APT28,Registry Run Keys / Startup Folder,2021,2021,1,5
+APT28,Remote Data Staging,2021,2021,1,5
+APT28,SMB/Windows Admin Shares,2021,2021,1,5
+APT28,Vulnerability Scanning,2021,2021,1,5
+APT28,Web Shell,2021,2021,1,5
+APT29,Binary Padding,2021,2021,1,5
+APT29,External Remote Services,2021,2021,1,5
+APT29,Ingress Tool Transfer,2021,2021,1,5
+APT29,Malicious Link,2021,2021,1,5
+APT29,Match Legitimate Resource Name or Location,2021,2021,1,5
+APT29,Password Spraying,2021,2021,1,5
+APT29,Spearphishing via Service,2021,2021,1,5
+APT29,Trusted Relationship,2021,2021,1,5
+APT29,Vulnerability Scanning,2021,2021,1,5
+APT29,Web Shell,2021,2021,1,5
+APT3,Exploitation for Client Execution,2021,2021,1,5
+APT3,Malicious Link,2021,2021,1,5
+APT3,Spearphishing Link,2021,2021,1,5
+APT32,Drive-by Target,2021,2021,1,5
+APT32,Email Addresses,2021,2021,1,5
+APT32,Gather Victim Identity Information,2021,2021,1,5
+APT32,Upload Malware,2021,2021,1,5
+APT37,Command and Scripting Interpreter,2021,2021,1,5
+APT37,Python,2021,2021,1,5
+APT37,Scheduled Task,2021,2021,1,5
+APT38,Browser Information Discovery,2021,2021,1,5
+APT38,Brute Force,2021,2021,1,5
+APT38,Cron,2021,2021,1,5
+APT38,Data from Local System,2021,2021,1,5
+APT38,Disable or Modify System Firewall,2021,2021,1,5
+APT38,File and Directory Discovery,2021,2021,1,5
+APT38,Malicious File,2021,2021,1,5
+APT38,Native API,2021,2021,1,5
+APT38,Network Share Discovery,2021,2021,1,5
+APT38,PowerShell,2021,2021,1,5
+APT38,Prevent Command History Logging,2021,2021,1,5
+APT38,Rundll32,2021,2021,1,5
+APT38,Scheduled Task,2021,2021,1,5
+APT38,Security Software Discovery,2021,2021,1,5
+APT38,Service Execution,2021,2021,1,5
+APT38,Spearphishing Attachment,2021,2021,1,5
+APT38,System Information Discovery,2021,2021,1,5
+APT38,System Owner/User Discovery,2021,2021,1,5
+APT38,Timestomp,2021,2021,1,5
+APT38,Visual Basic,2021,2021,1,5
+APT38,Web Shell,2021,2021,1,5
+APT38,Windows Service,2021,2021,1,5
+APT39,AppInit DLLs,2021,2021,1,5
+APT39,Code Signing Policy Modification,2021,2021,1,5
+APT39,Deobfuscate/Decode Files or Information,2021,2021,1,5
+APT39,Encrypted/Encoded File,2021,2021,1,5
+APT39,File Deletion,2021,2021,1,5
+APT41,Data from Local System,2021,2021,1,5
+APT41,Masquerade Task or Service,2021,2021,1,5
+Ajax Security Team,Credentials from Web Browsers,2021,2021,1,5
+Ajax Security Team,Ingress Tool Transfer,2021,2021,1,5
+Ajax Security Team,Keylogging,2021,2021,1,5
+Ajax Security Team,Malicious File,2021,2021,1,5
+Ajax Security Team,Spearphishing Attachment,2021,2021,1,5
+Ajax Security Team,Spearphishing via Service,2021,2021,1,5
+Andariel,Data from Local System,2021,2021,1,5
+Andariel,Drive-by Compromise,2021,2021,1,5
+Andariel,Exploitation for Client Execution,2021,2021,1,5
+Andariel,IP Addresses,2021,2021,1,5
+Andariel,Ingress Tool Transfer,2021,2021,1,5
+Andariel,Malicious File,2021,2021,1,5
+Andariel,Process Discovery,2021,2021,1,5
+Andariel,Software,2021,2021,1,5
+Andariel,Spearphishing Attachment,2021,2021,1,5
+Andariel,Steganography,2021,2021,1,5
+Andariel,System Network Connections Discovery,2021,2021,1,5
+BackdoorDiplomacy,DLL,2021,2021,1,5
+BackdoorDiplomacy,Dynamic-link Library Injection,2021,2021,1,5
+BackdoorDiplomacy,Exploit Public-Facing Application,2021,2021,1,5
+BackdoorDiplomacy,Ingress Tool Transfer,2021,2021,1,5
+BackdoorDiplomacy,Local Data Staging,2021,2021,1,5
+BackdoorDiplomacy,Masquerade Task or Service,2021,2021,1,5
+BackdoorDiplomacy,Match Legitimate Resource Name or Location,2021,2021,1,5
+BackdoorDiplomacy,Network Service Discovery,2021,2021,1,5
+BackdoorDiplomacy,Non-Application Layer Protocol,2021,2021,1,5
+BackdoorDiplomacy,Obfuscated Files or Information,2021,2021,1,5
+BackdoorDiplomacy,Peripheral Device Discovery,2021,2021,1,5
+BackdoorDiplomacy,System Network Connections Discovery,2021,2021,1,5
+BackdoorDiplomacy,Web Shell,2021,2021,1,5
+BlackTech,DLL,2021,2021,1,5
+Chimera,Automated Collection,2021,2021,1,5
+Chimera,Browser Information Discovery,2021,2021,1,5
+Chimera,Clear Windows Event Logs,2021,2021,1,5
+Chimera,Credential Stuffing,2021,2021,1,5
+Chimera,Credentials,2021,2021,1,5
+Chimera,DLL,2021,2021,1,5
+Chimera,DNS,2021,2021,1,5
+Chimera,Data from Network Shared Drive,2021,2021,1,5
+Chimera,Domain Accounts,2021,2021,1,5
+Chimera,Domain Trust Discovery,2021,2021,1,5
+Chimera,Exfiltration Over C2 Channel,2021,2021,1,5
+Chimera,Exfiltration to Cloud Storage,2021,2021,1,5
+Chimera,File Deletion,2021,2021,1,5
+Chimera,File and Directory Discovery,2021,2021,1,5
+Chimera,Lateral Tool Transfer,2021,2021,1,5
+Chimera,Local Account,2021,2021,1,5
+Chimera,Local Data Staging,2021,2021,1,5
+Chimera,Local Email Collection,2021,2021,1,5
+Chimera,Local Groups,2021,2021,1,5
+Chimera,Local Storage Discovery,2021,2021,1,5
+Chimera,Multi-Factor Authentication Interception,2021,2021,1,5
+Chimera,Network Service Discovery,2021,2021,1,5
+Chimera,Network Share Discovery,2021,2021,1,5
+Chimera,Pass the Hash,2021,2021,1,5
+Chimera,Password Policy Discovery,2021,2021,1,5
+Chimera,Password Spraying,2021,2021,1,5
+Chimera,Process Discovery,2021,2021,1,5
+Chimera,Protocol Tunneling,2021,2021,1,5
+Chimera,Query Registry,2021,2021,1,5
+Chimera,Remote Data Staging,2021,2021,1,5
+Chimera,Remote Email Collection,2021,2021,1,5
+Chimera,Remote System Discovery,2021,2021,1,5
+Chimera,Service Execution,2021,2021,1,5
+Chimera,Sharepoint,2021,2021,1,5
+Chimera,System Network Configuration Discovery,2021,2021,1,5
+Chimera,System Network Connections Discovery,2021,2021,1,5
+Chimera,System Owner/User Discovery,2021,2021,1,5
+Chimera,System Service Discovery,2021,2021,1,5
+Chimera,System Time Discovery,2021,2021,1,5
+Chimera,Timestomp,2021,2021,1,5
+Chimera,Web Protocols,2021,2021,1,5
+Chimera,Windows Command Shell,2021,2021,1,5
+Chimera,Windows Remote Management,2021,2021,1,5
+Confucius,Automated Collection,2021,2021,1,5
+Confucius,Exfiltration Over C2 Channel,2021,2021,1,5
+Confucius,Exploitation for Client Execution,2021,2021,1,5
+Confucius,File and Directory Discovery,2021,2021,1,5
+Confucius,Ingress Tool Transfer,2021,2021,1,5
+Confucius,Local Storage Discovery,2021,2021,1,5
+Confucius,Malicious File,2021,2021,1,5
+Confucius,Malicious Link,2021,2021,1,5
+Confucius,PowerShell,2021,2021,1,5
+Confucius,Registry Run Keys / Startup Folder,2021,2021,1,5
+Confucius,Scheduled Task,2021,2021,1,5
+Confucius,Spearphishing Attachment,2021,2021,1,5
+Confucius,Spearphishing Link,2021,2021,1,5
+Confucius,Template Injection,2021,2021,1,5
+Confucius,Web Protocols,2021,2021,1,5
+Darkhotel,Exploitation for Client Execution,2021,2021,1,5
+Darkhotel,File and Directory Discovery,2021,2021,1,5
+Darkhotel,Ingress Tool Transfer,2021,2021,1,5
+Darkhotel,Match Legitimate Resource Name or Location,2021,2021,1,5
+Darkhotel,Symmetric Cryptography,2021,2021,1,5
+Darkhotel,System Checks,2021,2021,1,5
+Darkhotel,System Time Discovery,2021,2021,1,5
+Darkhotel,User Activity Based Checks,2021,2021,1,5
+Darkhotel,Virtualization/Sandbox Evasion,2021,2021,1,5
+Dragonfly,Additional Local or Domain Groups,2021,2021,1,5
+Dragonfly,Archive Collected Data,2021,2021,1,5
+Dragonfly,Brute Force,2021,2021,1,5
+Dragonfly,Business Relationships,2021,2021,1,5
+Dragonfly,Clear Windows Event Logs,2021,2021,1,5
+Dragonfly,Command and Scripting Interpreter,2021,2021,1,5
+Dragonfly,Data from Local System,2021,2021,1,5
+Dragonfly,Disable or Modify System Firewall,2021,2021,1,5
+Dragonfly,Domain Account,2021,2021,1,5
+Dragonfly,Domain Groups,2021,2021,1,5
+Dragonfly,Domains,2021,2021,1,5
+Dragonfly,Drive-by Target,2021,2021,1,5
+Dragonfly,Exploit Public-Facing Application,2021,2021,1,5
+Dragonfly,Exploitation for Client Execution,2021,2021,1,5
+Dragonfly,Exploitation of Remote Services,2021,2021,1,5
+Dragonfly,External Remote Services,2021,2021,1,5
+Dragonfly,File Deletion,2021,2021,1,5
+Dragonfly,File Transfer Protocols,2021,2021,1,5
+Dragonfly,File and Directory Discovery,2021,2021,1,5
+Dragonfly,Forced Authentication,2021,2021,1,5
+Dragonfly,Hidden Users,2021,2021,1,5
+Dragonfly,Ingress Tool Transfer,2021,2021,1,5
+Dragonfly,LSA Secrets,2021,2021,1,5
+Dragonfly,Local Account,2021,2021,1,5
+Dragonfly,Local Data Staging,2021,2021,1,5
+Dragonfly,Malicious File,2021,2021,1,5
+Dragonfly,Masquerade Account Name,2021,2021,1,5
+Dragonfly,Modify Registry,2021,2021,1,5
+Dragonfly,NTDS,2021,2021,1,5
+Dragonfly,Network Share Discovery,2021,2021,1,5
+Dragonfly,Password Cracking,2021,2021,1,5
+Dragonfly,PowerShell,2021,2021,1,5
+Dragonfly,Python,2021,2021,1,5
+Dragonfly,Query Registry,2021,2021,1,5
+Dragonfly,Registry Run Keys / Startup Folder,2021,2021,1,5
+Dragonfly,Remote Desktop Protocol,2021,2021,1,5
+Dragonfly,Remote Email Collection,2021,2021,1,5
+Dragonfly,Remote System Discovery,2021,2021,1,5
+Dragonfly,Scheduled Task,2021,2021,1,5
+Dragonfly,Screen Capture,2021,2021,1,5
+Dragonfly,Security Account Manager,2021,2021,1,5
+Dragonfly,Server,2021,2021,1,5
+Dragonfly,Spearphishing Attachment,2021,2021,1,5
+Dragonfly,Spearphishing Link,2021,2021,1,5
+Dragonfly,System Network Configuration Discovery,2021,2021,1,5
+Dragonfly,System Owner/User Discovery,2021,2021,1,5
+Dragonfly,Template Injection,2021,2021,1,5
+Dragonfly,Valid Accounts,2021,2021,1,5
+Dragonfly,Virtual Private Server,2021,2021,1,5
+Dragonfly,Vulnerability Scanning,2021,2021,1,5
+Dragonfly,Web Shell,2021,2021,1,5
+Dragonfly,Windows Command Shell,2021,2021,1,5
+Evilnum,Bypass User Account Control,2021,2021,1,5
+Evilnum,Credentials from Password Stores,2021,2021,1,5
+Evilnum,DLL,2021,2021,1,5
+Evilnum,File Deletion,2021,2021,1,5
+Evilnum,Ingress Tool Transfer,2021,2021,1,5
+Evilnum,JavaScript,2021,2021,1,5
+Evilnum,Malicious Link,2021,2021,1,5
+Evilnum,Remote Desktop Software,2021,2021,1,5
+Evilnum,Spearphishing Link,2021,2021,1,5
+Evilnum,Steal Web Session Cookie,2021,2021,1,5
+Evilnum,System Checks,2021,2021,1,5
+FIN7,Data Encrypted for Impact,2021,2021,1,5
+FIN7,Data from Local System,2021,2021,1,5
+FIN7,Domains,2021,2021,1,5
+FIN7,Exfiltration to Cloud Storage,2021,2021,1,5
+FIN7,Exploitation of Remote Services,2021,2021,1,5
+FIN7,Fallback Channels,2021,2021,1,5
+FIN7,Kerberoasting,2021,2021,1,5
+FIN7,Malicious Link,2021,2021,1,5
+FIN7,Match Legitimate Resource Name or Location,2021,2021,1,5
+FIN7,Remote Desktop Protocol,2021,2021,1,5
+FIN7,SSH,2021,2021,1,5
+FIN7,Spearphishing Link,2021,2021,1,5
+FIN7,VNC,2021,2021,1,5
+FIN7,Valid Accounts,2021,2021,1,5
+FIN7,Windows Management Instrumentation,2021,2021,1,5
+FIN8,Asynchronous Procedure Call,2021,2021,1,5
+FIN8,Domain Trust Discovery,2021,2021,1,5
+FIN8,Token Impersonation/Theft,2021,2021,1,5
+FIN8,Web Protocols,2021,2021,1,5
+FIN8,Web Service,2021,2021,1,5
+FIN8,Windows Management Instrumentation Event Subscription,2021,2021,1,5
+Ferocious Kitten,Domains,2021,2021,1,5
+Ferocious Kitten,Malicious File,2021,2021,1,5
+Ferocious Kitten,Match Legitimate Resource Name or Location,2021,2021,1,5
+Ferocious Kitten,Right-to-Left Override,2021,2021,1,5
+Ferocious Kitten,Spearphishing Attachment,2021,2021,1,5
+Fox Kitten,Establish Accounts,2021,2021,1,5
+Fox Kitten,Social Media Accounts,2021,2021,1,5
+Fox Kitten,Web Service,2021,2021,1,5
+GALLIUM,Code Signing,2021,2021,1,5
+GALLIUM,Lateral Tool Transfer,2021,2021,1,5
+GALLIUM,Server,2021,2021,1,5
+HAFNIUM,Archive via Utility,2021,2021,1,5
+HAFNIUM,Client Configurations,2021,2021,1,5
+HAFNIUM,Domain Account,2021,2021,1,5
+HAFNIUM,Email Addresses,2021,2021,1,5
+HAFNIUM,Exfiltration to Cloud Storage,2021,2021,1,5
+HAFNIUM,Exploit Public-Facing Application,2021,2021,1,5
+HAFNIUM,Gather Victim Network Information,2021,2021,1,5
+HAFNIUM,IP Addresses,2021,2021,1,5
+HAFNIUM,Ingress Tool Transfer,2021,2021,1,5
+HAFNIUM,LSASS Memory,2021,2021,1,5
+HAFNIUM,Local Accounts,2021,2021,1,5
+HAFNIUM,NTDS,2021,2021,1,5
+HAFNIUM,Non-Application Layer Protocol,2021,2021,1,5
+HAFNIUM,PowerShell,2021,2021,1,5
+HAFNIUM,Remote Email Collection,2021,2021,1,5
+HAFNIUM,Rundll32,2021,2021,1,5
+HAFNIUM,Standard Encoding,2021,2021,1,5
+HAFNIUM,Virtual Private Server,2021,2021,1,5
+HAFNIUM,Web Protocols,2021,2021,1,5
+HAFNIUM,Web Services,2021,2021,1,5
+HAFNIUM,Web Shell,2021,2021,1,5
+Higaisa,Binary Padding,2021,2021,1,5
+Higaisa,DLL,2021,2021,1,5
+Higaisa,Deobfuscate/Decode Files or Information,2021,2021,1,5
+Higaisa,Encrypted/Encoded File,2021,2021,1,5
+Higaisa,Exfiltration Over C2 Channel,2021,2021,1,5
+Higaisa,Exploitation for Client Execution,2021,2021,1,5
+Higaisa,Hidden Window,2021,2021,1,5
+Higaisa,Internal Proxy,2021,2021,1,5
+Higaisa,JavaScript,2021,2021,1,5
+Higaisa,Malicious File,2021,2021,1,5
+Higaisa,Masquerade Task or Service,2021,2021,1,5
+Higaisa,Native API,2021,2021,1,5
+Higaisa,Process Discovery,2021,2021,1,5
+Higaisa,Protocol or Service Impersonation,2021,2021,1,5
+Higaisa,Registry Run Keys / Startup Folder,2021,2021,1,5
+Higaisa,Scheduled Task,2021,2021,1,5
+Higaisa,Scheduled Transfer,2021,2021,1,5
+Higaisa,Spearphishing Attachment,2021,2021,1,5
+Higaisa,Symmetric Cryptography,2021,2021,1,5
+Higaisa,System Information Discovery,2021,2021,1,5
+Higaisa,System Network Configuration Discovery,2021,2021,1,5
+Higaisa,System Time Discovery,2021,2021,1,5
+Higaisa,Visual Basic,2021,2021,1,5
+Higaisa,Web Protocols,2021,2021,1,5
+Higaisa,Windows Command Shell,2021,2021,1,5
+Higaisa,XSL Script Processing,2021,2021,1,5
+IndigoZebra,Domains,2021,2021,1,5
+IndigoZebra,Email Accounts,2021,2021,1,5
+IndigoZebra,Ingress Tool Transfer,2021,2021,1,5
+IndigoZebra,Malicious File,2021,2021,1,5
+IndigoZebra,Spearphishing Attachment,2021,2021,1,5
+IndigoZebra,Web Services,2021,2021,1,5
+Indrik Spider,Clear Windows Event Logs,2021,2021,1,5
+Indrik Spider,Create Account,2021,2021,1,5
+Indrik Spider,Data Encrypted for Impact,2021,2021,1,5
+Indrik Spider,Disable or Modify Tools,2021,2021,1,5
+Indrik Spider,Domain Accounts,2021,2021,1,5
+Indrik Spider,Group Policy Modification,2021,2021,1,5
+Indrik Spider,Ingress Tool Transfer,2021,2021,1,5
+Indrik Spider,JavaScript,2021,2021,1,5
+Indrik Spider,LSASS Memory,2021,2021,1,5
+Indrik Spider,Local Data Staging,2021,2021,1,5
+Indrik Spider,Malicious File,2021,2021,1,5
+Indrik Spider,Match Legitimate Resource Name or Location,2021,2021,1,5
+Indrik Spider,PowerShell,2021,2021,1,5
+Indrik Spider,Remote System Discovery,2021,2021,1,5
+Indrik Spider,Server,2021,2021,1,5
+Indrik Spider,Service Stop,2021,2021,1,5
+Indrik Spider,System Service Discovery,2021,2021,1,5
+Indrik Spider,Windows Command Shell,2021,2021,1,5
+Indrik Spider,Windows Management Instrumentation,2021,2021,1,5
+Kimsuky,Credentials In Files,2021,2021,1,5
+Kimsuky,Email Addresses,2021,2021,1,5
+Kimsuky,Local Accounts,2021,2021,1,5
+Kimsuky,Remote Desktop Protocol,2021,2021,1,5
+Kimsuky,Social Media,2021,2021,1,5
+Kimsuky,Software Packing,2021,2021,1,5
+Lazarus Group,Digital Certificates,2021,2021,1,5
+Lazarus Group,Domains,2021,2021,1,5
+Lazarus Group,Match Legitimate Resource Name or Location,2021,2021,1,5
+Lazarus Group,Web Services,2021,2021,1,5
+LazyScripter,Command Obfuscation,2021,2021,1,5
+LazyScripter,DNS,2021,2021,1,5
+LazyScripter,JavaScript,2021,2021,1,5
+LazyScripter,Masquerading,2021,2021,1,5
+LazyScripter,Mshta,2021,2021,1,5
+LazyScripter,PowerShell,2021,2021,1,5
+LazyScripter,Registry Run Keys / Startup Folder,2021,2021,1,5
+LazyScripter,Rundll32,2021,2021,1,5
+LazyScripter,Spearphishing Attachment,2021,2021,1,5
+LazyScripter,Spearphishing Link,2021,2021,1,5
+LazyScripter,Visual Basic,2021,2021,1,5
+LazyScripter,Web Service,2021,2021,1,5
+LazyScripter,Windows Command Shell,2021,2021,1,5
+Leviathan,Archive Collected Data,2021,2021,1,5
+Leviathan,Credentials,2021,2021,1,5
+Leviathan,Domains,2021,2021,1,5
+Leviathan,Drive-by Compromise,2021,2021,1,5
+Leviathan,Dynamic Data Exchange,2021,2021,1,5
+Leviathan,Dynamic-link Library Injection,2021,2021,1,5
+Leviathan,Email Accounts,2021,2021,1,5
+Leviathan,Exfiltration Over C2 Channel,2021,2021,1,5
+Leviathan,External Remote Services,2021,2021,1,5
+Leviathan,Internal Spearphishing,2021,2021,1,5
+Leviathan,Multi-hop Proxy,2021,2021,1,5
+Leviathan,Protocol Tunneling,2021,2021,1,5
+Leviathan,Remote Data Staging,2021,2021,1,5
+Leviathan,Social Media Accounts,2021,2021,1,5
+Leviathan,Steganography,2021,2021,1,5
+Leviathan,Valid Accounts,2021,2021,1,5
+Machete,Drive-by Compromise,2021,2021,1,5
+Magic Hound,Credentials,2021,2021,1,5
+Magic Hound,Domains,2021,2021,1,5
+Magic Hound,Email Accounts,2021,2021,1,5
+Magic Hound,Email Addresses,2021,2021,1,5
+Magic Hound,Email Collection,2021,2021,1,5
+Magic Hound,Gather Victim Identity Information,2021,2021,1,5
+Magic Hound,Malicious File,2021,2021,1,5
+Magic Hound,Malicious Link,2021,2021,1,5
+Magic Hound,Social Media Accounts,2021,2021,1,5
+Magic Hound,Spearphishing Link,2021,2018,2,5
+MuddyWater,Bidirectional Communication,2021,2021,1,5
+MuddyWater,Disable or Modify Tools,2021,2021,1,5
+MuddyWater,Domain Account,2021,2021,1,5
+MuddyWater,JavaScript,2021,2021,1,5
+MuddyWater,Malicious Link,2021,2021,1,5
+MuddyWater,Python,2021,2021,1,5
+MuddyWater,Software Discovery,2021,2021,1,5
+MuddyWater,Spearphishing Link,2021,2021,1,5
+MuddyWater,System Network Connections Discovery,2021,2021,1,5
+MuddyWater,Web Services,2021,2021,1,5
+Mustang Panda,Archive via Custom Method,2021,2021,1,5
+Mustang Panda,Archive via Utility,2021,2021,1,5
+Mustang Panda,Automated Collection,2021,2021,1,5
+Mustang Panda,DLL,2021,2021,1,5
+Mustang Panda,Domains,2021,2021,1,5
+Mustang Panda,Double File Extension,2021,2021,1,5
+Mustang Panda,Exfiltration over USB,2021,2021,1,5
+Mustang Panda,Exploitation for Client Execution,2021,2021,1,5
+Mustang Panda,File Deletion,2021,2021,1,5
+Mustang Panda,File and Directory Discovery,2021,2021,1,5
+Mustang Panda,Hidden Files and Directories,2021,2021,1,5
+Mustang Panda,Ingress Tool Transfer,2021,2021,1,5
+Mustang Panda,InstallUtil,2021,2021,1,5
+Mustang Panda,Junk Code Insertion,2021,2021,1,5
+Mustang Panda,Local Data Staging,2021,2021,1,5
+Mustang Panda,Malicious File,2021,2021,1,5
+Mustang Panda,Malicious Link,2021,2021,1,5
+Mustang Panda,Match Legitimate Resource Name or Location,2021,2021,1,5
+Mustang Panda,Mshta,2021,2021,1,5
+Mustang Panda,NTDS,2021,2021,1,5
+Mustang Panda,Obfuscated Files or Information,2021,2021,1,5
+Mustang Panda,PowerShell,2021,2021,1,5
+Mustang Panda,Process Discovery,2021,2021,1,5
+Mustang Panda,Registry Run Keys / Startup Folder,2021,2021,1,5
+Mustang Panda,Remote Desktop Software,2021,2021,1,5
+Mustang Panda,Replication Through Removable Media,2021,2021,1,5
+Mustang Panda,Scheduled Task,2021,2021,1,5
+Mustang Panda,Software Discovery,2021,2021,1,5
+Mustang Panda,Spearphishing Attachment,2021,2021,1,5
+Mustang Panda,Symmetric Cryptography,2021,2021,1,5
+Mustang Panda,System Information Discovery,2021,2021,1,5
+Mustang Panda,System Network Configuration Discovery,2021,2021,1,5
+Mustang Panda,System Network Connections Discovery,2021,2021,1,5
+Mustang Panda,Visual Basic,2021,2021,1,5
+Mustang Panda,Web Protocols,2021,2021,1,5
+Mustang Panda,Windows Command Shell,2021,2021,1,5
+Mustang Panda,Windows Management Instrumentation,2021,2021,1,5
+Mustang Panda,Windows Management Instrumentation Event Subscription,2021,2021,1,5
+Naikon,Domain Accounts,2021,2021,1,5
+Naikon,Masquerade Task or Service,2021,2021,1,5
+Naikon,Match Legitimate Resource Name or Location,2021,2021,1,5
+Naikon,Network Service Discovery,2021,2021,1,5
+Naikon,Registry Run Keys / Startup Folder,2021,2021,1,5
+Naikon,Remote System Discovery,2021,2021,1,5
+Naikon,Scheduled Task,2021,2021,1,5
+Naikon,Windows Management Instrumentation,2021,2021,1,5
+Nomadic Octopus,Hidden Window,2021,2021,1,5
+Nomadic Octopus,Ingress Tool Transfer,2021,2021,1,5
+Nomadic Octopus,Malicious File,2021,2021,1,5
+Nomadic Octopus,Masquerading,2021,2021,1,5
+Nomadic Octopus,PowerShell,2021,2021,1,5
+Nomadic Octopus,Spearphishing Attachment,2021,2021,1,5
+Nomadic Octopus,Windows Command Shell,2021,2021,1,5
+OilRig,Masquerading,2021,2021,1,5
+OilRig,Peripheral Device Discovery,2021,2021,1,5
+OilRig,System Checks,2021,2021,1,5
+OilRig,Visual Basic,2021,2021,1,5
+Sandworm Team,Lateral Tool Transfer,2021,2021,1,5
+Sandworm Team,SMB/Windows Admin Shares,2021,2021,1,5
+Sandworm Team,Web Shell,2021,2021,1,5
+Sandworm Team,Windows Management Instrumentation,2021,2021,1,5
+Sidewinder,Automated Collection,2021,2021,1,5
+Sidewinder,Automated Exfiltration,2021,2021,1,5
+Sidewinder,DLL,2021,2021,1,5
+Sidewinder,Dynamic Data Exchange,2021,2021,1,5
+Sidewinder,Encrypted/Encoded File,2021,2021,1,5
+Sidewinder,Exploitation for Client Execution,2021,2021,1,5
+Sidewinder,File and Directory Discovery,2021,2021,1,5
+Sidewinder,Ingress Tool Transfer,2021,2021,1,5
+Sidewinder,JavaScript,2021,2021,1,5
+Sidewinder,Local Data Staging,2021,2021,1,5
+Sidewinder,Malicious File,2021,2021,1,5
+Sidewinder,Malicious Link,2021,2021,1,5
+Sidewinder,Match Legitimate Resource Name or Location,2021,2021,1,5
+Sidewinder,Mshta,2021,2021,1,5
+Sidewinder,PowerShell,2021,2021,1,5
+Sidewinder,Process Discovery,2021,2021,1,5
+Sidewinder,Registry Run Keys / Startup Folder,2021,2021,1,5
+Sidewinder,Security Software Discovery,2021,2021,1,5
+Sidewinder,Software Discovery,2021,2021,1,5
+Sidewinder,Spearphishing Attachment,2021,2021,1,5
+Sidewinder,Spearphishing Link,2021,2021,1,5
+Sidewinder,System Information Discovery,2021,2021,1,5
+Sidewinder,System Network Configuration Discovery,2021,2021,1,5
+Sidewinder,System Owner/User Discovery,2021,2021,1,5
+Sidewinder,System Time Discovery,2021,2021,1,5
+Sidewinder,Visual Basic,2021,2021,1,5
+Sidewinder,Web Protocols,2021,2021,1,5
+Silent Librarian,Digital Certificates,2021,2021,1,5
+Silent Librarian,Domains,2021,2021,1,5
+Silent Librarian,Email Accounts,2021,2021,1,5
+Silent Librarian,Email Addresses,2021,2021,1,5
+Silent Librarian,Email Collection,2021,2021,1,5
+Silent Librarian,Email Forwarding Rule,2021,2021,1,5
+Silent Librarian,Employee Names,2021,2021,1,5
+Silent Librarian,Link Target,2021,2021,1,5
+Silent Librarian,Password Spraying,2021,2021,1,5
+Silent Librarian,Search Victim-Owned Websites,2021,2021,1,5
+Silent Librarian,Spearphishing Link,2021,2021,1,5
+Silent Librarian,Valid Accounts,2021,2021,1,5
+TA505,Mark-of-the-Web Bypass,2021,2021,1,5
+TA551,Command Obfuscation,2021,2021,1,5
+TA551,Domain Generation Algorithms,2021,2021,1,5
+TA551,Email Addresses,2021,2021,1,5
+TA551,Ingress Tool Transfer,2021,2021,1,5
+TA551,Malicious File,2021,2021,1,5
+TA551,Masquerading,2021,2021,1,5
+TA551,Mshta,2021,2021,1,5
+TA551,Regsvr32,2021,2021,1,5
+TA551,Rundll32,2021,2021,1,5
+TA551,Spearphishing Attachment,2021,2021,1,5
+TA551,Standard Encoding,2021,2021,1,5
+TA551,Steganography,2021,2021,1,5
+TA551,Web Protocols,2021,2021,1,5
+TA551,Windows Command Shell,2021,2021,1,5
+TeamTNT,Application Layer Protocol,2021,2021,1,5
+TeamTNT,Clear Command History,2021,2021,1,5
+TeamTNT,Clear Linux or Mac System Logs,2021,2021,1,5
+TeamTNT,Cloud Instance Metadata API,2021,2021,1,5
+TeamTNT,Compute Hijacking,2021,2021,1,5
+TeamTNT,Container Administration Command,2021,2021,1,5
+TeamTNT,Container and Resource Discovery,2021,2021,1,5
+TeamTNT,Credentials In Files,2021,2021,1,5
+TeamTNT,Deploy Container,2021,2021,1,5
+TeamTNT,Disable or Modify System Firewall,2021,2021,1,5
+TeamTNT,Disable or Modify Tools,2021,2021,1,5
+TeamTNT,Domains,2021,2021,1,5
+TeamTNT,Encrypted/Encoded File,2021,2021,1,5
+TeamTNT,Escape to Host,2021,2021,1,5
+TeamTNT,External Remote Services,2021,2021,1,5
+TeamTNT,File Deletion,2021,2021,1,5
+TeamTNT,Ingress Tool Transfer,2021,2021,1,5
+TeamTNT,Linux and Mac Permissions,2021,2021,1,5
+TeamTNT,Local Account,2021,2021,1,5
+TeamTNT,Malicious Image,2021,2021,1,5
+TeamTNT,Network Service Discovery,2021,2021,1,5
+TeamTNT,PowerShell,2021,2021,1,5
+TeamTNT,Private Keys,2021,2021,1,5
+TeamTNT,Process Discovery,2021,2021,1,5
+TeamTNT,Registry Run Keys / Startup Folder,2021,2021,1,5
+TeamTNT,Remote Access Tools,2021,2021,1,5
+TeamTNT,Rootkit,2021,2021,1,5
+TeamTNT,SSH,2021,2021,1,5
+TeamTNT,SSH Authorized Keys,2021,2021,1,5
+TeamTNT,Scanning IP Blocks,2021,2021,1,5
+TeamTNT,Security Software Discovery,2021,2021,1,5
+TeamTNT,Software Packing,2021,2021,1,5
+TeamTNT,System Information Discovery,2021,2021,1,5
+TeamTNT,System Network Configuration Discovery,2021,2021,1,5
+TeamTNT,System Network Connections Discovery,2021,2021,1,5
+TeamTNT,Systemd Service,2021,2021,1,5
+TeamTNT,Unix Shell,2021,2021,1,5
+TeamTNT,Upload Malware,2021,2021,1,5
+TeamTNT,Vulnerability Scanning,2021,2021,1,5
+TeamTNT,Web Protocols,2021,2021,1,5
+TeamTNT,Web Service,2021,2021,1,5
+TeamTNT,Windows Command Shell,2021,2021,1,5
+TeamTNT,Windows Service,2021,2021,1,5
+Threat Group-3390,Compromise Software Supply Chain,2021,2021,1,5
+Threat Group-3390,Drive-by Target,2021,2021,1,5
+Threat Group-3390,Malicious File,2021,2021,1,5
+Threat Group-3390,Spearphishing Attachment,2021,2021,1,5
+Threat Group-3390,Trusted Relationship,2021,2021,1,5
+Threat Group-3390,Upload Tool,2021,2021,1,5
+Tonto Team,DLL,2021,2021,1,5
+Tonto Team,Exploitation for Client Execution,2021,2021,1,5
+Tonto Team,Exploitation for Privilege Escalation,2021,2021,1,5
+Tonto Team,Exploitation of Remote Services,2021,2021,1,5
+Tonto Team,External Proxy,2021,2021,1,5
+Tonto Team,Ingress Tool Transfer,2021,2021,1,5
+Tonto Team,Keylogging,2021,2021,1,5
+Tonto Team,Local Groups,2021,2021,1,5
+Tonto Team,Malicious File,2021,2021,1,5
+Tonto Team,Network Share Discovery,2021,2021,1,5
+Tonto Team,OS Credential Dumping,2021,2021,1,5
+Tonto Team,PowerShell,2021,2021,1,5
+Tonto Team,Python,2021,2021,1,5
+Tonto Team,Spearphishing Attachment,2021,2021,1,5
+Tonto Team,Web Shell,2021,2021,1,5
+Transparent Tribe,Domains,2021,2021,1,5
+Transparent Tribe,Drive-by Compromise,2021,2021,1,5
+Transparent Tribe,Drive-by Target,2021,2021,1,5
+Transparent Tribe,Dynamic Resolution,2021,2021,1,5
+Transparent Tribe,Encrypted/Encoded File,2021,2021,1,5
+Transparent Tribe,Exploitation for Client Execution,2021,2021,1,5
+Transparent Tribe,Hidden Files and Directories,2021,2021,1,5
+Transparent Tribe,Malicious File,2021,2021,1,5
+Transparent Tribe,Malicious Link,2021,2021,1,5
+Transparent Tribe,Match Legitimate Resource Name or Location,2021,2021,1,5
+Transparent Tribe,Spearphishing Attachment,2021,2021,1,5
+Transparent Tribe,Spearphishing Link,2021,2021,1,5
+Transparent Tribe,Visual Basic,2021,2021,1,5
+Turla,Code Signing Policy Modification,2021,2021,1,5
+Turla,Exploitation for Privilege Escalation,2021,2021,1,5
+Turla,Group Policy Discovery,2021,2021,1,5
+Turla,Internal Proxy,2021,2021,1,5
+Turla,Internet Connection Discovery,2021,2021,1,5
+Turla,JavaScript,2021,2021,1,5
+Turla,Python,2021,2021,1,5
+Volatile Cedar,Exploit Public-Facing Application,2021,2021,1,5
+Volatile Cedar,Ingress Tool Transfer,2021,2021,1,5
+Volatile Cedar,Vulnerability Scanning,2021,2021,1,5
+Volatile Cedar,Web Shell,2021,2021,1,5
+Windigo,Command and Scripting Interpreter,2021,2021,1,5
+Windigo,Data from Local System,2021,2021,1,5
+Windigo,Drive-by Compromise,2021,2021,1,5
+Windigo,File and Directory Discovery,2021,2021,1,5
+Windigo,Proxy,2021,2021,1,5
+Windigo,Software Discovery,2021,2021,1,5
+Windigo,System Information Discovery,2021,2021,1,5
+Windshift,Ingress Tool Transfer,2021,2021,1,5
+Windshift,Obfuscated Files or Information,2021,2021,1,5
+Windshift,Process Discovery,2021,2021,1,5
+Windshift,Registry Run Keys / Startup Folder,2021,2021,1,5
+Windshift,Security Software Discovery,2021,2021,1,5
+Windshift,Software Discovery,2021,2021,1,5
+Windshift,System Information Discovery,2021,2021,1,5
+Windshift,System Owner/User Discovery,2021,2021,1,5
+Windshift,Visual Basic,2021,2021,1,5
+Windshift,Web Protocols,2021,2021,1,5
+Windshift,Windows Management Instrumentation,2021,2021,1,5
+ZIRCONIUM,Bidirectional Communication,2021,2021,1,5
+ZIRCONIUM,Credentials from Web Browsers,2021,2021,1,5
+ZIRCONIUM,Deobfuscate/Decode Files or Information,2021,2021,1,5
+ZIRCONIUM,Domains,2021,2021,1,5
+ZIRCONIUM,Exfiltration Over C2 Channel,2021,2021,1,5
+ZIRCONIUM,Exfiltration to Cloud Storage,2021,2021,1,5
+ZIRCONIUM,Exploitation for Privilege Escalation,2021,2021,1,5
+ZIRCONIUM,Ingress Tool Transfer,2021,2021,1,5
+ZIRCONIUM,Malicious Link,2021,2021,1,5
+ZIRCONIUM,Masquerade Task or Service,2021,2021,1,5
+ZIRCONIUM,Masquerading,2021,2021,1,5
+ZIRCONIUM,Msiexec,2021,2021,1,5
+ZIRCONIUM,Phishing for Information,2021,2021,1,5
+ZIRCONIUM,Python,2021,2021,1,5
+ZIRCONIUM,Query Registry,2021,2021,1,5
+ZIRCONIUM,Registry Run Keys / Startup Folder,2021,2021,1,5
+ZIRCONIUM,Software Packing,2021,2021,1,5
+ZIRCONIUM,Symmetric Cryptography,2021,2021,1,5
+ZIRCONIUM,System Information Discovery,2021,2021,1,5
+ZIRCONIUM,System Network Configuration Discovery,2021,2021,1,5
+ZIRCONIUM,System Owner/User Discovery,2021,2021,1,5
+ZIRCONIUM,System Time Discovery,2021,2021,1,5
+ZIRCONIUM,Web Services,2021,2021,1,5
+ZIRCONIUM,Windows Command Shell,2021,2021,1,5
+menuPass,Clear Command History,2021,2021,1,5
+menuPass,Code Signing,2021,2021,1,5
+menuPass,Exploit Public-Facing Application,2021,2021,1,5
+APT28,Drive-by Compromise,2022,2022,1,4
+APT28,Email Accounts,2022,2022,1,4
+APT28,Spearphishing Link,2022,2022,1,4
+APT28,Web Services,2022,2022,1,4
+APT29,Cloud Account,2022,2022,1,4
+APT29,Email Accounts,2022,2022,1,4
+APT29,Encrypted Channel,2022,2022,1,4
+APT29,Exploitation for Privilege Escalation,2022,2022,1,4
+APT29,HTML Smuggling,2022,2022,1,4
+APT29,Hybrid Identity,2022,2022,1,4
+APT29,Mark-of-the-Web Bypass,2022,2022,1,4
+APT29,Mshta,2022,2022,1,4
+APT29,Multi-Factor Authentication Request Generation,2022,2022,1,4
+APT29,Steal or Forge Authentication Certificates,2022,2022,1,4
+APT38,Compiled HTML File,2022,2022,1,4
+Aoqin Dragon,Exploitation for Client Execution,2022,2022,1,4
+Aoqin Dragon,File and Directory Discovery,2022,2022,1,4
+Aoqin Dragon,Lateral Tool Transfer,2022,2022,1,4
+Aoqin Dragon,Malicious File,2022,2022,1,4
+Aoqin Dragon,Masquerading,2022,2022,1,4
+Aoqin Dragon,Replication Through Removable Media,2022,2022,1,4
+Aoqin Dragon,Software Packing,2022,2022,1,4
+Aquatic Panda,Archive via Utility,2022,2022,1,4
+Aquatic Panda,Command Obfuscation,2022,2022,1,4
+Aquatic Panda,DLL,2022,2022,1,4
+Aquatic Panda,Disable or Modify Tools,2022,2022,1,4
+Aquatic Panda,File Deletion,2022,2022,1,4
+Aquatic Panda,Ingress Tool Transfer,2022,2022,1,4
+Aquatic Panda,LSASS Memory,2022,2022,1,4
+Aquatic Panda,PowerShell,2022,2022,1,4
+Aquatic Panda,Security Software Discovery,2022,2022,1,4
+Aquatic Panda,System Information Discovery,2022,2022,1,4
+Aquatic Panda,System Service Discovery,2022,2022,1,4
+Aquatic Panda,Vulnerability Scanning,2022,2022,1,4
+Aquatic Panda,Windows Command Shell,2022,2022,1,4
+Axiom,Archive Collected Data,2022,2022,1,4
+Axiom,Botnet,2022,2022,1,4
+Axiom,DNS Server,2022,2022,1,4
+Axiom,Data from Local System,2022,2022,1,4
+Axiom,Drive-by Compromise,2022,2022,1,4
+Axiom,Exploitation for Client Execution,2022,2022,1,4
+Axiom,Phishing,2022,2022,1,4
+Axiom,RDP Hijacking,2022,2022,1,4
+Axiom,Subvert Trust Controls,2022,2022,1,4
+Axiom,Valid Accounts,2022,2022,1,4
+Axiom,Virtual Private Server,2022,2022,1,4
+BITTER,Domains,2022,2022,1,4
+BITTER,Dynamic Data Exchange,2022,2022,1,4
+BITTER,Dynamic Resolution,2022,2022,1,4
+BITTER,Encrypted Channel,2022,2022,1,4
+BITTER,Encrypted/Encoded File,2022,2022,1,4
+BITTER,Exploitation for Client Execution,2022,2022,1,4
+BITTER,Exploitation for Privilege Escalation,2022,2022,1,4
+BITTER,Ingress Tool Transfer,2022,2022,1,4
+BITTER,Malicious File,2022,2022,1,4
+BITTER,Masquerade Task or Service,2022,2022,1,4
+BITTER,Non-Application Layer Protocol,2022,2022,1,4
+BITTER,Scheduled Task,2022,2022,1,4
+BITTER,Spearphishing Attachment,2022,2022,1,4
+BITTER,Upload Malware,2022,2022,1,4
+BITTER,Web Protocols,2022,2022,1,4
+BlackTech,Code Signing Certificates,2022,2022,1,4
+BlackTech,Digital Certificates,2022,2022,1,4
+BlackTech,Native API,2022,2022,1,4
+BlackTech,Network Service Discovery,2022,2022,1,4
+BlackTech,SSH,2022,2022,1,4
+Confucius,Exfiltration to Cloud Storage,2022,2022,1,4
+Confucius,Mshta,2022,2022,1,4
+Confucius,Visual Basic,2022,2022,1,4
+Confucius,Web Services,2022,2022,1,4
+CopyKittens,Proxy,2022,2022,1,4
+EXOTIC LILY,Domains,2022,2022,1,4
+EXOTIC LILY,Email Accounts,2022,2022,1,4
+EXOTIC LILY,Email Addresses,2022,2022,1,4
+EXOTIC LILY,Exploitation for Client Execution,2022,2022,1,4
+EXOTIC LILY,Malicious File,2022,2022,1,4
+EXOTIC LILY,Malicious Link,2022,2022,1,4
+EXOTIC LILY,Search Closed Sources,2022,2022,1,4
+EXOTIC LILY,Search Victim-Owned Websites,2022,2022,1,4
+EXOTIC LILY,Social Media,2022,2022,1,4
+EXOTIC LILY,Social Media Accounts,2022,2022,1,4
+EXOTIC LILY,Spearphishing Attachment,2022,2022,1,4
+EXOTIC LILY,Spearphishing Link,2022,2022,1,4
+EXOTIC LILY,Spearphishing via Service,2022,2022,1,4
+EXOTIC LILY,Upload Malware,2022,2022,1,4
+EXOTIC LILY,Web Service,2022,2022,1,4
+Earth Lusca,Archive via Utility,2022,2022,1,4
+Earth Lusca,Bypass User Account Control,2022,2022,1,4
+Earth Lusca,DCSync,2022,2022,1,4
+Earth Lusca,DLL,2022,2022,1,4
+Earth Lusca,Deobfuscate/Decode Files or Information,2022,2022,1,4
+Earth Lusca,Domain Trust Discovery,2022,2022,1,4
+Earth Lusca,Domains,2022,2022,1,4
+Earth Lusca,Drive-by Compromise,2022,2022,1,4
+Earth Lusca,Exfiltration to Cloud Storage,2022,2022,1,4
+Earth Lusca,Exploit Public-Facing Application,2022,2022,1,4
+Earth Lusca,Exploitation of Remote Services,2022,2022,1,4
+Earth Lusca,JavaScript,2022,2022,1,4
+Earth Lusca,LSASS Memory,2022,2022,1,4
+Earth Lusca,Malicious File,2022,2022,1,4
+Earth Lusca,Malicious Link,2022,2022,1,4
+Earth Lusca,Match Legitimate Resource Name or Location,2022,2022,1,4
+Earth Lusca,Modify Registry,2022,2022,1,4
+Earth Lusca,Mshta,2022,2022,1,4
+Earth Lusca,Obfuscated Files or Information,2022,2022,1,4
+Earth Lusca,PowerShell,2022,2022,1,4
+Earth Lusca,Print Processors,2022,2022,1,4
+Earth Lusca,Process Discovery,2022,2022,1,4
+Earth Lusca,Proxy,2022,2022,1,4
+Earth Lusca,Python,2022,2022,1,4
+Earth Lusca,Remote System Discovery,2022,2022,1,4
+Earth Lusca,SSH Authorized Keys,2022,2022,1,4
+Earth Lusca,Server,2022,2022,1,4
+Earth Lusca,Spearphishing Link,2022,2022,1,4
+Earth Lusca,Steganography,2022,2022,1,4
+Earth Lusca,System Network Configuration Discovery,2022,2022,1,4
+Earth Lusca,System Network Connections Discovery,2022,2022,1,4
+Earth Lusca,System Owner/User Discovery,2022,2022,1,4
+Earth Lusca,System Service Discovery,2022,2022,1,4
+Earth Lusca,Upload Malware,2022,2022,1,4
+Earth Lusca,Visual Basic,2022,2022,1,4
+Earth Lusca,Vulnerability Scanning,2022,2022,1,4
+Earth Lusca,Web Services,2022,2022,1,4
+Earth Lusca,Windows Management Instrumentation,2022,2022,1,4
+Earth Lusca,Windows Service,2022,2022,1,4
+FIN7,Replication Through Removable Media,2022,2022,1,4
+Gamaredon Group,Disk Content Wipe,2022,2022,1,4
+Gamaredon Group,Domains,2022,2022,1,4
+Gamaredon Group,Dynamic Resolution,2022,2022,1,4
+Gamaredon Group,Hidden Window,2022,2022,1,4
+Gamaredon Group,Internal Defacement,2022,2022,1,4
+Gamaredon Group,Internet Connection Discovery,2022,2022,1,4
+Gamaredon Group,Match Legitimate Resource Name or Location,2022,2022,1,4
+Gamaredon Group,Mshta,2022,2022,1,4
+Gamaredon Group,PowerShell,2022,2022,1,4
+Gamaredon Group,Process Discovery,2022,2022,1,4
+Gamaredon Group,Upload Malware,2022,2022,1,4
+Gamaredon Group,VNC,2022,2022,1,4
+Gamaredon Group,Windows Management Instrumentation,2022,2022,1,4
+HEXANE,Application Window Discovery,2022,2022,1,4
+HEXANE,Bidirectional Communication,2022,2022,1,4
+HEXANE,Brute Force,2022,2022,1,4
+HEXANE,Command Obfuscation,2022,2022,1,4
+HEXANE,Credentials from Password Stores,2022,2022,1,4
+HEXANE,Credentials from Web Browsers,2022,2022,1,4
+HEXANE,DNS Server,2022,2022,1,4
+HEXANE,Domains,2022,2022,1,4
+HEXANE,Email Accounts,2022,2022,1,4
+HEXANE,Email Addresses,2022,2022,1,4
+HEXANE,Exfiltration to Cloud Storage,2022,2022,1,4
+HEXANE,Gather Victim Identity Information,2022,2022,1,4
+HEXANE,Identify Roles,2022,2022,1,4
+HEXANE,Ingress Tool Transfer,2022,2022,1,4
+HEXANE,Internal Spearphishing,2022,2022,1,4
+HEXANE,Internet Connection Discovery,2022,2022,1,4
+HEXANE,Keylogging,2022,2022,1,4
+HEXANE,Local Groups,2022,2022,1,4
+HEXANE,Malicious File,2022,2022,1,4
+HEXANE,Password Spraying,2022,2022,1,4
+HEXANE,PowerShell,2022,2022,1,4
+HEXANE,Process Discovery,2022,2022,1,4
+HEXANE,Remote Desktop Protocol,2022,2022,1,4
+HEXANE,Remote System Discovery,2022,2022,1,4
+HEXANE,Scheduled Task,2022,2022,1,4
+HEXANE,Social Media Accounts,2022,2022,1,4
+HEXANE,Software Discovery,2022,2022,1,4
+HEXANE,System Information Discovery,2022,2022,1,4
+HEXANE,System Network Configuration Discovery,2022,2022,1,4
+HEXANE,System Network Connections Discovery,2022,2022,1,4
+HEXANE,System Owner/User Discovery,2022,2022,1,4
+HEXANE,Upload Malware,2022,2022,1,4
+HEXANE,Visual Basic,2022,2022,1,4
+Ke3chang,Automated Collection,2022,2022,1,4
+Ke3chang,Automated Exfiltration,2022,2022,1,4
+Ke3chang,Cloud Accounts,2022,2022,1,4
+Ke3chang,Deobfuscate/Decode Files or Information,2022,2022,1,4
+Ke3chang,Exploit Public-Facing Application,2022,2022,1,4
+Ke3chang,Ingress Tool Transfer,2022,2022,1,4
+Ke3chang,Match Legitimate Resource Name or Location,2022,2022,1,4
+Ke3chang,NTDS,2022,2022,1,4
+Ke3chang,Obfuscated Files or Information,2022,2022,1,4
+Ke3chang,System Language Discovery,2022,2022,1,4
+Ke3chang,System Owner/User Discovery,2022,2022,1,4
+Ke3chang,Valid Accounts,2022,2022,1,4
+Kimsuky,Additional Local or Domain Groups,2022,2022,1,4
+Kimsuky,Archive via Utility,2022,2022,1,4
+Kimsuky,Bidirectional Communication,2022,2022,1,4
+Kimsuky,Deobfuscate/Decode Files or Information,2022,2022,1,4
+Kimsuky,Domains,2022,2020,2,4
+Kimsuky,Email Accounts,2022,2020,2,4
+Kimsuky,Employee Names,2022,2022,1,4
+Kimsuky,Exfiltration to Cloud Storage,2022,2022,1,4
+Kimsuky,Exploit Public-Facing Application,2022,2022,1,4
+Kimsuky,Gather Victim Org Information,2022,2022,1,4
+Kimsuky,Hidden Users,2022,2022,1,4
+Kimsuky,Hidden Window,2022,2022,1,4
+Kimsuky,Internal Spearphishing,2022,2022,1,4
+Kimsuky,Local Account,2022,2022,1,4
+Kimsuky,Malicious Link,2022,2022,1,4
+Kimsuky,Match Legitimate Resource Name or Location,2022,2022,1,4
+Kimsuky,Multi-Factor Authentication Interception,2022,2022,1,4
+Kimsuky,Process Discovery,2022,2022,1,4
+Kimsuky,Process Hollowing,2022,2022,1,4
+Kimsuky,Query Registry,2022,2022,1,4
+Kimsuky,Regsvr32,2022,2022,1,4
+Kimsuky,Remote Email Collection,2022,2022,1,4
+Kimsuky,Rundll32,2022,2022,1,4
+Kimsuky,Scheduled Task,2022,2022,1,4
+Kimsuky,Search Engines,2022,2022,1,4
+Kimsuky,Search Victim-Owned Websites,2022,2022,1,4
+Kimsuky,Security Software Discovery,2022,2022,1,4
+Kimsuky,Server,2022,2022,1,4
+Kimsuky,Social Media Accounts,2022,2022,1,4
+Kimsuky,System Network Configuration Discovery,2022,2022,1,4
+Kimsuky,System Service Discovery,2022,2022,1,4
+Kimsuky,Upload Malware,2022,2022,1,4
+Kimsuky,Web Protocols,2022,2022,1,4
+Kimsuky,Web Services,2022,2022,1,4
+Kimsuky,Windows Command Shell,2022,2022,1,4
+LAPSUS$,Account Access Removal,2022,2022,1,4
+LAPSUS$,Additional Cloud Roles,2022,2022,1,4
+LAPSUS$,Business Relationships,2022,2022,1,4
+LAPSUS$,Cloud Account,2022,2022,1,4
+LAPSUS$,Cloud Accounts,2022,2022,1,4
+LAPSUS$,Code Repositories,2022,2022,1,4
+LAPSUS$,Confluence,2022,2022,1,4
+LAPSUS$,Create Cloud Instance,2022,2022,1,4
+LAPSUS$,Credentials,2022,2022,1,4
+LAPSUS$,Credentials from Web Browsers,2022,2022,1,4
+LAPSUS$,DCSync,2022,2022,1,4
+LAPSUS$,Data Destruction,2022,2022,1,4
+LAPSUS$,Data from Local System,2022,2022,1,4
+LAPSUS$,Delete Cloud Instance,2022,2022,1,4
+LAPSUS$,Domain Account,2022,2022,1,4
+LAPSUS$,Domain Groups,2022,2022,1,4
+LAPSUS$,Email Accounts,2022,2022,1,4
+LAPSUS$,Email Addresses,2022,2022,1,4
+LAPSUS$,Email Forwarding Rule,2022,2022,1,4
+LAPSUS$,Exploitation for Privilege Escalation,2022,2022,1,4
+LAPSUS$,External Remote Services,2022,2022,1,4
+LAPSUS$,Gather Victim Identity Information,2022,2022,1,4
+LAPSUS$,Identify Roles,2022,2022,1,4
+LAPSUS$,Messaging Applications,2022,2022,1,4
+LAPSUS$,Multi-Factor Authentication Interception,2022,2022,1,4
+LAPSUS$,Multi-Factor Authentication Request Generation,2022,2022,1,4
+LAPSUS$,NTDS,2022,2022,1,4
+LAPSUS$,Proxy,2022,2022,1,4
+LAPSUS$,Purchase Technical Data,2022,2022,1,4
+LAPSUS$,Sharepoint,2022,2022,1,4
+LAPSUS$,Trusted Relationship,2022,2022,1,4
+LAPSUS$,User Execution,2022,2022,1,4
+LAPSUS$,Valid Accounts,2022,2022,1,4
+LAPSUS$,Virtual Private Server,2022,2022,1,4
+Lazarus Group,Bidirectional Communication,2022,2022,1,4
+Lazarus Group,Clear Command History,2022,2022,1,4
+Lazarus Group,Code Signing,2022,2022,1,4
+Lazarus Group,DLL,2022,2022,1,4
+Lazarus Group,Deobfuscate/Decode Files or Information,2022,2022,1,4
+Lazarus Group,Dynamic API Resolution,2022,2022,1,4
+Lazarus Group,Email Accounts,2022,2022,1,4
+Lazarus Group,Email Addresses,2022,2022,1,4
+Lazarus Group,Gather Victim Org Information,2022,2022,1,4
+Lazarus Group,Indicator Removal,2022,2022,1,4
+Lazarus Group,Indirect Command Execution,2022,2022,1,4
+Lazarus Group,Internal Proxy,2022,2022,1,4
+Lazarus Group,KernelCallbackTable,2022,2022,1,4
+Lazarus Group,Masquerade Task or Service,2022,2022,1,4
+Lazarus Group,Mshta,2022,2022,1,4
+Lazarus Group,Multi-Stage Channels,2022,2022,1,4
+Lazarus Group,Name Resolution Poisoning and SMB Relay,2022,2022,1,4
+Lazarus Group,Native API,2022,2022,1,4
+Lazarus Group,Network Service Discovery,2022,2022,1,4
+Lazarus Group,PowerShell,2022,2022,1,4
+Lazarus Group,Reflective Code Loading,2022,2022,1,4
+Lazarus Group,Rename Legitimate Utilities,2022,2022,1,4
+Lazarus Group,Rundll32,2022,2022,1,4
+Lazarus Group,SSH,2022,2022,1,4
+Lazarus Group,Scheduled Task,2022,2022,1,4
+Lazarus Group,Server,2022,2022,1,4
+Lazarus Group,Social Media Accounts,2022,2022,1,4
+Lazarus Group,Spearphishing Link,2022,2022,1,4
+Lazarus Group,Spearphishing via Service,2022,2022,1,4
+Lazarus Group,System Binary Proxy Execution,2022,2022,1,4
+Lazarus Group,System Network Connections Discovery,2022,2022,1,4
+Lazarus Group,Valid Accounts,2022,2022,1,4
+Lazarus Group,Visual Basic,2022,2022,1,4
+LazyScripter,Domains,2022,2022,1,4
+LazyScripter,Ingress Tool Transfer,2022,2022,1,4
+LazyScripter,Malicious File,2022,2022,1,4
+LazyScripter,Malicious Link,2022,2022,1,4
+LazyScripter,Upload Malware,2022,2022,1,4
+LazyScripter,Web Services,2022,2022,1,4
+Magic Hound,Clear Command History,2022,2022,1,4
+Magic Hound,Data from Local System,2022,2022,1,4
+Magic Hound,Disable or Modify Tools,2022,2022,1,4
+Magic Hound,Drive-by Compromise,2022,2022,1,4
+Magic Hound,Email Account,2022,2022,1,4
+Magic Hound,Exploit Public-Facing Application,2022,2022,1,4
+Magic Hound,Local Account,2022,2022,1,4
+Magic Hound,Match Legitimate Resource Name or Location,2022,2022,1,4
+Magic Hound,Modify Registry,2022,2022,1,4
+Magic Hound,Remote Desktop Protocol,2022,2022,1,4
+Magic Hound,Remote Email Collection,2022,2022,1,4
+Magic Hound,Rundll32,2022,2022,1,4
+Magic Hound,Scheduled Task,2022,2022,1,4
+Magic Hound,System Network Connections Discovery,2022,2022,1,4
+Magic Hound,Vulnerability Scanning,2022,2022,1,4
+Magic Hound,Web Services,2022,2022,1,4
+Magic Hound,Web Shell,2022,2022,1,4
+Magic Hound,Windows Host Firewall,2022,2022,1,4
+Magic Hound,Windows Management Instrumentation,2022,2022,1,4
+Moses Staff,Code Signing,2022,2022,1,4
+Moses Staff,Encrypted/Encoded File,2022,2022,1,4
+Moses Staff,Exploit Public-Facing Application,2022,2022,1,4
+Moses Staff,Ingress Tool Transfer,2022,2022,1,4
+Moses Staff,Local Account,2022,2022,1,4
+Moses Staff,SMB/Windows Admin Shares,2022,2022,1,4
+Moses Staff,System Information Discovery,2022,2022,1,4
+Moses Staff,System Network Configuration Discovery,2022,2022,1,4
+Moses Staff,Web Shell,2022,2022,1,4
+Moses Staff,Windows Host Firewall,2022,2022,1,4
+MuddyWater,DLL,2022,2022,1,4
+MuddyWater,Exploit Public-Facing Application,2022,2022,1,4
+MuddyWater,Exploitation of Remote Services,2022,2022,1,4
+MuddyWater,Local Data Staging,2022,2022,1,4
+MuddyWater,Symmetric Cryptography,2022,2022,1,4
+Mustang Panda,Stage Capabilities,2022,2022,1,4
+Mustang Panda,Upload Malware,2022,2022,1,4
+Mustang Panda,Web Service,2022,2022,1,4
+POLONIUM,Bidirectional Communication,2022,2022,1,4
+POLONIUM,Exfiltration to Cloud Storage,2022,2022,1,4
+POLONIUM,Proxy,2022,2022,1,4
+POLONIUM,Trusted Relationship,2022,2022,1,4
+POLONIUM,Valid Accounts,2022,2022,1,4
+POLONIUM,Web Services,2022,2022,1,4
+Sandworm Team,Botnet,2022,2022,1,4
+SideCopy,DLL,2022,2022,1,4
+SideCopy,Domains,2022,2022,1,4
+SideCopy,Ingress Tool Transfer,2022,2022,1,4
+SideCopy,Malicious File,2022,2022,1,4
+SideCopy,Match Legitimate Resource Name or Location,2022,2022,1,4
+SideCopy,Mshta,2022,2022,1,4
+SideCopy,Native API,2022,2022,1,4
+SideCopy,Security Software Discovery,2022,2022,1,4
+SideCopy,Software Discovery,2022,2022,1,4
+SideCopy,Spearphishing Attachment,2022,2022,1,4
+SideCopy,System Information Discovery,2022,2022,1,4
+SideCopy,System Location Discovery,2022,2022,1,4
+SideCopy,System Network Configuration Discovery,2022,2022,1,4
+SideCopy,Upload Malware,2022,2022,1,4
+SideCopy,Visual Basic,2022,2022,1,4
+TA505,Deobfuscate/Decode Files or Information,2022,2022,1,4
+TA505,Disable or Modify Tools,2022,2022,1,4
+TA505,Domains,2022,2022,1,4
+TA505,Modify Registry,2022,2022,1,4
+TA505,Native API,2022,2022,1,4
+TA505,Upload Malware,2022,2022,1,4
+TeamTNT,Deobfuscate/Decode Files or Information,2022,2022,1,4
+TeamTNT,Exfiltration Over Alternative Protocol,2022,2022,1,4
+TeamTNT,File and Directory Discovery,2022,2022,1,4
+TeamTNT,Local Data Staging,2022,2022,1,4
+TeamTNT,Masquerading,2022,2022,1,4
+TeamTNT,Match Legitimate Resource Name or Location,2022,2022,1,4
+TeamTNT,Peripheral Device Discovery,2022,2022,1,4
+TeamTNT,System Service Discovery,2022,2022,1,4
+TeamTNT,Systemctl,2022,2022,1,4
+Threat Group-3390,Exfiltration to Cloud Storage,2022,2022,1,4
+Threat Group-3390,Exploit Public-Facing Application,2022,2022,1,4
+Threat Group-3390,Password Managers,2022,2022,1,4
+Threat Group-3390,Software Packing,2022,2022,1,4
+Threat Group-3390,System Owner/User Discovery,2022,2022,1,4
+Threat Group-3390,Upload Malware,2022,2022,1,4
+Volatile Cedar,Wordlist Scanning,2022,2022,1,4
+WIRTE,Malicious File,2022,2022,1,4
+WIRTE,Match Legitimate Resource Name or Location,2022,2022,1,4
+WIRTE,Non-Standard Port,2022,2022,1,4
+WIRTE,Spearphishing Attachment,2022,2022,1,4
+Winnti Group,Domains,2022,2022,1,4
+Winnti Group,File and Directory Discovery,2022,2022,1,4
+Winnti Group,Ingress Tool Transfer,2022,2022,1,4
+APT19,Command Obfuscation,2023,2023,1,3
+APT29,Additional Email Delegate Permissions,2023,2023,1,3
+APT29,Boot or Logon Initialization Scripts,2023,2023,1,3
+APT29,Cloud API,2023,2023,1,3
+APT29,Cloud Accounts,2023,2023,1,3
+APT29,Cloud Administration Command,2023,2023,1,3
+APT29,Cloud Services,2023,2023,1,3
+APT29,Data from Local System,2023,2023,1,3
+APT29,Device Registration,2023,2023,1,3
+APT29,Dynamic Resolution,2023,2023,1,3
+APT29,Internet Connection Discovery,2023,2023,1,3
+APT29,LSA Secrets,2023,2023,1,3
+APT29,Password Guessing,2023,2023,1,3
+APT29,RC Scripts,2023,2023,1,3
+APT29,Remote Email Collection,2023,2023,1,3
+APT29,Security Account Manager,2023,2023,1,3
+APT29,Timestomp,2023,2023,1,3
+APT29,Valid Accounts,2023,2023,1,3
+APT32,Command Obfuscation,2023,2023,1,3
+APT32,Fileless Storage,2023,2023,1,3
+APT41,Additional Local or Domain Groups,2023,2023,1,3
+CURIUM,Data from Local System,2023,2023,1,3
+CURIUM,Malicious File,2023,2023,1,3
+CURIUM,Social Media Accounts,2023,2023,1,3
+CURIUM,Spearphishing via Service,2023,2023,1,3
+Cinnamon Tempest,DLL,2023,2023,1,3
+Cinnamon Tempest,Deobfuscate/Decode Files or Information,2023,2023,1,3
+Cinnamon Tempest,Domain Accounts,2023,2023,1,3
+Cinnamon Tempest,Exfiltration to Cloud Storage,2023,2023,1,3
+Cinnamon Tempest,Exploit Public-Facing Application,2023,2023,1,3
+Cinnamon Tempest,Financial Theft,2023,2023,1,3
+Cinnamon Tempest,Group Policy Modification,2023,2023,1,3
+Cinnamon Tempest,Ingress Tool Transfer,2023,2023,1,3
+Cinnamon Tempest,PowerShell,2023,2023,1,3
+Cinnamon Tempest,Protocol Tunneling,2023,2023,1,3
+Cinnamon Tempest,Python,2023,2023,1,3
+Cinnamon Tempest,SMB/Windows Admin Shares,2023,2023,1,3
+Cinnamon Tempest,Taint Shared Content,2023,2023,1,3
+Cinnamon Tempest,Valid Accounts,2023,2023,1,3
+Cinnamon Tempest,Windows Management Instrumentation,2023,2023,1,3
+Cinnamon Tempest,Windows Service,2023,2023,1,3
+FIN13,Account Discovery,2023,2023,1,3
+FIN13,Additional Local or Domain Groups,2023,2023,1,3
+FIN13,Archive via Utility,2023,2023,1,3
+FIN13,Credentials In Files,2023,2023,1,3
+FIN13,DLL,2023,2023,1,3
+FIN13,Data Manipulation,2023,2023,1,3
+FIN13,Data from Local System,2023,2023,1,3
+FIN13,Default Accounts,2023,2023,1,3
+FIN13,Deobfuscate/Decode Files or Information,2023,2023,1,3
+FIN13,Domain Account,2023,2023,1,3
+FIN13,Exploit Public-Facing Application,2023,2023,1,3
+FIN13,External Remote Services,2023,2023,1,3
+FIN13,File and Directory Discovery,2023,2023,1,3
+FIN13,Financial Theft,2023,2023,1,3
+FIN13,Gather Victim Identity Information,2023,2023,1,3
+FIN13,Hidden Files and Directories,2023,2023,1,3
+FIN13,Ingress Tool Transfer,2023,2023,1,3
+FIN13,Internal Proxy,2023,2023,1,3
+FIN13,Internet Connection Discovery,2023,2023,1,3
+FIN13,Keylogging,2023,2023,1,3
+FIN13,LSASS Memory,2023,2023,1,3
+FIN13,Local Account,2023,2023,1,3
+FIN13,Local Data Staging,2023,2023,1,3
+FIN13,Make and Impersonate Token,2023,2023,1,3
+FIN13,Masquerade Task or Service,2023,2023,1,3
+FIN13,Masquerading,2023,2023,1,3
+FIN13,Match Legitimate Resource Name or Location,2023,2023,1,3
+FIN13,Modify Authentication Process,2023,2023,1,3
+FIN13,NTDS,2023,2023,1,3
+FIN13,Network Service Discovery,2023,2023,1,3
+FIN13,Network Share Discovery,2023,2023,1,3
+FIN13,Network Topology,2023,2023,1,3
+FIN13,Pass the Hash,2023,2023,1,3
+FIN13,Permission Groups Discovery,2023,2023,1,3
+FIN13,PowerShell,2023,2023,1,3
+FIN13,Protocol Tunneling,2023,2023,1,3
+FIN13,Registry Run Keys / Startup Folder,2023,2023,1,3
+FIN13,Remote Desktop Protocol,2023,2023,1,3
+FIN13,SMB/Windows Admin Shares,2023,2023,1,3
+FIN13,SSH,2023,2023,1,3
+FIN13,Scheduled Task,2023,2023,1,3
+FIN13,Security Account Manager,2023,2023,1,3
+FIN13,System Information Discovery,2023,2023,1,3
+FIN13,System Network Configuration Discovery,2023,2023,1,3
+FIN13,System Network Connections Discovery,2023,2023,1,3
+FIN13,Visual Basic,2023,2023,1,3
+FIN13,Web Protocols,2023,2023,1,3
+FIN13,Web Shell,2023,2023,1,3
+FIN13,Windows Command Shell,2023,2023,1,3
+FIN13,Windows Management Instrumentation,2023,2023,1,3
+FIN13,Windows Remote Management,2023,2023,1,3
+FIN7,Compromise Software Supply Chain,2023,2023,1,3
+FIN7,Domain Groups,2023,2023,1,3
+FIN7,Drive-by Target,2023,2023,1,3
+FIN7,Exploit Public-Facing Application,2023,2023,1,3
+FIN7,Junk Code Insertion,2023,2023,1,3
+FIN7,Local Accounts,2023,2023,1,3
+FIN7,Remote Access Tools,2023,2023,1,3
+FIN7,Rundll32,2023,2023,1,3
+FIN7,System Owner/User Discovery,2023,2023,1,3
+FIN7,Upload Malware,2023,2023,1,3
+FIN7,Web Services,2023,2023,1,3
+FIN8,Code Signing Certificates,2023,2023,1,3
+FIN8,Data Encrypted for Impact,2023,2023,1,3
+FIN8,Internet Connection Discovery,2023,2023,1,3
+FIN8,System Information Discovery,2023,2023,1,3
+FIN8,System Owner/User Discovery,2023,2023,1,3
+Fox Kitten,Command Obfuscation,2023,2023,1,3
+Gamaredon Group,Command Obfuscation,2023,2023,1,3
+HAFNIUM,Account Manipulation,2023,2023,1,3
+HAFNIUM,Data from Local System,2023,2023,1,3
+HAFNIUM,File and Directory Discovery,2023,2023,1,3
+HAFNIUM,Hidden Files and Directories,2023,2023,1,3
+HAFNIUM,Internet Connection Discovery,2023,2023,1,3
+HAFNIUM,Process Discovery,2023,2023,1,3
+HAFNIUM,Remote System Discovery,2023,2023,1,3
+HAFNIUM,System Network Configuration Discovery,2023,2023,1,3
+HAFNIUM,System Owner/User Discovery,2023,2023,1,3
+HAFNIUM,Windows Command Shell,2023,2023,1,3
+Indrik Spider,Email Accounts,2023,2023,1,3
+LAPSUS$,Chat Messages,2023,2023,1,3
+LAPSUS$,DNS Server,2023,2023,1,3
+LAPSUS$,Impersonation,2023,2023,1,3
+LAPSUS$,Password Managers,2023,2023,1,3
+LAPSUS$,Service Stop,2023,2023,1,3
+LAPSUS$,Spearphishing Voice,2023,2023,1,3
+LuminousMoth,ARP Cache Poisoning,2023,2023,1,3
+LuminousMoth,Archive Collected Data,2023,2023,1,3
+LuminousMoth,Code Signing,2023,2023,1,3
+LuminousMoth,DLL,2023,2023,1,3
+LuminousMoth,Data Transfer Size Limits,2023,2023,1,3
+LuminousMoth,Data from Local System,2023,2023,1,3
+LuminousMoth,Digital Certificates,2023,2023,1,3
+LuminousMoth,Drive-by Target,2023,2023,1,3
+LuminousMoth,Exfiltration Over C2 Channel,2023,2023,1,3
+LuminousMoth,Exfiltration to Cloud Storage,2023,2023,1,3
+LuminousMoth,File and Directory Discovery,2023,2023,1,3
+LuminousMoth,Hidden Files and Directories,2023,2023,1,3
+LuminousMoth,Ingress Tool Transfer,2023,2023,1,3
+LuminousMoth,Link Target,2023,2023,1,3
+LuminousMoth,Malicious Link,2023,2023,1,3
+LuminousMoth,Match Legitimate Resource Name or Location,2023,2023,1,3
+LuminousMoth,Modify Registry,2023,2023,1,3
+LuminousMoth,Registry Run Keys / Startup Folder,2023,2023,1,3
+LuminousMoth,Replication Through Removable Media,2023,2023,1,3
+LuminousMoth,Scheduled Task,2023,2023,1,3
+LuminousMoth,Spearphishing Link,2023,2023,1,3
+LuminousMoth,Steal Web Session Cookie,2023,2023,1,3
+LuminousMoth,System Owner/User Discovery,2023,2023,1,3
+LuminousMoth,Upload Malware,2023,2023,1,3
+LuminousMoth,Web Protocols,2023,2023,1,3
+Magic Hound,Additional Local or Domain Groups,2023,2023,1,3
+Magic Hound,Command Obfuscation,2023,2023,1,3
+Magic Hound,Data Encrypted for Impact,2023,2023,1,3
+Magic Hound,Default Accounts,2023,2023,1,3
+Magic Hound,Determine Physical Locations,2023,2023,1,3
+Magic Hound,Disable or Modify Windows Event Log,2023,2023,1,3
+Magic Hound,Domain Accounts,2023,2023,1,3
+Magic Hound,Domain Trust Discovery,2023,2023,1,3
+Magic Hound,Encrypted Channel,2023,2023,1,3
+Magic Hound,Exfiltration Over Web Service,2023,2023,1,3
+Magic Hound,IP Addresses,2023,2023,1,3
+Magic Hound,Internet Connection Discovery,2023,2023,1,3
+Magic Hound,Lateral Tool Transfer,2023,2023,1,3
+Magic Hound,Masquerade Task or Service,2023,2023,1,3
+Magic Hound,Network Service Discovery,2023,2023,1,3
+Magic Hound,Protocol Tunneling,2023,2023,1,3
+Magic Hound,Proxy,2023,2023,1,3
+Magic Hound,Remote System Discovery,2023,2023,1,3
+Magic Hound,Software,2023,2023,1,3
+Magic Hound,Wi-Fi Discovery,2023,2023,1,3
+Metador,Encrypted/Encoded File,2023,2023,1,3
+Metador,File Deletion,2023,2023,1,3
+Metador,Ingress Tool Transfer,2023,2023,1,3
+Metador,Non-Application Layer Protocol,2023,2023,1,3
+Metador,Web Protocols,2023,2023,1,3
+Metador,Windows Command Shell,2023,2023,1,3
+Metador,Windows Management Instrumentation Event Subscription,2023,2023,1,3
+MoustachedBouncer,Content Injection,2023,2023,1,3
+MoustachedBouncer,Exploitation for Privilege Escalation,2023,2023,1,3
+MoustachedBouncer,JavaScript,2023,2023,1,3
+MoustachedBouncer,PowerShell,2023,2023,1,3
+MoustachedBouncer,Proxy,2023,2023,1,3
+MoustachedBouncer,Remote Data Staging,2023,2023,1,3
+MoustachedBouncer,Screen Capture,2023,2023,1,3
+MoustachedBouncer,Software Packing,2023,2023,1,3
+Mustang Panda,Spearphishing Link,2023,2021,2,3
+Mustard Tempest,Ingress Tool Transfer,2023,2023,1,3
+Mustard Tempest,Malicious Link,2023,2023,1,3
+Mustard Tempest,Malvertising,2023,2023,1,3
+Mustard Tempest,SEO Poisoning,2023,2023,1,3
+Mustard Tempest,System Information Discovery,2023,2023,1,3
+Patchwork,Spearphishing Link,2023,2018,2,3
+Sandworm Team,Command Obfuscation,2023,2023,1,3
+Sandworm Team,Data Encrypted for Impact,2023,2023,1,3
+Sandworm Team,NTDS,2023,2023,1,3
+Sandworm Team,Software Deployment Tools,2023,2023,1,3
+Scattered Spider,Code Signing,2023,2023,1,3
+Scattered Spider,Exploitation for Privilege Escalation,2023,2023,1,3
+Scattered Spider,External Remote Services,2023,2023,1,3
+Scattered Spider,Multi-Factor Authentication Request Generation,2023,2023,1,3
+Scattered Spider,Phishing for Information,2023,2023,1,3
+Sidewinder,Command Obfuscation,2023,2023,1,3
+SilverTerrier,Financial Theft,2023,2023,1,3
+TA2541,Asymmetric Cryptography,2023,2023,1,3
+TA2541,Disable or Modify Tools,2023,2023,1,3
+TA2541,Domains,2023,2023,1,3
+TA2541,Dynamic Resolution,2023,2023,1,3
+TA2541,Encrypted/Encoded File,2023,2023,1,3
+TA2541,Ingress Tool Transfer,2023,2023,1,3
+TA2541,Internet Connection Discovery,2023,2023,1,3
+TA2541,Malicious File,2023,2023,1,3
+TA2541,Malicious Link,2023,2023,1,3
+TA2541,Match Legitimate Resource Name or Location,2023,2023,1,3
+TA2541,Mshta,2023,2023,1,3
+TA2541,PowerShell,2023,2023,1,3
+TA2541,Process Hollowing,2023,2023,1,3
+TA2541,Process Injection,2023,2023,1,3
+TA2541,Registry Run Keys / Startup Folder,2023,2023,1,3
+TA2541,Scheduled Task,2023,2023,1,3
+TA2541,Security Software Discovery,2023,2023,1,3
+TA2541,Software Packing,2023,2023,1,3
+TA2541,Spearphishing Attachment,2023,2023,1,3
+TA2541,Spearphishing Link,2023,2023,1,3
+TA2541,System Information Discovery,2023,2023,1,3
+TA2541,Upload Malware,2023,2023,1,3
+TA2541,Visual Basic,2023,2023,1,3
+TA2541,Web Services,2023,2023,1,3
+TA2541,Windows Management Instrumentation,2023,2023,1,3
+TA505,Command Obfuscation,2023,2023,1,3
+TeamTNT,Cloud API,2023,2023,1,3
+Threat Group-3390,Code Signing Certificates,2023,2023,1,3
+Threat Group-3390,Domains,2023,2023,1,3
+Turla,Modify Registry,2023,2023,1,3
+Volt Typhoon,Archive via Utility,2023,2023,1,3
+Volt Typhoon,Clear Network Connection History and Configurations,2023,2023,1,3
+Volt Typhoon,Credentials from Password Stores,2023,2023,1,3
+Volt Typhoon,Data Staged,2023,2023,1,3
+Volt Typhoon,Data from Local System,2023,2023,1,3
+Volt Typhoon,Domain Account,2023,2023,1,3
+Volt Typhoon,Domain Accounts,2023,2023,1,3
+Volt Typhoon,Domain Groups,2023,2023,1,3
+Volt Typhoon,Exploit Public-Facing Application,2023,2023,1,3
+Volt Typhoon,File Deletion,2023,2023,1,3
+Volt Typhoon,Internal Proxy,2023,2023,1,3
+Volt Typhoon,LSASS Memory,2023,2023,1,3
+Volt Typhoon,Lateral Tool Transfer,2023,2023,1,3
+Volt Typhoon,Local Data Staging,2023,2023,1,3
+Volt Typhoon,Local Groups,2023,2023,1,3
+Volt Typhoon,Local Storage Discovery,2023,2023,1,3
+Volt Typhoon,Log Enumeration,2023,2023,1,3
+Volt Typhoon,Masquerade File Type,2023,2023,1,3
+Volt Typhoon,Match Legitimate Resource Name or Location,2023,2023,1,3
+Volt Typhoon,NTDS,2023,2023,1,3
+Volt Typhoon,Network Devices,2023,2023,1,3
+Volt Typhoon,PowerShell,2023,2023,1,3
+Volt Typhoon,Process Discovery,2023,2023,1,3
+Volt Typhoon,Proxy,2023,2023,1,3
+Volt Typhoon,Query Registry,2023,2023,1,3
+Volt Typhoon,Remote System Discovery,2023,2023,1,3
+Volt Typhoon,Server,2023,2023,1,3
+Volt Typhoon,Software Discovery,2023,2023,1,3
+Volt Typhoon,Symmetric Cryptography,2023,2023,1,3
+Volt Typhoon,System Checks,2023,2023,1,3
+Volt Typhoon,System Network Configuration Discovery,2023,2023,1,3
+Volt Typhoon,System Network Connections Discovery,2023,2023,1,3
+Volt Typhoon,System Owner/User Discovery,2023,2023,1,3
+Volt Typhoon,Web Shell,2023,2023,1,3
+Volt Typhoon,Windows Command Shell,2023,2023,1,3
+Volt Typhoon,Windows Management Instrumentation,2023,2023,1,3
+Wizard Spider,Archive via Utility,2023,2023,1,3
+Wizard Spider,BITS Jobs,2023,2023,1,3
+Wizard Spider,Backup Software Discovery,2023,2023,1,3
+Wizard Spider,Data from Local System,2023,2023,1,3
+Wizard Spider,Domain Account,2023,2020,2,3
+Wizard Spider,Email Accounts,2023,2023,1,3
+Wizard Spider,Exfiltration to Cloud Storage,2023,2023,1,3
+Wizard Spider,Group Policy Preferences,2023,2023,1,3
+Wizard Spider,Ingress Tool Transfer,2023,2023,1,3
+Wizard Spider,Inhibit System Recovery,2023,2023,1,3
+Wizard Spider,LSASS Memory,2023,2023,1,3
+Wizard Spider,Local Account,2023,2023,1,3
+Wizard Spider,Local Data Staging,2023,2023,1,3
+Wizard Spider,Pass the Hash,2023,2023,1,3
+Wizard Spider,Process Injection,2023,2023,1,3
+Wizard Spider,Remote Services,2023,2023,1,3
+Wizard Spider,Rundll32,2023,2023,1,3
+Wizard Spider,Windows Credential Manager,2023,2023,1,3
+ZIRCONIUM,Spearphishing Link,2023,2021,2,3
+APT28,Evil Twin,2024,2024,1,2
+APT28,Network Devices,2024,2024,1,2
+APT28,Virtual Private Server,2024,2024,1,2
+APT29,Disable or Modify Cloud Log,2024,2024,1,2
+APT29,External Proxy,2024,2024,1,2
+APT29,Hide Infrastructure,2024,2024,1,2
+APT29,Local Accounts,2024,2024,1,2
+APT29,Steal Application Access Token,2024,2024,1,2
+APT3,Masquerade Account Name,2024,2024,1,2
+APT39,AutoHotKey & AutoIT,2024,2024,1,2
+APT41,Boot or Logon Initialization Scripts,2024,2024,1,2
+APT41,Code Repositories,2024,2024,1,2
+APT41,Credentials from Password Stores,2024,2024,1,2
+APT41,Credentials from Web Browsers,2024,2024,1,2
+APT41,Data Transfer Size Limits,2024,2024,1,2
+APT41,Disable or Modify Tools,2024,2024,1,2
+APT41,Domain Account,2024,2024,1,2
+APT41,Group Policy Modification,2024,2024,1,2
+APT41,Impersonation,2024,2024,1,2
+APT41,Lateral Tool Transfer,2024,2024,1,2
+APT41,Local Account,2024,2019,2,2
+APT41,NTDS,2024,2024,1,2
+APT41,Network Boundary Bridging,2024,2024,1,2
+APT41,Pass the Hash,2024,2024,1,2
+APT41,Permission Groups Discovery,2024,2024,1,2
+APT41,Query Registry,2024,2024,1,2
+APT41,Remote System Discovery,2024,2024,1,2
+APT41,Scan Databases,2024,2024,1,2
+APT41,Security Account Manager,2024,2024,1,2
+APT41,Software Packing,2024,2024,1,2
+APT41,System Information Discovery,2024,2024,1,2
+APT41,Vulnerability Scanning,2024,2024,1,2
+APT41,Wordlist Scanning,2024,2024,1,2
+APT5,Additional Local or Domain Groups,2024,2024,1,2
+APT5,Archive via Utility,2024,2024,1,2
+APT5,Clear Command History,2024,2024,1,2
+APT5,Cloud Accounts,2024,2024,1,2
+APT5,Compromise Host Software Binary,2024,2024,1,2
+APT5,Cron,2024,2024,1,2
+APT5,Disable or Modify Tools,2024,2024,1,2
+APT5,Domain Accounts,2024,2024,1,2
+APT5,Exploit Public-Facing Application,2024,2024,1,2
+APT5,File Deletion,2024,2024,1,2
+APT5,File and Directory Discovery,2024,2024,1,2
+APT5,Indicator Removal,2024,2024,1,2
+APT5,Keylogging,2024,2024,1,2
+APT5,LSASS Memory,2024,2024,1,2
+APT5,Local Account,2024,2024,1,2
+APT5,Local Data Staging,2024,2024,1,2
+APT5,Log Enumeration,2024,2024,1,2
+APT5,Match Legitimate Resource Name or Location,2024,2024,1,2
+APT5,PowerShell,2024,2024,1,2
+APT5,Process Discovery,2024,2024,1,2
+APT5,Process Injection,2024,2024,1,2
+APT5,Remote Desktop Protocol,2024,2024,1,2
+APT5,SSH,2024,2024,1,2
+APT5,Security Account Manager,2024,2024,1,2
+APT5,System Network Connections Discovery,2024,2024,1,2
+APT5,Timestomp,2024,2024,1,2
+APT5,Web Shell,2024,2024,1,2
+APT5,Windows Command Shell,2024,2024,1,2
+Agrius,Acquire Infrastructure,2024,2024,1,2
+Agrius,Archive via Utility,2024,2024,1,2
+Agrius,Automated Collection,2024,2024,1,2
+Agrius,Brute Force,2024,2024,1,2
+Agrius,Data from Local System,2024,2024,1,2
+Agrius,Deobfuscate/Decode Files or Information,2024,2024,1,2
+Agrius,Disable or Modify Tools,2024,2024,1,2
+Agrius,Domain Accounts,2024,2024,1,2
+Agrius,Exfiltration Over C2 Channel,2024,2024,1,2
+Agrius,Exploit Public-Facing Application,2024,2024,1,2
+Agrius,LSASS Memory,2024,2024,1,2
+Agrius,Lateral Tool Transfer,2024,2024,1,2
+Agrius,Local Data Staging,2024,2024,1,2
+Agrius,Masquerading,2024,2024,1,2
+Agrius,Network Service Discovery,2024,2024,1,2
+Agrius,Password Spraying,2024,2024,1,2
+Agrius,Remote Desktop Protocol,2024,2024,1,2
+Agrius,Remote System Discovery,2024,2024,1,2
+Agrius,Security Account Manager,2024,2024,1,2
+Agrius,Web Shell,2024,2024,1,2
+Agrius,Windows Command Shell,2024,2024,1,2
+Agrius,Windows Service,2024,2024,1,2
+Akira,Account Access Removal,2024,2024,1,2
+Akira,Archive via Utility,2024,2024,1,2
+Akira,Binary Padding,2024,2024,1,2
+Akira,Data Encrypted for Impact,2024,2024,1,2
+Akira,Disable or Modify Tools,2024,2024,1,2
+Akira,Domain Trust Discovery,2024,2024,1,2
+Akira,Exfiltration to Cloud Storage,2024,2024,1,2
+Akira,External Remote Services,2024,2024,1,2
+Akira,Financial Theft,2024,2024,1,2
+Akira,Match Legitimate Resource Name or Location,2024,2024,1,2
+Akira,PowerShell,2024,2024,1,2
+Akira,Remote Access Tools,2024,2024,1,2
+Akira,Remote Desktop Protocol,2024,2024,1,2
+Akira,Remote System Discovery,2024,2024,1,2
+Akira,Sharepoint,2024,2024,1,2
+Akira,Steal or Forge Kerberos Tickets,2024,2024,1,2
+Akira,Valid Accounts,2024,2024,1,2
+Aquatic Panda,Account Discovery,2024,2024,1,2
+Aquatic Panda,Clear Command History,2024,2024,1,2
+Aquatic Panda,Clear Windows Event Logs,2024,2024,1,2
+Aquatic Panda,Data from Local System,2024,2024,1,2
+Aquatic Panda,Domain Accounts,2024,2024,1,2
+Aquatic Panda,Dynamic Linker Hijacking,2024,2024,1,2
+Aquatic Panda,Log Enumeration,2024,2024,1,2
+Aquatic Panda,Masquerade Task or Service,2024,2024,1,2
+Aquatic Panda,Match Legitimate Resource Name or Location,2024,2024,1,2
+Aquatic Panda,Modify Registry,2024,2024,1,2
+Aquatic Panda,Pass the Hash,2024,2024,1,2
+Aquatic Panda,Remote Desktop Protocol,2024,2024,1,2
+Aquatic Panda,Remote Services,2024,2024,1,2
+Aquatic Panda,Rundll32,2024,2024,1,2
+Aquatic Panda,SMB/Windows Admin Shares,2024,2024,1,2
+Aquatic Panda,SSH,2024,2024,1,2
+Aquatic Panda,System Owner/User Discovery,2024,2024,1,2
+Aquatic Panda,Unix Shell,2024,2024,1,2
+Aquatic Panda,Windows Management Instrumentation,2024,2024,1,2
+Aquatic Panda,Windows Service,2024,2024,1,2
+BlackByte,Archive Collected Data,2024,2024,1,2
+BlackByte,Data Encrypted for Impact,2024,2024,1,2
+BlackByte,Deobfuscate/Decode Files or Information,2024,2024,1,2
+BlackByte,Disable or Modify System Firewall,2024,2024,1,2
+BlackByte,Disable or Modify Tools,2024,2024,1,2
+BlackByte,Domain Account,2024,2024,1,2
+BlackByte,Domain Accounts,2024,2024,1,2
+BlackByte,Domain Trust Discovery,2024,2024,1,2
+BlackByte,Execution Guardrails,2024,2024,1,2
+BlackByte,Exfiltration Over C2 Channel,2024,2024,1,2
+BlackByte,Exfiltration Over Web Service,2024,2024,1,2
+BlackByte,Exploit Public-Facing Application,2024,2024,1,2
+BlackByte,Exploitation for Privilege Escalation,2024,2024,1,2
+BlackByte,File Deletion,2024,2024,1,2
+BlackByte,Ingress Tool Transfer,2024,2024,1,2
+BlackByte,Inhibit System Recovery,2024,2024,1,2
+BlackByte,Internal Defacement,2024,2024,1,2
+BlackByte,Lateral Tool Transfer,2024,2024,1,2
+BlackByte,Make and Impersonate Token,2024,2024,1,2
+BlackByte,Masquerade File Type,2024,2024,1,2
+BlackByte,Modify Registry,2024,2024,1,2
+BlackByte,Network Service Discovery,2024,2024,1,2
+BlackByte,Network Share Discovery,2024,2024,1,2
+BlackByte,OS Credential Dumping,2024,2024,1,2
+BlackByte,PowerShell,2024,2024,1,2
+BlackByte,Process Hollowing,2024,2024,1,2
+BlackByte,Process Injection,2024,2024,1,2
+BlackByte,Query Registry,2024,2024,1,2
+BlackByte,Registry Run Keys / Startup Folder,2024,2024,1,2
+BlackByte,Remote Access Tools,2024,2024,1,2
+BlackByte,Remote Desktop Protocol,2024,2024,1,2
+BlackByte,Remote System Discovery,2024,2024,1,2
+BlackByte,SMB/Windows Admin Shares,2024,2024,1,2
+BlackByte,Scheduled Task,2024,2024,1,2
+BlackByte,Security Software Discovery,2024,2024,1,2
+BlackByte,Service Execution,2024,2024,1,2
+BlackByte,System Information Discovery,2024,2024,1,2
+BlackByte,System Language Discovery,2024,2024,1,2
+BlackByte,System Network Configuration Discovery,2024,2024,1,2
+BlackByte,Upload Malware,2024,2024,1,2
+BlackByte,Valid Accounts,2024,2024,1,2
+BlackByte,Virtual Private Server,2024,2024,1,2
+BlackByte,Web Protocols,2024,2024,1,2
+BlackByte,Web Shell,2024,2024,1,2
+BlackByte,Windows Command Shell,2024,2024,1,2
+BlackByte,Windows Management Instrumentation,2024,2024,1,2
+BlackByte,Windows Service,2024,2024,1,2
+CURIUM,Domains,2024,2024,1,2
+CURIUM,Drive-by Compromise,2024,2024,1,2
+CURIUM,Drive-by Target,2024,2024,1,2
+CURIUM,Email Accounts,2024,2024,1,2
+CURIUM,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,2024,2024,1,2
+CURIUM,Exfiltration Over C2 Channel,2024,2024,1,2
+CURIUM,PowerShell,2024,2024,1,2
+CURIUM,Server,2024,2024,1,2
+CURIUM,Spearphishing Attachment,2024,2024,1,2
+CURIUM,Spearphishing Link,2024,2024,1,2
+CURIUM,System Information Discovery,2024,2024,1,2
+CURIUM,System Time Discovery,2024,2024,1,2
+CURIUM,Virtual Private Server,2024,2024,1,2
+CURIUM,Web Services,2024,2024,1,2
+CURIUM,Web Shell,2024,2024,1,2
+Cinnamon Tempest,Proxy,2024,2024,1,2
+Cinnamon Tempest,Windows Command Shell,2024,2024,1,2
+Daggerfly,Code Signing,2024,2024,1,2
+Daggerfly,Code Signing Certificates,2024,2024,1,2
+Daggerfly,Compromise Software Supply Chain,2024,2024,1,2
+Daggerfly,DLL,2024,2024,1,2
+Daggerfly,Drive-by Compromise,2024,2024,1,2
+Daggerfly,Ingress Tool Transfer,2024,2024,1,2
+Daggerfly,Local Account,2024,2024,1,2
+Daggerfly,Malicious Link,2024,2024,1,2
+Daggerfly,PowerShell,2024,2024,1,2
+Daggerfly,Query Registry,2024,2024,1,2
+Daggerfly,Rename Legitimate Utilities,2024,2024,1,2
+Daggerfly,Rundll32,2024,2024,1,2
+Daggerfly,Scheduled Task,2024,2024,1,2
+Daggerfly,Security Account Manager,2024,2024,1,2
+Daggerfly,Server,2024,2024,1,2
+Daggerfly,System Information Discovery,2024,2024,1,2
+Daggerfly,Web Protocols,2024,2024,1,2
+Ember Bear,Acquire Infrastructure,2024,2024,1,2
+Ember Bear,Archive Collected Data,2024,2024,1,2
+Ember Bear,Automated Collection,2024,2024,1,2
+Ember Bear,Brute Force,2024,2024,1,2
+Ember Bear,Credentials In Files,2024,2024,1,2
+Ember Bear,DNS,2024,2024,1,2
+Ember Bear,Data from Local System,2024,2024,1,2
+Ember Bear,Default Accounts,2024,2024,1,2
+Ember Bear,Disk Structure Wipe,2024,2024,1,2
+Ember Bear,Email Collection,2024,2024,1,2
+Ember Bear,Establish Accounts,2024,2024,1,2
+Ember Bear,Exfiltration to Cloud Storage,2024,2024,1,2
+Ember Bear,Exploit Public-Facing Application,2024,2024,1,2
+Ember Bear,Exploitation for Client Execution,2024,2024,1,2
+Ember Bear,Exploitation of Remote Services,2024,2024,1,2
+Ember Bear,External Defacement,2024,2024,1,2
+Ember Bear,External Remote Services,2024,2024,1,2
+Ember Bear,File Deletion,2024,2024,1,2
+Ember Bear,LSA Secrets,2024,2024,1,2
+Ember Bear,LSASS Memory,2024,2024,1,2
+Ember Bear,Lateral Tool Transfer,2024,2024,1,2
+Ember Bear,Log Enumeration,2024,2024,1,2
+Ember Bear,Masquerading,2024,2024,1,2
+Ember Bear,Match Legitimate Resource Name or Location,2024,2024,1,2
+Ember Bear,Modify Registry,2024,2024,1,2
+Ember Bear,Multi-hop Proxy,2024,2024,1,2
+Ember Bear,Network Service Discovery,2024,2024,1,2
+Ember Bear,Non-Application Layer Protocol,2024,2024,1,2
+Ember Bear,Non-Standard Port,2024,2024,1,2
+Ember Bear,OS Credential Dumping,2024,2024,1,2
+Ember Bear,Pass the Hash,2024,2024,1,2
+Ember Bear,Password Spraying,2024,2024,1,2
+Ember Bear,PowerShell,2024,2024,1,2
+Ember Bear,Protocol Tunneling,2024,2024,1,2
+Ember Bear,Remote Services,2024,2024,1,2
+Ember Bear,Remote System Discovery,2024,2024,1,2
+Ember Bear,Scanning IP Blocks,2024,2024,1,2
+Ember Bear,Scheduled Task,2024,2024,1,2
+Ember Bear,Security Account Manager,2024,2024,1,2
+Ember Bear,Supply Chain Compromise,2024,2024,1,2
+Ember Bear,Video Capture,2024,2024,1,2
+Ember Bear,Virtual Private Server,2024,2024,1,2
+Ember Bear,Vulnerability Scanning,2024,2024,1,2
+Ember Bear,Web Shell,2024,2024,1,2
+Ember Bear,Windows Management Instrumentation,2024,2024,1,2
+Gamaredon Group,Data Obfuscation,2024,2024,1,2
+Gamaredon Group,Execution Guardrails,2024,2024,1,2
+Gamaredon Group,Fast Flux DNS,2024,2024,1,2
+Gamaredon Group,Malicious Link,2024,2024,1,2
+Gamaredon Group,One-Way Communication,2024,2024,1,2
+Gamaredon Group,Virtual Private Server,2024,2024,1,2
+HEXANE,Windows Management Instrumentation Event Subscription,2024,2024,1,2
+INC Ransom,Application Layer Protocol,2024,2024,1,2
+INC Ransom,Archive via Utility,2024,2024,1,2
+INC Ransom,Data Encrypted for Impact,2024,2024,1,2
+INC Ransom,Data Staged,2024,2024,1,2
+INC Ransom,Disable or Modify Tools,2024,2024,1,2
+INC Ransom,Domain Account,2024,2024,1,2
+INC Ransom,Domain Groups,2024,2024,1,2
+INC Ransom,Exploit Public-Facing Application,2024,2024,1,2
+INC Ransom,File Deletion,2024,2024,1,2
+INC Ransom,Financial Theft,2024,2024,1,2
+INC Ransom,Ingress Tool Transfer,2024,2024,1,2
+INC Ransom,Lateral Tool Transfer,2024,2024,1,2
+INC Ransom,Match Legitimate Resource Name or Location,2024,2024,1,2
+INC Ransom,Network Service Discovery,2024,2024,1,2
+INC Ransom,Network Share Discovery,2024,2024,1,2
+INC Ransom,Phishing,2024,2024,1,2
+INC Ransom,Remote Access Tools,2024,2024,1,2
+INC Ransom,Remote Desktop Protocol,2024,2024,1,2
+INC Ransom,Service Execution,2024,2024,1,2
+INC Ransom,System Network Connections Discovery,2024,2024,1,2
+INC Ransom,Transfer Data to Cloud Account,2024,2024,1,2
+INC Ransom,Valid Accounts,2024,2024,1,2
+INC Ransom,Windows Command Shell,2024,2024,1,2
+INC Ransom,Windows Management Instrumentation,2024,2024,1,2
+Indrik Spider,Acquire Infrastructure,2024,2024,1,2
+Indrik Spider,Credentials In Files,2024,2024,1,2
+Indrik Spider,Exfiltration to Cloud Storage,2024,2024,1,2
+Indrik Spider,Gather Victim Network Information,2024,2024,1,2
+Indrik Spider,Kerberoasting,2024,2024,1,2
+Indrik Spider,Local Account,2024,2024,1,2
+Indrik Spider,Modify Registry,2024,2024,1,2
+Indrik Spider,Password Managers,2024,2024,1,2
+Indrik Spider,Query Registry,2024,2024,1,2
+Indrik Spider,Remote Desktop Protocol,2024,2024,1,2
+Indrik Spider,SSH,2024,2024,1,2
+Indrik Spider,Valid Accounts,2024,2024,1,2
+Kimsuky,Acquire Infrastructure,2024,2024,1,2
+Kimsuky,Financial Theft,2024,2024,1,2
+Kimsuky,Phishing for Information,2024,2024,1,2
+Kimsuky,Reflective Code Loading,2024,2024,1,2
+Magic Hound,Masquerade Account Name,2024,2024,1,2
+Malteiro,Credentials from Password Stores,2024,2024,1,2
+Malteiro,Credentials from Web Browsers,2024,2024,1,2
+Malteiro,Deobfuscate/Decode Files or Information,2024,2024,1,2
+Malteiro,Dynamic-link Library Injection,2024,2024,1,2
+Malteiro,Encrypted/Encoded File,2024,2024,1,2
+Malteiro,Financial Theft,2024,2024,1,2
+Malteiro,Malicious File,2024,2024,1,2
+Malteiro,Security Software Discovery,2024,2024,1,2
+Malteiro,Spearphishing Attachment,2024,2024,1,2
+Malteiro,System Information Discovery,2024,2024,1,2
+Malteiro,System Language Discovery,2024,2024,1,2
+Malteiro,Visual Basic,2024,2024,1,2
+Moonstone Sleet,Browser Information Discovery,2024,2024,1,2
+Moonstone Sleet,Compromise Software Supply Chain,2024,2024,1,2
+Moonstone Sleet,Data Encrypted for Impact,2024,2024,1,2
+Moonstone Sleet,Deobfuscate/Decode Files or Information,2024,2024,1,2
+Moonstone Sleet,Develop Capabilities,2024,2024,1,2
+Moonstone Sleet,Domains,2024,2024,1,2
+Moonstone Sleet,Email Accounts,2024,2024,1,2
+Moonstone Sleet,Email Addresses,2024,2024,1,2
+Moonstone Sleet,Embedded Payloads,2024,2024,1,2
+Moonstone Sleet,Encrypted/Encoded File,2024,2024,1,2
+Moonstone Sleet,Gather Victim Org Information,2024,2024,1,2
+Moonstone Sleet,Ingress Tool Transfer,2024,2024,1,2
+Moonstone Sleet,LSASS Memory,2024,2024,1,2
+Moonstone Sleet,Malicious File,2024,2024,1,2
+Moonstone Sleet,Obfuscated Files or Information,2024,2024,1,2
+Moonstone Sleet,Phishing for Information,2024,2024,1,2
+Moonstone Sleet,Registry Run Keys / Startup Folder,2024,2024,1,2
+Moonstone Sleet,Scheduled Task,2024,2024,1,2
+Moonstone Sleet,Service Execution,2024,2024,1,2
+Moonstone Sleet,Social Media Accounts,2024,2024,1,2
+Moonstone Sleet,Spearphishing Attachment,2024,2024,1,2
+Moonstone Sleet,Spearphishing Link,2024,2024,1,2
+Moonstone Sleet,Spearphishing via Service,2024,2024,1,2
+Moonstone Sleet,System Information Discovery,2024,2024,1,2
+Moonstone Sleet,System Network Configuration Discovery,2024,2024,1,2
+Moonstone Sleet,System Owner/User Discovery,2024,2024,1,2
+Moonstone Sleet,Upload Malware,2024,2024,1,2
+Moonstone Sleet,Virtual Private Server,2024,2024,1,2
+Moonstone Sleet,Web Protocols,2024,2024,1,2
+Mustard Tempest,Domains,2024,2024,1,2
+Mustard Tempest,Drive-by Compromise,2024,2024,1,2
+Mustard Tempest,Drive-by Target,2024,2024,1,2
+Mustard Tempest,Match Legitimate Resource Name or Location,2024,2024,1,2
+Mustard Tempest,Server,2024,2024,1,2
+Mustard Tempest,Spearphishing Link,2024,2024,1,2
+Mustard Tempest,Upload Malware,2024,2024,1,2
+OilRig,Clipboard Data,2024,2024,1,2
+OilRig,Code Signing,2024,2024,1,2
+OilRig,Code Signing Certificates,2024,2024,1,2
+OilRig,Data from Local System,2024,2024,1,2
+OilRig,Data from Removable Media,2024,2024,1,2
+OilRig,Domain Accounts,2024,2024,1,2
+OilRig,Domains,2024,2024,1,2
+OilRig,Email Accounts,2024,2024,1,2
+OilRig,Exploitation for Client Execution,2024,2024,1,2
+OilRig,Exploitation for Privilege Escalation,2024,2024,1,2
+OilRig,Modify Registry,2024,2024,1,2
+OilRig,Password Filter DLL,2024,2024,1,2
+OilRig,Remote Access Tools,2024,2024,1,2
+OilRig,Supply Chain Compromise,2024,2024,1,2
+OilRig,Upload Malware,2024,2024,1,2
+OilRig,Windows Host Firewall,2024,2024,1,2
+OilRig,Windows Service,2024,2024,1,2
+Play,Archive via Utility,2024,2024,1,2
+Play,Clear Windows Event Logs,2024,2024,1,2
+Play,Command Obfuscation,2024,2024,1,2
+Play,Data Transfer Size Limits,2024,2024,1,2
+Play,Disable or Modify Tools,2024,2024,1,2
+Play,Domain Accounts,2024,2024,1,2
+Play,Exfiltration Over Alternative Protocol,2024,2024,1,2
+Play,Exploit Public-Facing Application,2024,2024,1,2
+Play,External Remote Services,2024,2024,1,2
+Play,File Deletion,2024,2024,1,2
+Play,File and Directory Discovery,2024,2024,1,2
+Play,Financial Theft,2024,2024,1,2
+Play,Ingress Tool Transfer,2024,2024,1,2
+Play,LSASS Memory,2024,2024,1,2
+Play,Local Accounts,2024,2024,1,2
+Play,PowerShell,2024,2024,1,2
+Play,Process Discovery,2024,2024,1,2
+Play,Remote System Discovery,2024,2024,1,2
+Play,SMB/Windows Admin Shares,2024,2024,1,2
+Play,Security Software Discovery,2024,2024,1,2
+Play,System Information Discovery,2024,2024,1,2
+Play,System Network Configuration Discovery,2024,2024,1,2
+Play,Valid Accounts,2024,2024,1,2
+Play,Windows Command Shell,2024,2024,1,2
+Rancor,Windows Management Instrumentation Event Subscription,2024,2024,1,2
+RedCurl,Archive via Utility,2024,2024,1,2
+RedCurl,Asymmetric Cryptography,2024,2024,1,2
+RedCurl,Automated Collection,2024,2024,1,2
+RedCurl,Automated Exfiltration,2024,2024,1,2
+RedCurl,Credentials In Files,2024,2024,1,2
+RedCurl,Credentials from Web Browsers,2024,2024,1,2
+RedCurl,Credentials in Registry,2024,2024,1,2
+RedCurl,Data from Local System,2024,2024,1,2
+RedCurl,Data from Network Shared Drive,2024,2024,1,2
+RedCurl,Domain Account,2024,2024,1,2
+RedCurl,Email Account,2024,2024,1,2
+RedCurl,File Deletion,2024,2024,1,2
+RedCurl,File and Directory Discovery,2024,2024,1,2
+RedCurl,GUI Input Capture,2024,2024,1,2
+RedCurl,Hidden Files and Directories,2024,2024,1,2
+RedCurl,Indirect Command Execution,2024,2024,1,2
+RedCurl,LSASS Memory,2024,2024,1,2
+RedCurl,Local Account,2024,2024,1,2
+RedCurl,Local Email Collection,2024,2024,1,2
+RedCurl,Malicious File,2024,2024,1,2
+RedCurl,Malicious Link,2024,2024,1,2
+RedCurl,Match Legitimate Resource Name or Location,2024,2024,1,2
+RedCurl,Network Service Discovery,2024,2024,1,2
+RedCurl,Obfuscated Files or Information,2024,2024,1,2
+RedCurl,PowerShell,2024,2024,1,2
+RedCurl,Python,2024,2024,1,2
+RedCurl,Registry Run Keys / Startup Folder,2024,2024,1,2
+RedCurl,Rundll32,2024,2024,1,2
+RedCurl,Scheduled Task,2024,2024,1,2
+RedCurl,Spearphishing Attachment,2024,2024,1,2
+RedCurl,Spearphishing Link,2024,2024,1,2
+RedCurl,Symmetric Cryptography,2024,2024,1,2
+RedCurl,System Information Discovery,2024,2024,1,2
+RedCurl,Taint Shared Content,2024,2024,1,2
+RedCurl,Transfer Data to Cloud Account,2024,2024,1,2
+RedCurl,Trusted Relationship,2024,2024,1,2
+RedCurl,Visual Basic,2024,2024,1,2
+RedCurl,Web Protocols,2024,2024,1,2
+RedCurl,Web Service,2024,2024,1,2
+RedCurl,Windows Command Shell,2024,2024,1,2
+RedEcho,Asymmetric Cryptography,2024,2024,1,2
+RedEcho,Domains,2024,2024,1,2
+RedEcho,Dynamic Resolution,2024,2024,1,2
+RedEcho,Non-Standard Port,2024,2024,1,2
+RedEcho,Web Protocols,2024,2024,1,2
+Saint Bear,Code Signing,2024,2024,1,2
+Saint Bear,Command and Scripting Interpreter,2024,2024,1,2
+Saint Bear,Disable or Modify Tools,2024,2024,1,2
+Saint Bear,Email Addresses,2024,2024,1,2
+Saint Bear,Encrypted/Encoded File,2024,2024,1,2
+Saint Bear,Exploitation for Client Execution,2024,2024,1,2
+Saint Bear,Impersonation,2024,2024,1,2
+Saint Bear,JavaScript,2024,2024,1,2
+Saint Bear,Malicious File,2024,2024,1,2
+Saint Bear,Malicious Link,2024,2024,1,2
+Saint Bear,Modify Registry,2024,2024,1,2
+Saint Bear,PowerShell,2024,2024,1,2
+Saint Bear,Software Packing,2024,2024,1,2
+Saint Bear,Spearphishing Attachment,2024,2024,1,2
+Saint Bear,Upload Malware,2024,2024,1,2
+Saint Bear,Virtualization/Sandbox Evasion,2024,2024,1,2
+Saint Bear,Web Services,2024,2024,1,2
+Saint Bear,Windows Command Shell,2024,2024,1,2
+Sandworm Team,Acquire Infrastructure,2024,2024,1,2
+Sandworm Team,Databases,2024,2024,1,2
+Sandworm Team,Exploit Public-Facing Application,2024,2024,1,2
+Sandworm Team,Inhibit System Recovery,2024,2024,1,2
+Sandworm Team,Masquerading,2024,2024,1,2
+Sandworm Team,Native API,2024,2024,1,2
+Sandworm Team,Scheduled Task,2024,2024,1,2
+Sandworm Team,Server,2024,2020,2,2
+Sandworm Team,Service Stop,2024,2024,1,2
+Sandworm Team,Social Media Accounts,2024,2020,2,2
+Sandworm Team,Steal Web Session Cookie,2024,2024,1,2
+Sandworm Team,Supply Chain Compromise,2024,2024,1,2
+Sandworm Team,Upload Malware,2024,2024,1,2
+Scattered Spider,Additional Cloud Roles,2024,2024,1,2
+Scattered Spider,Browser Information Discovery,2024,2024,1,2
+Scattered Spider,Cloud Infrastructure Discovery,2024,2024,1,2
+Scattered Spider,Cloud Service Dashboard,2024,2024,1,2
+Scattered Spider,Cloud Services,2024,2024,1,2
+Scattered Spider,Code Repositories,2024,2024,1,2
+Scattered Spider,Conditional Access Policies,2024,2024,1,2
+Scattered Spider,Create Account,2024,2024,1,2
+Scattered Spider,Create Cloud Instance,2024,2024,1,2
+Scattered Spider,Credentials In Files,2024,2024,1,2
+Scattered Spider,Data Encrypted for Impact,2024,2024,1,2
+Scattered Spider,Data Staged,2024,2024,1,2
+Scattered Spider,Data from Cloud Storage,2024,2024,1,2
+Scattered Spider,Direct Volume Access,2024,2024,1,2
+Scattered Spider,Domain Account,2024,2024,1,2
+Scattered Spider,Email Collection,2024,2024,1,2
+Scattered Spider,Email Hiding Rules,2024,2024,1,2
+Scattered Spider,Exfiltration to Cloud Storage,2024,2024,1,2
+Scattered Spider,File and Directory Discovery,2024,2024,1,2
+Scattered Spider,Financial Theft,2024,2024,1,2
+Scattered Spider,Impersonation,2024,2024,1,2
+Scattered Spider,Messaging Applications,2024,2024,1,2
+Scattered Spider,Multi-Factor Authentication,2024,2024,1,2
+Scattered Spider,NTDS,2024,2024,1,2
+Scattered Spider,Private Keys,2024,2024,1,2
+Scattered Spider,Remote Desktop Software,2024,2024,1,2
+Scattered Spider,Remote System Discovery,2024,2024,1,2
+Scattered Spider,Spearphishing Voice,2024,2024,1,2
+Scattered Spider,Steal Web Session Cookie,2024,2024,1,2
+Scattered Spider,Trust Modification,2024,2024,1,2
+Scattered Spider,User Execution,2024,2024,1,2
+Sea Turtle,Acquire Infrastructure,2024,2024,1,2
+Sea Turtle,Adversary-in-the-Middle,2024,2024,1,2
+Sea Turtle,Archive via Utility,2024,2024,1,2
+Sea Turtle,Clear Linux or Mac System Logs,2024,2024,1,2
+Sea Turtle,Compile After Delivery,2024,2024,1,2
+Sea Turtle,Databases,2024,2024,1,2
+Sea Turtle,Digital Certificates,2024,2024,1,2
+Sea Turtle,Domains,2024,2024,1,2
+Sea Turtle,Exploit Public-Facing Application,2024,2024,1,2
+Sea Turtle,External Remote Services,2024,2024,1,2
+Sea Turtle,Ignore Process Interrupts,2024,2024,1,2
+Sea Turtle,Install Digital Certificate,2024,2024,1,2
+Sea Turtle,Local Accounts,2024,2024,1,2
+Sea Turtle,Local Email Collection,2024,2024,1,2
+Sea Turtle,Phishing,2024,2024,1,2
+Sea Turtle,Prevent Command History Logging,2024,2024,1,2
+Sea Turtle,Trusted Relationship,2024,2024,1,2
+Sea Turtle,Unix Shell,2024,2024,1,2
+Sea Turtle,Valid Accounts,2024,2024,1,2
+Sea Turtle,Virtual Private Server,2024,2024,1,2
+Sea Turtle,Web Protocols,2024,2024,1,2
+Sea Turtle,Web Shell,2024,2024,1,2
+Star Blizzard,Acquire Infrastructure,2024,2024,1,2
+Star Blizzard,Domains,2024,2024,1,2
+Star Blizzard,Email Accounts,2024,2024,1,2
+Star Blizzard,Email Forwarding Rule,2024,2024,1,2
+Star Blizzard,Gather Victim Identity Information,2024,2024,1,2
+Star Blizzard,JavaScript,2024,2024,1,2
+Star Blizzard,Malicious File,2024,2024,1,2
+Star Blizzard,Remote Email Collection,2024,2024,1,2
+Star Blizzard,Search Open Websites/Domains,2024,2024,1,2
+Star Blizzard,Social Media Accounts,2024,2024,1,2
+Star Blizzard,Spearphishing Attachment,2024,2024,1,2
+Star Blizzard,Spearphishing Link,2024,2024,1,2
+Star Blizzard,Steal Web Session Cookie,2024,2024,1,2
+Star Blizzard,Upload Malware,2024,2024,1,2
+Star Blizzard,Valid Accounts,2024,2024,1,2
+Star Blizzard,Web Session Cookie,2024,2024,1,2
+TA577,Email Accounts,2024,2024,1,2
+TA577,Embedded Payloads,2024,2024,1,2
+TA577,JavaScript,2024,2024,1,2
+TA577,Malicious Link,2024,2024,1,2
+TA577,Spearphishing Link,2024,2024,1,2
+TA577,Windows Command Shell,2024,2024,1,2
+TA578,JavaScript,2024,2024,1,2
+TA578,Malicious Link,2024,2024,1,2
+TA578,Search Victim-Owned Websites,2024,2024,1,2
+TA578,Web Services,2024,2024,1,2
+ToddyCat,Archive via Utility,2024,2024,1,2
+ToddyCat,Data from Local System,2024,2024,1,2
+ToddyCat,Disable or Modify System Firewall,2024,2024,1,2
+ToddyCat,Domain Account,2024,2024,1,2
+ToddyCat,Domain Accounts,2024,2024,1,2
+ToddyCat,Domain Groups,2024,2024,1,2
+ToddyCat,Exfiltration to Cloud Storage,2024,2024,1,2
+ToddyCat,Exploit Public-Facing Application,2024,2024,1,2
+ToddyCat,File and Directory Discovery,2024,2024,1,2
+ToddyCat,Hidden Window,2024,2024,1,2
+ToddyCat,Local Storage Discovery,2024,2024,1,2
+ToddyCat,Match Legitimate Resource Name or Location,2024,2024,1,2
+ToddyCat,Native API,2024,2024,1,2
+ToddyCat,Non-Application Layer Protocol,2024,2024,1,2
+ToddyCat,PowerShell,2024,2024,1,2
+ToddyCat,Process Discovery,2024,2024,1,2
+ToddyCat,Remote Data Staging,2024,2024,1,2
+ToddyCat,Remote System Discovery,2024,2024,1,2
+ToddyCat,SMB/Windows Admin Shares,2024,2024,1,2
+ToddyCat,Scheduled Task,2024,2024,1,2
+ToddyCat,Security Software Discovery,2024,2024,1,2
+ToddyCat,Spearphishing via Service,2024,2024,1,2
+ToddyCat,System Network Connections Discovery,2024,2024,1,2
+ToddyCat,Windows Command Shell,2024,2024,1,2
+ToddyCat,Windows Management Instrumentation,2024,2024,1,2
+Turla,File/Path Exclusions,2024,2024,1,2
+Turla,Match Legitimate Resource Name or Location,2024,2024,1,2
+Volt Typhoon,Application Window Discovery,2024,2024,1,2
+Volt Typhoon,Botnet,2024,2024,1,2
+Volt Typhoon,Browser Information Discovery,2024,2024,1,2
+Volt Typhoon,Clear Windows Event Logs,2024,2024,1,2
+Volt Typhoon,Credentials from Web Browsers,2024,2024,1,2
+Volt Typhoon,Direct Volume Access,2024,2024,1,2
+Volt Typhoon,Email Addresses,2024,2024,1,2
+Volt Typhoon,Exploitation for Privilege Escalation,2024,2024,1,2
+Volt Typhoon,External Remote Services,2024,2024,1,2
+Volt Typhoon,File and Directory Discovery,2024,2024,1,2
+Volt Typhoon,Gather Victim Host Information,2024,2024,1,2
+Volt Typhoon,Gather Victim Identity Information,2024,2024,1,2
+Volt Typhoon,Gather Victim Network Information,2024,2024,1,2
+Volt Typhoon,Gather Victim Org Information,2024,2024,1,2
+Volt Typhoon,Identify Roles,2024,2024,1,2
+Volt Typhoon,Ingress Tool Transfer,2024,2024,1,2
+Volt Typhoon,Internet Connection Discovery,2024,2024,1,2
+Volt Typhoon,Keylogging,2024,2024,1,2
+Volt Typhoon,Local Account,2024,2024,1,2
+Volt Typhoon,Modify Registry,2024,2024,1,2
+Volt Typhoon,Multi-hop Proxy,2024,2024,1,2
+Volt Typhoon,Network Security Appliances,2024,2024,1,2
+Volt Typhoon,Network Service Discovery,2024,2024,1,2
+Volt Typhoon,Network Topology,2024,2024,1,2
+Volt Typhoon,Peripheral Device Discovery,2024,2024,1,2
+Volt Typhoon,Permission Groups Discovery,2024,2024,1,2
+Volt Typhoon,Private Keys,2024,2024,1,2
+Volt Typhoon,Remote Desktop Protocol,2024,2024,1,2
+Volt Typhoon,Scan Databases,2024,2024,1,2
+Volt Typhoon,Screen Capture,2024,2024,1,2
+Volt Typhoon,Search Open Websites/Domains,2024,2024,1,2
+Volt Typhoon,Search Victim-Owned Websites,2024,2024,1,2
+Volt Typhoon,Software Packing,2024,2024,1,2
+Volt Typhoon,System Binary Proxy Execution,2024,2024,1,2
+Volt Typhoon,System Location Discovery,2024,2024,1,2
+Volt Typhoon,System Service Discovery,2024,2024,1,2
+Volt Typhoon,System Time Discovery,2024,2024,1,2
+Volt Typhoon,Unix Shell,2024,2024,1,2
+Volt Typhoon,Unsecured Credentials,2024,2024,1,2
+Volt Typhoon,Valid Accounts,2024,2024,1,2
+Volt Typhoon,Virtual Private Server,2024,2024,1,2
+Volt Typhoon,Vulnerabilities,2024,2024,1,2
+Winter Vivern,Automated Collection,2024,2024,1,2
+Winter Vivern,Automated Exfiltration,2024,2024,1,2
+Winter Vivern,Command and Scripting Interpreter,2024,2024,1,2
+Winter Vivern,Deobfuscate/Decode Files or Information,2024,2024,1,2
+Winter Vivern,Domains,2024,2024,1,2
+Winter Vivern,Drive-by Compromise,2024,2024,1,2
+Winter Vivern,Exfiltration Over C2 Channel,2024,2024,1,2
+Winter Vivern,Exploit Public-Facing Application,2024,2024,1,2
+Winter Vivern,File and Directory Discovery,2024,2024,1,2
+Winter Vivern,Ingress Tool Transfer,2024,2024,1,2
+Winter Vivern,JavaScript,2024,2024,1,2
+Winter Vivern,Local Email Collection,2024,2024,1,2
+Winter Vivern,Malicious Link,2024,2024,1,2
+Winter Vivern,Masquerade Task or Service,2024,2024,1,2
+Winter Vivern,Masquerading,2024,2024,1,2
+Winter Vivern,PowerShell,2024,2024,1,2
+Winter Vivern,Scheduled Task,2024,2024,1,2
+Winter Vivern,Screen Capture,2024,2024,1,2
+Winter Vivern,Spearphishing Attachment,2024,2024,1,2
+Winter Vivern,System Information Discovery,2024,2024,1,2
+Winter Vivern,System Owner/User Discovery,2024,2024,1,2
+Winter Vivern,Virtual Private Server,2024,2024,1,2
+Winter Vivern,Vulnerability Scanning,2024,2024,1,2
+Winter Vivern,Web Portal Capture,2024,2024,1,2
+Winter Vivern,Web Protocols,2024,2024,1,2
+Winter Vivern,Web Services,2024,2024,1,2
+Winter Vivern,Windows Command Shell,2024,2024,1,2
+ZIRCONIUM,Multi-hop Proxy,2024,2024,1,2
+ZIRCONIUM,Network Devices,2024,2024,1,2

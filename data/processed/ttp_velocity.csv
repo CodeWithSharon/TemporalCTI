@@ -1,0 +1,340 @@
+technique,avg_velocity,max_velocity,peak_year,peak_groups,total_groups,years_tracked,spread_rate
+Impersonation,2.333,5.0,2026,8,15,4,3.75
+Local Storage Discovery,1.5,5.0,2025,6,10,4,2.5
+Data from Cloud Storage,1.0,2.0,2025,3,5,3,1.67
+Disable or Modify System Firewall,1.0,3.0,2025,5,13,5,2.6
+Malicious Copy and Paste,1.0,1.0,2026,2,3,2,1.5
+Remote Services,1.0,1.0,2024,2,3,2,1.5
+Email Addresses,0.833,5.0,2021,6,14,4,3.5
+Credentials In Files,0.7,3.0,2024,4,14,6,2.33
+Network Sniffing,0.667,2.0,2025,3,8,4,2.0
+Steal Web Session Cookie,0.667,2.0,2025,3,8,4,2.0
+Mail Protocols,0.533,2.0,2020,3,6,4,1.5
+Exfiltration Over Unencrypted Non-C2 Protocol,0.5,2.0,2025,3,11,5,2.2
+Indicator Removal,0.5,1.0,2025,2,4,3,1.33
+Password Managers,0.5,2.0,2025,3,7,5,1.4
+Prevent Command History Logging,0.5,1.0,2025,2,4,3,1.33
+RC Scripts,0.5,0.5,2025,2,3,2,1.5
+Reflective Code Loading,0.5,1.0,2025,2,4,3,1.33
+Asymmetric Cryptography,0.4,2.0,2025,3,11,6,1.83
+Digital Certificates,0.4,3.0,2025,4,11,6,1.83
+Compile After Delivery,0.375,1.0,2020,2,4,3,1.33
+Bidirectional Communication,0.333,3.0,2022,4,16,7,2.29
+Binary Padding,0.333,2.0,2018,3,8,5,1.6
+Data Transfer Size Limits,0.333,1.0,2024,2,5,4,1.25
+Domain Accounts,0.333,4.0,2024,7,19,7,2.71
+Establish Accounts,0.333,1.0,2025,2,5,4,1.25
+Gather Victim Network Information,0.333,0.333,2024,2,3,2,1.5
+Internal Spearphishing,0.333,1.0,2026,2,6,4,1.5
+Multi-Factor Authentication Interception,0.333,1.0,2022,2,4,3,1.33
+Search Victim-Owned Websites,0.333,1.0,2024,2,6,4,1.5
+Windows Credential Manager,0.333,1.0,2020,2,4,3,1.33
+Process Hollowing,0.3,2.0,2018,3,8,6,1.33
+Non-Application Layer Protocol,0.286,1.0,2025,3,12,8,1.5
+Lateral Tool Transfer,0.278,3.0,2024,5,19,7,2.71
+Remote Desktop Software,0.278,2.0,2025,3,11,7,1.57
+Multi-hop Proxy,0.267,1.0,2025,3,11,6,1.83
+Service Execution,0.267,2.0,2020,4,16,6,2.67
+Code Repositories,0.25,0.5,2025,2,5,3,1.67
+Compromise Software Supply Chain,0.25,3.0,2020,4,9,5,1.8
+Network Share Discovery,0.25,2.0,2021,4,16,7,2.29
+Phishing for Information,0.25,1.0,2024,2,5,3,1.67
+SSH,0.25,2.0,2025,4,19,9,2.11
+Security Account Manager,0.25,3.0,2024,5,14,7,2.0
+Security Software Discovery,0.25,4.0,2019,5,27,9,3.0
+Windows Management Instrumentation Event Subscription,0.25,1.0,2024,2,10,7,1.43
+DLL,0.222,4.0,2021,8,35,10,3.5
+Unix Shell,0.222,1.0,2025,4,10,4,2.5
+Input Capture,0.2,0.2,2025,2,3,2,1.5
+Template Injection,0.2,1.0,2021,2,8,5,1.6
+BITS Jobs,0.167,1.0,2020,3,5,3,1.67
+Cloud Accounts,0.167,3.0,2025,4,12,7,1.71
+DNS,0.167,5.0,2020,6,11,5,2.2
+Data Staged,0.167,1.0,2024,2,5,4,1.25
+Data from Network Shared Drive,0.167,1.0,2021,2,8,5,1.6
+Masquerading,0.167,3.0,2021,6,20,7,2.86
+Windows Host Firewall,0.167,0.5,2026,2,6,4,1.5
+Standard Encoding,0.15,2.0,2020,3,11,6,1.83
+Native API,0.143,2.0,2022,4,20,8,2.5
+Spearphishing via Service,0.143,1.0,2025,2,14,8,1.75
+Dynamic Resolution,0.125,1.0,2026,2,8,5,1.6
+Exploit Public-Facing Application,0.125,8.0,2024,10,44,9,4.89
+Phishing,0.125,0.5,2026,2,8,5,1.6
+Rename Legitimate Utilities,0.125,1.0,2020,2,6,5,1.2
+Web Shell,0.125,6.0,2021,9,31,9,3.44
+Browser Information Discovery,0.111,1.0,2024,3,7,4,1.75
+Domain Groups,0.111,1.0,2025,3,13,7,1.86
+Dynamic-link Library Injection,0.111,2.0,2020,3,10,7,1.43
+Exploitation of Remote Services,0.1,2.0,2021,3,11,6,1.83
+Internal Proxy,0.1,1.0,2025,2,9,6,1.5
+Pass the Hash,0.1,1.0,2024,3,11,6,1.83
+Web Service,0.083,4.0,2020,5,15,7,2.14
+Archive via Custom Method,0.05,0.25,2025,2,7,6,1.17
+Local Email Collection,0.042,0.667,2024,3,8,5,1.6
+Timestomp,0.033,1.0,2017,3,11,6,1.83
+ARP Cache Poisoning,0.0,0.0,2023,1,2,2,1.0
+Account Access Removal,0.0,0.0,2024,1,2,2,1.0
+Account Discovery,0.0,0.0,2025,1,3,3,1.0
+Account Manipulation,0.0,0.0,2026,1,4,4,1.0
+Additional Cloud Roles,0.0,0.0,2025,1,3,3,1.0
+Additional Email Delegate Permissions,0.0,0.0,2023,1,3,3,1.0
+Additional Local or Domain Groups,0.0,2.0,2023,3,7,5,1.4
+Adversary-in-the-Middle,0.0,0.0,2025,1,3,3,1.0
+Application Access Token,0.0,0.0,2025,1,2,2,1.0
+Application Window Discovery,0.0,0.0,2024,1,3,3,1.0
+Artificial Intelligence,0.0,0.0,2026,1,2,2,1.0
+Audio Capture,0.0,0.0,2026,1,2,2,1.0
+Boot or Logon Initialization Scripts,0.0,0.0,2025,1,4,4,1.0
+Business Relationships,0.0,0.0,2022,1,3,3,1.0
+Clear Linux or Mac System Logs,0.0,0.0,2025,1,4,4,1.0
+Clear Network Connection History and Configurations,0.0,0.0,2025,1,2,2,1.0
+Clipboard Data,0.0,0.0,2026,1,4,4,1.0
+Cloud Administration Command,0.0,0.0,2026,1,2,2,1.0
+Cloud Infrastructure Discovery,0.0,0.0,2025,1,2,2,1.0
+Cloud Services,0.0,0.0,2025,1,3,3,1.0
+Code Signing Certificates,0.0,1.0,2020,3,10,5,2.0
+Component Object Model,0.0,0.0,2026,1,4,4,1.0
+Compromise Host Software Binary,0.0,0.0,2025,1,2,2,1.0
+Compute Hijacking,0.0,1.0,2020,2,4,3,1.33
+Conditional Access Policies,0.0,0.0,2025,1,2,2,1.0
+Create Account,0.0,0.0,2025,1,3,3,1.0
+Create Cloud Instance,0.0,0.0,2024,1,2,2,1.0
+Create Process with Token,0.0,0.0,2019,1,2,2,1.0
+Credential Stuffing,0.0,0.0,2026,1,2,2,1.0
+Credentials in Registry,0.0,0.0,2026,1,3,3,1.0
+Cron,0.0,0.0,2024,1,3,3,1.0
+DCSync,0.0,0.0,2025,2,4,2,2.0
+Databases,0.0,0.0,2024,2,4,2,2.0
+Delay Execution,0.0,0.0,2026,1,2,2,1.0
+Delete Cloud Instance,0.0,0.0,2025,1,2,2,1.0
+Develop Capabilities,0.0,0.0,2025,1,3,3,1.0
+Disable or Modify Windows Event Log,0.0,0.0,2023,1,2,2,1.0
+Disk Content Wipe,0.0,0.0,2026,1,3,3,1.0
+Disk Structure Wipe,0.0,1.0,2019,2,6,5,1.2
+Domain Generation Algorithms,0.0,0.0,2021,1,2,2,1.0
+Double File Extension,0.0,0.0,2025,1,2,2,1.0
+Dynamic API Resolution,0.0,0.0,2026,1,3,3,1.0
+Email Accounts,0.0,4.0,2022,8,27,7,3.86
+Email Collection,0.0,0.0,2024,2,4,2,2.0
+Email Forwarding Rule,0.0,0.0,2025,1,5,5,1.0
+Email Hiding Rules,0.0,0.0,2024,1,2,2,1.0
+Employee Names,0.0,0.0,2022,1,3,3,1.0
+Environmental Keying,0.0,0.0,2020,1,2,2,1.0
+Exfiltration Over Alternative Protocol,0.0,0.0,2024,1,2,2,1.0
+Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,0.0,0.0,2026,1,4,4,1.0
+Exfiltration Over C2 Channel,0.0,3.0,2021,5,27,9,3.0
+Exfiltration Over Web Service,0.0,0.0,2025,1,4,4,1.0
+Exfiltration over USB,0.0,0.0,2021,1,2,2,1.0
+Exfiltration to Cloud Storage,0.0,3.0,2022,6,25,8,3.12
+Exploitation for Stealth,0.0,0.0,2025,1,2,2,1.0
+External Defacement,0.0,0.0,2024,1,2,2,1.0
+External Remote Services,0.0,3.0,2024,5,28,10,2.8
+Fallback Channels,0.0,0.0,2025,1,5,5,1.0
+Fileless Storage,0.0,0.0,2023,1,2,2,1.0
+Forced Authentication,0.0,0.0,2021,1,2,2,1.0
+GUI Input Capture,0.0,0.0,2024,1,2,2,1.0
+Group Policy Modification,0.0,0.0,2026,1,5,5,1.0
+Group Policy Preferences,0.0,0.0,2023,1,2,2,1.0
+Hidden Users,0.0,0.0,2022,1,2,2,1.0
+Hide Infrastructure,0.0,0.0,2025,1,2,2,1.0
+Ignore Process Interrupts,0.0,0.0,2026,1,3,3,1.0
+Indirect Command Execution,0.0,0.0,2024,1,2,2,1.0
+Inhibit System Recovery,0.0,1.0,2025,3,7,4,1.75
+InstallUtil,0.0,0.0,2021,1,2,2,1.0
+Internal Defacement,0.0,0.0,2024,1,3,3,1.0
+Internet Connection Discovery,0.0,4.0,2023,6,11,5,2.2
+Invalid Code Signature,0.0,0.0,2020,1,2,2,1.0
+Junk Code Insertion,0.0,0.0,2026,1,6,6,1.0
+Kerberoasting,0.0,0.0,2024,1,3,3,1.0
+Link Target,0.0,0.0,2025,1,3,3,1.0
+Linux and Mac Permissions,0.0,0.0,2021,1,3,3,1.0
+Local Account,0.0,5.0,2020,7,29,9,3.22
+Local Groups,0.0,1.0,2021,2,7,6,1.17
+Log Enumeration,0.0,2.0,2024,3,5,3,1.67
+Logon Script (Windows),0.0,0.0,2019,1,2,2,1.0
+Make and Impersonate Token,0.0,0.0,2024,1,2,2,1.0
+Mark-of-the-Web Bypass,0.0,0.0,2025,1,3,3,1.0
+Masquerade File Type,0.0,0.0,2026,1,4,4,1.0
+Masquerade Task or Service,0.0,6.0,2020,7,23,9,2.56
+Messaging Applications,0.0,0.0,2024,1,3,3,1.0
+Multi-Stage Channels,0.0,0.0,2022,1,4,4,1.0
+Mutual Exclusion,0.0,0.0,2026,1,2,2,1.0
+Name Resolution Poisoning and SMB Relay,0.0,0.0,2022,1,2,2,1.0
+Network Devices,0.0,1.0,2024,2,4,3,1.33
+Network Topology,0.0,0.0,2026,1,4,4,1.0
+Office Application Startup,0.0,0.0,2020,1,2,2,1.0
+One-Way Communication,0.0,0.0,2024,1,2,2,1.0
+Pass the Ticket,0.0,0.0,2019,1,3,3,1.0
+Password Cracking,0.0,0.0,2025,1,4,4,1.0
+Password Filter DLL,0.0,0.0,2026,1,3,3,1.0
+Password Guessing,0.0,0.0,2026,1,3,3,1.0
+Password Policy Discovery,0.0,0.0,2021,1,3,3,1.0
+Permission Groups Discovery,0.0,1.0,2024,2,6,5,1.2
+Port Knocking,0.0,0.0,2025,1,2,2,1.0
+Portable Executable Injection,0.0,0.0,2020,1,2,2,1.0
+Protocol or Service Impersonation,0.0,0.0,2025,1,3,3,1.0
+Proxy,0.0,3.0,2022,4,19,8,2.38
+Python,0.0,4.0,2021,6,18,8,2.25
+Query Public AI Services,0.0,0.0,2026,1,2,2,1.0
+Remote Data Staging,0.0,1.0,2021,3,11,7,1.57
+Rundll32,0.0,3.0,2020,5,26,9,2.89
+SSH Authorized Keys,0.0,0.0,2025,1,3,3,1.0
+Scanning IP Blocks,0.0,0.0,2024,1,2,2,1.0
+Service Stop,0.0,0.0,2026,1,7,7,1.0
+Social Media,0.0,0.0,2025,1,3,3,1.0
+Software,0.0,0.0,2023,1,3,3,1.0
+Software Packing,0.0,1.0,2019,4,23,9,2.56
+Spearphishing Voice,0.0,0.0,2025,1,3,3,1.0
+Steal Application Access Token,0.0,0.0,2024,1,2,2,1.0
+System Binary Proxy Execution,0.0,0.0,2024,1,2,2,1.0
+System Checks,0.0,1.0,2021,3,7,4,1.75
+System Location Discovery,0.0,0.0,2024,1,2,2,1.0
+System Time Discovery,0.0,2.0,2021,5,14,7,2.0
+Systemd Service,0.0,0.0,2025,1,3,3,1.0
+Taint Shared Content,0.0,0.333,2020,2,5,4,1.25
+Token Impersonation/Theft,0.0,0.0,2021,1,2,2,1.0
+Trust Modification,0.0,0.0,2025,1,2,2,1.0
+Upload Malware,0.0,9.0,2022,11,27,6,4.5
+Upload Tool,0.0,0.0,2025,1,2,2,1.0
+User Activity Based Checks,0.0,0.0,2021,1,2,2,1.0
+User Execution,0.0,0.0,2024,1,2,2,1.0
+Video Capture,0.0,0.0,2026,1,4,4,1.0
+Virtualization/Sandbox Evasion,0.0,0.0,2025,1,3,3,1.0
+Vulnerabilities,0.0,0.0,2025,1,3,3,1.0
+Vulnerability Scanning,0.0,4.0,2021,5,14,6,2.33
+Web Portal Capture,0.0,0.0,2026,1,2,2,1.0
+Windows Permissions,0.0,0.0,2025,1,2,2,1.0
+Windows Remote Management,0.0,0.0,2025,1,5,5,1.0
+Windows Service,0.0,4.0,2018,6,26,9,2.89
+Winlogon Helper DLL,0.0,0.0,2020,1,3,3,1.0
+Wordlist Scanning,0.0,0.0,2024,1,2,2,1.0
+XSL Script Processing,0.0,0.0,2021,1,2,2,1.0
+Bypass User Account Control,-0.033,1.0,2018,3,11,6,1.83
+Brute Force,-0.062,2.0,2021,3,15,9,1.67
+Replication Through Removable Media,-0.067,1.0,2022,2,8,6,1.33
+Sharepoint,-0.067,0.0,2018,2,7,6,1.17
+Password Spraying,-0.071,2.0,2021,3,11,8,1.38
+Clear Windows Event Logs,-0.083,2.0,2024,3,14,7,2.0
+Archive via Utility,-0.111,5.0,2024,8,39,10,3.9
+Disable or Modify Tools,-0.111,7.0,2024,8,32,10,3.2
+Web Protocols,-0.111,12.0,2018,14,57,10,5.7
+Clear Command History,-0.125,0.5,2024,2,8,5,1.6
+Network Service Discovery,-0.125,4.0,2024,6,31,9,3.44
+Query Registry,-0.125,3.0,2024,4,19,9,2.11
+Rootkit,-0.125,0.5,2019,2,6,5,1.2
+Screen Capture,-0.125,3.0,2018,5,19,9,2.11
+Symmetric Cryptography,-0.125,3.0,2021,4,14,9,1.56
+Archive Collected Data,-0.167,1.0,2017,3,13,7,1.86
+Botnet,-0.167,2.0,2025,3,7,4,1.75
+Compiled HTML File,-0.167,0.0,2019,2,5,3,1.67
+Mshta,-0.167,3.0,2022,6,17,7,2.43
+Private Keys,-0.167,0.333,2024,2,6,5,1.2
+Regsvr32,-0.167,1.0,2018,3,11,7,1.57
+System Language Discovery,-0.167,0.5,2024,2,5,4,1.25
+Trusted Relationship,-0.167,0.0,2024,2,12,7,1.71
+Access Token Manipulation,-0.2,-0.2,2020,2,3,2,1.5
+Domain Trust Discovery,-0.2,1.0,2025,3,10,6,1.67
+External Proxy,-0.2,1.0,2018,3,11,6,1.83
+Gather Victim Identity Information,-0.2,1.0,2025,2,10,6,1.67
+Obfuscated Files or Information,-0.2,4.0,2020,6,18,6,3.0
+Peripheral Device Discovery,-0.2,1.0,2017,3,9,6,1.5
+Process Injection,-0.2,1.0,2018,4,15,6,2.5
+Software Deployment Tools,-0.208,0.5,2025,2,7,5,1.4
+System Service Discovery,-0.214,2.0,2022,4,15,8,1.88
+Command and Scripting Interpreter,-0.222,2.0,2018,4,17,7,2.43
+Domain Account,-0.222,4.0,2025,6,32,10,3.2
+Encrypted/Encoded File,-0.222,3.0,2018,8,40,10,4.0
+Remote System Discovery,-0.222,5.0,2024,8,40,10,4.0
+Windows Management Instrumentation,-0.222,3.0,2021,6,42,10,4.2
+Automated Exfiltration,-0.25,0.5,2024,2,7,5,1.4
+Data Destruction,-0.25,0.0,2019,2,6,5,1.2
+Data from Local System,-0.25,4.0,2023,7,45,9,5.0
+Data from Removable Media,-0.25,0.0,2017,2,4,3,1.33
+Dead Drop Resolver,-0.25,0.0,2017,2,6,5,1.2
+Dynamic Linker Hijacking,-0.25,-0.25,2020,2,3,2,1.5
+Email Account,-0.25,0.0,2020,2,4,3,1.33
+Encrypted Channel,-0.25,0.5,2022,2,4,3,1.33
+Exploitation for Privilege Escalation,-0.25,2.0,2017,4,22,9,2.44
+Fast Flux DNS,-0.25,-0.25,2020,2,3,2,1.5
+Hidden Files and Directories,-0.25,1.0,2023,3,12,7,1.71
+Identify Roles,-0.25,0.0,2022,2,4,3,1.33
+Search Open Websites/Domains,-0.25,0.25,2025,2,6,4,1.5
+OS Credential Dumping,-0.278,2.0,2020,3,13,7,1.86
+Credentials from Web Browsers,-0.286,5.0,2020,8,23,8,2.88
+Modify Registry,-0.286,5.0,2024,7,29,8,3.62
+Remote Email Collection,-0.286,2.0,2021,3,13,8,1.62
+Local Accounts,-0.3,2.0,2020,4,12,6,2.0
+Remote Access Tools,-0.3,3.0,2024,4,12,6,2.0
+Protocol Tunneling,-0.306,3.0,2025,4,15,7,2.14
+Automated Collection,-0.312,2.0,2024,4,21,9,2.33
+Application Layer Protocol,-0.333,0.0,2020,2,5,4,1.25
+Cloud Account,-0.333,-0.333,2022,2,3,2,1.5
+Code Signing,-0.333,2.0,2020,5,27,10,2.7
+DNS Server,-0.333,0.0,2022,2,4,4,1.0
+Domains,-0.333,6.0,2021,12,46,7,6.57
+Gather Victim Org Information,-0.333,0.0,2025,2,7,4,1.75
+Indicator Removal from Tools,-0.333,1.0,2018,3,7,4,1.75
+Local Data Staging,-0.333,4.0,2021,6,28,10,2.8
+Masquerade Account Name,-0.333,0.333,2024,2,4,3,1.33
+Msiexec,-0.333,0.0,2020,2,6,4,1.5
+Server,-0.333,3.0,2024,4,15,7,2.14
+Social Media Accounts,-0.333,2.0,2025,4,18,7,2.57
+System Shutdown/Reboot,-0.333,-0.333,2019,3,4,2,2.0
+Web Services,-0.333,2.0,2022,7,28,7,4.0
+Registry Run Keys / Startup Folder,-0.375,5.0,2018,13,56,9,6.22
+Data Encrypted for Impact,-0.4,2.0,2024,5,18,6,3.0
+LSASS Memory,-0.444,3.0,2020,8,44,10,4.4
+Match Legitimate Resource Name or Location,-0.444,9.0,2021,12,61,10,6.1
+SMB/Windows Admin Shares,-0.444,5.0,2020,6,27,10,2.7
+System Owner/User Discovery,-0.444,4.0,2021,6,40,10,4.0
+Credentials from Password Stores,-0.467,1.667,2020,6,12,6,2.0
+Bootkit,-0.5,-0.5,2017,2,3,2,1.5
+Cloud API,-0.5,-0.5,2023,2,3,2,1.5
+Default Accounts,-0.5,0.0,2023,2,4,3,1.33
+Drive-by Target,-0.5,0.0,2021,4,8,3,2.67
+Execution Guardrails,-0.5,0.0,2024,2,4,3,1.33
+IP Addresses,-0.5,-0.5,2021,2,3,2,1.5
+JavaScript,-0.5,4.0,2020,8,26,8,3.25
+Right-to-Left Override,-0.5,0.0,2020,2,5,3,1.67
+System Network Connections Discovery,-0.5,4.0,2021,6,32,9,3.56
+VNC,-0.5,0.0,2020,2,4,3,1.33
+Virtual Private Server,-0.5,3.5,2024,9,18,6,3.0
+Visual Basic,-0.5,11.0,2020,16,46,9,5.11
+File and Directory Discovery,-0.556,4.0,2021,8,51,10,5.1
+Remote Desktop Protocol,-0.556,7.0,2024,8,37,10,3.7
+System Information Discovery,-0.556,5.0,2024,9,57,10,5.7
+Deobfuscate/Decode Files or Information,-0.571,3.0,2018,9,38,8,4.75
+Hidden Window,-0.6,1.0,2019,9,18,6,3.0
+Command Obfuscation,-0.625,6.0,2023,8,29,9,3.22
+Keylogging,-0.625,1.0,2017,6,26,9,2.89
+Scheduled Task,-0.625,5.0,2020,10,54,9,6.0
+Accessibility Features,-0.667,0.0,2017,3,6,4,1.5
+File Deletion,-0.667,4.0,2018,9,47,10,4.7
+Financial Theft,-0.667,3.0,2024,6,15,4,3.75
+Ingress Tool Transfer,-0.667,8.0,2021,20,86,10,8.6
+NTDS,-0.667,1.0,2020,5,18,7,2.57
+Software Discovery,-0.667,2.0,2021,5,11,4,2.75
+LSA Secrets,-0.833,1.667,2020,6,10,5,2.0
+Spearphishing Link,-0.875,4.0,2021,13,53,9,5.89
+Process Discovery,-0.889,5.0,2017,9,41,10,4.1
+System Network Configuration Discovery,-0.889,5.0,2017,9,43,10,4.3
+Valid Accounts,-0.889,6.0,2017,9,45,10,4.5
+Windows Command Shell,-0.889,7.0,2024,11,73,10,7.3
+At,-1.0,-1.0,2017,2,3,2,1.5
+Compression,-1.0,1.0,2025,6,10,3,3.33
+Embedded Payloads,-1.0,-1.0,2024,2,3,2,1.5
+File Transfer Protocols,-1.0,0.0,2020,3,5,3,1.67
+Multi-Factor Authentication Request Generation,-1.0,-1.0,2022,2,3,2,1.5
+Transfer Data to Cloud Account,-1.0,-1.0,2024,2,3,2,1.5
+Malicious Link,-1.071,7.5,2020,17,49,8,6.12
+Exploitation for Client Execution,-1.083,6.0,2021,10,41,7,5.86
+PowerShell,-1.111,6.0,2018,15,85,10,8.5
+Dynamic Data Exchange,-1.167,-0.5,2018,5,11,4,2.75
+Non-Standard Port,-1.25,1.0,2020,10,17,5,3.4
+Steganography,-1.333,0.0,2020,5,10,4,2.5
+Drive-by Compromise,-1.4,3.0,2018,11,31,6,5.17
+Shortcut Modification,-2.0,-2.0,2018,3,4,2,2.0
+Spearphishing Attachment,-2.429,6.0,2018,21,78,8,9.75
+Malicious File,-2.5,8.0,2018,22,86,9,9.56
+Credentials,-3.0,-3.0,2021,4,5,2,2.5
+Acquire Infrastructure,-6.0,-6.0,2024,7,8,2,4.0
