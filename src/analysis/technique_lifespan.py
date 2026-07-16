@@ -54,9 +54,10 @@ def calculate_lifespan(df):
             'status': 'Active' if recency > 0 else 'Retired'
         })
 
+    
     df_result = pd.DataFrame(results)
     df_result = df_result.sort_values(
-        'persistence_score', ascending=False
+    ['persistence_score', 'technique'], ascending=[False, True]
     ).reset_index(drop=True)
     return df_result
 
