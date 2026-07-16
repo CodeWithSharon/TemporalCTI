@@ -229,7 +229,7 @@ def evaluate_nation_state():
     sharing_df = pd.read_csv('data/processed/nation_technique_sharing.csv')
 
     print("\n" + "=" * 60)
-    print("6. NATION-STATE CLUSTERING EVALUATION")
+    print("6. NATION-STATE BEHAVIOURAL ANALYSIS EVALUATION")
     print("=" * 60)
     print(f"Nations identified      : {len(nation_df)}")
     print(f"Cross-nation techniques : {len(sharing_df)}")
@@ -392,7 +392,7 @@ def generate_summary():
         'Module': [
             'Temporal Profiling', 'Evolution Score', 'Emerging TTP Detection',
             'Cross-Actor Convergence', 'TTP Retirement Detection', 'Markov Chain Prediction',
-            'Nation-State Clustering', 'Adaptability Index', 'Technique Lifespan',
+            'Nation-State Behavioural Analysis', 'Adaptability Index', 'Technique Lifespan',
             'TTP Velocity Tracking', 'Defence Gap Analysis', 'Mitigation Engine',
         ],
         'Key Metric': [
