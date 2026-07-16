@@ -1,115 +1,115 @@
 technique,first_seen,last_seen,lifespan_years,active_years,total_groups,persistence_score,status
-Encrypted/Encoded File,2017,2026,9,10,40,0.96,Active
-PowerShell,2017,2026,9,10,85,0.96,Active
-Match Legitimate Resource Name or Location,2017,2026,9,10,61,0.96,Active
-Registry Run Keys / Startup Folder,2017,2026,9,9,56,0.96,Active
-Ingress Tool Transfer,2017,2026,9,10,86,0.96,Active
-Domain Account,2017,2026,9,10,32,0.96,Active
-Local Data Staging,2017,2026,9,10,28,0.96,Active
-SMB/Windows Admin Shares,2017,2026,9,10,27,0.96,Active
-Web Protocols,2017,2026,9,10,57,0.96,Active
+Archive via Utility,2017,2026,9,10,39,0.96,Active
+Automated Collection,2017,2026,9,9,21,0.96,Active
 Code Signing,2017,2026,9,10,27,0.96,Active
 DLL,2017,2026,9,10,35,0.96,Active
-Masquerade Task or Service,2017,2026,9,9,23,0.96,Active
-Windows Command Shell,2017,2026,9,10,73,0.96,Active
-Disable or Modify Tools,2017,2026,9,10,32,0.96,Active
-External Remote Services,2017,2026,9,10,28,0.96,Active
-LSASS Memory,2017,2026,9,10,44,0.96,Active
-Valid Accounts,2017,2026,9,10,45,0.96,Active
-System Owner/User Discovery,2017,2026,9,10,40,0.96,Active
-Remote Desktop Protocol,2017,2026,9,10,37,0.96,Active
-Archive via Utility,2017,2026,9,10,39,0.96,Active
-File and Directory Discovery,2017,2026,9,10,51,0.96,Active
-Windows Management Instrumentation,2017,2026,9,10,42,0.96,Active
-System Information Discovery,2017,2026,9,10,57,0.96,Active
-Automated Collection,2017,2026,9,9,21,0.96,Active
-Remote System Discovery,2017,2026,9,10,40,0.96,Active
-System Network Configuration Discovery,2017,2026,9,10,43,0.96,Active
 Data from Local System,2017,2026,9,9,45,0.96,Active
-File Deletion,2017,2026,9,10,47,0.96,Active
-Process Discovery,2017,2026,9,10,41,0.96,Active
+Disable or Modify Tools,2017,2026,9,10,32,0.96,Active
+Domain Account,2017,2026,9,10,32,0.96,Active
+Encrypted/Encoded File,2017,2026,9,10,40,0.96,Active
 Exfiltration Over C2 Channel,2017,2026,9,9,27,0.96,Active
+External Remote Services,2017,2026,9,10,28,0.96,Active
+File Deletion,2017,2026,9,10,47,0.96,Active
+File and Directory Discovery,2017,2026,9,10,51,0.96,Active
+Ingress Tool Transfer,2017,2026,9,10,86,0.96,Active
+LSASS Memory,2017,2026,9,10,44,0.96,Active
+Local Data Staging,2017,2026,9,10,28,0.96,Active
+Masquerade Task or Service,2017,2026,9,9,23,0.96,Active
+Match Legitimate Resource Name or Location,2017,2026,9,10,61,0.96,Active
+PowerShell,2017,2026,9,10,85,0.96,Active
+Process Discovery,2017,2026,9,10,41,0.96,Active
+Registry Run Keys / Startup Folder,2017,2026,9,9,56,0.96,Active
+Remote Desktop Protocol,2017,2026,9,10,37,0.96,Active
+Remote System Discovery,2017,2026,9,10,40,0.96,Active
+SMB/Windows Admin Shares,2017,2026,9,10,27,0.96,Active
+System Information Discovery,2017,2026,9,10,57,0.96,Active
+System Network Configuration Discovery,2017,2026,9,10,43,0.96,Active
+System Owner/User Discovery,2017,2026,9,10,40,0.96,Active
+Valid Accounts,2017,2026,9,10,45,0.96,Active
+Web Protocols,2017,2026,9,10,57,0.96,Active
+Windows Command Shell,2017,2026,9,10,73,0.96,Active
+Windows Management Instrumentation,2017,2026,9,10,42,0.96,Active
 Domain Accounts,2017,2026,9,7,19,0.945,Active
 Screen Capture,2017,2026,9,9,19,0.945,Active
-Visual Basic,2018,2026,8,9,46,0.92,Active
-Security Software Discovery,2017,2025,8,9,27,0.92,Active
-Local Account,2017,2025,8,9,29,0.92,Active
-Windows Service,2017,2025,8,9,26,0.92,Active
-Rundll32,2017,2025,8,9,26,0.92,Active
+Command Obfuscation,2018,2026,8,9,29,0.92,Active
+Credentials from Web Browsers,2017,2025,8,8,23,0.92,Active
+Exploit Public-Facing Application,2018,2026,8,9,44,0.92,Active
 Exploitation for Privilege Escalation,2017,2025,8,9,22,0.92,Active
 JavaScript,2018,2026,8,8,26,0.92,Active
-Malicious Link,2018,2026,8,8,49,0.92,Active
-Web Shell,2017,2025,8,9,31,0.92,Active
-Exploit Public-Facing Application,2018,2026,8,9,44,0.92,Active
-Native API,2018,2026,8,8,20,0.92,Active
-Command Obfuscation,2018,2026,8,9,29,0.92,Active
-Software Packing,2017,2025,8,9,23,0.92,Active
-Network Service Discovery,2017,2025,8,9,31,0.92,Active
-Spearphishing Attachment,2018,2026,8,8,78,0.92,Active
-Malicious File,2018,2026,8,9,86,0.92,Active
-Credentials from Web Browsers,2017,2025,8,8,23,0.92,Active
 Keylogging,2017,2025,8,9,26,0.92,Active
-System Network Connections Discovery,2017,2025,8,9,32,0.92,Active
+Local Account,2017,2025,8,9,29,0.92,Active
+Malicious File,2018,2026,8,9,86,0.92,Active
+Malicious Link,2018,2026,8,8,49,0.92,Active
+Native API,2018,2026,8,8,20,0.92,Active
+Network Service Discovery,2017,2025,8,9,31,0.92,Active
+Rundll32,2017,2025,8,9,26,0.92,Active
 Scheduled Task,2017,2025,8,9,54,0.92,Active
+Security Software Discovery,2017,2025,8,9,27,0.92,Active
+Software Packing,2017,2025,8,9,23,0.92,Active
+Spearphishing Attachment,2018,2026,8,8,78,0.92,Active
 Spearphishing Link,2018,2026,8,9,53,0.92,Active
-SSH,2017,2025,8,9,19,0.905,Active
-Query Registry,2017,2025,8,9,19,0.905,Active
+System Network Connections Discovery,2017,2025,8,9,32,0.92,Active
+Visual Basic,2018,2026,8,9,46,0.92,Active
+Web Shell,2017,2025,8,9,31,0.92,Active
+Windows Service,2017,2025,8,9,26,0.92,Active
 Lateral Tool Transfer,2017,2025,8,7,19,0.905,Active
+Query Registry,2017,2025,8,9,19,0.905,Active
+SSH,2017,2025,8,9,19,0.905,Active
 Brute Force,2017,2026,9,9,15,0.885,Active
-System Service Discovery,2017,2026,9,8,15,0.885,Active
 Protocol Tunneling,2017,2026,9,7,15,0.885,Active
-Exploitation for Client Execution,2018,2025,7,7,41,0.88,Active
+System Service Discovery,2017,2026,9,8,15,0.885,Active
 Deobfuscate/Decode Files or Information,2018,2025,7,8,38,0.88,Active
 Exfiltration to Cloud Storage,2019,2026,7,8,25,0.88,Active
+Exploitation for Client Execution,2018,2025,7,7,41,0.88,Active
 Modify Registry,2018,2025,7,8,29,0.88,Active
 Command and Scripting Interpreter,2017,2025,8,7,17,0.875,Active
-System Time Discovery,2017,2026,9,7,14,0.87,Active
 Clear Windows Event Logs,2017,2026,9,7,14,0.87,Active
 Security Account Manager,2017,2026,9,7,14,0.87,Active
+System Time Discovery,2017,2026,9,7,14,0.87,Active
 Proxy,2019,2026,7,8,19,0.865,Active
 Bidirectional Communication,2017,2025,8,7,16,0.86,Active
-Python,2019,2026,7,8,18,0.85,Active
 Data Encrypted for Impact,2019,2026,7,6,18,0.85,Active
 Hidden Window,2019,2026,7,6,18,0.85,Active
+Python,2019,2026,7,8,18,0.85,Active
+Domains,2020,2026,6,7,46,0.84,Active
 Email Accounts,2020,2026,6,7,27,0.84,Active
 Masquerading,2019,2025,6,7,20,0.84,Active
 Web Services,2020,2026,6,7,28,0.84,Active
-Domains,2020,2026,6,7,46,0.84,Active
 Mshta,2018,2025,7,7,17,0.835,Active
 Symmetric Cryptography,2017,2025,8,9,14,0.83,Active
 Network Share Discovery,2018,2025,7,7,16,0.82,Active
 Service Execution,2018,2025,7,6,16,0.82,Active
 Disable or Modify System Firewall,2017,2025,8,5,13,0.815,Active
-Remote Email Collection,2018,2026,8,8,13,0.815,Active
-OS Credential Dumping,2017,2025,8,7,13,0.815,Active
 Domain Groups,2017,2025,8,7,13,0.815,Active
-Social Media Accounts,2020,2026,6,7,18,0.81,Active
-Virtual Private Server,2020,2026,6,6,18,0.81,Active
+OS Credential Dumping,2017,2025,8,7,13,0.815,Active
+Remote Email Collection,2018,2026,8,8,13,0.815,Active
 Dynamic-link Library Injection,2017,2026,9,7,10,0.81,Active
 NTDS,2020,2026,6,7,18,0.81,Active
+Social Media Accounts,2020,2026,6,7,18,0.81,Active
+Virtual Private Server,2020,2026,6,6,18,0.81,Active
 Process Injection,2018,2025,7,6,15,0.805,Active
 Web Service,2019,2026,7,7,15,0.805,Active
 Local Accounts,2017,2025,8,6,12,0.8,Active
-Upload Malware,2021,2026,5,6,27,0.8,Active
 Non-Application Layer Protocol,2017,2025,8,8,12,0.8,Active
 Trusted Relationship,2018,2026,8,7,12,0.8,Active
+Upload Malware,2021,2026,5,6,27,0.8,Active
 Non-Standard Port,2020,2026,6,5,17,0.795,Active
 Spearphishing via Service,2018,2025,7,8,14,0.79,Active
-Standard Encoding,2017,2025,8,6,11,0.785,Active
-Regsvr32,2017,2025,8,7,11,0.785,Active
-Password Spraying,2017,2025,8,8,11,0.785,Active
-Remote Desktop Software,2018,2026,8,7,11,0.785,Active
-Timestomp,2017,2025,8,6,11,0.785,Active
-Bypass User Account Control,2017,2025,8,6,11,0.785,Active
 Asymmetric Cryptography,2017,2025,8,6,11,0.785,Active
-Remote Data Staging,2018,2026,8,7,11,0.785,Active
+Bypass User Account Control,2017,2025,8,6,11,0.785,Active
 Exfiltration Over Unencrypted Non-C2 Protocol,2017,2025,8,5,11,0.785,Active
+Password Spraying,2017,2025,8,8,11,0.785,Active
+Regsvr32,2017,2025,8,7,11,0.785,Active
+Remote Data Staging,2018,2026,8,7,11,0.785,Active
+Remote Desktop Software,2018,2026,8,7,11,0.785,Active
+Standard Encoding,2017,2025,8,6,11,0.785,Active
+Timestomp,2017,2025,8,6,11,0.785,Active
 Local Email Collection,2017,2026,9,5,8,0.78,Active
 Process Hollowing,2017,2026,9,6,8,0.78,Active
-Software Deployment Tools,2017,2026,9,5,7,0.765,Active
 Server,2020,2026,6,7,15,0.765,Active
-Remote Access Tools,2018,2025,7,6,12,0.76,Active
+Software Deployment Tools,2017,2026,9,5,7,0.765,Active
 Hidden Files and Directories,2018,2025,7,7,12,0.76,Active
+Remote Access Tools,2018,2025,7,6,12,0.76,Active
 Internal Proxy,2017,2025,8,6,9,0.755,Active
 Vulnerability Scanning,2020,2026,6,6,14,0.75,Active
 Multi-hop Proxy,2018,2025,7,6,11,0.745,Active
@@ -122,118 +122,118 @@ Sharepoint,2018,2026,8,6,7,0.725,Active
 Account Manipulation,2017,2026,9,4,4,0.72,Active
 Cloud Accounts,2020,2026,6,7,12,0.72,Active
 Dead Drop Resolver,2017,2025,8,5,6,0.71,Active
-Rootkit,2017,2025,8,5,6,0.71,Active
+Disk Structure Wipe,2018,2026,8,5,6,0.71,Active
 Junk Code Insertion,2018,2026,8,6,6,0.71,Active
 Mail Protocols,2017,2025,8,4,6,0.71,Active
-Disk Structure Wipe,2018,2026,8,5,6,0.71,Active
+Rootkit,2017,2025,8,5,6,0.71,Active
 Password Filter DLL,2017,2026,9,3,3,0.705,Active
 Network Sniffing,2018,2025,7,4,8,0.7,Active
 Fallback Channels,2017,2025,8,5,5,0.695,Active
 Windows Remote Management,2017,2025,8,5,5,0.695,Active
-Steganography,2020,2026,6,4,10,0.69,Active
-Drive-by Compromise,2018,2024,6,6,31,0.69,Active
 Compression,2020,2026,6,3,10,0.69,Active
+Drive-by Compromise,2018,2024,6,6,31,0.69,Active
+Steganography,2020,2026,6,4,10,0.69,Active
 Service Stop,2019,2026,7,7,7,0.685,Active
 Video Capture,2018,2026,8,4,4,0.68,Active
 Data Destruction,2019,2026,7,5,6,0.67,Active
 Permission Groups Discovery,2018,2025,7,5,6,0.67,Active
 Digital Certificates,2020,2025,5,6,11,0.665,Active
+Clear Command History,2019,2025,6,5,8,0.66,Active
 Obfuscated Files or Information,2018,2024,6,6,18,0.66,Active
 Phishing,2020,2026,6,5,8,0.66,Active
-Clear Command History,2019,2025,6,5,8,0.66,Active
-Code Signing Certificates,2020,2025,5,5,10,0.65,Active
-Unix Shell,2020,2025,5,4,10,0.65,Active
-Gather Victim Identity Information,2021,2026,5,6,10,0.65,Active
-Domain Trust Discovery,2021,2026,5,6,10,0.65,Active
 Audio Capture,2018,2026,8,2,2,0.65,Active
-Financial Theft,2023,2026,3,4,15,0.645,Active
+Code Signing Certificates,2020,2025,5,5,10,0.65,Active
+Domain Trust Discovery,2021,2026,5,6,10,0.65,Active
+Gather Victim Identity Information,2021,2026,5,6,10,0.65,Active
+Unix Shell,2020,2025,5,4,10,0.65,Active
 Automated Exfiltration,2020,2026,6,5,7,0.645,Active
 Browser Information Discovery,2020,2026,6,4,7,0.645,Active
+Financial Theft,2023,2026,3,4,15,0.645,Active
 Impersonation,2023,2026,3,4,15,0.645,Active
 Clipboard Data,2019,2026,7,4,4,0.64,Active
-Password Cracking,2018,2025,7,4,4,0.64,Active
 Component Object Model,2019,2026,7,4,4,0.64,Active
-Private Keys,2020,2026,6,5,6,0.63,Active
-Search Open Websites/Domains,2020,2026,6,4,6,0.63,Active
+Password Cracking,2018,2025,7,4,4,0.64,Active
 Internal Spearphishing,2020,2026,6,4,6,0.63,Active
-Windows Host Firewall,2020,2026,6,4,6,0.63,Active
 Msiexec,2019,2025,6,4,6,0.63,Active
+Private Keys,2020,2026,6,5,6,0.63,Active
 Rename Legitimate Utilities,2019,2025,6,5,6,0.63,Active
+Search Open Websites/Domains,2020,2026,6,4,6,0.63,Active
+Windows Host Firewall,2020,2026,6,4,6,0.63,Active
+Archive Collected Data,2017,2024,7,7,13,0.625,Active
 Disk Content Wipe,2019,2026,7,3,3,0.625,Active
 Internet Connection Discovery,2021,2025,4,5,11,0.625,Active
-Archive Collected Data,2017,2024,7,7,13,0.625,Active
 Dynamic Resolution,2021,2026,5,5,8,0.62,Active
 Data Staged,2020,2026,6,4,5,0.615,Active
 File Transfer Protocols,2020,2026,6,3,5,0.615,Active
-Local Storage Discovery,2021,2025,4,4,10,0.61,Active
 Credentials from Password Stores,2017,2024,7,6,12,0.61,Active
 Exploitation for Stealth,2018,2025,7,2,2,0.61,Active
+Local Storage Discovery,2021,2025,4,4,10,0.61,Active
 Password Managers,2020,2025,5,5,7,0.605,Active
 System Checks,2021,2026,5,4,7,0.605,Active
-System Shutdown/Reboot,2019,2025,6,2,4,0.6,Active
 Credentials In Files,2018,2024,6,6,14,0.6,Active
-Pass the Hash,2017,2024,7,6,11,0.595,Active
+System Shutdown/Reboot,2019,2025,6,2,4,0.6,Active
 External Proxy,2017,2024,7,6,11,0.595,Active
+Pass the Hash,2017,2024,7,6,11,0.595,Active
 Credentials in Registry,2020,2026,6,3,3,0.585,Active
 Password Guessing,2020,2026,6,3,3,0.585,Active
-Windows Management Instrumentation Event Subscription,2017,2024,7,7,10,0.58,Active
-Steal Web Session Cookie,2021,2025,4,4,8,0.58,Active
 LSA Secrets,2017,2024,7,5,10,0.58,Active
-Data from Cloud Storage,2020,2025,5,3,5,0.575,Active
+Steal Web Session Cookie,2021,2025,4,4,8,0.58,Active
+Windows Management Instrumentation Event Subscription,2017,2024,7,7,10,0.58,Active
 Application Layer Protocol,2020,2025,5,4,5,0.575,Active
+Data from Cloud Storage,2020,2025,5,3,5,0.575,Active
 Email Forwarding Rule,2020,2025,5,5,5,0.575,Active
-Group Policy Modification,2021,2026,5,5,5,0.575,Active
 Establish Accounts,2020,2025,5,4,5,0.575,Active
+Group Policy Modification,2021,2026,5,5,5,0.575,Active
 Application Access Token,2019,2025,6,2,2,0.57,Active
-Peripheral Device Discovery,2017,2024,7,6,9,0.565,Active
-Gather Victim Org Information,2022,2026,4,4,7,0.565,Active
 Botnet,2022,2026,4,4,7,0.565,Active
-Clear Linux or Mac System Logs,2020,2025,5,4,4,0.56,Active
+Gather Victim Org Information,2022,2026,4,4,7,0.565,Active
+Peripheral Device Discovery,2017,2024,7,6,9,0.565,Active
 Boot or Logon Initialization Scripts,2020,2025,5,4,4,0.56,Active
+Clear Linux or Mac System Logs,2020,2025,5,4,4,0.56,Active
 Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,2021,2026,5,4,4,0.56,Active
-Exploitation of Remote Services,2018,2024,6,6,11,0.555,Active
 DNS,2018,2024,6,5,11,0.555,Active
+Exploitation of Remote Services,2018,2024,6,6,11,0.555,Active
 Data from Network Shared Drive,2017,2024,7,5,8,0.55,Active
-Vulnerabilities,2020,2025,5,3,3,0.545,Active
-Develop Capabilities,2020,2025,5,3,3,0.545,Active
 Access Token Manipulation,2020,2025,5,2,3,0.545,Active
-Protocol or Service Impersonation,2020,2025,5,3,3,0.545,Active
-Input Capture,2020,2025,5,2,3,0.545,Active
 Adversary-in-the-Middle,2020,2025,5,3,3,0.545,Active
+Develop Capabilities,2020,2025,5,3,3,0.545,Active
+Input Capture,2020,2025,5,2,3,0.545,Active
+Protocol or Service Impersonation,2020,2025,5,3,3,0.545,Active
 Systemd Service,2020,2025,5,3,3,0.545,Active
+Vulnerabilities,2020,2025,5,3,3,0.545,Active
 System Language Discovery,2022,2026,4,4,5,0.535,Active
-Port Knocking,2020,2025,5,2,2,0.53,Active
 Credential Stuffing,2021,2026,5,2,2,0.53,Active
+Port Knocking,2020,2025,5,2,2,0.53,Active
 Windows Permissions,2020,2025,5,2,2,0.53,Active
 Inhibit System Recovery,2023,2026,3,4,7,0.525,Active
-Exfiltration Over Web Service,2021,2025,4,4,4,0.52,Active
-Multi-Factor Authentication Interception,2021,2025,4,3,4,0.52,Active
-Masquerade Account Name,2021,2025,4,3,4,0.52,Active
-Prevent Command History Logging,2021,2025,4,3,4,0.52,Active
 Email Addresses,2020,2024,4,4,14,0.52,Active
-Link Target,2021,2025,4,3,3,0.505,Active
-Virtualization/Sandbox Evasion,2021,2025,4,3,3,0.505,Active
-Data Transfer Size Limits,2017,2024,7,4,5,0.505,Active
-Social Media,2021,2025,4,3,3,0.505,Active
-Dynamic API Resolution,2022,2026,4,3,3,0.505,Active
-SSH Authorized Keys,2021,2025,4,3,3,0.505,Active
+Exfiltration Over Web Service,2021,2025,4,4,4,0.52,Active
+Masquerade Account Name,2021,2025,4,3,4,0.52,Active
+Multi-Factor Authentication Interception,2021,2025,4,3,4,0.52,Active
+Prevent Command History Logging,2021,2025,4,3,4,0.52,Active
 Create Account,2021,2025,4,3,3,0.505,Active
+Data Transfer Size Limits,2017,2024,7,4,5,0.505,Active
+Dynamic API Resolution,2022,2026,4,3,3,0.505,Active
+Link Target,2021,2025,4,3,3,0.505,Active
 Mark-of-the-Web Bypass,2021,2025,4,3,3,0.505,Active
+SSH Authorized Keys,2021,2025,4,3,3,0.505,Active
+Social Media,2021,2025,4,3,3,0.505,Active
 Taint Shared Content,2017,2024,7,4,5,0.505,Active
-Local Groups,2017,2023,6,6,7,0.495,Active
+Virtualization/Sandbox Evasion,2021,2025,4,3,3,0.505,Active
 Additional Local or Domain Groups,2018,2024,6,5,7,0.495,Active
 Code Repositories,2022,2025,3,3,5,0.495,Active
-Upload Tool,2021,2025,4,2,2,0.49,Active
-Double File Extension,2021,2025,4,2,2,0.49,Active
+Local Groups,2017,2023,6,6,7,0.495,Active
 Data from Removable Media,2017,2024,7,3,4,0.49,Active
+Double File Extension,2021,2025,4,2,2,0.49,Active
+Upload Tool,2021,2025,4,2,2,0.49,Active
 Compromise Software Supply Chain,2019,2024,5,5,9,0.485,Active
 DCSync,2022,2025,3,2,4,0.48,Active
-Reflective Code Loading,2022,2025,3,3,4,0.48,Active
-Masquerade File Type,2023,2026,3,4,4,0.48,Active
 DNS Server,2022,2025,3,4,4,0.48,Active
 Identify Roles,2022,2025,3,3,4,0.48,Active
-Network Topology,2023,2026,3,4,4,0.48,Active
 Indicator Removal,2022,2025,3,3,4,0.48,Active
+Masquerade File Type,2023,2026,3,4,4,0.48,Active
+Network Topology,2023,2026,3,4,4,0.48,Active
+Reflective Code Loading,2022,2025,3,3,4,0.48,Active
 Application Window Discovery,2017,2024,7,3,3,0.475,Active
 Additional Cloud Roles,2022,2025,3,3,3,0.465,Active
 Cloud Account,2022,2025,3,2,3,0.465,Active
@@ -241,226 +241,226 @@ Acquire Infrastructure,2024,2025,1,2,8,0.46,Active
 Log Enumeration,2023,2025,2,3,5,0.455,Active
 Cloud Administration Command,2023,2026,3,2,2,0.45,Active
 Delete Cloud Instance,2022,2025,3,2,2,0.45,Active
-Network Devices,2023,2025,2,3,4,0.44,Active
-Execution Guardrails,2024,2026,2,3,4,0.44,Active
 Default Accounts,2023,2025,2,3,4,0.44,Active
+Execution Guardrails,2024,2026,2,3,4,0.44,Active
+Network Devices,2023,2025,2,3,4,0.44,Active
 Software Discovery,2020,2023,3,4,11,0.435,Active
 Account Discovery,2023,2025,2,3,3,0.425,Active
 BITS Jobs,2018,2023,5,3,5,0.425,Active
 Cloud API,2023,2025,2,2,3,0.425,Active
-Ignore Process Interrupts,2024,2026,2,3,3,0.425,Active
 Cloud Services,2023,2025,2,3,3,0.425,Active
-Spearphishing Voice,2023,2025,2,3,3,0.425,Active
+Ignore Process Interrupts,2024,2026,2,3,3,0.425,Active
 RC Scripts,2023,2025,2,2,3,0.425,Active
-One-Way Communication,2018,2024,6,2,2,0.42,Active
+Spearphishing Voice,2023,2025,2,3,3,0.425,Active
 Disable or Modify Windows Event Log,2017,2023,6,2,2,0.42,Active
-Compile After Delivery,2019,2024,5,3,4,0.41,Active
+One-Way Communication,2018,2024,6,2,2,0.42,Active
 Clear Network Connection History and Configurations,2023,2025,2,2,2,0.41,Active
+Compile After Delivery,2019,2024,5,3,4,0.41,Active
 Web Portal Capture,2024,2026,2,2,2,0.41,Active
 Search Victim-Owned Websites,2020,2024,4,4,6,0.4,Active
 Drive-by Target,2021,2024,3,3,8,0.39,Active
-Malicious Copy and Paste,2025,2026,1,2,3,0.385,Active
 Embedded Payloads,2024,2025,1,2,3,0.385,Active
+Malicious Copy and Paste,2025,2026,1,2,3,0.385,Active
 Transfer Data to Cloud Account,2024,2025,1,2,3,0.385,Active
-Steal Application Access Token,2019,2024,5,2,2,0.38,Active
-GUI Input Capture,2019,2024,5,2,2,0.38,Active
 Email Hiding Rules,2019,2024,5,2,2,0.38,Active
-Delay Execution,2025,2026,1,2,2,0.37,Active
-Query Public AI Services,2025,2026,1,2,2,0.37,Active
+GUI Input Capture,2019,2024,5,2,2,0.38,Active
+Steal Application Access Token,2019,2024,5,2,2,0.38,Active
+Artificial Intelligence,2025,2026,1,2,2,0.37,Active
 Cloud Infrastructure Discovery,2024,2025,1,2,2,0.37,Active
-Databases,2020,2024,4,2,4,0.37,Active
-Email Account,2020,2024,4,3,4,0.37,Active
 Compromise Host Software Binary,2024,2025,1,2,2,0.37,Active
+Conditional Access Policies,2024,2025,1,2,2,0.37,Active
+Databases,2020,2024,4,2,4,0.37,Active
+Delay Execution,2025,2026,1,2,2,0.37,Active
+Email Account,2020,2024,4,3,4,0.37,Active
+Hide Infrastructure,2024,2025,1,2,2,0.37,Active
+Mutual Exclusion,2025,2026,1,2,2,0.37,Active
+Query Public AI Services,2025,2026,1,2,2,0.37,Active
 Trust Modification,2024,2025,1,2,2,0.37,Active
 Windows Credential Manager,2019,2023,4,3,4,0.37,Active
-Mutual Exclusion,2025,2026,1,2,2,0.37,Active
-Artificial Intelligence,2025,2026,1,2,2,0.37,Active
-Hide Infrastructure,2024,2025,1,2,2,0.37,Active
-Conditional Access Policies,2024,2025,1,2,2,0.37,Active
 Cron,2020,2024,4,3,3,0.355,Active
+Dynamic Linker Hijacking,2020,2024,4,2,3,0.355,Active
 Fast Flux DNS,2020,2024,4,2,3,0.355,Active
 Internal Defacement,2020,2024,4,3,3,0.355,Active
-Dynamic Linker Hijacking,2020,2024,4,2,3,0.355,Active
 Kerberoasting,2020,2024,4,3,3,0.355,Active
 Messaging Applications,2020,2024,4,3,3,0.355,Active
 LNK Icon Smuggling,2025,2025,0,1,3,0.345,Active
-Traffic Signaling,2025,2025,0,1,3,0.345,Active
 Phishing for Information,2021,2024,3,3,5,0.345,Active
-Fileless Storage,2019,2023,4,2,2,0.34,Active
+Traffic Signaling,2025,2025,0,1,3,0.345,Active
 External Defacement,2020,2024,4,2,2,0.34,Active
-Search Threat Vendor Data,2025,2025,0,1,2,0.33,Active
-Search Open Technical Databases,2025,2025,0,1,2,0.33,Active
+Fileless Storage,2019,2023,4,2,2,0.34,Active
 Clear Mailbox Data,2025,2025,0,1,2,0.33,Active
 Cloud Secrets Management Stores,2025,2025,0,1,2,0.33,Active
 Email Collection,2021,2024,3,2,4,0.33,Active
 Encrypted Channel,2020,2023,3,3,4,0.33,Active
+Search Open Technical Databases,2025,2025,0,1,2,0.33,Active
+Search Threat Vendor Data,2025,2025,0,1,2,0.33,Active
 Dynamic Data Exchange,2018,2022,4,4,11,0.325,Retired
-Software,2020,2023,3,3,3,0.315,Active
-Selective Exclusion,2026,2026,0,1,1,0.315,Active
+Abuse Elevation Control Mechanism,2025,2025,0,1,1,0.315,Active
+Acquire Access,2025,2025,0,1,1,0.315,Active
+Additional Cloud Credentials,2025,2025,0,1,1,0.315,Active
+Additional Email Delegate Permissions,2020,2023,3,3,3,0.315,Active
+Boot or Logon Autostart Execution,2025,2025,0,1,1,0.315,Active
+Browser Session Hijacking,2025,2025,0,1,1,0.315,Active
+Cloud Service Discovery,2025,2025,0,1,1,0.315,Active
+Container CLI/API,2025,2025,0,1,1,0.315,Active
+Data Encoding,2025,2025,0,1,1,0.315,Active
+Debugger Evasion,2025,2025,0,1,1,0.315,Active
+Device Driver Discovery,2025,2025,0,1,1,0.315,Active
+ESXi Administration Command,2025,2025,0,1,1,0.315,Active
+Email Bombing,2025,2025,0,1,1,0.315,Active
+Executable Installer File Permissions Weakness,2025,2025,0,1,1,0.315,Active
+Exploitation for Credential Access,2025,2025,0,1,1,0.315,Active
+Gather Victim Network Information,2021,2024,3,2,3,0.315,Active
+Hypervisor CLI,2025,2025,0,1,1,0.315,Active
+IDE Extensions,2025,2025,0,1,1,0.315,Active
+IDE Tunneling,2025,2025,0,1,1,0.315,Active
+Input Injection,2025,2025,0,1,1,0.315,Active
+Keychain,2025,2025,0,1,1,0.315,Active
+Launch Agent,2025,2025,0,1,1,0.315,Active
+MMC,2025,2025,0,1,1,0.315,Active
 Malicious Library,2025,2025,0,1,1,0.315,Active
 Network Device Configuration Dump,2025,2025,0,1,1,0.315,Active
 Network Device Firewall,2025,2025,0,1,1,0.315,Active
-Data Encoding,2025,2025,0,1,1,0.315,Active
-Cloud Service Discovery,2025,2025,0,1,1,0.315,Active
-Debugger Evasion,2025,2025,0,1,1,0.315,Active
-Additional Email Delegate Permissions,2020,2023,3,3,3,0.315,Active
-Browser Session Hijacking,2025,2025,0,1,1,0.315,Active
-MMC,2025,2025,0,1,1,0.315,Active
-Wi-Fi Networks,2025,2025,0,1,1,0.315,Active
-Input Injection,2025,2025,0,1,1,0.315,Active
-Hypervisor CLI,2025,2025,0,1,1,0.315,Active
-Email Bombing,2025,2025,0,1,1,0.315,Active
-Keychain,2025,2025,0,1,1,0.315,Active
-Executable Installer File Permissions Weakness,2025,2025,0,1,1,0.315,Active
-Additional Cloud Credentials,2025,2025,0,1,1,0.315,Active
-IDE Extensions,2025,2025,0,1,1,0.315,Active
-Device Driver Discovery,2025,2025,0,1,1,0.315,Active
-Abuse Elevation Control Mechanism,2025,2025,0,1,1,0.315,Active
-XDG Autostart Entries,2025,2025,0,1,1,0.315,Active
-Acquire Access,2025,2025,0,1,1,0.315,Active
-Container CLI/API,2025,2025,0,1,1,0.315,Active
-Virtual Machine Discovery,2025,2025,0,1,1,0.315,Active
-Space after Filename,2025,2025,0,1,1,0.315,Active
 Non-Standard Encoding,2026,2026,0,1,1,0.315,Active
-Gather Victim Network Information,2021,2024,3,2,3,0.315,Active
-ESXi Administration Command,2025,2025,0,1,1,0.315,Active
-Boot or Logon Autostart Execution,2025,2025,0,1,1,0.315,Active
-vSphere Installation Bundles,2025,2025,0,1,1,0.315,Active
-Unix Shell Configuration Modification,2025,2025,0,1,1,0.315,Active
-Launch Agent,2025,2025,0,1,1,0.315,Active
-IDE Tunneling,2025,2025,0,1,1,0.315,Active
-Exploitation for Credential Access,2025,2025,0,1,1,0.315,Active
+Selective Exclusion,2026,2026,0,1,1,0.315,Active
 Shared Modules,2025,2025,0,1,1,0.315,Active
-Scanning IP Blocks,2021,2024,3,2,2,0.3,Active
+Software,2020,2023,3,3,3,0.315,Active
+Space after Filename,2025,2025,0,1,1,0.315,Active
+Unix Shell Configuration Modification,2025,2025,0,1,1,0.315,Active
+Virtual Machine Discovery,2025,2025,0,1,1,0.315,Active
+Wi-Fi Networks,2025,2025,0,1,1,0.315,Active
+XDG Autostart Entries,2025,2025,0,1,1,0.315,Active
+vSphere Installation Bundles,2025,2025,0,1,1,0.315,Active
 ARP Cache Poisoning,2020,2023,3,2,2,0.3,Active
 Group Policy Preferences,2020,2023,3,2,2,0.3,Active
+Scanning IP Blocks,2021,2024,3,2,2,0.3,Active
 IP Addresses,2021,2023,2,2,3,0.275,Active
-User Execution,2022,2024,2,2,2,0.26,Active
-Exfiltration Over Alternative Protocol,2022,2024,2,2,2,0.26,Active
-Create Cloud Instance,2022,2024,2,2,2,0.26,Active
-System Binary Proxy Execution,2022,2024,2,2,2,0.26,Active
-Wordlist Scanning,2022,2024,2,2,2,0.26,Active
-Indirect Command Execution,2022,2024,2,2,2,0.26,Active
 Account Access Removal,2022,2024,2,2,2,0.26,Active
+Create Cloud Instance,2022,2024,2,2,2,0.26,Active
+Exfiltration Over Alternative Protocol,2022,2024,2,2,2,0.26,Active
+Indirect Command Execution,2022,2024,2,2,2,0.26,Active
 Multi-Stage Channels,2017,2022,5,4,4,0.26,Retired
+System Binary Proxy Execution,2022,2024,2,2,2,0.26,Active
 System Location Discovery,2022,2024,2,2,2,0.26,Active
+User Execution,2022,2024,2,2,2,0.26,Active
+Wordlist Scanning,2022,2024,2,2,2,0.26,Active
+Compiled HTML File,2018,2022,4,3,5,0.235,Retired
 Multi-Factor Authentication Request Generation,2022,2023,1,2,3,0.235,Active
 Remote Services,2023,2024,1,2,3,0.235,Active
-Compiled HTML File,2018,2022,4,3,5,0.235,Retired
 Make and Impersonate Token,2023,2024,1,2,2,0.22,Active
 Accessibility Features,2017,2020,3,4,6,0.21,Retired
 Supply Chain Compromise,2024,2024,0,1,3,0.195,Active
 Token Impersonation/Theft,2017,2021,4,2,2,0.19,Retired
 Direct Volume Access,2024,2024,0,1,2,0.18,Active
 Scan Databases,2024,2024,0,1,2,0.18,Active
-Network Boundary Bridging,2024,2024,0,1,1,0.165,Active
+AutoHotKey & AutoIT,2024,2024,0,1,1,0.165,Active
+Backup Software Discovery,2023,2023,0,1,1,0.165,Active
 Chat Messages,2023,2023,0,1,1,0.165,Active
 Cloud Service Dashboard,2024,2024,0,1,1,0.165,Active
-Data Obfuscation,2024,2024,0,1,1,0.165,Active
-Unsecured Credentials,2024,2024,0,1,1,0.165,Active
-File/Path Exclusions,2024,2024,0,1,1,0.165,Active
-Install Digital Certificate,2024,2024,0,1,1,0.165,Active
-Gather Victim Host Information,2024,2024,0,1,1,0.165,Active
-Data Manipulation,2023,2023,0,1,1,0.165,Active
-Modify Authentication Process,2023,2023,0,1,1,0.165,Active
-Malvertising,2023,2023,0,1,1,0.165,Active
-Password Policy Discovery,2018,2021,3,3,3,0.165,Retired
-Evil Twin,2024,2024,0,1,1,0.165,Active
-Wi-Fi Discovery,2023,2023,0,1,1,0.165,Active
-Device Registration,2023,2023,0,1,1,0.165,Active
-Backup Software Discovery,2023,2023,0,1,1,0.165,Active
-Multi-Factor Authentication,2024,2024,0,1,1,0.165,Active
-Disable or Modify Cloud Log,2024,2024,0,1,1,0.165,Active
-AutoHotKey & AutoIT,2024,2024,0,1,1,0.165,Active
-Determine Physical Locations,2023,2023,0,1,1,0.165,Active
 Content Injection,2023,2023,0,1,1,0.165,Active
-SEO Poisoning,2023,2023,0,1,1,0.165,Active
-Web Session Cookie,2024,2024,0,1,1,0.165,Active
-Steal or Forge Kerberos Tickets,2024,2024,0,1,1,0.165,Active
+Data Manipulation,2023,2023,0,1,1,0.165,Active
+Data Obfuscation,2024,2024,0,1,1,0.165,Active
+Determine Physical Locations,2023,2023,0,1,1,0.165,Active
+Device Registration,2023,2023,0,1,1,0.165,Active
+Disable or Modify Cloud Log,2024,2024,0,1,1,0.165,Active
+Evil Twin,2024,2024,0,1,1,0.165,Active
+File/Path Exclusions,2024,2024,0,1,1,0.165,Active
+Gather Victim Host Information,2024,2024,0,1,1,0.165,Active
+Install Digital Certificate,2024,2024,0,1,1,0.165,Active
+Malvertising,2023,2023,0,1,1,0.165,Active
+Modify Authentication Process,2023,2023,0,1,1,0.165,Active
+Multi-Factor Authentication,2024,2024,0,1,1,0.165,Active
+Network Boundary Bridging,2024,2024,0,1,1,0.165,Active
 Network Security Appliances,2024,2024,0,1,1,0.165,Active
+Password Policy Discovery,2018,2021,3,3,3,0.165,Retired
+SEO Poisoning,2023,2023,0,1,1,0.165,Active
+Steal or Forge Kerberos Tickets,2024,2024,0,1,1,0.165,Active
+Unsecured Credentials,2024,2024,0,1,1,0.165,Active
+Web Session Cookie,2024,2024,0,1,1,0.165,Active
+Wi-Fi Discovery,2023,2023,0,1,1,0.165,Active
 Right-to-Left Override,2019,2021,2,3,5,0.155,Retired
-XSL Script Processing,2018,2021,3,2,2,0.15,Retired
 Forced Authentication,2018,2021,3,2,2,0.15,Retired
+XSL Script Processing,2018,2021,3,2,2,0.15,Retired
 Compute Hijacking,2019,2021,2,3,4,0.14,Retired
 VNC,2020,2022,2,3,4,0.14,Retired
-Linux and Mac Permissions,2019,2021,2,3,3,0.125,Retired
-Business Relationships,2020,2022,2,3,3,0.125,Retired
-Winlogon Helper DLL,2018,2020,2,3,3,0.125,Retired
-Pass the Ticket,2017,2019,2,3,3,0.125,Retired
 Bootkit,2017,2019,2,2,3,0.125,Retired
+Business Relationships,2020,2022,2,3,3,0.125,Retired
 Employee Names,2020,2022,2,3,3,0.125,Retired
+Linux and Mac Permissions,2019,2021,2,3,3,0.125,Retired
+Pass the Ticket,2017,2019,2,3,3,0.125,Retired
+Winlogon Helper DLL,2018,2020,2,3,3,0.125,Retired
 Credentials,2021,2022,1,2,5,0.115,Retired
+Create Process with Token,2017,2019,2,2,2,0.11,Retired
 Domain Generation Algorithms,2019,2021,2,2,2,0.11,Retired
 Invalid Code Signature,2018,2020,2,2,2,0.11,Retired
 Name Resolution Poisoning and SMB Relay,2020,2022,2,2,2,0.11,Retired
-Create Process with Token,2017,2019,2,2,2,0.11,Retired
-User Activity Based Checks,2019,2021,2,2,2,0.11,Retired
 Portable Executable Injection,2018,2020,2,2,2,0.11,Retired
+User Activity Based Checks,2019,2021,2,2,2,0.11,Retired
 Shortcut Modification,2018,2019,1,2,4,0.1,Retired
 At,2017,2018,1,2,3,0.085,Retired
-InstallUtil,2020,2021,1,2,2,0.07,Retired
-Exfiltration over USB,2020,2021,1,2,2,0.07,Retired
 Environmental Keying,2019,2020,1,2,2,0.07,Retired
-Logon Script (Windows),2018,2019,1,2,2,0.07,Retired
+Exfiltration over USB,2020,2021,1,2,2,0.07,Retired
 Hidden Users,2021,2022,1,2,2,0.07,Retired
+InstallUtil,2020,2021,1,2,2,0.07,Retired
+Logon Script (Windows),2018,2019,1,2,2,0.07,Retired
 Office Application Startup,2019,2020,1,2,2,0.07,Retired
 Cached Domain Credentials,2020,2020,0,1,4,0.06,Retired
-CMSTP,2018,2018,0,1,2,0.03,Retired
-Hidden File System,2020,2020,0,1,2,0.03,Retired
 Archive via Library,2017,2017,0,1,2,0.03,Retired
+CMSTP,2018,2018,0,1,2,0.03,Retired
 Code Signing Policy Modification,2021,2021,0,1,2,0.03,Retired
-Confluence,2022,2022,0,1,1,0.015,Retired
-Container and Resource Discovery,2021,2021,0,1,1,0.015,Retired
-Asynchronous Procedure Call,2021,2021,0,1,1,0.015,Retired
-Malicious Image,2021,2021,0,1,1,0.015,Retired
-Domain Fronting,2018,2018,0,1,1,0.015,Retired
-Deploy Container,2021,2021,0,1,1,0.015,Retired
-DNS Calculation,2020,2020,0,1,1,0.015,Retired
-Subvert Trust Controls,2022,2022,0,1,1,0.015,Retired
+Hidden File System,2020,2020,0,1,2,0.03,Retired
+Add-ins,2020,2020,0,1,1,0.015,Retired
 AppInit DLLs,2021,2021,0,1,1,0.015,Retired
-Credential API Hooking,2018,2018,0,1,1,0.015,Retired
-PowerShell Profile,2019,2019,0,1,1,0.015,Retired
-Transmitted Data Manipulation,2019,2019,0,1,1,0.015,Retired
+Application Shimming,2017,2017,0,1,1,0.015,Retired
+Asynchronous Procedure Call,2021,2021,0,1,1,0.015,Retired
+Browser Extensions,2019,2019,0,1,1,0.015,Retired
+COR_PROFILER,2020,2020,0,1,1,0.015,Retired
+Change Default File Association,2019,2019,0,1,1,0.015,Retired
+Client Configurations,2021,2021,0,1,1,0.015,Retired
+Cloud Instance Metadata API,2021,2021,0,1,1,0.015,Retired
+Communication Through Removable Media,2017,2017,0,1,1,0.015,Retired
 Component Firmware,2019,2019,0,1,1,0.015,Retired
-Golden Ticket,2018,2018,0,1,1,0.015,Retired
+Component Object Model Hijacking,2017,2017,0,1,1,0.015,Retired
+Confluence,2022,2022,0,1,1,0.015,Retired
+Container Administration Command,2021,2021,0,1,1,0.015,Retired
+Container and Resource Discovery,2021,2021,0,1,1,0.015,Retired
+Credential API Hooking,2018,2018,0,1,1,0.015,Retired
+DNS Calculation,2020,2020,0,1,1,0.015,Retired
 Data from Information Repositories,2021,2021,0,1,1,0.015,Retired
-Search Closed Sources,2022,2022,0,1,1,0.015,Retired
+Deploy Container,2021,2021,0,1,1,0.015,Retired
+Domain Controller Authentication,2020,2020,0,1,1,0.015,Retired
+Domain Fronting,2018,2018,0,1,1,0.015,Retired
+Domain Properties,2020,2020,0,1,1,0.015,Retired
+Endpoint Denial of Service,2020,2020,0,1,1,0.015,Retired
+Escape to Host,2021,2021,0,1,1,0.015,Retired
+Golden Ticket,2018,2018,0,1,1,0.015,Retired
+Group Policy Discovery,2021,2021,0,1,1,0.015,Retired
+HTML Smuggling,2022,2022,0,1,1,0.015,Retired
+Hardware Additions,2020,2020,0,1,1,0.015,Retired
+Hybrid Identity,2022,2022,0,1,1,0.015,Retired
+Junk Data,2017,2017,0,1,1,0.015,Retired
+KernelCallbackTable,2022,2022,0,1,1,0.015,Retired
+Malicious Image,2021,2021,0,1,1,0.015,Retired
+NTFS File Attributes,2019,2019,0,1,1,0.015,Retired
+Network Denial of Service,2020,2020,0,1,1,0.015,Retired
 Network Share Connection Removal,2017,2017,0,1,1,0.015,Retired
 Odbcconf,2019,2019,0,1,1,0.015,Retired
-NTFS File Attributes,2019,2019,0,1,1,0.015,Retired
-COR_PROFILER,2020,2020,0,1,1,0.015,Retired
-Cloud Instance Metadata API,2021,2021,0,1,1,0.015,Retired
-Network Denial of Service,2020,2020,0,1,1,0.015,Retired
-Client Configurations,2021,2021,0,1,1,0.015,Retired
-Office Test,2017,2017,0,1,1,0.015,Retired
-RDP Hijacking,2022,2022,0,1,1,0.015,Retired
-Communication Through Removable Media,2017,2017,0,1,1,0.015,Retired
-Systemctl,2022,2022,0,1,1,0.015,Retired
-Junk Data,2017,2017,0,1,1,0.015,Retired
-Purchase Technical Data,2022,2022,0,1,1,0.015,Retired
-HTML Smuggling,2022,2022,0,1,1,0.015,Retired
-Endpoint Denial of Service,2020,2020,0,1,1,0.015,Retired
-Change Default File Association,2019,2019,0,1,1,0.015,Retired
-Group Policy Discovery,2021,2021,0,1,1,0.015,Retired
-Steal or Forge Authentication Certificates,2022,2022,0,1,1,0.015,Retired
-KernelCallbackTable,2022,2022,0,1,1,0.015,Retired
-Browser Extensions,2019,2019,0,1,1,0.015,Retired
-Escape to Host,2021,2021,0,1,1,0.015,Retired
-Application Shimming,2017,2017,0,1,1,0.015,Retired
 Office Template Macros,2020,2020,0,1,1,0.015,Retired
-Hybrid Identity,2022,2022,0,1,1,0.015,Retired
-Stored Data Manipulation,2019,2019,0,1,1,0.015,Retired
-PubPrn,2018,2018,0,1,1,0.015,Retired
-Domain Properties,2020,2020,0,1,1,0.015,Retired
-Print Processors,2022,2022,0,1,1,0.015,Retired
-Stage Capabilities,2022,2022,0,1,1,0.015,Retired
-Runtime Data Manipulation,2019,2019,0,1,1,0.015,Retired
-Container Administration Command,2021,2021,0,1,1,0.015,Retired
-Add-ins,2020,2020,0,1,1,0.015,Retired
-Hardware Additions,2020,2020,0,1,1,0.015,Retired
-Process Doppelgänging,2020,2020,0,1,1,0.015,Retired
-Scheduled Transfer,2021,2021,0,1,1,0.015,Retired
-Component Object Model Hijacking,2017,2017,0,1,1,0.015,Retired
-Domain Controller Authentication,2020,2020,0,1,1,0.015,Retired
-Search Engines,2022,2022,0,1,1,0.015,Retired
+Office Test,2017,2017,0,1,1,0.015,Retired
 Outlook Home Page,2020,2020,0,1,1,0.015,Retired
+PowerShell Profile,2019,2019,0,1,1,0.015,Retired
+Print Processors,2022,2022,0,1,1,0.015,Retired
+Process Doppelgänging,2020,2020,0,1,1,0.015,Retired
+PubPrn,2018,2018,0,1,1,0.015,Retired
+Purchase Technical Data,2022,2022,0,1,1,0.015,Retired
+RDP Hijacking,2022,2022,0,1,1,0.015,Retired
+Runtime Data Manipulation,2019,2019,0,1,1,0.015,Retired
+Scheduled Transfer,2021,2021,0,1,1,0.015,Retired
+Search Closed Sources,2022,2022,0,1,1,0.015,Retired
+Search Engines,2022,2022,0,1,1,0.015,Retired
+Stage Capabilities,2022,2022,0,1,1,0.015,Retired
+Steal or Forge Authentication Certificates,2022,2022,0,1,1,0.015,Retired
+Stored Data Manipulation,2019,2019,0,1,1,0.015,Retired
+Subvert Trust Controls,2022,2022,0,1,1,0.015,Retired
+Systemctl,2022,2022,0,1,1,0.015,Retired
+Transmitted Data Manipulation,2019,2019,0,1,1,0.015,Retired
