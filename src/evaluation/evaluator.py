@@ -184,10 +184,12 @@ def evaluate_predictions():
         proposed = base_df[base_df['model'].str.contains('TemporalCTI', na=False)].iloc[0]
         best_baseline = base_df[~base_df['model'].str.contains('TemporalCTI', na=False)] \
             .sort_values('precision_at_1', ascending=False).iloc[0]
-        improvement = (proposed['precision_at_1'] - best_baseline['precision_at_1']) \
-            / best_baseline['precision_at_1'] * 100
+        # NOTE: percentage-point (pp) difference, not relative %. Relative %
+        # over a small baseline (P@1=0.051) inflated to "+151%"; pp avoids
+        # that small-denominator distortion. See baseline_comparison.py.
+        improvement_pp = (proposed['precision_at_1'] - best_baseline['precision_at_1']) * 100
         print(f"  Best baseline    : {best_baseline['model']} (P@1={best_baseline['precision_at_1']:.3f})")
-        print(f"  Improvement      : {improvement:+.1f}% over best baseline at P@1")
+        print(f"  Improvement      : {improvement_pp:+.1f} percentage points over best baseline at P@1")
     except FileNotFoundError:
         print(f"  baseline_comparison.csv not found — run baseline_comparison.py first.")
 
@@ -229,7 +231,7 @@ def evaluate_nation_state():
     sharing_df = pd.read_csv('data/processed/nation_technique_sharing.csv')
 
     print("\n" + "=" * 60)
-    print("6. NATION-STATE BEHAVIOURAL ANALYSIS EVALUATION")
+    print("6. NATION-STATE CLUSTERING EVALUATION")
     print("=" * 60)
     print(f"Nations identified      : {len(nation_df)}")
     print(f"Cross-nation techniques : {len(sharing_df)}")
@@ -366,8 +368,14 @@ def generate_summary():
     proposed_row     = base_df[base_df['model'].str.contains('TemporalCTI', na=False)].iloc[0]
     best_base_row    = base_df[~base_df['model'].str.contains('TemporalCTI', na=False)] \
                        .sort_values('precision_at_1', ascending=False).iloc[0]
-    p1_improvement   = (proposed_row['precision_at_1'] - best_base_row['precision_at_1']) \
-                       / best_base_row['precision_at_1'] * 100
+    # NOTE: percentage-point (pp) difference, not relative %. Relative %
+    # over a small baseline (P@1=0.051) inflated to "+151%", overstating
+    # the practical size of the gain (5 vs 2 correct out of 39 groups).
+    # Percentage points avoid that small-denominator distortion.
+    p1_improvement_pp = (proposed_row['precision_at_1'] - best_base_row['precision_at_1']) * 100
+    p1_n              = int(proposed_row['total_groups'])
+    p1_hits_proposed  = round(proposed_row['precision_at_1'] * p1_n)
+    p1_hits_baseline  = round(best_base_row['precision_at_1'] * p1_n)
 
     mit_rec_df       = pd.read_csv('data/processed/mitigation_recommendations.csv')
     mit_rec_total    = len(mit_rec_df)
@@ -392,7 +400,7 @@ def generate_summary():
         'Module': [
             'Temporal Profiling', 'Evolution Score', 'Emerging TTP Detection',
             'Cross-Actor Convergence', 'TTP Retirement Detection', 'Markov Chain Prediction',
-            'Nation-State Behavioural Analysis', 'Adaptability Index', 'Technique Lifespan',
+            'Nation-State Clustering', 'Adaptability Index', 'Technique Lifespan',
             'TTP Velocity Tracking', 'Defence Gap Analysis', 'Mitigation Engine',
         ],
         'Key Metric': [
@@ -401,7 +409,7 @@ def generate_summary():
             f'{len(emg_df)} emerging · Max {emg_max:.1f}x growth',
             f'{len(conv_df):,} alerts · Max {conv_max} groups',
             f'{ret_instances:,} retirement events',
-            f'Held-out P@1 {p_at_1:.3f} (+{p1_improvement:.0f}% vs baseline)',
+            f'Held-out P@1 {p_at_1:.3f} ({p1_hits_proposed}/{p1_n} vs {p1_hits_baseline}/{p1_n} baseline, +{p1_improvement_pp:.1f}pp)',
             f'{shared_total} shared · {shared_all4} across all 4 nations',
             f'Range {adap_df["adaptability_index"].min():.3f}–{adap_max:.3f} · Mean {adap_mean:.3f}',
             f'{active_tech} active · {retired_tech} retired · Mean {mean_life:.0f}yr',
