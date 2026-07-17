@@ -155,12 +155,20 @@ def print_comparison(results):
     if baselines and temporalcti:
         best_baseline_p1 = max(r['precision_at_1'] for r in baselines)
         best_baseline_p5 = max(r['precision_at_5'] for r in baselines)
-        if best_baseline_p1 > 0:
-            imp_p1 = (temporalcti['precision_at_1'] - best_baseline_p1) / best_baseline_p1 * 100
-            imp_p5 = (temporalcti['precision_at_5'] - best_baseline_p5) / best_baseline_p5 * 100
-            print(f"  TemporalCTI improvement over best baseline:")
-            print(f"    P@1: {imp_p1:+.1f}%")
-            print(f"    P@5: {imp_p5:+.1f}%")
+        # NOTE: reported as percentage-point (pp) difference, not relative %.
+        # Relative % over a small baseline (P@1=0.051) produced a headline
+        # "+151%" figure that, while mathematically correct, overstated the
+        # practical size of the gain (5 vs 2 correct out of 39 groups).
+        # Percentage points avoid that small-denominator inflation.
+        pp_p1 = (temporalcti['precision_at_1'] - best_baseline_p1) * 100
+        pp_p5 = (temporalcti['precision_at_5'] - best_baseline_p5) * 100
+        n = temporalcti['total_groups']
+        hits_proposed_p1 = round(temporalcti['precision_at_1'] * n)
+        hits_baseline_p1 = round(best_baseline_p1 * n)
+        print(f"  TemporalCTI improvement over best baseline:")
+        print(f"    P@1: {pp_p1:+.1f} percentage points "
+              f"({hits_proposed_p1}/{n} vs {hits_baseline_p1}/{n} correct)")
+        print(f"    P@5: {pp_p5:+.1f} percentage points")
 
     print()
     print("  Note: Random baseline simulates uninformed prediction.")
