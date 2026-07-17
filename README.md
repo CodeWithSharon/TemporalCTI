@@ -54,7 +54,7 @@ Every module operates on a shared SQLite database (`data/temporal_db/apt.db`) bu
 - **Impersonation** — fastest-growing technique (7.0x growth), highest velocity (2.333/yr), top Defence Gap priority
 - **1,061** cross-actor convergence alerts detected; max 50 groups converging on a single technique
 - **373 Active / 92 Retired** techniques (technique-level, global; distinct from the 3,721 per-group retirement *events*)
-- **Markov Chain Prediction**: Precision@1 = 0.128, a **+151% improvement** over the best baseline (Frequency/popularity) at P@1 — held-out validated (train <2024, test ≥2024). Note: the Frequency baseline outperforms at P@3/P@5 (0.333/0.436 vs 0.308/0.410); TemporalCTI's advantage is specifically at P@1, and this is reported transparently rather than as an overall win.
+- **Markov Chain Prediction**: Precision@1 = 0.128 — correctly predicted 5 of 39 held-out groups' next technique at rank 1, versus 2 of 39 for the strongest baseline (Frequency/popularity), a **+7.7 percentage point** improvement — held-out validated (train <2024, test ≥2024). Note: the Frequency baseline outperforms at P@3/P@5 (0.333/0.436 vs 0.308/0.410, a −2.6pp difference at each); TemporalCTI's advantage is specifically at P@1, and this is reported transparently rather than as an overall win.
 - **80/465 (17.2%)** techniques have no MITRE-published mitigation mapped at all
 
 Full breakdown: [`data/processed/evaluation_summary.csv`](data/processed/evaluation_summary.csv)
@@ -142,7 +142,8 @@ streamlit run src/dashboard/app.py
 
 - **Determinism:** every module that produces score ties uses an explicit secondary sort key (technique/group name, ascending) so results are reproducible across environments and reruns, not dependent on pandas/Python iteration order.
 - **Normalization:** composite scores use `min(x/N, 1.0)`-style caps anchored to real observed maxima in the dataset (e.g. 9-year span, 465 techniques), not arbitrary constants.
-- **Held-out validation:** Markov prediction is evaluated by training on data before 2024 and testing on 2024+ — the same protocol is applied identically to both baselines for a fair comparison.
+- **Weight selection:** composite score weights (Adaptability Index, Evolution Score, Defence Gap Analysis) are heuristically assigned based on domain-reasoned signal priority, not fitted to a labeled ground-truth dataset — consistent with established practice in security scoring systems such as CVSS. A ±20% weight-perturbation sensitivity analysis on Adaptability Index (n=94 groups) and Defence Gap Analysis (n=465 techniques) confirmed resulting rankings are robust to reasonable variation in these weights (Spearman correlation ≥0.97, top-10 overlap ≥9/10 across all perturbations tested).
+- **Held-out validation:** Markov prediction is evaluated by training on data before 2024 and testing on 2024+ — the same protocol is applied identically to both baselines for a fair comparison. Improvements are reported in percentage points rather than relative percentages, since relative framing over a small baseline value can overstate practical significance.
 - **Mitigations are MITRE-native:** all mitigation mappings are extracted directly from MITRE's own `course-of-action` STIX objects and `mitigates` relationships, not a third-party framework.
 
 ---
