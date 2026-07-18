@@ -4,8 +4,8 @@ Evolution Score,Range 0.0–0.689 · Mean 0.273,Kimsuky most adaptive at 0.689
 Emerging TTP Detection,22 emerging · Max 7.0x growth,Impersonation 7.0x — CRITICAL
 Cross-Actor Convergence,"1,061 alerts · Max 50 groups",Malicious File · 50 groups 2018–2020
 TTP Retirement Detection,"3,721 retirement events","3,721 retirement events detected"
-Markov Chain Prediction,Held-out P@1 0.128 (+151% vs baseline),Outperforms Frequency (popularity) baseline at P@1
-Nation-State Behavioural Analysis,230 shared · 73 across all 4 nations,Russia most adaptive nation 0.574
+Markov Chain Prediction,"Held-out P@1 0.128 (5/39 vs 2/39 baseline, +7.7pp)",Outperforms Frequency (popularity) baseline at P@1
+Nation-State Clustering,230 shared · 73 across all 4 nations,Russia most adaptive nation 0.574
 Adaptability Index,Range 0.278–0.731 · Mean 0.430,APT28 highest adaptability 0.731
 Technique Lifespan,373 active · 92 retired · Mean 4yr,53% of techniques persisted ≥4 years
 TTP Velocity Tracking,339 tracked · Max velocity 2.333,Impersonation velocity 2.333/yr
