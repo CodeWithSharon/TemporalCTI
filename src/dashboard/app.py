@@ -600,9 +600,17 @@ elif page == "Predictions":
     st.markdown("<h1 style='margin-top:0'>Markov Chain TTP Predictions</h1>", unsafe_allow_html=True)
     if not pred_df.empty:
         tech_col = 'predicted_technique' if 'predicted_technique' in pred_df.columns else 'predicted_ttp'
-        method_label = "Hybrid Markov + Similarity" if 'method' in pred_df.columns and \
-            pred_df['method'].astype(str).str.contains('similarity', case=False).any() \
-            else "Hybrid Markov + Frequency"
+        # Markov + Velocity Backoff (gamma=0.15) is the real, ablation-
+        # selected model baked into predict_all_groups() by default - see
+        # markov_prediction.py. The metric widget renders the value at a
+        # large fixed font size (31px) regardless of string length, so
+        # even "Markov + Velocity (γ=0.15)" (27 chars) still got clipped
+        # with an ellipsis. Shortened to fit, with gamma and the
+        # similarity-fallback detail both moved into the delta line.
+        has_similarity = 'method' in pred_df.columns and \
+            pred_df['method'].astype(str).str.contains('similarity', case=False).any()
+        method_label = "Markov+Velocity"
+        method_note = "γ=0.15 + similarity fallback" if has_similarity else "γ=0.15"
         global_techniques = set(df['technique'])
         valid_preds = pred_df[pred_df[tech_col].isin(global_techniques)]
         coverage_rate = (len(valid_preds) / len(pred_df)) if len(pred_df) else 0.0
@@ -610,7 +618,7 @@ elif page == "Predictions":
         c1.metric("Total Predictions", f"{len(pred_df):,}")
         c2.metric("Groups Covered",    pred_df['apt_group'].nunique())
         c3.metric("Coverage Rate",     f"{coverage_rate:.3f}")
-        c4.metric("Method",            method_label)
+        c4.metric("Method",            method_label, method_note)
         st.markdown("<div style='height:16px'></div>", unsafe_allow_html=True)
         if not baseline_df.empty:
             st.markdown("<div class='section-label'>Held-Out Validation (Precision@K)</div>", unsafe_allow_html=True)
