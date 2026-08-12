@@ -1,255 +1,255 @@
 apt_group,predicted_technique,probability,method
-APT28,System Information Discovery,0.034,markov
-APT28,System Network Configuration Discovery,0.028,markov
-APT28,Remote Desktop Protocol,0.026,markov
-APT28,Disable or Modify Tools,0.024,markov
-APT28,Scheduled Task,0.022,markov
-TA2541,Windows Command Shell,0.03,markov
-TA2541,Web Protocols,0.023,markov
-TA2541,File and Directory Discovery,0.021,markov
-TA2541,File Deletion,0.019,markov
-TA2541,Data from Local System,0.019,markov
-Kimsuky,Exploitation for Client Execution,0.183,markov
-Kimsuky,Remote Data Staging,0.147,markov
-Kimsuky,Embedded Payloads,0.143,markov
-Kimsuky,Valid Accounts,0.054,markov
-Kimsuky,External Proxy,0.052,markov
-Fox Kitten,Malicious File,0.039,markov
-Fox Kitten,Malicious Link,0.033,markov
-Fox Kitten,Spearphishing Attachment,0.032,markov
-Fox Kitten,System Owner/User Discovery,0.03,markov
-Fox Kitten,System Information Discovery,0.027,markov
-Turla,Malicious File,0.038,markov
-Turla,Spearphishing Attachment,0.035,markov
-Turla,Scheduled Task,0.026,markov
-Turla,File Deletion,0.022,markov
-Turla,DLL,0.021,markov
-Wizard Spider,Deobfuscate/Decode Files or Information,0.17,markov
-Wizard Spider,Visual Basic,0.134,markov
-Wizard Spider,Web Shell,0.12,markov
-Wizard Spider,Peripheral Device Discovery,0.119,markov
-Wizard Spider,File and Directory Discovery,0.112,markov
-Volt Typhoon,Malicious File,0.045,markov
-Volt Typhoon,Spearphishing Attachment,0.037,markov
-Volt Typhoon,System Information Discovery,0.033,markov
-Volt Typhoon,Scheduled Task,0.032,markov
-Volt Typhoon,Exploitation for Client Execution,0.031,markov
-Tropic Trooper,PowerShell,0.035,markov
-Tropic Trooper,Visual Basic,0.029,markov
-Tropic Trooper,Valid Accounts,0.028,markov
-Tropic Trooper,System Time Discovery,0.025,markov
-Tropic Trooper,Remote Desktop Protocol,0.025,markov
-MuddyWater,Valid Accounts,0.05,markov
-MuddyWater,Remote Desktop Protocol,0.045,markov
-MuddyWater,Upload Malware,0.044,markov
-MuddyWater,Email Accounts,0.04,markov
-MuddyWater,Social Media Accounts,0.039,markov
+APT28,Upload Malware,0.159,markov
+APT28,Financial Theft,0.139,markov
+APT28,Exfiltration to Cloud Storage,0.139,markov
+APT28,Disable or Modify Tools,0.136,markov
+APT28,Proxy,0.133,markov
+TA2541,Exploit Public-Facing Application,0.143,markov
+TA2541,Email Accounts,0.141,markov
+TA2541,Financial Theft,0.139,markov
+TA2541,Impersonation,0.139,markov
+TA2541,Exfiltration to Cloud Storage,0.139,markov
+Kimsuky,Embedded Payloads,0.232,markov
+Kimsuky,Remote Data Staging,0.223,markov
+Kimsuky,Exploitation for Client Execution,0.214,markov
+Kimsuky,Internet Connection Discovery,0.162,markov
+Kimsuky,Inhibit System Recovery,0.158,markov
+Fox Kitten,Upload Malware,0.165,markov
+Fox Kitten,Domains,0.145,markov
+Fox Kitten,Exfiltration to Cloud Storage,0.144,markov
+Fox Kitten,Email Accounts,0.144,markov
+Fox Kitten,Impersonation,0.142,markov
+Turla,Upload Malware,0.161,markov
+Turla,Email Accounts,0.146,markov
+Turla,Exploit Public-Facing Application,0.144,markov
+Turla,Domains,0.144,markov
+Turla,Financial Theft,0.14,markov
+Wizard Spider,Deobfuscate/Decode Files or Information,0.245,markov
+Wizard Spider,Domains,0.215,markov
+Wizard Spider,Web Services,0.201,markov
+Wizard Spider,Upload Malware,0.198,markov
+Wizard Spider,Virtual Private Server,0.195,markov
+Volt Typhoon,Upload Malware,0.163,markov
+Volt Typhoon,Domains,0.146,markov
+Volt Typhoon,Financial Theft,0.143,markov
+Volt Typhoon,Email Accounts,0.141,markov
+Volt Typhoon,Impersonation,0.139,markov
+Tropic Trooper,Upload Malware,0.159,markov
+Tropic Trooper,Impersonation,0.147,markov
+Tropic Trooper,Exfiltration to Cloud Storage,0.147,markov
+Tropic Trooper,Exploit Public-Facing Application,0.143,markov
+Tropic Trooper,Virtual Private Server,0.142,markov
+MuddyWater,Upload Malware,0.187,markov
+MuddyWater,Email Accounts,0.166,markov
+MuddyWater,Financial Theft,0.154,markov
+MuddyWater,Compression,0.152,markov
+MuddyWater,Social Media Accounts,0.151,markov
 Storm-1811,Command Obfuscation,0.458,similarity
 Storm-1811,Compression,0.25,similarity
 Storm-1811,Email Accounts,0.25,similarity
 Storm-1811,Exfiltration Over C2 Channel,0.25,similarity
 Storm-1811,Local Email Collection,0.25,similarity
-Gamaredon Group,Exploit Public-Facing Application,0.075,markov
-Gamaredon Group,Spearphishing Link,0.073,markov
-Gamaredon Group,Email Accounts,0.071,markov
-Gamaredon Group,DLL,0.057,markov
-Gamaredon Group,Drive-by Compromise,0.05,markov
-Gorgon Group,Domains,0.049,markov
-Gorgon Group,Command Obfuscation,0.042,markov
-Gorgon Group,Web Protocols,0.038,markov
-Gorgon Group,Non-Standard Port,0.037,markov
-Gorgon Group,Malicious Link,0.035,markov
-HAFNIUM,Password Managers,0.189,markov
-HAFNIUM,Deobfuscate/Decode Files or Information,0.188,markov
-HAFNIUM,Domains,0.174,markov
-HAFNIUM,Command Obfuscation,0.152,markov
-HAFNIUM,Data Encrypted for Impact,0.143,markov
-TA505,Match Legitimate Resource Name or Location,0.028,markov
-TA505,System Information Discovery,0.025,markov
-TA505,Registry Run Keys / Startup Folder,0.024,markov
-TA505,File and Directory Discovery,0.024,markov
-TA505,Scheduled Task,0.024,markov
-FIN8,File and Directory Discovery,0.039,markov
-FIN8,Match Legitimate Resource Name or Location,0.039,markov
-FIN8,Data from Local System,0.036,markov
-FIN8,Deobfuscate/Decode Files or Information,0.032,markov
-FIN8,Compression,0.032,markov
-APT39,Windows Command Shell,0.03,markov
-APT39,System Information Discovery,0.023,markov
-APT39,Domains,0.019,markov
-APT39,System Network Configuration Discovery,0.018,markov
-APT39,Windows Management Instrumentation,0.017,markov
-FIN4,Ingress Tool Transfer,0.046,markov
-FIN4,PowerShell,0.039,markov
-FIN4,Windows Command Shell,0.034,markov
-FIN4,Scheduled Task,0.033,markov
-FIN4,Match Legitimate Resource Name or Location,0.032,markov
+Gamaredon Group,Email Accounts,0.193,markov
+Gamaredon Group,Exploit Public-Facing Application,0.192,markov
+Gamaredon Group,Impersonation,0.159,markov
+Gamaredon Group,Local Storage Discovery,0.156,markov
+Gamaredon Group,Exfiltration to Cloud Storage,0.152,markov
+Gorgon Group,Domains,0.167,markov
+Gorgon Group,Upload Malware,0.159,markov
+Gorgon Group,Exploit Public-Facing Application,0.156,markov
+Gorgon Group,Financial Theft,0.152,markov
+Gorgon Group,Web Services,0.146,markov
+HAFNIUM,Password Managers,0.274,markov
+HAFNIUM,Domains,0.274,markov
+HAFNIUM,Deobfuscate/Decode Files or Information,0.259,markov
+HAFNIUM,Impersonation,0.252,markov
+HAFNIUM,Data Encrypted for Impact,0.242,markov
+TA505,Exploit Public-Facing Application,0.145,markov
+TA505,Email Accounts,0.143,markov
+TA505,Exfiltration to Cloud Storage,0.141,markov
+TA505,Impersonation,0.14,markov
+TA505,Financial Theft,0.139,markov
+FIN8,Upload Malware,0.164,markov
+FIN8,Email Accounts,0.154,markov
+FIN8,Exploit Public-Facing Application,0.15,markov
+FIN8,Domains,0.148,markov
+FIN8,Compression,0.147,markov
+APT39,Upload Malware,0.159,markov
+APT39,Domains,0.142,markov
+APT39,Email Accounts,0.141,markov
+APT39,Financial Theft,0.139,markov
+APT39,Impersonation,0.139,markov
+FIN4,Upload Malware,0.169,markov
+FIN4,Email Accounts,0.157,markov
+FIN4,Exploit Public-Facing Application,0.15,markov
+FIN4,Domains,0.148,markov
+FIN4,Exfiltration to Cloud Storage,0.148,markov
 Rocke,Local Storage Discovery,0.507,similarity
 Rocke,Container CLI/API,0.338,similarity
 Rocke,Code Repositories,0.184,similarity
 Rocke,Credentials from Password Stores,0.184,similarity
 Rocke,Credentials from Web Browsers,0.184,similarity
-menuPass,Web Protocols,0.034,markov
-menuPass,Malicious Link,0.028,markov
-menuPass,System Information Discovery,0.027,markov
-menuPass,Registry Run Keys / Startup Folder,0.027,markov
-menuPass,Spearphishing Link,0.026,markov
+menuPass,Upload Malware,0.159,markov
+menuPass,Exfiltration to Cloud Storage,0.144,markov
+menuPass,Email Accounts,0.143,markov
+menuPass,Financial Theft,0.143,markov
+menuPass,Impersonation,0.143,markov
 VOID MANTICORE,Masquerade Account Name,0.252,similarity
 VOID MANTICORE,Acquire Infrastructure,0.241,similarity
 VOID MANTICORE,Databases,0.241,similarity
 VOID MANTICORE,Masquerading,0.241,similarity
 VOID MANTICORE,Native API,0.241,similarity
-APT32,Security Software Discovery,0.032,markov
-APT32,Domain Account,0.031,markov
-APT32,Virtual Private Server,0.027,markov
-APT32,Server,0.025,markov
-APT32,Dynamic-link Library Injection,0.023,markov
-APT29,Web Protocols,0.076,markov
-APT29,Domains,0.062,markov
-APT29,OS Credential Dumping,0.045,markov
-APT29,Windows Command Shell,0.043,markov
-APT29,Network Denial of Service,0.04,markov
-Earth Lusca,Ingress Tool Transfer,0.048,markov
-Earth Lusca,Spearphishing Attachment,0.043,markov
-Earth Lusca,Windows Command Shell,0.032,markov
-Earth Lusca,Web Protocols,0.032,markov
-Earth Lusca,File and Directory Discovery,0.029,markov
-Sandworm Team,Remote Data Staging,0.057,markov
-Sandworm Team,Exploitation for Privilege Escalation,0.057,markov
-Sandworm Team,Internet Connection Discovery,0.054,markov
-Sandworm Team,JavaScript,0.052,markov
-Sandworm Team,Windows Command Shell,0.049,markov
-Threat Group-3390,Match Legitimate Resource Name or Location,0.025,markov
-Threat Group-3390,System Information Discovery,0.023,markov
-Threat Group-3390,Scheduled Task,0.022,markov
-Threat Group-3390,Spearphishing Link,0.022,markov
-Threat Group-3390,File and Directory Discovery,0.021,markov
-APT-C-36,Command Obfuscation,0.413,markov
-APT-C-36,Deobfuscate/Decode Files or Information,0.383,markov
-APT-C-36,Compression,0.356,markov
-APT-C-36,Web Shell,0.25,markov
-APT-C-36,Reflective Code Loading,0.212,markov
-Mofang,Ingress Tool Transfer,0.035,markov
-Mofang,PowerShell,0.035,markov
-Mofang,Windows Command Shell,0.03,markov
-Mofang,Match Legitimate Resource Name or Location,0.025,markov
-Mofang,System Information Discovery,0.023,markov
+APT32,Virtual Private Server,0.151,markov
+APT32,Exploit Public-Facing Application,0.145,markov
+APT32,Email Accounts,0.143,markov
+APT32,Exfiltration to Cloud Storage,0.141,markov
+APT32,Impersonation,0.14,markov
+APT29,Domains,0.179,markov
+APT29,Upload Malware,0.162,markov
+APT29,Exfiltration to Cloud Storage,0.142,markov
+APT29,Financial Theft,0.139,markov
+APT29,Impersonation,0.139,markov
+Earth Lusca,Email Accounts,0.147,markov
+Earth Lusca,Financial Theft,0.141,markov
+Earth Lusca,Impersonation,0.141,markov
+Earth Lusca,Virtual Private Server,0.136,markov
+Earth Lusca,Internet Connection Discovery,0.129,markov
+Sandworm Team,Impersonation,0.173,markov
+Sandworm Team,Internet Connection Discovery,0.168,markov
+Sandworm Team,Web Services,0.157,markov
+Sandworm Team,Financial Theft,0.155,markov
+Sandworm Team,Exfiltration to Cloud Storage,0.155,markov
+Threat Group-3390,Email Accounts,0.141,markov
+Threat Group-3390,Financial Theft,0.139,markov
+Threat Group-3390,Impersonation,0.139,markov
+Threat Group-3390,Virtual Private Server,0.134,markov
+Threat Group-3390,Web Services,0.134,markov
+APT-C-36,Command Obfuscation,0.457,markov
+APT-C-36,Deobfuscate/Decode Files or Information,0.426,markov
+APT-C-36,Compression,0.422,markov
+APT-C-36,Web Shell,0.302,markov
+APT-C-36,Reflective Code Loading,0.292,markov
+Mofang,Upload Malware,0.159,markov
+Mofang,Exploit Public-Facing Application,0.143,markov
+Mofang,Domains,0.142,markov
+Mofang,Email Accounts,0.141,markov
+Mofang,Financial Theft,0.139,markov
 Transparent Tribe,Compression,0.357,similarity
-Naikon,Ingress Tool Transfer,0.133,markov
-Naikon,Local Account,0.092,markov
-Naikon,File and Directory Discovery,0.091,markov
-Naikon,Email Accounts,0.087,markov
-Naikon,Web Protocols,0.081,markov
-Patchwork,Web Protocols,0.023,markov
-Patchwork,Valid Accounts,0.023,markov
-Patchwork,Encrypted/Encoded File,0.021,markov
-Patchwork,Domains,0.019,markov
-Patchwork,Exploit Public-Facing Application,0.018,markov
-APT41,Deobfuscate/Decode Files or Information,0.46,markov
-APT41,Email Accounts,0.164,markov
-APT41,Hidden Window,0.118,markov
-APT41,Mark-of-the-Web Bypass,0.1,markov
-APT41,Spearphishing Link,0.096,markov
-Magic Hound,Spearphishing Attachment,0.032,markov
-Magic Hound,Valid Accounts,0.019,markov
-Magic Hound,Exploitation for Client Execution,0.017,markov
-Magic Hound,Deobfuscate/Decode Files or Information,0.016,markov
-Magic Hound,DLL,0.014,markov
-ZIRCONIUM,Malicious File,0.035,markov
-ZIRCONIUM,PowerShell,0.035,markov
-ZIRCONIUM,Spearphishing Attachment,0.032,markov
-ZIRCONIUM,Match Legitimate Resource Name or Location,0.025,markov
-ZIRCONIUM,Web Protocols,0.023,markov
+Naikon,Email Accounts,0.206,markov
+Naikon,Upload Malware,0.189,markov
+Naikon,Local Account,0.178,markov
+Naikon,Domains,0.175,markov
+Naikon,Exfiltration to Cloud Storage,0.173,markov
+Patchwork,Upload Malware,0.159,markov
+Patchwork,Exploit Public-Facing Application,0.143,markov
+Patchwork,Impersonation,0.143,markov
+Patchwork,Exfiltration to Cloud Storage,0.142,markov
+Patchwork,Domains,0.142,markov
+APT41,Deobfuscate/Decode Files or Information,0.491,markov
+APT41,Email Accounts,0.271,markov
+APT41,Hidden Window,0.197,markov
+APT41,Mark-of-the-Web Bypass,0.191,markov
+APT41,Domains,0.183,markov
+Magic Hound,Upload Malware,0.159,markov
+Magic Hound,Financial Theft,0.139,markov
+Magic Hound,Impersonation,0.139,markov
+Magic Hound,Exfiltration to Cloud Storage,0.139,markov
+Magic Hound,Virtual Private Server,0.134,markov
+ZIRCONIUM,Upload Malware,0.159,markov
+ZIRCONIUM,Exploit Public-Facing Application,0.143,markov
+ZIRCONIUM,Email Accounts,0.141,markov
+ZIRCONIUM,Financial Theft,0.139,markov
+ZIRCONIUM,Impersonation,0.139,markov
 Orangeworm,Domain Accounts,0.2,similarity
 Orangeworm,Financial Theft,0.2,similarity
 Orangeworm,Software Deployment Tools,0.2,similarity
 Orangeworm,Windows Command Shell,0.2,similarity
 Orangeworm,Asymmetric Cryptography,0.167,similarity
-TeamTNT,Malicious File,0.035,markov
-TeamTNT,Spearphishing Attachment,0.032,markov
-TeamTNT,Visual Basic,0.023,markov
-TeamTNT,Valid Accounts,0.023,markov
-TeamTNT,Scheduled Task,0.022,markov
-APT37,Match Legitimate Resource Name or Location,0.049,markov
-APT37,Malicious Link,0.045,markov
-APT37,PowerShell,0.043,markov
-APT37,Exploit Public-Facing Application,0.032,markov
-APT37,File Deletion,0.03,markov
+TeamTNT,Exploit Public-Facing Application,0.143,markov
+TeamTNT,Impersonation,0.143,markov
+TeamTNT,Exfiltration to Cloud Storage,0.142,markov
+TeamTNT,Email Accounts,0.141,markov
+TeamTNT,Financial Theft,0.139,markov
+APT37,Upload Malware,0.166,markov
+APT37,Exploit Public-Facing Application,0.156,markov
+APT37,Email Accounts,0.144,markov
+APT37,Domains,0.144,markov
+APT37,Exfiltration to Cloud Storage,0.141,markov
 POLONIUM,Masquerade Task or Service,0.167,similarity
 POLONIUM,Establish Accounts,0.143,similarity
-Scattered Spider,Query Public AI Services,0.666,markov
-Scattered Spider,Deobfuscate/Decode Files or Information,0.534,markov
-Scattered Spider,Hidden Window,0.288,markov
-Scattered Spider,Web Service,0.28,markov
-Scattered Spider,Match Legitimate Resource Name or Location,0.28,markov
-Aquatic Panda,File and Directory Discovery,0.25,markov
-Aquatic Panda,Deobfuscate/Decode Files or Information,0.224,markov
-Aquatic Panda,Local Data Staging,0.179,markov
-Aquatic Panda,Malicious File,0.168,markov
-Aquatic Panda,Local Account,0.165,markov
+Scattered Spider,Query Public AI Services,0.674,markov
+Scattered Spider,Deobfuscate/Decode Files or Information,0.554,markov
+Scattered Spider,Hidden Window,0.341,markov
+Scattered Spider,Web Service,0.332,markov
+Scattered Spider,Match Legitimate Resource Name or Location,0.328,markov
+Aquatic Panda,File and Directory Discovery,0.291,markov
+Aquatic Panda,Deobfuscate/Decode Files or Information,0.29,markov
+Aquatic Panda,Local Data Staging,0.244,markov
+Aquatic Panda,Local Account,0.24,markov
+Aquatic Panda,Email Accounts,0.227,markov
 Saint Bear,Command Obfuscation,0.316,similarity
 Saint Bear,Domains,0.276,similarity
 Saint Bear,Ingress Tool Transfer,0.276,similarity
-CopyKittens,Ingress Tool Transfer,0.05,markov
-CopyKittens,File and Directory Discovery,0.036,markov
-CopyKittens,Malicious File,0.035,markov
-CopyKittens,Spearphishing Attachment,0.032,markov
-CopyKittens,Web Protocols,0.031,markov
-Mustard Tempest,Command Obfuscation,0.117,markov
-Mustard Tempest,Scheduled Task,0.096,markov
-Mustard Tempest,Deobfuscate/Decode Files or Information,0.095,markov
-Mustard Tempest,Reflective Code Loading,0.087,markov
-Mustard Tempest,Exploit Public-Facing Application,0.08,markov
-APT19,Ingress Tool Transfer,0.049,markov
-APT19,Windows Command Shell,0.037,markov
-APT19,Malicious Link,0.033,markov
-APT19,Match Legitimate Resource Name or Location,0.032,markov
-APT19,File and Directory Discovery,0.028,markov
-Windshift,File and Directory Discovery,0.132,markov
-Windshift,Match Legitimate Resource Name or Location,0.131,markov
-Windshift,Data from Local System,0.109,markov
-Windshift,Hidden Window,0.106,markov
-Windshift,Email Accounts,0.105,markov
-Silence,Malicious Link,0.164,markov
-Silence,Web Protocols,0.162,markov
-Silence,DLL,0.158,markov
-Silence,Domains,0.145,markov
-Silence,Data from Local System,0.14,markov
+CopyKittens,Upload Malware,0.159,markov
+CopyKittens,Exploit Public-Facing Application,0.15,markov
+CopyKittens,Virtual Private Server,0.147,markov
+CopyKittens,Impersonation,0.145,markov
+CopyKittens,Domains,0.142,markov
+Mustard Tempest,Command Obfuscation,0.206,markov
+Mustard Tempest,Exploit Public-Facing Application,0.196,markov
+Mustard Tempest,Reflective Code Loading,0.186,markov
+Mustard Tempest,Deobfuscate/Decode Files or Information,0.181,markov
+Mustard Tempest,Email Accounts,0.178,markov
+APT19,Upload Malware,0.165,markov
+APT19,Exploit Public-Facing Application,0.146,markov
+APT19,Domains,0.145,markov
+APT19,Exfiltration to Cloud Storage,0.144,markov
+APT19,Email Accounts,0.144,markov
+Windshift,Upload Malware,0.236,markov
+Windshift,Email Accounts,0.221,markov
+Windshift,Match Legitimate Resource Name or Location,0.201,markov
+Windshift,Domains,0.199,markov
+Windshift,File and Directory Discovery,0.191,markov
+Silence,Upload Malware,0.256,markov
+Silence,Domains,0.249,markov
+Silence,Email Accounts,0.237,markov
+Silence,DLL,0.225,markov
+Silence,Exploit Public-Facing Application,0.224,markov
 Moonstone Sleet,Process Discovery,0.263,similarity
 Moonstone Sleet,Security Software Discovery,0.263,similarity
 Moonstone Sleet,Software Discovery,0.263,similarity
 Moonstone Sleet,Visual Basic,0.263,similarity
 Moonstone Sleet,Windows Management Instrumentation,0.263,similarity
-FIN6,Hidden Window,0.713,markov
-FIN6,Ingress Tool Transfer,0.197,markov
-FIN6,Malicious Link,0.187,markov
-FIN6,Exploitation for Client Execution,0.159,markov
-FIN6,Email Accounts,0.145,markov
-LAPSUS$,Exploitation for Client Execution,0.234,markov
-LAPSUS$,Remote Data Staging,0.222,markov
-LAPSUS$,Windows Management Instrumentation Event Subscription,0.221,markov
-LAPSUS$,Domains,0.198,markov
-LAPSUS$,Social Media Accounts,0.187,markov
+FIN6,Hidden Window,0.702,markov
+FIN6,Email Accounts,0.255,markov
+FIN6,Exploit Public-Facing Application,0.242,markov
+FIN6,Internet Connection Discovery,0.239,markov
+FIN6,Malicious Link,0.237,markov
+LAPSUS$,Domains,0.295,markov
+LAPSUS$,Remote Data Staging,0.286,markov
+LAPSUS$,Windows Management Instrumentation Event Subscription,0.284,markov
+LAPSUS$,Social Media Accounts,0.277,markov
+LAPSUS$,Exploitation for Client Execution,0.257,markov
 Play,System Owner/User Discovery,0.578,similarity
 Play,Data from Local System,0.552,similarity
 Play,Match Legitimate Resource Name or Location,0.552,similarity
 Play,Windows Management Instrumentation,0.552,similarity
 Play,Account Discovery,0.295,similarity
-BlackTech,Match Legitimate Resource Name or Location,0.104,markov
-BlackTech,Ingress Tool Transfer,0.097,markov
-BlackTech,PowerShell,0.078,markov
-BlackTech,Deobfuscate/Decode Files or Information,0.071,markov
-BlackTech,File and Directory Discovery,0.069,markov
-FIN7,Local Storage Discovery,0.091,markov
-FIN7,Impersonation,0.073,markov
-FIN7,Masquerading,0.067,markov
-FIN7,File and Directory Discovery,0.064,markov
-FIN7,Web Protocols,0.059,markov
-OilRig,File and Directory Discovery,0.026,markov
-OilRig,Registry Run Keys / Startup Folder,0.023,markov
-OilRig,DLL,0.021,markov
-OilRig,Exploit Public-Facing Application,0.019,markov
-OilRig,Remote System Discovery,0.018,markov
+BlackTech,Match Legitimate Resource Name or Location,0.179,markov
+BlackTech,Exfiltration to Cloud Storage,0.167,markov
+BlackTech,Email Accounts,0.167,markov
+BlackTech,Upload Malware,0.165,markov
+BlackTech,Deobfuscate/Decode Files or Information,0.161,markov
+FIN7,Impersonation,0.196,markov
+FIN7,Local Storage Discovery,0.193,markov
+FIN7,Financial Theft,0.174,markov
+FIN7,Acquire Infrastructure,0.157,markov
+FIN7,Masquerading,0.157,markov
+OilRig,Exploit Public-Facing Application,0.144,markov
+OilRig,Financial Theft,0.14,markov
+OilRig,Impersonation,0.14,markov
+OilRig,Exfiltration to Cloud Storage,0.14,markov
+OilRig,Virtual Private Server,0.135,markov
 INC Ransom,PowerShell,0.78,similarity
 INC Ransom,Remote System Discovery,0.78,similarity
 INC Ransom,Disable or Modify System Firewall,0.538,similarity
@@ -265,41 +265,41 @@ MirrorFace,Code Signing Certificates,0.267,similarity
 MirrorFace,Data Encrypted for Impact,0.267,similarity
 MirrorFace,Internet Connection Discovery,0.267,similarity
 MirrorFace,Boot or Logon Initialization Scripts,0.26,similarity
-Molerats,Windows Command Shell,0.163,markov
-Molerats,Match Legitimate Resource Name or Location,0.156,markov
-Molerats,Web Protocols,0.152,markov
-Molerats,Windows Management Instrumentation,0.134,markov
-Molerats,Drive-by Compromise,0.128,markov
-Chimera,Malicious File,0.377,markov
-Chimera,Spearphishing Attachment,0.367,markov
-Chimera,Deobfuscate/Decode Files or Information,0.352,markov
-Chimera,Internet Connection Discovery,0.341,markov
-Chimera,Exploitation for Client Execution,0.306,markov
+Molerats,Upload Malware,0.255,markov
+Molerats,Domains,0.227,markov
+Molerats,Email Accounts,0.227,markov
+Molerats,Match Legitimate Resource Name or Location,0.223,markov
+Molerats,Web Services,0.218,markov
+Chimera,Internet Connection Discovery,0.412,markov
+Chimera,Deobfuscate/Decode Files or Information,0.399,markov
+Chimera,Email Accounts,0.391,markov
+Chimera,Exploit Public-Facing Application,0.348,markov
+Chimera,Domains,0.331,markov
 UNC3886,Data Transfer Size Limits,0.323,similarity
 UNC3886,Remote System Discovery,0.323,similarity
 UNC3886,System Information Discovery,0.323,similarity
 UNC3886,Botnet,0.21,similarity
 UNC3886,Clear Windows Event Logs,0.167,similarity
-HEXANE,Spearphishing Attachment,0.05,markov
-HEXANE,Web Service,0.042,markov
-HEXANE,Spearphishing Link,0.04,markov
-HEXANE,Exploitation for Client Execution,0.035,markov
-HEXANE,Domain Account,0.031,markov
+HEXANE,Virtual Private Server,0.15,markov
+HEXANE,Web Services,0.149,markov
+HEXANE,Exploit Public-Facing Application,0.143,markov
+HEXANE,Data Encrypted for Impact,0.142,markov
+HEXANE,Financial Theft,0.139,markov
 Sowbug,Exploitation for Client Execution,0.414,similarity
 Sowbug,Malicious File,0.235,similarity
 Sowbug,Spearphishing Attachment,0.235,similarity
 Sowbug,Ingress Tool Transfer,0.179,similarity
 Sowbug,Symmetric Cryptography,0.179,similarity
-Mustang Panda,Local Storage Discovery,0.293,markov
-Mustang Panda,Embedded Payloads,0.223,markov
-Mustang Panda,Impersonation,0.144,markov
-Mustang Panda,Remote Desktop Protocol,0.125,markov
-Mustang Panda,Compression,0.125,markov
-WIRTE,Local Account,0.17,markov
-WIRTE,Remote Desktop Protocol,0.136,markov
-WIRTE,Hidden Window,0.133,markov
-WIRTE,Exploitation for Client Execution,0.132,markov
-WIRTE,System Network Configuration Discovery,0.132,markov
+Mustang Panda,Local Storage Discovery,0.365,markov
+Mustang Panda,Embedded Payloads,0.299,markov
+Mustang Panda,Impersonation,0.256,markov
+Mustang Panda,Compression,0.226,markov
+Mustang Panda,Botnet,0.215,markov
+WIRTE,Local Account,0.245,markov
+WIRTE,Hidden Window,0.209,markov
+WIRTE,Remote Desktop Protocol,0.206,markov
+WIRTE,System Service Discovery,0.204,markov
+WIRTE,Modify Registry,0.204,markov
 Medusa Group,Process Injection,0.664,similarity
 Medusa Group,Archive Collected Data,0.338,similarity
 Medusa Group,Deobfuscate/Decode Files or Information,0.338,similarity
@@ -310,16 +310,16 @@ Moses Staff,Code Signing Certificates,0.174,similarity
 Moses Staff,Compromise Software Supply Chain,0.174,similarity
 Moses Staff,DLL,0.174,similarity
 Moses Staff,Drive-by Compromise,0.174,similarity
-LazyScripter,Match Legitimate Resource Name or Location,0.116,markov
-LazyScripter,Scheduled Task,0.094,markov
-LazyScripter,Deobfuscate/Decode Files or Information,0.09,markov
-LazyScripter,Reflective Code Loading,0.068,markov
-LazyScripter,File and Directory Discovery,0.065,markov
-BRONZE BUTLER,Local Account,0.184,markov
-BRONZE BUTLER,DNS,0.146,markov
-BRONZE BUTLER,Malicious Link,0.14,markov
-BRONZE BUTLER,LSA Secrets,0.136,markov
-BRONZE BUTLER,Security Account Manager,0.136,markov
+LazyScripter,Match Legitimate Resource Name or Location,0.189,markov
+LazyScripter,Email Accounts,0.186,markov
+LazyScripter,Deobfuscate/Decode Files or Information,0.176,markov
+LazyScripter,Exploit Public-Facing Application,0.174,markov
+LazyScripter,Compression,0.172,markov
+BRONZE BUTLER,Upload Malware,0.26,markov
+BRONZE BUTLER,Local Account,0.257,markov
+BRONZE BUTLER,Domains,0.229,markov
+BRONZE BUTLER,Email Accounts,0.225,markov
+BRONZE BUTLER,Security Account Manager,0.224,markov
 GOLD SOUTHFIELD,Remote Data Staging,0.267,similarity
 GOLD SOUTHFIELD,Archive via Utility,0.138,similarity
 GOLD SOUTHFIELD,Clear Windows Event Logs,0.138,similarity
@@ -335,76 +335,76 @@ Group5,Windows Command Shell,0.365,similarity
 Group5,Ingress Tool Transfer,0.222,similarity
 Group5,Non-Application Layer Protocol,0.222,similarity
 Group5,Windows Management Instrumentation Event Subscription,0.222,similarity
-APT38,Code Signing,0.071,markov
-APT38,Upload Malware,0.069,markov
-APT38,Exploit Public-Facing Application,0.057,markov
-APT38,Match Legitimate Resource Name or Location,0.053,markov
-APT38,Exploitation for Client Execution,0.05,markov
-Lazarus Group,Malicious Link,0.02,markov
-Lazarus Group,Exploit Public-Facing Application,0.018,markov
-Lazarus Group,LSASS Memory,0.018,markov
-Lazarus Group,Remote System Discovery,0.016,markov
-Lazarus Group,Archive via Utility,0.016,markov
-admin@338,Ingress Tool Transfer,0.074,markov
-admin@338,Malicious Link,0.074,markov
-admin@338,Visual Basic,0.066,markov
-admin@338,PowerShell,0.052,markov
-admin@338,Web Protocols,0.052,markov
-Darkhotel,Visual Basic,0.268,markov
-Darkhotel,Non-Standard Port,0.198,markov
-Darkhotel,JavaScript,0.191,markov
-Darkhotel,Web Protocols,0.097,markov
-Darkhotel,DLL,0.085,markov
+APT38,Upload Malware,0.209,markov
+APT38,Exploit Public-Facing Application,0.177,markov
+APT38,Email Accounts,0.165,markov
+APT38,Lateral Tool Transfer,0.153,markov
+APT38,Code Signing,0.15,markov
+Lazarus Group,Upload Malware,0.159,markov
+Lazarus Group,Exploit Public-Facing Application,0.143,markov
+Lazarus Group,Impersonation,0.143,markov
+Lazarus Group,Exfiltration to Cloud Storage,0.142,markov
+Lazarus Group,Financial Theft,0.139,markov
+admin@338,Upload Malware,0.181,markov
+admin@338,Exploit Public-Facing Application,0.168,markov
+admin@338,Domains,0.164,markov
+admin@338,Web Services,0.163,markov
+admin@338,Email Accounts,0.163,markov
+Darkhotel,Visual Basic,0.288,markov
+Darkhotel,Non-Standard Port,0.266,markov
+Darkhotel,JavaScript,0.255,markov
+Darkhotel,Upload Malware,0.191,markov
+Darkhotel,Domains,0.186,markov
 RedCurl,DLL,0.317,similarity
 RedCurl,Disable or Modify Tools,0.317,similarity
 RedCurl,Masquerading,0.317,similarity
 RedCurl,Right-to-Left Override,0.317,similarity
 RedCurl,Software Discovery,0.317,similarity
-APT3,Malicious File,0.035,markov
-APT3,Spearphishing Attachment,0.032,markov
-APT3,Match Legitimate Resource Name or Location,0.025,markov
-APT3,Web Protocols,0.023,markov
-APT3,Domains,0.019,markov
-Cobalt Group,Exploit Public-Facing Application,0.122,markov
-Cobalt Group,Windows Management Instrumentation,0.084,markov
-Cobalt Group,Web Service,0.084,markov
-Cobalt Group,Domains,0.081,markov
-Cobalt Group,Upload Malware,0.073,markov
-Stealth Falcon,Peripheral Device Discovery,0.079,markov
-Stealth Falcon,Visual Basic,0.077,markov
-Stealth Falcon,Malicious File,0.056,markov
-Stealth Falcon,Drive-by Compromise,0.05,markov
-Stealth Falcon,Ingress Tool Transfer,0.049,markov
+APT3,Upload Malware,0.159,markov
+APT3,Exploit Public-Facing Application,0.143,markov
+APT3,Domains,0.142,markov
+APT3,Email Accounts,0.141,markov
+APT3,Financial Theft,0.139,markov
+Cobalt Group,Exploit Public-Facing Application,0.232,markov
+Cobalt Group,Upload Malware,0.212,markov
+Cobalt Group,Domains,0.195,markov
+Cobalt Group,Web Services,0.175,markov
+Cobalt Group,Email Accounts,0.172,markov
+Stealth Falcon,Peripheral Device Discovery,0.161,markov
+Stealth Falcon,Virtual Private Server,0.161,markov
+Stealth Falcon,Web Services,0.16,markov
+Stealth Falcon,Upload Malware,0.159,markov
+Stealth Falcon,Lateral Tool Transfer,0.153,markov
 Agrius,Code Signing,0.268,similarity
 Agrius,Server,0.268,similarity
 Agrius,Botnet,0.244,similarity
 Agrius,Archive Collected Data,0.241,similarity
 Agrius,Credentials In Files,0.241,similarity
-Indrik Spider,Social Media Accounts,0.214,markov
-Indrik Spider,Domains,0.209,markov
-Indrik Spider,Establish Accounts,0.201,markov
-Indrik Spider,Web Service,0.196,markov
-Indrik Spider,Code Signing Certificates,0.182,markov
+Indrik Spider,Domains,0.304,markov
+Indrik Spider,Social Media Accounts,0.3,markov
+Indrik Spider,Establish Accounts,0.277,markov
+Indrik Spider,Code Signing Certificates,0.266,markov
+Indrik Spider,Web Service,0.261,markov
 Akira,Exploit Public-Facing Application,0.448,similarity
 Akira,File Deletion,0.448,similarity
 Akira,Ingress Tool Transfer,0.448,similarity
 Akira,Windows Command Shell,0.448,similarity
 Akira,Application Layer Protocol,0.242,similarity
-Confucius,Domains,0.081,markov
-Confucius,Windows Command Shell,0.062,markov
-Confucius,Valid Accounts,0.054,markov
-Confucius,Upload Malware,0.051,markov
-Confucius,Match Legitimate Resource Name or Location,0.049,markov
+Confucius,Domains,0.195,markov
+Confucius,Upload Malware,0.194,markov
+Confucius,Email Accounts,0.173,markov
+Confucius,Internet Connection Discovery,0.156,markov
+Confucius,Virtual Private Server,0.152,markov
 Velvet Ant,Domain Account,0.459,similarity
 Velvet Ant,Archive via Utility,0.326,similarity
 Velvet Ant,Domain Groups,0.326,similarity
 Velvet Ant,Exploit Public-Facing Application,0.326,similarity
 Velvet Ant,Windows Command Shell,0.326,similarity
-Sea Turtle,Windows Management Instrumentation Event Subscription,0.226,markov
-Sea Turtle,Malicious File,0.078,markov
-Sea Turtle,Malicious Link,0.072,markov
-Sea Turtle,Spearphishing Attachment,0.071,markov
-Sea Turtle,Web Services,0.063,markov
+Sea Turtle,Windows Management Instrumentation Event Subscription,0.288,markov
+Sea Turtle,Web Services,0.178,markov
+Sea Turtle,Email Accounts,0.174,markov
+Sea Turtle,Upload Malware,0.163,markov
+Sea Turtle,Compression,0.156,markov
 BITTER,Malicious Link,0.536,similarity
 BITTER,Drive-by Compromise,0.273,similarity
 BITTER,Drive-by Target,0.273,similarity
@@ -415,16 +415,16 @@ AppleJeus,Social Media Accounts,0.25,similarity
 AppleJeus,Command Obfuscation,0.1,similarity
 AppleJeus,Compromise Software Supply Chain,0.1,similarity
 AppleJeus,Exploit Public-Facing Application,0.1,similarity
-Carbanak,Malicious File,0.05,markov
-Carbanak,Spearphishing Attachment,0.047,markov
-Carbanak,Ingress Tool Transfer,0.043,markov
-Carbanak,PowerShell,0.042,markov
-Carbanak,Windows Command Shell,0.037,markov
-APT33,Web Services,0.193,markov
-APT33,JavaScript,0.144,markov
-APT33,Email Accounts,0.137,markov
-APT33,Peripheral Device Discovery,0.129,markov
-APT33,Match Legitimate Resource Name or Location,0.129,markov
+Carbanak,Upload Malware,0.172,markov
+Carbanak,Email Accounts,0.154,markov
+Carbanak,Domains,0.148,markov
+Carbanak,Impersonation,0.145,markov
+Carbanak,Exfiltration to Cloud Storage,0.145,markov
+APT33,Web Services,0.288,markov
+APT33,Email Accounts,0.249,markov
+APT33,Upload Malware,0.238,markov
+APT33,Domains,0.224,markov
+APT33,JavaScript,0.214,markov
 BlackByte,Email Accounts,0.651,similarity
 BlackByte,Exfiltration to Cloud Storage,0.651,similarity
 BlackByte,LSASS Memory,0.651,similarity
@@ -440,21 +440,21 @@ ToddyCat,File Deletion,0.514,similarity
 ToddyCat,System Network Configuration Discovery,0.514,similarity
 ToddyCat,Automated Collection,0.258,similarity
 ToddyCat,Browser Information Discovery,0.258,similarity
-Dragonfly,Hidden Window,1.608,markov
-Dragonfly,Deobfuscate/Decode Files or Information,0.429,markov
-Dragonfly,Web Protocols,0.408,markov
-Dragonfly,Match Legitimate Resource Name or Location,0.394,markov
-Dragonfly,Malicious Link,0.349,markov
+Dragonfly,Hidden Window,1.463,markov
+Dragonfly,Deobfuscate/Decode Files or Information,0.465,markov
+Dragonfly,Match Legitimate Resource Name or Location,0.425,markov
+Dragonfly,Financial Theft,0.402,markov
+Dragonfly,Web Protocols,0.396,markov
 Suckfly,Archive via Utility,0.167,similarity
 Suckfly,Data from Network Shared Drive,0.167,similarity
 Suckfly,File and Directory Discovery,0.167,similarity
 Suckfly,Keylogging,0.167,similarity
 Suckfly,Match Legitimate Resource Name or Location,0.167,similarity
-Axiom,Remote Data Staging,0.124,markov
-Axiom,Windows Management Instrumentation Event Subscription,0.099,markov
-Axiom,Deobfuscate/Decode Files or Information,0.085,markov
-Axiom,Command Obfuscation,0.073,markov
-Axiom,NTDS,0.069,markov
+Axiom,Remote Data Staging,0.204,markov
+Axiom,Windows Management Instrumentation Event Subscription,0.18,markov
+Axiom,Data Encrypted for Impact,0.176,markov
+Axiom,Deobfuscate/Decode Files or Information,0.172,markov
+Axiom,Command Obfuscation,0.168,markov
 LuminousMoth,Mshta,0.257,similarity
 LuminousMoth,Visual Basic,0.257,similarity
 LuminousMoth,Web Services,0.257,similarity
@@ -465,11 +465,11 @@ Evilnum,Embedded Payloads,0.214,similarity
 Evilnum,Windows Command Shell,0.214,similarity
 Evilnum,Compression,0.174,similarity
 Evilnum,Deobfuscate/Decode Files or Information,0.174,similarity
-GALLIUM,File and Directory Discovery,0.055,markov
-GALLIUM,Malicious File,0.05,markov
-GALLIUM,Exploitation for Privilege Escalation,0.048,markov
-GALLIUM,Spearphishing Attachment,0.047,markov
-GALLIUM,Local Account,0.045,markov
+GALLIUM,Upload Malware,0.167,markov
+GALLIUM,Email Accounts,0.162,markov
+GALLIUM,Internet Connection Discovery,0.159,markov
+GALLIUM,Exfiltration to Cloud Storage,0.155,markov
+GALLIUM,Financial Theft,0.153,markov
 Malteiro,Mshta,0.449,similarity
 Malteiro,Software Discovery,0.449,similarity
 Malteiro,Ingress Tool Transfer,0.445,similarity
@@ -480,11 +480,11 @@ Silent Librarian,Spearphishing Attachment,0.352,similarity
 Silent Librarian,Exploitation for Client Execution,0.227,similarity
 Silent Librarian,Malicious Link,0.227,similarity
 Silent Librarian,Search Closed Sources,0.227,similarity
-Leviathan,File and Directory Discovery,0.039,markov
-Leviathan,Match Legitimate Resource Name or Location,0.037,markov
-Leviathan,Windows Command Shell,0.034,markov
-Leviathan,Scheduled Task,0.033,markov
-Leviathan,Network Service Discovery,0.031,markov
+Leviathan,Upload Malware,0.159,markov
+Leviathan,Internet Connection Discovery,0.147,markov
+Leviathan,Virtual Private Server,0.145,markov
+Leviathan,Financial Theft,0.145,markov
+Leviathan,Impersonation,0.141,markov
 Winter Vivern,Exfiltration to Cloud Storage,0.278,similarity
 Winter Vivern,Mshta,0.278,similarity
 Winter Vivern,Visual Basic,0.278,similarity
@@ -495,11 +495,11 @@ BlackOasis,Dynamic Data Exchange,0.167,similarity
 BlackOasis,Malicious File,0.167,similarity
 BlackOasis,PowerShell,0.167,similarity
 BlackOasis,Spearphishing Attachment,0.167,similarity
-CURIUM,Ingress Tool Transfer,0.156,markov
-CURIUM,Scheduled Task,0.135,markov
-CURIUM,Visual Basic,0.134,markov
-CURIUM,Deobfuscate/Decode Files or Information,0.129,markov
-CURIUM,File and Directory Discovery,0.126,markov
+CURIUM,Exploit Public-Facing Application,0.227,markov
+CURIUM,Upload Malware,0.22,markov
+CURIUM,Internet Connection Discovery,0.21,markov
+CURIUM,Deobfuscate/Decode Files or Information,0.21,markov
+CURIUM,Compression,0.206,markov
 Blue Mockingbird,System Owner/User Discovery,0.473,similarity
 Blue Mockingbird,Account Discovery,0.256,similarity
 Blue Mockingbird,Clear Command History,0.256,similarity
@@ -510,31 +510,31 @@ BackdoorDiplomacy,Code Signing,0.194,similarity
 BackdoorDiplomacy,Lateral Tool Transfer,0.194,similarity
 BackdoorDiplomacy,Server,0.194,similarity
 BackdoorDiplomacy,Domain Accounts,0.174,similarity
-Cinnamon Tempest,File and Directory Discovery,0.047,markov
-Cinnamon Tempest,Malicious File,0.045,markov
-Cinnamon Tempest,Spearphishing Attachment,0.04,markov
-Cinnamon Tempest,Scheduled Task,0.038,markov
-Cinnamon Tempest,Web Protocols,0.036,markov
-Ke3chang,Command Obfuscation,0.068,markov
-Ke3chang,Data Encrypted for Impact,0.063,markov
-Ke3chang,Software Deployment Tools,0.059,markov
-Ke3chang,Malicious File,0.035,markov
-Ke3chang,PowerShell,0.035,markov
-APT42,Encrypted/Encoded File,0.046,markov
-APT42,System Owner/User Discovery,0.046,markov
-APT42,Native API,0.038,markov
-APT42,Ingress Tool Transfer,0.035,markov
-APT42,Malicious File,0.035,markov
-Machete,Ingress Tool Transfer,0.046,markov
-Machete,PowerShell,0.042,markov
-Machete,File and Directory Discovery,0.035,markov
-Machete,Registry Run Keys / Startup Folder,0.033,markov
-Machete,Exploitation for Client Execution,0.03,markov
-Leafminer,Malicious Link,0.129,markov
-Leafminer,Visual Basic,0.122,markov
-Leafminer,Spearphishing Link,0.119,markov
-Leafminer,Peripheral Device Discovery,0.104,markov
-Leafminer,Masquerading,0.092,markov
+Cinnamon Tempest,Upload Malware,0.162,markov
+Cinnamon Tempest,Virtual Private Server,0.15,markov
+Cinnamon Tempest,Domains,0.148,markov
+Cinnamon Tempest,Email Accounts,0.146,markov
+Cinnamon Tempest,Web Services,0.146,markov
+Ke3chang,Data Encrypted for Impact,0.174,markov
+Ke3chang,Command Obfuscation,0.164,markov
+Ke3chang,Upload Malware,0.159,markov
+Ke3chang,Software Deployment Tools,0.156,markov
+Ke3chang,Domains,0.142,markov
+APT42,Compression,0.149,markov
+APT42,Dynamic Resolution,0.144,markov
+APT42,Exploit Public-Facing Application,0.143,markov
+APT42,Financial Theft,0.139,markov
+APT42,Exfiltration to Cloud Storage,0.139,markov
+Machete,Upload Malware,0.159,markov
+Machete,Exploit Public-Facing Application,0.149,markov
+Machete,Domains,0.145,markov
+Machete,Email Accounts,0.141,markov
+Machete,Virtual Private Server,0.14,markov
+Leafminer,Web Services,0.199,markov
+Leafminer,Disable or Modify Tools,0.192,markov
+Leafminer,Malicious Link,0.188,markov
+Leafminer,Peripheral Device Discovery,0.182,markov
+Leafminer,Domain Account,0.181,markov
 Tonto Team,Visual Basic,0.25,similarity
 Tonto Team,Masquerading,0.238,similarity
 Tonto Team,Credentials from Web Browsers,0.235,similarity
@@ -549,31 +549,31 @@ PROMETHIUM,Remote Desktop Software,0.2,similarity
 PROMETHIUM,Spearphishing Attachment,0.2,similarity
 PROMETHIUM,Domain Accounts,0.19,similarity
 PROMETHIUM,Network Service Discovery,0.19,similarity
-APT5,Deobfuscate/Decode Files or Information,0.146,markov
-APT5,Command Obfuscation,0.142,markov
-APT5,Data Encrypted for Impact,0.138,markov
-APT5,NTDS,0.138,markov
-APT5,Software Deployment Tools,0.133,markov
-PLATINUM,Upload Malware,0.054,markov
-PLATINUM,Domains,0.047,markov
-PLATINUM,Web Services,0.04,markov
-PLATINUM,Code Signing,0.039,markov
-PLATINUM,Email Accounts,0.039,markov
+APT5,Data Encrypted for Impact,0.237,markov
+APT5,Command Obfuscation,0.227,markov
+APT5,Deobfuscate/Decode Files or Information,0.224,markov
+APT5,NTDS,0.221,markov
+APT5,Software Deployment Tools,0.219,markov
+PLATINUM,Upload Malware,0.196,markov
+PLATINUM,Domains,0.166,markov
+PLATINUM,Email Accounts,0.166,markov
+PLATINUM,Web Services,0.158,markov
+PLATINUM,Exploit Public-Facing Application,0.155,markov
 Ember Bear,Local Data Staging,0.448,similarity
 Ember Bear,Remote Desktop Protocol,0.448,similarity
 Ember Bear,Windows Command Shell,0.448,similarity
 Ember Bear,Archive via Utility,0.241,similarity
 Ember Bear,Deobfuscate/Decode Files or Information,0.241,similarity
-Sidewinder,Windows Command Shell,0.037,markov
-Sidewinder,Scheduled Task,0.026,markov
-Sidewinder,Data from Local System,0.025,markov
-Sidewinder,LSASS Memory,0.025,markov
-Sidewinder,Windows Management Instrumentation,0.024,markov
-DarkHydrus,Domains,0.049,markov
-DarkHydrus,Command Obfuscation,0.042,markov
-DarkHydrus,Web Protocols,0.038,markov
-DarkHydrus,Non-Standard Port,0.037,markov
-DarkHydrus,Ingress Tool Transfer,0.035,markov
+Sidewinder,Upload Malware,0.165,markov
+Sidewinder,Exploit Public-Facing Application,0.146,markov
+Sidewinder,Domains,0.145,markov
+Sidewinder,Exfiltration to Cloud Storage,0.144,markov
+Sidewinder,Email Accounts,0.144,markov
+DarkHydrus,Domains,0.167,markov
+DarkHydrus,Upload Malware,0.159,markov
+DarkHydrus,Exploit Public-Facing Application,0.156,markov
+DarkHydrus,Financial Theft,0.152,markov
+DarkHydrus,Web Services,0.146,markov
 TA551,Domains,0.32,similarity
 TA551,Malicious Link,0.32,similarity
 TA551,Upload Malware,0.32,similarity
@@ -594,31 +594,31 @@ EXOTIC LILY,Drive-by Compromise,0.273,similarity
 EXOTIC LILY,Drive-by Target,0.273,similarity
 EXOTIC LILY,Dynamic Resolution,0.273,similarity
 EXOTIC LILY,Encrypted/Encoded File,0.273,similarity
-Higaisa,Ingress Tool Transfer,0.045,markov
-Higaisa,PowerShell,0.035,markov
-Higaisa,File and Directory Discovery,0.031,markov
-Higaisa,Valid Accounts,0.028,markov
-Higaisa,System Owner/User Discovery,0.026,markov
-APT1,Malicious Link,0.076,markov
-APT1,Ingress Tool Transfer,0.068,markov
-APT1,Exploit Public-Facing Application,0.066,markov
-APT1,Windows Management Instrumentation,0.063,markov
-APT1,Web Shell,0.063,markov
+Higaisa,Upload Malware,0.159,markov
+Higaisa,Impersonation,0.147,markov
+Higaisa,Exfiltration to Cloud Storage,0.147,markov
+Higaisa,Exploit Public-Facing Application,0.143,markov
+Higaisa,Virtual Private Server,0.142,markov
+APT1,Exploit Public-Facing Application,0.184,markov
+APT1,Upload Malware,0.184,markov
+APT1,Impersonation,0.174,markov
+APT1,Web Services,0.163,markov
+APT1,Financial Theft,0.16,markov
 Daggerfly,Domains,0.208,similarity
 Daggerfly,Drive-by Target,0.208,similarity
 Daggerfly,Match Legitimate Resource Name or Location,0.208,similarity
 Daggerfly,Spearphishing Link,0.208,similarity
 Daggerfly,Upload Malware,0.208,similarity
-Volatile Cedar,Malicious File,0.035,markov
-Volatile Cedar,PowerShell,0.035,markov
-Volatile Cedar,Spearphishing Attachment,0.032,markov
-Volatile Cedar,Windows Command Shell,0.03,markov
-Volatile Cedar,Match Legitimate Resource Name or Location,0.025,markov
-Elderwood,PowerShell,0.039,markov
-Elderwood,Web Protocols,0.034,markov
-Elderwood,Windows Command Shell,0.034,markov
-Elderwood,Visual Basic,0.033,markov
-Elderwood,Scheduled Task,0.033,markov
+Volatile Cedar,Upload Malware,0.159,markov
+Volatile Cedar,Domains,0.142,markov
+Volatile Cedar,Email Accounts,0.141,markov
+Volatile Cedar,Financial Theft,0.139,markov
+Volatile Cedar,Impersonation,0.139,markov
+Elderwood,Upload Malware,0.169,markov
+Elderwood,Email Accounts,0.157,markov
+Elderwood,Exploit Public-Facing Application,0.15,markov
+Elderwood,Domains,0.148,markov
+Elderwood,Exfiltration to Cloud Storage,0.148,markov
 Dark Caracal,DNS,0.263,similarity
 Dark Caracal,Malicious Link,0.235,similarity
 Dark Caracal,Credentials from Web Browsers,0.222,similarity
@@ -645,16 +645,16 @@ Contagious Interview,Network Topology,0.221,similarity
 Contagious Interview,Phishing,0.221,similarity
 Contagious Interview,Botnet,0.203,similarity
 Contagious Interview,Cloud Accounts,0.203,similarity
-FIN10,Ingress Tool Transfer,0.043,markov
-FIN10,Malicious File,0.043,markov
-FIN10,Process Discovery,0.041,markov
-FIN10,Spearphishing Attachment,0.04,markov
-FIN10,System Information Discovery,0.039,markov
-Poseidon Group,Ingress Tool Transfer,0.049,markov
-Poseidon Group,Spearphishing Attachment,0.041,markov
-Poseidon Group,Malicious File,0.04,markov
-Poseidon Group,Deobfuscate/Decode Files or Information,0.039,markov
-Poseidon Group,File and Directory Discovery,0.035,markov
+FIN10,Upload Malware,0.166,markov
+FIN10,Exploit Public-Facing Application,0.15,markov
+FIN10,Domains,0.149,markov
+FIN10,Email Accounts,0.148,markov
+FIN10,Exfiltration to Cloud Storage,0.145,markov
+Poseidon Group,Upload Malware,0.163,markov
+Poseidon Group,Exploit Public-Facing Application,0.151,markov
+Poseidon Group,Domains,0.146,markov
+Poseidon Group,Email Accounts,0.145,markov
+Poseidon Group,Financial Theft,0.143,markov
 Storm-0501,Exfiltration Over C2 Channel,0.482,similarity
 Storm-0501,Ingress Tool Transfer,0.482,similarity
 Storm-0501,Remote Desktop Protocol,0.482,similarity
@@ -665,31 +665,31 @@ Ferocious Kitten,Ingress Tool Transfer,0.375,similarity
 Ferocious Kitten,Web Services,0.375,similarity
 Ferocious Kitten,Drive-by Compromise,0.286,similarity
 Ferocious Kitten,Drive-by Target,0.286,similarity
-Rancor,PowerShell,0.035,markov
-Rancor,System Information Discovery,0.031,markov
-Rancor,Spearphishing Link,0.03,markov
-Rancor,Match Legitimate Resource Name or Location,0.025,markov
-Rancor,Exploitation for Client Execution,0.025,markov
+Rancor,Upload Malware,0.166,markov
+Rancor,Email Accounts,0.148,markov
+Rancor,Exploit Public-Facing Application,0.143,markov
+Rancor,Domains,0.142,markov
+Rancor,Virtual Private Server,0.141,markov
 Windigo,Encrypted/Encoded File,0.354,similarity
 Windigo,Malicious File,0.354,similarity
 Windigo,Registry Run Keys / Startup Folder,0.354,similarity
 Windigo,Web Protocols,0.354,similarity
 Windigo,Credentials from Web Browsers,0.317,similarity
-RTM,Ingress Tool Transfer,0.118,markov
-RTM,Visual Basic,0.09,markov
-RTM,Match Legitimate Resource Name or Location,0.085,markov
-RTM,Windows Command Shell,0.08,markov
-RTM,Domains,0.078,markov
+RTM,Upload Malware,0.197,markov
+RTM,Domains,0.192,markov
+RTM,Email Accounts,0.192,markov
+RTM,Exploit Public-Facing Application,0.166,markov
+RTM,Match Legitimate Resource Name or Location,0.162,markov
 DarkVishnya,Exploit Public-Facing Application,0.232,similarity
 DarkVishnya,Masquerade Task or Service,0.133,similarity
 DarkVishnya,Command Obfuscation,0.125,similarity
 DarkVishnya,Compromise Software Supply Chain,0.125,similarity
 DarkVishnya,External Remote Services,0.125,similarity
-SilverTerrier,Ingress Tool Transfer,0.05,markov
-SilverTerrier,PowerShell,0.05,markov
-SilverTerrier,Windows Command Shell,0.045,markov
-SilverTerrier,System Information Discovery,0.038,markov
-SilverTerrier,Proxy,0.037,markov
+SilverTerrier,Upload Malware,0.159,markov
+SilverTerrier,Domains,0.155,markov
+SilverTerrier,Proxy,0.15,markov
+SilverTerrier,Exploit Public-Facing Application,0.143,markov
+SilverTerrier,Email Accounts,0.141,markov
 The White Company,DNS Calculation,0.333,similarity
 The White Company,Malicious Link,0.333,similarity
 The White Company,PowerShell,0.333,similarity
@@ -704,51 +704,51 @@ Threat Group-1314,Proxy,0.158,similarity
 Threat Group-1314,Code Signing,0.125,similarity
 Threat Group-1314,Network Service Discovery,0.125,similarity
 Threat Group-1314,OS Credential Dumping,0.125,similarity
-Star Blizzard,Ingress Tool Transfer,0.06,markov
-Star Blizzard,PowerShell,0.059,markov
-Star Blizzard,System Information Discovery,0.048,markov
-Star Blizzard,System Network Configuration Discovery,0.042,markov
-Star Blizzard,Remote Desktop Protocol,0.039,markov
-APT18,Malicious File,0.05,markov
-APT18,Exploit Public-Facing Application,0.048,markov
-APT18,Deobfuscate/Decode Files or Information,0.045,markov
-APT18,Match Legitimate Resource Name or Location,0.04,markov
-APT18,Obfuscated Files or Information,0.037,markov
-Strider,Ingress Tool Transfer,0.035,markov
-Strider,Malicious File,0.035,markov
-Strider,PowerShell,0.035,markov
-Strider,Spearphishing Attachment,0.032,markov
-Strider,Windows Command Shell,0.03,markov
+Star Blizzard,Disable or Modify Tools,0.148,markov
+Star Blizzard,Proxy,0.145,markov
+Star Blizzard,Cloud Accounts,0.145,markov
+Star Blizzard,Exploit Public-Facing Application,0.143,markov
+Star Blizzard,Inhibit System Recovery,0.141,markov
+APT18,Upload Malware,0.172,markov
+APT18,Exploit Public-Facing Application,0.169,markov
+APT18,Domains,0.155,markov
+APT18,Web Services,0.146,markov
+APT18,Email Accounts,0.141,markov
+Strider,Upload Malware,0.159,markov
+Strider,Exploit Public-Facing Application,0.143,markov
+Strider,Domains,0.142,markov
+Strider,Email Accounts,0.141,markov
+Strider,Financial Theft,0.139,markov
 Lotus Blossom,DLL,0.365,similarity
 Lotus Blossom,Network Share Discovery,0.365,similarity
 Lotus Blossom,Pass the Hash,0.365,similarity
 Lotus Blossom,Protocol Tunneling,0.365,similarity
 Lotus Blossom,Web Protocols,0.365,similarity
-APT12,Ingress Tool Transfer,0.035,markov
-APT12,PowerShell,0.035,markov
-APT12,Windows Command Shell,0.03,markov
-APT12,Match Legitimate Resource Name or Location,0.025,markov
-APT12,System Information Discovery,0.023,markov
+APT12,Upload Malware,0.159,markov
+APT12,Exploit Public-Facing Application,0.143,markov
+APT12,Domains,0.142,markov
+APT12,Email Accounts,0.141,markov
+APT12,Financial Theft,0.139,markov
 RedEcho,Dynamic Data Exchange,0.176,similarity
 RedEcho,Encrypted Channel,0.176,similarity
 RedEcho,Encrypted/Encoded File,0.176,similarity
 RedEcho,Exploitation for Client Execution,0.176,similarity
 RedEcho,Exploitation for Privilege Escalation,0.176,similarity
-Deep Panda,Domains,0.049,markov
-Deep Panda,Command Obfuscation,0.042,markov
-Deep Panda,Web Protocols,0.038,markov
-Deep Panda,Non-Standard Port,0.037,markov
-Deep Panda,Ingress Tool Transfer,0.035,markov
+Deep Panda,Domains,0.167,markov
+Deep Panda,Upload Malware,0.159,markov
+Deep Panda,Exploit Public-Facing Application,0.156,markov
+Deep Panda,Financial Theft,0.152,markov
+Deep Panda,Web Services,0.146,markov
 Moafee,Disable or Modify Tools,0.084,similarity
 Moafee,Account Access Removal,0.059,similarity
 Moafee,Archive via Utility,0.059,similarity
 Moafee,Data Encrypted for Impact,0.059,similarity
 Moafee,Domain Trust Discovery,0.059,similarity
-GCMAN,Command Obfuscation,0.142,markov
-GCMAN,Social Media Accounts,0.138,markov
-GCMAN,Web Service,0.136,markov
-GCMAN,Replication Through Removable Media,0.133,markov
-GCMAN,Establish Accounts,0.132,markov
+GCMAN,Social Media Accounts,0.235,markov
+GCMAN,Command Obfuscation,0.227,markov
+GCMAN,Establish Accounts,0.218,markov
+GCMAN,Replication Through Removable Media,0.217,markov
+GCMAN,Web Service,0.21,markov
 TA459,DNS Calculation,0.429,similarity
 TA459,Hidden Window,0.375,similarity
 APT30,DNS Calculation,0.4,similarity
@@ -773,11 +773,11 @@ IndigoZebra,Right-to-Left Override,0.375,similarity
 IndigoZebra,Credentials from Web Browsers,0.333,similarity
 IndigoZebra,Keylogging,0.333,similarity
 IndigoZebra,Spearphishing via Service,0.333,similarity
-Winnti Group,Malicious File,0.064,markov
-Winnti Group,Spearphishing Attachment,0.058,markov
-Winnti Group,Match Legitimate Resource Name or Location,0.057,markov
-Winnti Group,PowerShell,0.056,markov
-Winnti Group,Scheduled Task,0.054,markov
+Winnti Group,Upload Malware,0.177,markov
+Winnti Group,Email Accounts,0.161,markov
+Winnti Group,Exploit Public-Facing Application,0.159,markov
+Winnti Group,Web Services,0.146,markov
+Winnti Group,Exfiltration to Cloud Storage,0.145,markov
 Gallmaker,Exploitation for Client Execution,0.375,similarity
 Gallmaker,Visual Basic,0.375,similarity
 Gallmaker,Hidden Window,0.333,similarity
@@ -786,21 +786,21 @@ Thrip,Spearphishing Attachment,0.268,similarity
 Thrip,Exploitation for Client Execution,0.143,similarity
 Thrip,Visual Basic,0.143,similarity
 Thrip,Archive via Utility,0.125,similarity
-Cleaver,Web Shell,0.048,markov
-Cleaver,PowerShell,0.047,markov
-Cleaver,Spearphishing Attachment,0.044,markov
-Cleaver,Exploit Public-Facing Application,0.041,markov
-Cleaver,Windows Management Instrumentation,0.041,markov
+Cleaver,Upload Malware,0.169,markov
+Cleaver,Exploit Public-Facing Application,0.163,markov
+Cleaver,Web Services,0.154,markov
+Cleaver,Domains,0.152,markov
+Cleaver,Email Accounts,0.151,markov
 APT17,JavaScript,0.2,similarity
 APT17,Malicious Link,0.2,similarity
 APT17,Search Victim-Owned Websites,0.2,similarity
 APT17,Bidirectional Communication,0.143,similarity
 APT17,Domains,0.143,similarity
-Equation,Ingress Tool Transfer,0.035,markov
-Equation,Malicious File,0.035,markov
-Equation,PowerShell,0.035,markov
-Equation,Spearphishing Attachment,0.032,markov
-Equation,Windows Command Shell,0.03,markov
+Equation,Upload Malware,0.159,markov
+Equation,Exploit Public-Facing Application,0.143,markov
+Equation,Domains,0.142,markov
+Equation,Email Accounts,0.141,markov
+Equation,Financial Theft,0.139,markov
 Whitefly,Masquerading,0.267,similarity
 Whitefly,Malicious Link,0.214,similarity
 Whitefly,Domains,0.211,similarity

@@ -1,4 +1,5 @@
-model,total_groups,precision_at_1,precision_at_3,precision_at_5
-Random,39,0.026,0.051,0.077
-Frequency (popularity),39,0.051,0.333,0.436
-TemporalCTI (Hybrid Markov),39,0.128,0.308,0.41
+model,train_end_year,test_start_year,total_groups,hit_at_1,hit_at_3,hit_at_5
+Random,2023,2024,39,0.026,0.051,0.077
+Frequency (popularity),2023,2024,39,0.051,0.333,0.436
+"Markov (original, frozen baseline)",2023,2024,39,0.128,0.308,0.41
+"TemporalCTI (Markov + Velocity, gamma=0.15)",2023,2024,39,0.231,0.333,0.41
