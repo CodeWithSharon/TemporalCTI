@@ -179,16 +179,22 @@ def evaluate_predictions():
     except FileNotFoundError:
         print(f"  prediction_validation.csv not found — run markov_prediction.py first.")
 
+    # NOTE: baseline_comparison.csv's columns are named hit_at_1/hit_at_3/
+    # hit_at_5 (see evaluate_baseline() and load_temporalcti_results() in
+    # baseline_comparison.py) - NOT precision_at_1. This previously
+    # referenced 'precision_at_1' here, which doesn't exist in that CSV
+    # and raises a KeyError (not a FileNotFoundError, so the except below
+    # never caught it). Fixed to match the actual column names.
     try:
         base_df = pd.read_csv('data/processed/baseline_comparison.csv')
         proposed = base_df[base_df['model'].str.contains('TemporalCTI', na=False)].iloc[0]
         best_baseline = base_df[~base_df['model'].str.contains('TemporalCTI', na=False)] \
-            .sort_values('precision_at_1', ascending=False).iloc[0]
+            .sort_values('hit_at_1', ascending=False).iloc[0]
         # NOTE: percentage-point (pp) difference, not relative %. Relative %
         # over a small baseline (P@1=0.051) inflated to "+151%"; pp avoids
         # that small-denominator distortion. See baseline_comparison.py.
-        improvement_pp = (proposed['precision_at_1'] - best_baseline['precision_at_1']) * 100
-        print(f"  Best baseline    : {best_baseline['model']} (P@1={best_baseline['precision_at_1']:.3f})")
+        improvement_pp = (proposed['hit_at_1'] - best_baseline['hit_at_1']) * 100
+        print(f"  Best baseline    : {best_baseline['model']} (P@1={best_baseline['hit_at_1']:.3f})")
         print(f"  Improvement      : {improvement_pp:+.1f} percentage points over best baseline at P@1")
     except FileNotFoundError:
         print(f"  baseline_comparison.csv not found — run baseline_comparison.py first.")
@@ -364,18 +370,26 @@ def generate_summary():
 
     val_df           = pd.read_csv('data/processed/prediction_validation.csv')
     p_at_1           = val_df.iloc[0]['precision_at_1']
+
+    # NOTE: baseline_comparison.csv's columns are hit_at_1/hit_at_3/hit_at_5
+    # (see evaluate_baseline()/load_temporalcti_results() in
+    # baseline_comparison.py), not precision_at_1. This block previously
+    # referenced 'precision_at_1' unguarded (no try/except at all here),
+    # which raised an uncaught KeyError and crashed generate_summary()
+    # before it could print or save anything. Fixed to match the actual
+    # column names; no other logic changed.
     base_df          = pd.read_csv('data/processed/baseline_comparison.csv')
     proposed_row     = base_df[base_df['model'].str.contains('TemporalCTI', na=False)].iloc[0]
     best_base_row    = base_df[~base_df['model'].str.contains('TemporalCTI', na=False)] \
-                       .sort_values('precision_at_1', ascending=False).iloc[0]
+                       .sort_values('hit_at_1', ascending=False).iloc[0]
     # NOTE: percentage-point (pp) difference, not relative %. Relative %
     # over a small baseline (P@1=0.051) inflated to "+151%", overstating
     # the practical size of the gain (5 vs 2 correct out of 39 groups).
     # Percentage points avoid that small-denominator distortion.
-    p1_improvement_pp = (proposed_row['precision_at_1'] - best_base_row['precision_at_1']) * 100
+    p1_improvement_pp = (proposed_row['hit_at_1'] - best_base_row['hit_at_1']) * 100
     p1_n              = int(proposed_row['total_groups'])
-    p1_hits_proposed  = round(proposed_row['precision_at_1'] * p1_n)
-    p1_hits_baseline  = round(best_base_row['precision_at_1'] * p1_n)
+    p1_hits_proposed  = round(proposed_row['hit_at_1'] * p1_n)
+    p1_hits_baseline  = round(best_base_row['hit_at_1'] * p1_n)
 
     mit_rec_df       = pd.read_csv('data/processed/mitigation_recommendations.csv')
     mit_rec_total    = len(mit_rec_df)
