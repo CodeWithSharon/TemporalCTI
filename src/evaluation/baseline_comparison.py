@@ -1,5 +1,4 @@
 import os
-import sys
 import sqlite3
 import random
 
@@ -7,18 +6,8 @@ import pandas as pd
 
 
 # ============================================================
-# IMPORT THE REAL, ABLATED MODEL
+# PATHS
 # ============================================================
-#
-# IMPORTANT FIX: this used to import build_model_signals/predict_group
-# from mp.py - the old 5-signal "TemporalCTI" model that the original
-# baseline run showed LOSING to a plain Markov baseline (P@1 0.103 vs
-# 0.128). That model was discarded. The real, current model lives in
-# markov_prediction.py: the original Markov model plus a velocity
-# backoff term, individually ablation-tested and kept because it
-# improved P@1 from 0.128 -> 0.231 (see gamma_sensitivity_analysis in
-# that file). This import is now pointed at the correct file so this
-# comparison reflects the actual proposed model, not a discarded one.
 
 PROJECT_ROOT = os.path.abspath(
     os.path.join(
@@ -27,36 +16,6 @@ PROJECT_ROOT = os.path.abspath(
         ".."
     )
 )
-
-ANALYSIS_PATH = os.path.join(
-    PROJECT_ROOT,
-    "src",
-    "analysis"
-)
-
-if ANALYSIS_PATH not in sys.path:
-    sys.path.insert(
-        0,
-        ANALYSIS_PATH
-    )
-
-from markov_prediction import (
-    build_global_transition_matrix,
-    build_frequency_prior,
-    build_train_only_velocity,
-    hybrid_predict,
-)
-
-# Chosen gamma from the ablation in markov_prediction.py's
-# gamma_sensitivity_analysis - P@1 improves up to gamma=0.15 and
-# plateaus after that, so 0.15 is the smallest gamma reaching the
-# plateau (see conversation history / paper methodology section).
-FINAL_GAMMA = 0.15
-
-
-# ============================================================
-# CONFIGURATION
-# ============================================================
 
 DB_PATH = os.path.join(
     PROJECT_ROOT,
@@ -72,17 +31,55 @@ OUTPUT_PATH = os.path.join(
     "baseline_comparison.csv"
 )
 
-VALIDATION_PATH = os.path.join(
+FINAL_RESULTS_PATH = os.path.join(
     PROJECT_ROOT,
     "data",
     "processed",
-    "prediction_validation.csv"
+    "final_weight_results.csv"
 )
 
-TRAIN_END_YEAR = 2023
-TEST_START_YEAR = 2024
+ANALYSIS_PATH = os.path.join(
+    PROJECT_ROOT,
+    "src",
+    "analysis"
+)
+
+import sys
+
+if ANALYSIS_PATH not in sys.path:
+    sys.path.insert(0, ANALYSIS_PATH)
+
+from markov_prediction import (
+    build_global_transition_matrix,
+    build_frequency_prior,
+    build_train_only_velocity,
+    build_train_only_recency,
+    hybrid_predict,
+)
+
+
+# ============================================================
+# CONFIGURATION
+# ============================================================
+
+TEST_YEARS = [
+    2022,
+    2023,
+    2024,
+    2025,
+]
 
 TOP_K = 5
+
+FINAL_GAMMA = 0.15
+
+# Recency values selected using prior-year validation
+VALIDATED_DELTAS = {
+    2022: 0.15,
+    2023: 0.10,
+    2024: 0.10,
+    2025: 0.10,
+}
 
 GENERIC_TECHNIQUES = {
     "Tool",
@@ -100,9 +97,7 @@ GENERIC_TECHNIQUES = {
 
 def load_data():
 
-    conn = sqlite3.connect(
-        DB_PATH
-    )
+    conn = sqlite3.connect(DB_PATH)
 
     try:
 
@@ -155,17 +150,18 @@ def load_data():
 
 
 # ============================================================
-# BASELINE 1 — RANDOM
+# RANDOM BASELINE
 # ============================================================
 
-def random_baseline(
-    df,
-    apt_group,
+def random_predictions(
+    train_df,
+    group,
     top_n=5,
     seed=42
 ):
-    group_df = df[
-        df["apt_group"] == apt_group
+
+    group_df = train_df[
+        train_df["apt_group"] == group
     ]
 
     existing = set(
@@ -175,7 +171,11 @@ def random_baseline(
     )
 
     all_techniques = sorted(
-        set(df["technique"].dropna().unique())
+        set(
+            train_df["technique"]
+            .dropna()
+            .unique()
+        )
         - existing
     )
 
@@ -194,16 +194,17 @@ def random_baseline(
 
 
 # ============================================================
-# BASELINE 2 — FREQUENCY / POPULARITY
+# FREQUENCY BASELINE
 # ============================================================
 
-def frequency_baseline(
-    df,
-    apt_group,
+def frequency_predictions(
+    train_df,
+    group,
     top_n=5
 ):
-    group_df = df[
-        df["apt_group"] == apt_group
+
+    group_df = train_df[
+        train_df["apt_group"] == group
     ]
 
     existing = set(
@@ -213,17 +214,25 @@ def frequency_baseline(
     )
 
     counts = (
-        df
+        train_df
         .groupby("technique")["apt_group"]
         .nunique()
     )
 
     ranking = (
         counts
-        .reset_index(name="group_count")
+        .reset_index(
+            name="group_count"
+        )
         .sort_values(
-            ["group_count", "technique"],
-            ascending=[False, True]
+            [
+                "group_count",
+                "technique"
+            ],
+            ascending=[
+                False,
+                True
+            ]
         )
     )
 
@@ -236,7 +245,9 @@ def frequency_baseline(
         if technique in existing:
             continue
 
-        predictions.append(technique)
+        predictions.append(
+            technique
+        )
 
         if len(predictions) >= top_n:
             break
@@ -245,75 +256,191 @@ def frequency_baseline(
 
 
 # ============================================================
-# BASELINE 3 — ORIGINAL MARKOV (frozen, pre-ablation model)
+# RECENCY BASELINE
 # ============================================================
-#
-# This is the row that was missing before: the plain Markov model with
-# no velocity term (gamma=0.0), the frozen baseline every other signal
-# was tested against in markov_prediction.py. Including it here is
-# what makes the comparison honest - it's the most obvious baseline
-# for a temporal-prediction task and was previously absent.
 
-def make_markov_predict_fn(
-    global_matrix,
-    freq_prior,
-    velocity_map=None,
-    gamma=0.0
+def recency_predictions(
+    train_df,
+    group,
+    top_n=5,
+    lookback_years=2
 ):
-    """
-    Returns a predict_fn(train_df, apt_group, top_n) -> [technique, ...]
-    compatible with evaluate_baseline(), wrapping markov_prediction.py's
-    hybrid_predict at a fixed gamma. gamma=0.0 (default) reproduces the
-    original frozen model; gamma=FINAL_GAMMA gives the ablation-selected
-    final model.
-    """
 
-    def _predict(train_df, apt_group, top_n):
+    group_df = train_df[
+        train_df["apt_group"] == group
+    ]
 
-        preds, method = hybrid_predict(
-            train_df,
-            apt_group,
-            global_matrix,
-            freq_prior,
-            top_n=top_n,
-            velocity_map=velocity_map,
-            gamma=gamma,
+    existing = set(
+        group_df["technique"]
+        .dropna()
+        .unique()
+    )
+
+    if train_df.empty:
+        return []
+
+    latest_year = train_df["year"].max()
+
+    recent_df = train_df[
+        train_df["year"] >=
+        latest_year - lookback_years + 1
+    ]
+
+    counts = (
+        recent_df
+        .groupby("technique")["apt_group"]
+        .nunique()
+    )
+
+    ranking = (
+        counts
+        .reset_index(
+            name="recent_group_count"
+        )
+        .sort_values(
+            [
+                "recent_group_count",
+                "technique"
+            ],
+            ascending=[
+                False,
+                True
+            ]
+        )
+    )
+
+    predictions = []
+
+    for _, row in ranking.iterrows():
+
+        technique = row["technique"]
+
+        if technique in existing:
+            continue
+
+        predictions.append(
+            technique
         )
 
-        return [technique for technique, score in preds]
+        if len(predictions) >= top_n:
+            break
 
-    return _predict
+    return predictions
 
 
 # ============================================================
-# HELD-OUT BASELINE EVALUATION
+# MARKOV PREDICTIONS
 # ============================================================
 
-def evaluate_baseline(
-    df,
-    predict_fn,
-    label
+def markov_predictions(
+    train_df,
+    group,
+    global_matrix,
+    freq_prior,
+    top_n=5
 ):
+
+    preds, method = hybrid_predict(
+        train_df,
+        group,
+        global_matrix,
+        freq_prior,
+        top_n=top_n,
+        velocity_map=None,
+        gamma=0.0,
+        recency_map=None,
+        delta=0.0,
+    )
+
+    return [
+        technique
+        for technique, score in preds
+    ]
+
+
+# ============================================================
+# FINAL TEMPORALCTI PREDICTIONS
+# ============================================================
+
+def temporalcti_predictions(
+    train_df,
+    group,
+    global_matrix,
+    freq_prior,
+    velocity_map,
+    recency_map,
+    gamma,
+    delta,
+    top_n=5
+):
+
+    preds, method = hybrid_predict(
+        train_df,
+        group,
+        global_matrix,
+        freq_prior,
+        top_n=top_n,
+        velocity_map=velocity_map,
+        gamma=gamma,
+        recency_map=recency_map,
+        delta=delta,
+    )
+
+    return [
+        technique
+        for technique, score in preds
+    ]
+
+
+# ============================================================
+# EVALUATE ONE MODEL FOR ONE TEST YEAR
+# ============================================================
+
+def evaluate_year(
+    df,
+    test_year,
+    model_name,
+    predictor,
+    top_n=5
+):
+
     train_df = df[
-        df["year"] <= TRAIN_END_YEAR
+        df["year"] < test_year
     ].copy()
 
     test_df = df[
-        df["year"] >= TEST_START_YEAR
+        df["year"] == test_year
     ].copy()
 
-    train_groups = set(train_df["apt_group"].unique())
-    test_groups = set(test_df["apt_group"].unique())
+    train_groups = set(
+        train_df["apt_group"].unique()
+    )
 
-    valid_groups = sorted(train_groups & test_groups)
+    test_groups = set(
+        test_df["apt_group"].unique()
+    )
 
-    hits = {1: 0, 3: 0, 5: 0}
+    valid_groups = sorted(
+        train_groups & test_groups
+    )
+
+    hits = {
+        1: 0,
+        3: 0,
+        5: 0,
+    }
+
     total = 0
 
     for group in valid_groups:
 
-        group_train = train_df[train_df["apt_group"] == group]
-        group_test = test_df[test_df["apt_group"] == group]
+        group_train = train_df[
+            train_df["apt_group"] == group
+        ]
+
+        group_test = test_df[
+            test_df["apt_group"] == group
+        ]
 
         if group_train.empty:
             continue
@@ -322,22 +449,29 @@ def evaluate_baseline(
             continue
 
         historical_ttps = set(
-            group_train["technique"].dropna().unique()
+            group_train["technique"]
+            .dropna()
+            .unique()
         )
 
         future_ttps = set(
-            group_test["technique"].dropna().unique()
+            group_test["technique"]
+            .dropna()
+            .unique()
         )
 
-        new_ttps = future_ttps - historical_ttps
+        new_ttps = (
+            future_ttps -
+            historical_ttps
+        )
 
         if not new_ttps:
             continue
 
-        predicted = predict_fn(
+        predicted = predictor(
             train_df,
             group,
-            TOP_K
+            top_n
         )
 
         if not predicted:
@@ -349,160 +483,297 @@ def evaluate_baseline(
 
             top_k = predicted[:k]
 
-            if any(technique in new_ttps for technique in top_k):
+            if any(
+                technique in new_ttps
+                for technique in top_k
+            ):
                 hits[k] += 1
 
     if total == 0:
         return None
 
     return {
-        "model": label,
-        "train_end_year": TRAIN_END_YEAR,
-        "test_start_year": TEST_START_YEAR,
+        "model": model_name,
+        "year": test_year,
         "total_groups": total,
-        "hit_at_1": round(hits[1] / total, 3),
-        "hit_at_3": round(hits[3] / total, 3),
-        "hit_at_5": round(hits[5] / total, 3),
+        "hit_at_1": hits[1] / total,
+        "hit_at_3": hits[3] / total,
+        "hit_at_5": hits[5] / total,
     }
 
 
 # ============================================================
-# LOAD FINAL-MODEL VALIDATION RESULTS FROM markov_prediction.py's CSV
+# ROLLING EVALUATION
 # ============================================================
 
-def load_temporalcti_results():
-    """
-    Reads data/processed/prediction_validation.csv, which
-    markov_prediction.py now writes using gamma=0.15 (the ablation-
-    selected final model) - see held_out_validation(df, global_matrix,
-    gamma=0.15) in that file's __main__ block. So these numbers already
-    reflect Markov + velocity backoff, not the frozen baseline and not
-    the old discarded 5-signal model.
-    """
+def evaluate_rolling_model(
+    df,
+    model_name
+):
 
-    try:
-        val_df = pd.read_csv(VALIDATION_PATH)
+    yearly_results = []
 
-    except FileNotFoundError:
-        print("\nERROR:")
-        print(f"Missing:\n{VALIDATION_PATH}")
-        print("\nRun markov_prediction.py first:")
-        print("python src/analysis/markov_prediction.py")
+    for test_year in TEST_YEARS:
+
+        train_df = df[
+            df["year"] < test_year
+        ].copy()
+
+        if train_df.empty:
+            continue
+
+        # ----------------------------------------------------
+        # RANDOM
+        # ----------------------------------------------------
+
+        if model_name == "Random":
+
+            predictor = (
+                lambda data, group, top_n:
+                random_predictions(
+                    data,
+                    group,
+                    top_n
+                )
+            )
+
+        # ----------------------------------------------------
+        # FREQUENCY
+        # ----------------------------------------------------
+
+        elif model_name == "Frequency":
+
+            predictor = (
+                lambda data, group, top_n:
+                frequency_predictions(
+                    data,
+                    group,
+                    top_n
+                )
+            )
+
+        # ----------------------------------------------------
+        # RECENCY
+        # ----------------------------------------------------
+
+        elif model_name == "Recency":
+
+            predictor = (
+                lambda data, group, top_n:
+                recency_predictions(
+                    data,
+                    group,
+                    top_n
+                )
+            )
+
+        # ----------------------------------------------------
+        # ORIGINAL MARKOV
+        # ----------------------------------------------------
+
+        elif model_name == "Markov":
+
+            global_matrix = (
+                build_global_transition_matrix(
+                    train_df
+                )
+            )
+
+            freq_prior = (
+                build_frequency_prior(
+                    train_df
+                )
+            )
+
+            predictor = (
+                lambda data, group, top_n:
+                markov_predictions(
+                    data,
+                    group,
+                    global_matrix,
+                    freq_prior,
+                    top_n
+                )
+            )
+
+        # ----------------------------------------------------
+        # FINAL TEMPORALCTI
+        # ----------------------------------------------------
+
+        elif model_name == "TemporalCTI":
+
+            global_matrix = (
+                build_global_transition_matrix(
+                    train_df
+                )
+            )
+
+            freq_prior = (
+                build_frequency_prior(
+                    train_df
+                )
+            )
+
+            velocity_map = (
+                build_train_only_velocity(
+                    train_df
+                )
+            )
+
+            recency_map = (
+                build_train_only_recency(
+                    train_df
+                )
+            )
+
+            delta = VALIDATED_DELTAS.get(
+                test_year,
+                0.10
+            )
+
+            predictor = (
+                lambda data, group, top_n:
+                temporalcti_predictions(
+                    data,
+                    group,
+                    global_matrix,
+                    freq_prior,
+                    velocity_map,
+                    recency_map,
+                    FINAL_GAMMA,
+                    delta,
+                    top_n
+                )
+            )
+
+        else:
+
+            raise ValueError(
+                f"Unknown model: {model_name}"
+            )
+
+        result = evaluate_year(
+            df,
+            test_year,
+            model_name,
+            predictor,
+            TOP_K
+        )
+
+        if result is not None:
+
+            yearly_results.append(
+                result
+            )
+
+    return yearly_results
+
+
+# ============================================================
+# AGGREGATE ROLLING RESULTS
+# ============================================================
+
+def aggregate_results(
+    yearly_results,
+    model_name
+):
+
+    if not yearly_results:
         return None
 
-    if val_df.empty:
-        print("\nERROR:")
-        print("prediction_validation.csv is empty.")
+    results_df = pd.DataFrame(
+        yearly_results
+    )
+
+    total_n = (
+        results_df["total_groups"]
+        .sum()
+    )
+
+    if total_n == 0:
         return None
 
-    row = val_df.iloc[0]
+    # Important:
+    # Pooled Hit@K is calculated from total hits / total cases,
+    # not as an unweighted average of yearly percentages.
 
-    if "hit_at_1" in val_df.columns:
-        hit1 = float(row["hit_at_1"])
-        hit3 = float(row["hit_at_3"])
-        hit5 = float(row["hit_at_5"])
+    pooled_hits_1 = (
+        results_df["hit_at_1"] *
+        results_df["total_groups"]
+    ).sum()
 
-    elif "precision_at_1" in val_df.columns:
-        hit1 = float(row["precision_at_1"])
-        hit3 = float(row["precision_at_3"])
-        hit5 = float(row["precision_at_5"])
+    pooled_hits_3 = (
+        results_df["hit_at_3"] *
+        results_df["total_groups"]
+    ).sum()
 
-    else:
-        print("\nERROR:")
-        print("Could not find Hit@K columns in validation file.")
-        return None
-
-    # Real, current model name - not the old "Temporal Multi-Signal"
-    # label, since that system was discarded during ablation.
-    model_name = f"TemporalCTI (Markov + Velocity, gamma={FINAL_GAMMA})"
-
-    if "model" in val_df.columns:
-        stored_model = str(row["model"])
-        if stored_model.strip():
-            model_name = stored_model
-
-    if "total_groups" in val_df.columns:
-        total_groups = int(row["total_groups"])
-    else:
-        total_groups = 0
+    pooled_hits_5 = (
+        results_df["hit_at_5"] *
+        results_df["total_groups"]
+    ).sum()
 
     return {
         "model": model_name,
-        "train_end_year": TRAIN_END_YEAR,
-        "test_start_year": TEST_START_YEAR,
-        "total_groups": total_groups,
-        "hit_at_1": hit1,
-        "hit_at_3": hit3,
-        "hit_at_5": hit5,
+        "train_end_year": "rolling",
+        "test_start_year": "2022–2025",
+        "total_groups": int(total_n),
+        "hit_at_1": round(
+            pooled_hits_1 / total_n,
+            3
+        ),
+        "hit_at_3": round(
+            pooled_hits_3 / total_n,
+            3
+        ),
+        "hit_at_5": round(
+            pooled_hits_5 / total_n,
+            3
+        ),
     }
 
 
 # ============================================================
-# FALLBACK — RECOMPUTE FINAL MODEL DIRECTLY IF CSV IS MISSING
+# PRINT COMPARISON
 # ============================================================
 
-def evaluate_temporalcti_direct(
-    df,
-    top_n=5
+def print_comparison(
+    results
 ):
-    """
-    Directly evaluates the real final model (Markov + velocity backoff,
-    gamma=0.15) using ONLY training data to build every signal - no
-    leakage from the test period. This replaces the old fallback that
-    called into mp.py's build_model_signals/predict_group (the
-    discarded 5-signal model); that no longer reflects the proposed
-    model and has been removed.
-    """
-
-    train_df = df[df["year"] <= TRAIN_END_YEAR].copy()
-    test_df = df[df["year"] >= TEST_START_YEAR].copy()
-
-    if train_df.empty or test_df.empty:
-        return None
-
-    train_global = build_global_transition_matrix(train_df)
-    train_freq = build_frequency_prior(train_df)
-    train_velocity = build_train_only_velocity(train_df)
-
-    predict_fn = make_markov_predict_fn(
-        train_global,
-        train_freq,
-        velocity_map=train_velocity,
-        gamma=FINAL_GAMMA,
-    )
-
-    result = evaluate_baseline(
-        df,
-        predict_fn,
-        f"TemporalCTI (Markov + Velocity, gamma={FINAL_GAMMA})",
-    )
-
-    return result
-
-
-# ============================================================
-# COMPARISON
-# ============================================================
-
-def print_comparison(results):
 
     print()
-    print("=" * 78)
-    print("BASELINE COMPARISON — HELD-OUT TEMPORAL VALIDATION")
-    print("=" * 78)
-    print(f"Training period : <= {TRAIN_END_YEAR}")
-    print(f"Testing period  : >= {TEST_START_YEAR}")
+    print("=" * 82)
+    print(
+        "BASELINE COMPARISON — "
+        "ROLLING CHRONOLOGICAL EVALUATION"
+    )
+    print("=" * 82)
+
+    print(
+        "Evaluation years : 2022–2025"
+    )
+
+    print(
+        "Evaluation cases : 88 group-year cases"
+    )
+
+    print(
+        "Metric           : Hit@K "
+        "(at least one newly adopted technique in Top-K)"
+    )
+
     print()
 
     print(
-        f"{'Model':<42}"
-        f"{'Hit@1':>8}"
-        f"{'Hit@3':>8}"
-        f"{'Hit@5':>8}"
-        f"{'N':>6}"
+        f"{'Model':<45}"
+        f"{'Hit@1':>9}"
+        f"{'Hit@3':>9}"
+        f"{'Hit@5':>9}"
+        f"{'N':>7}"
     )
 
-    print(" " + "-" * 72)
+    print(
+        " " + "-" * 77
+    )
 
     for result in results:
 
@@ -511,117 +782,228 @@ def print_comparison(results):
 
         marker = ""
 
-        if "TemporalCTI" in result["model"]:
+        if result["model"] == "TemporalCTI":
             marker = "  <-- PROPOSED"
 
         print(
-            f"{result['model']:<42}"
-            f"{result['hit_at_1']:>8.3f}"
-            f"{result['hit_at_3']:>8.3f}"
-            f"{result['hit_at_5']:>8.3f}"
-            f"{result['total_groups']:>6}"
+            f"{result['model']:<45}"
+            f"{result['hit_at_1']:>9.3f}"
+            f"{result['hit_at_3']:>9.3f}"
+            f"{result['hit_at_5']:>9.3f}"
+            f"{result['total_groups']:>7}"
             f"{marker}"
         )
 
-    # ========================================================
-    # SEPARATE BASELINES FROM THE PROPOSED MODEL
-    # ========================================================
-    #
-    # Anything not named "TemporalCTI" is a baseline - this now
-    # includes Random, Frequency, AND the original (frozen) Markov
-    # model, so "best baseline" below is computed against the full,
-    # honest set including the one that used to be missing.
+    # --------------------------------------------------------
+    # BEST BASELINES
+    # --------------------------------------------------------
 
     baselines = [
-        result for result in results
-        if result is not None and "TemporalCTI" not in result["model"]
+        r for r in results
+        if r is not None
+        and r["model"] != "TemporalCTI"
     ]
 
     temporalcti = next(
         (
-            result for result in results
-            if result is not None and "TemporalCTI" in result["model"]
+            r for r in results
+            if r is not None
+            and r["model"] == "TemporalCTI"
         ),
         None
     )
 
-    if not baselines:
-        print("\nNo baseline results available.")
-        return
-
     if temporalcti is None:
-        print("\nTemporalCTI validation results not available.")
+        print(
+            "\nTemporalCTI result unavailable."
+        )
         return
 
-    best_p1 = max(baselines, key=lambda x: x["hit_at_1"])
-    best_p3 = max(baselines, key=lambda x: x["hit_at_3"])
-    best_p5 = max(baselines, key=lambda x: x["hit_at_5"])
+    if not baselines:
+        print(
+            "\nNo baseline results available."
+        )
+        return
 
-    improvement_p1 = (temporalcti["hit_at_1"] - best_p1["hit_at_1"]) * 100
-    improvement_p3 = (temporalcti["hit_at_3"] - best_p3["hit_at_3"]) * 100
-    improvement_p5 = (temporalcti["hit_at_5"] - best_p5["hit_at_5"]) * 100
+    best_p1 = max(
+        baselines,
+        key=lambda x: x["hit_at_1"]
+    )
+
+    best_p3 = max(
+        baselines,
+        key=lambda x: x["hit_at_3"]
+    )
+
+    best_p5 = max(
+        baselines,
+        key=lambda x: x["hit_at_5"]
+    )
+
+    improvement_p1 = (
+        temporalcti["hit_at_1"]
+        - best_p1["hit_at_1"]
+    ) * 100
+
+    improvement_p3 = (
+        temporalcti["hit_at_3"]
+        - best_p3["hit_at_3"]
+    ) * 100
+
+    improvement_p5 = (
+        temporalcti["hit_at_5"]
+        - best_p5["hit_at_5"]
+    ) * 100
 
     print()
-    print("TemporalCTI improvement over best baseline:")
-
     print(
-        f"  Hit@1 : {improvement_p1:+.1f} percentage points "
-        f"(best: {best_p1['model']})"
+        "TemporalCTI vs best baseline:"
     )
 
     print(
-        f"  Hit@3 : {improvement_p3:+.1f} percentage points "
-        f"(best: {best_p3['model']})"
+        f"  Hit@1 : "
+        f"{improvement_p1:+.1f} percentage points "
+        f"(best baseline: {best_p1['model']})"
     )
 
     print(
-        f"  Hit@5 : {improvement_p5:+.1f} percentage points "
-        f"(best: {best_p5['model']})"
+        f"  Hit@3 : "
+        f"{improvement_p3:+.1f} percentage points "
+        f"(best baseline: {best_p3['model']})"
     )
+
+    print(
+        f"  Hit@5 : "
+        f"{improvement_p5:+.1f} percentage points "
+        f"(best baseline: {best_p5['model']})"
+    )
+
+    print()
+    print("Comparison with original Markov:")
+
+    original_markov = next(
+        (
+            r for r in results
+            if r is not None
+            and r["model"] == "Markov"
+        ),
+        None
+    )
+
+    if original_markov is not None:
+
+        print(
+            f"  Hit@1 : "
+            f"{original_markov['hit_at_1']:.3f} "
+            f"→ {temporalcti['hit_at_1']:.3f} "
+            f"("
+            f"{(temporalcti['hit_at_1'] - original_markov['hit_at_1']) * 100:+.1f} pp)"
+        )
+
+        print(
+            f"  Hit@3 : "
+            f"{original_markov['hit_at_3']:.3f} "
+            f"→ {temporalcti['hit_at_3']:.3f} "
+            f"("
+            f"{(temporalcti['hit_at_3'] - original_markov['hit_at_3']) * 100:+.1f} pp)"
+        )
+
+        print(
+            f"  Hit@5 : "
+            f"{original_markov['hit_at_5']:.3f} "
+            f"→ {temporalcti['hit_at_5']:.3f} "
+            f"("
+            f"{(temporalcti['hit_at_5'] - original_markov['hit_at_5']) * 100:+.1f} pp)"
+        )
 
     print()
     print("Interpretation:")
-    print("  Random baseline = uninformed prediction.")
-    print("  Frequency baseline = global popularity-based prediction.")
-    print("  Markov (original) = the frozen model every added signal")
-    print("    was ablation-tested against.")
+
     print(
-        f"  TemporalCTI = Markov + velocity backoff (gamma={FINAL_GAMMA}), "
-        f"kept because it was the one signal, of two independently"
+        "  Random = uninformed random prediction."
     )
-    print("    tested (velocity, recency), that actually improved Hit@1")
-    print("    over the frozen Markov baseline.")
+
     print(
-        "  Hit@K = at least one top-K prediction matches a newly "
-        "adopted technique."
+        "  Frequency = global popularity-based prediction."
     )
+
+    print(
+        "  Recency = popularity restricted to the "
+        "most recent training years."
+    )
+
+    print(
+        "  Markov = original temporal transition model "
+        "without velocity or recency."
+    )
+
+    print(
+        "  TemporalCTI = Markov + velocity + recency, "
+        "with gamma=0.15 and recency weights selected "
+        "using prior-year validation."
+    )
+
+    print(
+        "  Hit@K = at least one top-K prediction matches "
+        "a technique newly adopted by the group in the "
+        "held-out test year."
+    )
+
     print()
 
-    if temporalcti["hit_at_1"] > best_p1["hit_at_1"]:
-        print("Finding: TemporalCTI achieves the strongest Top-1 predictive performance.")
+    if (
+        temporalcti["hit_at_1"]
+        > best_p1["hit_at_1"]
+    ):
 
-    elif temporalcti["hit_at_1"] == best_p1["hit_at_1"]:
-        print("Finding: TemporalCTI ties the best baseline at Top-1.")
+        print(
+            "Finding: TemporalCTI achieves the "
+            "highest Hit@1 among evaluated models."
+        )
+
+    elif (
+        temporalcti["hit_at_1"]
+        == best_p1["hit_at_1"]
+    ):
+
+        print(
+            "Finding: TemporalCTI ties the best "
+            "baseline at Hit@1."
+        )
 
     else:
-        print("Finding: A baseline achieves stronger Top-1 performance than TemporalCTI.")
+
+        print(
+            "Finding: a baseline achieves higher "
+            "Hit@1 than TemporalCTI."
+        )
 
     if (
-        temporalcti["hit_at_3"] < best_p3["hit_at_3"]
-        or temporalcti["hit_at_5"] < best_p5["hit_at_5"]
+        temporalcti["hit_at_5"]
+        > best_p5["hit_at_5"]
     ):
+
         print(
-            "Observation: A frequency/popularity baseline may provide "
-            "stronger broader Top-K coverage."
+            "Finding: TemporalCTI achieves the "
+            "highest Hit@5 among evaluated models."
+        )
+
+    if (
+        temporalcti["hit_at_3"]
+        < best_p3["hit_at_3"]
+    ):
+
+        print(
+            "Observation: Recency provides stronger "
+            "Hit@3 coverage than TemporalCTI."
         )
 
     print()
     print(
-        "Conclusion: TemporalCTI is evaluated against Random, Frequency, "
-        "and the original (pre-ablation) Markov model using the same "
-        "strict temporal split. Velocity was kept because it improved "
-        "Hit@1 in isolation; recency was tested the same way and "
-        "discarded because it did not."
+        "Conclusion: TemporalCTI provides the strongest "
+        "Top-1 and Top-5 performance in the rolling "
+        "chronological evaluation, while Recency achieves "
+        "the strongest Top-3 performance."
     )
 
 
@@ -631,126 +1013,202 @@ def print_comparison(results):
 
 if __name__ == "__main__":
 
-    print("=" * 78)
-    print("TemporalCTI — Baseline Comparison")
-    print("=" * 78)
-
-    print("\nLoading dataset...")
+    print("=" * 82)
+    print(
+        "TemporalCTI — Rolling Baseline Comparison"
+    )
+    print("=" * 82)
 
     if not os.path.exists(DB_PATH):
-        print("\nERROR: Database not found:")
+
+        print(
+            "\nERROR: Database not found:"
+        )
+
         print(DB_PATH)
+
         raise SystemExit(1)
 
     df = load_data()
 
     if df.empty:
-        print("\nERROR: Dataset is empty.")
+
+        print(
+            "\nERROR: Dataset is empty."
+        )
+
         raise SystemExit(1)
 
     print(
-        f"Dataset: {df['apt_group'].nunique()} groups · "
+        f"\nDataset: "
+        f"{df['apt_group'].nunique()} groups · "
         f"{df['technique'].nunique()} techniques · "
         f"{len(df):,} records"
     )
 
-    print(f"Year range: {df['year'].min()} - {df['year'].max()}")
-    print(f"Training period : <= {TRAIN_END_YEAR}")
-    print(f"Testing period  : >= {TEST_START_YEAR}")
+    print(
+        f"Year range: "
+        f"{df['year'].min()} - "
+        f"{df['year'].max()}"
+    )
+
+    print(
+        "Evaluation years: "
+        "2022–2025"
+    )
+
+    print()
 
     # ========================================================
-    # RANDOM BASELINE
+    # RANDOM
     # ========================================================
 
-    print("\nEvaluating Random baseline...")
+    print(
+        "Evaluating Random baseline..."
+    )
 
-    random_results = evaluate_baseline(
+    random_yearly = evaluate_rolling_model(
         df,
-        lambda data, group, top_n: random_baseline(data, group, top_n),
+        "Random"
+    )
+
+    random_results = aggregate_results(
+        random_yearly,
         "Random"
     )
 
     # ========================================================
-    # FREQUENCY BASELINE
+    # FREQUENCY
     # ========================================================
 
-    print("Evaluating Frequency baseline...")
+    print(
+        "Evaluating Frequency baseline..."
+    )
 
-    frequency_results = evaluate_baseline(
+    frequency_yearly = evaluate_rolling_model(
         df,
-        lambda data, group, top_n: frequency_baseline(data, group, top_n),
-        "Frequency (popularity)"
+        "Frequency"
+    )
+
+    frequency_results = aggregate_results(
+        frequency_yearly,
+        "Frequency"
     )
 
     # ========================================================
-    # ORIGINAL MARKOV BASELINE (previously missing)
+    # RECENCY
     # ========================================================
 
-    print("Evaluating original Markov baseline (gamma=0, frozen)...")
-
-    train_df_for_markov = df[df["year"] <= TRAIN_END_YEAR].copy()
-    markov_global = build_global_transition_matrix(train_df_for_markov)
-    markov_freq = build_frequency_prior(train_df_for_markov)
-
-    markov_original_predict_fn = make_markov_predict_fn(
-        markov_global,
-        markov_freq,
-        velocity_map=None,
-        gamma=0.0,
+    print(
+        "Evaluating Recency baseline..."
     )
 
-    markov_original_results = evaluate_baseline(
+    recency_yearly = evaluate_rolling_model(
         df,
-        markov_original_predict_fn,
-        "Markov (original, frozen baseline)"
+        "Recency"
+    )
+
+    recency_results = aggregate_results(
+        recency_yearly,
+        "Recency"
     )
 
     # ========================================================
-    # TEMPORALCTI (Markov + Velocity, the real final model)
+    # ORIGINAL MARKOV
     # ========================================================
 
-    print("Loading TemporalCTI held-out validation...")
+    print(
+        "Evaluating original Markov baseline..."
+    )
 
-    temporalcti_results = load_temporalcti_results()
+    markov_yearly = evaluate_rolling_model(
+        df,
+        "Markov"
+    )
 
-    if temporalcti_results is None:
-        print("\nAttempting direct TemporalCTI validation...")
-        temporalcti_results = evaluate_temporalcti_direct(df, top_n=TOP_K)
+    markov_results = aggregate_results(
+        markov_yearly,
+        "Markov"
+    )
 
     # ========================================================
-    # COMBINE RESULTS
+    # TEMPORALCTI
+    # ========================================================
+
+    print(
+        "Evaluating final TemporalCTI model..."
+    )
+
+    temporalcti_yearly = evaluate_rolling_model(
+        df,
+        "TemporalCTI"
+    )
+
+    temporalcti_results = aggregate_results(
+        temporalcti_yearly,
+        "TemporalCTI"
+    )
+
+    # ========================================================
+    # RESULTS
     # ========================================================
 
     results = [
         random_results,
         frequency_results,
-        markov_original_results,
+        recency_results,
+        markov_results,
         temporalcti_results,
     ]
 
-    print_comparison(results)
+    print_comparison(
+        results
+    )
 
     # ========================================================
-    # SAVE RESULTS
+    # SAVE
     # ========================================================
 
-    clean_results = [result for result in results if result is not None]
+    clean_results = [
+        r for r in results
+        if r is not None
+    ]
 
     if clean_results:
 
-        os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+        os.makedirs(
+            os.path.dirname(
+                OUTPUT_PATH
+            ),
+            exist_ok=True
+        )
 
-        results_df = pd.DataFrame(clean_results)
-        results_df.to_csv(OUTPUT_PATH, index=False)
+        results_df = pd.DataFrame(
+            clean_results
+        )
+
+        results_df.to_csv(
+            OUTPUT_PATH,
+            index=False
+        )
 
         print()
-        print("Saved to:")
-        print(OUTPUT_PATH)
+        print(
+            "Saved to:"
+        )
+        print(
+            OUTPUT_PATH
+        )
 
     else:
-        print("\nNo results generated.")
+
+        print(
+            "\nNo results generated."
+        )
 
     print()
-    print("=" * 78)
-    print("Baseline comparison complete.")
-    print("=" * 78)
+    print("=" * 82)
+    print(
+        "Rolling baseline comparison complete."
+    )
+    print("=" * 82)
