@@ -2552,7 +2552,7 @@ export const MITIGATIONS = [
     "technique": "Hidden Window",
     "mitigation": "Execution Prevention | Limit Software Installation",
     "priority": "CRITICAL",
-    "score": 1.608,
+    "score": 1.463,
     "source": "PREDICTED",
     "controls": 2
   },
@@ -2576,7 +2576,7 @@ export const MITIGATIONS = [
     "technique": "Hidden Window",
     "mitigation": "Execution Prevention | Limit Software Installation",
     "priority": "CRITICAL",
-    "score": 0.713,
+    "score": 0.702,
     "source": "PREDICTED",
     "controls": 2
   },
@@ -2584,7 +2584,7 @@ export const MITIGATIONS = [
     "technique": "Query Public AI Services",
     "mitigation": "Pre-compromise",
     "priority": "CRITICAL",
-    "score": 0.666,
+    "score": 0.674,
     "source": "PREDICTED",
     "controls": 1
   },
@@ -2632,317 +2632,317 @@ export const MITIGATIONS = [
 
 export const PREDICTIONS = [
   {
-    "technique": "System Information Discovery",
+    "technique": "Upload Malware",
     "aptGroup": "APT28",
-    "confidence": 3.4,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Network Configuration Discovery",
+    "technique": "Financial Theft",
     "aptGroup": "APT28",
-    "confidence": 2.8,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Remote Desktop Protocol",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "APT28",
-    "confidence": 2.6,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Disable or Modify Tools",
     "aptGroup": "APT28",
-    "confidence": 2.4,
+    "confidence": 13.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Proxy",
     "aptGroup": "APT28",
-    "confidence": 2.2,
+    "confidence": 13.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "TA2541",
-    "confidence": 3.0,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Email Accounts",
     "aptGroup": "TA2541",
-    "confidence": 2.3,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Financial Theft",
     "aptGroup": "TA2541",
-    "confidence": 2.1,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File Deletion",
+    "technique": "Impersonation",
     "aptGroup": "TA2541",
-    "confidence": 1.9,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Data from Local System",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "TA2541",
-    "confidence": 1.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Exploitation for Client Execution",
-    "aptGroup": "Kimsuky",
-    "confidence": 18.3,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Remote Data Staging",
-    "aptGroup": "Kimsuky",
-    "confidence": 14.7,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Embedded Payloads",
     "aptGroup": "Kimsuky",
-    "confidence": 14.3,
+    "confidence": 23.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Valid Accounts",
+    "technique": "Remote Data Staging",
     "aptGroup": "Kimsuky",
-    "confidence": 5.4,
+    "confidence": 22.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "External Proxy",
+    "technique": "Exploitation for Client Execution",
     "aptGroup": "Kimsuky",
-    "confidence": 5.2,
+    "confidence": 21.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Internet Connection Discovery",
+    "aptGroup": "Kimsuky",
+    "confidence": 16.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Inhibit System Recovery",
+    "aptGroup": "Kimsuky",
+    "confidence": 15.8,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
     "aptGroup": "Fox Kitten",
-    "confidence": 3.9,
+    "confidence": 16.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious Link",
+    "technique": "Domains",
     "aptGroup": "Fox Kitten",
-    "confidence": 3.3,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Fox Kitten",
-    "confidence": 3.2,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Owner/User Discovery",
+    "technique": "Email Accounts",
     "aptGroup": "Fox Kitten",
-    "confidence": 3.0,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Impersonation",
     "aptGroup": "Fox Kitten",
-    "confidence": 2.7,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Upload Malware",
     "aptGroup": "Turla",
-    "confidence": 3.8,
+    "confidence": 16.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Email Accounts",
     "aptGroup": "Turla",
-    "confidence": 3.5,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Turla",
-    "confidence": 2.6,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File Deletion",
+    "technique": "Domains",
     "aptGroup": "Turla",
-    "confidence": 2.2,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "DLL",
+    "technique": "Financial Theft",
     "aptGroup": "Turla",
-    "confidence": 2.1,
+    "confidence": 14.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "Wizard Spider",
-    "confidence": 17.0,
+    "confidence": 24.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Visual Basic",
+    "technique": "Domains",
     "aptGroup": "Wizard Spider",
-    "confidence": 13.4,
+    "confidence": 21.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Shell",
+    "technique": "Web Services",
     "aptGroup": "Wizard Spider",
-    "confidence": 12.0,
+    "confidence": 20.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Peripheral Device Discovery",
+    "technique": "Upload Malware",
     "aptGroup": "Wizard Spider",
-    "confidence": 11.9,
+    "confidence": 19.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Virtual Private Server",
     "aptGroup": "Wizard Spider",
-    "confidence": 11.2,
+    "confidence": 19.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Upload Malware",
     "aptGroup": "Volt Typhoon",
-    "confidence": 4.5,
+    "confidence": 16.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Domains",
     "aptGroup": "Volt Typhoon",
-    "confidence": 3.7,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Financial Theft",
     "aptGroup": "Volt Typhoon",
-    "confidence": 3.3,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Email Accounts",
     "aptGroup": "Volt Typhoon",
-    "confidence": 3.2,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Exploitation for Client Execution",
+    "technique": "Impersonation",
     "aptGroup": "Volt Typhoon",
-    "confidence": 3.1,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Upload Malware",
     "aptGroup": "Tropic Trooper",
-    "confidence": 3.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Visual Basic",
+    "technique": "Impersonation",
     "aptGroup": "Tropic Trooper",
-    "confidence": 2.9,
+    "confidence": 14.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Valid Accounts",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Tropic Trooper",
-    "confidence": 2.8,
+    "confidence": 14.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Time Discovery",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Tropic Trooper",
-    "confidence": 2.5,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Remote Desktop Protocol",
+    "technique": "Virtual Private Server",
     "aptGroup": "Tropic Trooper",
-    "confidence": 2.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Valid Accounts",
-    "aptGroup": "MuddyWater",
-    "confidence": 5.0,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Remote Desktop Protocol",
-    "aptGroup": "MuddyWater",
-    "confidence": 4.5,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Upload Malware",
     "aptGroup": "MuddyWater",
-    "confidence": 4.4,
+    "confidence": 18.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Email Accounts",
     "aptGroup": "MuddyWater",
-    "confidence": 4.0,
+    "confidence": 16.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Financial Theft",
+    "aptGroup": "MuddyWater",
+    "confidence": 15.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Compression",
+    "aptGroup": "MuddyWater",
+    "confidence": 15.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Social Media Accounts",
     "aptGroup": "MuddyWater",
-    "confidence": 3.9,
+    "confidence": 15.1,
     "method": "markov",
     "trend": "emerging"
   },
@@ -2982,247 +2982,247 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Exploit Public-Facing Application",
-    "aptGroup": "Gamaredon Group",
-    "confidence": 7.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Spearphishing Link",
-    "aptGroup": "Gamaredon Group",
-    "confidence": 7.3,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
     "technique": "Email Accounts",
     "aptGroup": "Gamaredon Group",
-    "confidence": 7.1,
+    "confidence": 19.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "DLL",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Gamaredon Group",
-    "confidence": 5.7,
+    "confidence": 19.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Drive-by Compromise",
+    "technique": "Impersonation",
     "aptGroup": "Gamaredon Group",
-    "confidence": 5.0,
+    "confidence": 15.9,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Local Storage Discovery",
+    "aptGroup": "Gamaredon Group",
+    "confidence": 15.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exfiltration to Cloud Storage",
+    "aptGroup": "Gamaredon Group",
+    "confidence": 15.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "Gorgon Group",
-    "confidence": 4.9,
+    "confidence": 16.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Command Obfuscation",
+    "technique": "Upload Malware",
     "aptGroup": "Gorgon Group",
-    "confidence": 4.2,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Gorgon Group",
-    "confidence": 3.8,
+    "confidence": 15.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Non-Standard Port",
+    "technique": "Financial Theft",
     "aptGroup": "Gorgon Group",
-    "confidence": 3.7,
+    "confidence": 15.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious Link",
+    "technique": "Web Services",
     "aptGroup": "Gorgon Group",
-    "confidence": 3.5,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Password Managers",
     "aptGroup": "HAFNIUM",
-    "confidence": 18.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Deobfuscate/Decode Files or Information",
-    "aptGroup": "HAFNIUM",
-    "confidence": 18.8,
+    "confidence": 27.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "HAFNIUM",
-    "confidence": 17.4,
+    "confidence": 27.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Command Obfuscation",
+    "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "HAFNIUM",
-    "confidence": 15.2,
+    "confidence": 25.9,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Impersonation",
+    "aptGroup": "HAFNIUM",
+    "confidence": 25.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Data Encrypted for Impact",
     "aptGroup": "HAFNIUM",
+    "confidence": 24.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exploit Public-Facing Application",
+    "aptGroup": "TA505",
+    "confidence": 14.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "TA505",
     "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "TA505",
-    "confidence": 2.8,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Impersonation",
     "aptGroup": "TA505",
-    "confidence": 2.5,
+    "confidence": 14.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Registry Run Keys / Startup Folder",
+    "technique": "Financial Theft",
     "aptGroup": "TA505",
-    "confidence": 2.4,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
-    "aptGroup": "TA505",
-    "confidence": 2.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Scheduled Task",
-    "aptGroup": "TA505",
-    "confidence": 2.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "File and Directory Discovery",
+    "technique": "Upload Malware",
     "aptGroup": "FIN8",
-    "confidence": 3.9,
+    "confidence": 16.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Email Accounts",
     "aptGroup": "FIN8",
-    "confidence": 3.9,
+    "confidence": 15.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Data from Local System",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "FIN8",
-    "confidence": 3.6,
+    "confidence": 15.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Deobfuscate/Decode Files or Information",
+    "technique": "Domains",
     "aptGroup": "FIN8",
-    "confidence": 3.2,
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Compression",
     "aptGroup": "FIN8",
-    "confidence": 3.2,
+    "confidence": 14.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Upload Malware",
     "aptGroup": "APT39",
-    "confidence": 3.0,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "System Information Discovery",
-    "aptGroup": "APT39",
-    "confidence": 2.3,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "APT39",
-    "confidence": 1.9,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Network Configuration Discovery",
+    "technique": "Email Accounts",
     "aptGroup": "APT39",
-    "confidence": 1.8,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Management Instrumentation",
+    "technique": "Financial Theft",
     "aptGroup": "APT39",
-    "confidence": 1.7,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
-    "aptGroup": "FIN4",
-    "confidence": 4.6,
+    "technique": "Impersonation",
+    "aptGroup": "APT39",
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Upload Malware",
     "aptGroup": "FIN4",
-    "confidence": 3.9,
+    "confidence": 16.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Email Accounts",
     "aptGroup": "FIN4",
-    "confidence": 3.4,
+    "confidence": 15.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "FIN4",
-    "confidence": 3.3,
+    "confidence": 15.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Domains",
     "aptGroup": "FIN4",
-    "confidence": 3.2,
+    "confidence": 14.8,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exfiltration to Cloud Storage",
+    "aptGroup": "FIN4",
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
@@ -3262,37 +3262,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Upload Malware",
     "aptGroup": "menuPass",
-    "confidence": 3.4,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious Link",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "menuPass",
-    "confidence": 2.8,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Email Accounts",
     "aptGroup": "menuPass",
-    "confidence": 2.7,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Registry Run Keys / Startup Folder",
+    "technique": "Financial Theft",
     "aptGroup": "menuPass",
-    "confidence": 2.7,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Link",
+    "technique": "Impersonation",
     "aptGroup": "menuPass",
-    "confidence": 2.6,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
@@ -3332,247 +3332,247 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Security Software Discovery",
-    "aptGroup": "APT32",
-    "confidence": 3.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Domain Account",
-    "aptGroup": "APT32",
-    "confidence": 3.1,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
     "technique": "Virtual Private Server",
     "aptGroup": "APT32",
-    "confidence": 2.7,
+    "confidence": 15.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Server",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "APT32",
-    "confidence": 2.5,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Dynamic-link Library Injection",
+    "technique": "Email Accounts",
     "aptGroup": "APT32",
-    "confidence": 2.3,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
-    "aptGroup": "APT29",
-    "confidence": 7.6,
+    "technique": "Exfiltration to Cloud Storage",
+    "aptGroup": "APT32",
+    "confidence": 14.1,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Impersonation",
+    "aptGroup": "APT32",
+    "confidence": 14.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "APT29",
-    "confidence": 6.2,
+    "confidence": 17.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "OS Credential Dumping",
+    "technique": "Upload Malware",
     "aptGroup": "APT29",
-    "confidence": 4.5,
+    "confidence": 16.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "APT29",
-    "confidence": 4.3,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Network Denial of Service",
+    "technique": "Financial Theft",
     "aptGroup": "APT29",
-    "confidence": 4.0,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Impersonation",
+    "aptGroup": "APT29",
+    "confidence": 13.9,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
     "aptGroup": "Earth Lusca",
-    "confidence": 4.8,
+    "confidence": 14.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Financial Theft",
     "aptGroup": "Earth Lusca",
-    "confidence": 4.3,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Impersonation",
     "aptGroup": "Earth Lusca",
-    "confidence": 3.2,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Virtual Private Server",
     "aptGroup": "Earth Lusca",
-    "confidence": 3.2,
+    "confidence": 13.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Internet Connection Discovery",
     "aptGroup": "Earth Lusca",
-    "confidence": 2.9,
+    "confidence": 12.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Remote Data Staging",
+    "technique": "Impersonation",
     "aptGroup": "Sandworm Team",
-    "confidence": 5.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Exploitation for Privilege Escalation",
-    "aptGroup": "Sandworm Team",
-    "confidence": 5.7,
+    "confidence": 17.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Internet Connection Discovery",
     "aptGroup": "Sandworm Team",
-    "confidence": 5.4,
+    "confidence": 16.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "JavaScript",
+    "technique": "Web Services",
     "aptGroup": "Sandworm Team",
-    "confidence": 5.2,
+    "confidence": 15.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Financial Theft",
     "aptGroup": "Sandworm Team",
-    "confidence": 4.9,
+    "confidence": 15.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
-    "aptGroup": "Threat Group-3390",
-    "confidence": 2.5,
+    "technique": "Exfiltration to Cloud Storage",
+    "aptGroup": "Sandworm Team",
+    "confidence": 15.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Email Accounts",
     "aptGroup": "Threat Group-3390",
-    "confidence": 2.3,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Financial Theft",
     "aptGroup": "Threat Group-3390",
-    "confidence": 2.2,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Link",
+    "technique": "Impersonation",
     "aptGroup": "Threat Group-3390",
-    "confidence": 2.2,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Virtual Private Server",
     "aptGroup": "Threat Group-3390",
-    "confidence": 2.1,
+    "confidence": 13.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Web Services",
+    "aptGroup": "Threat Group-3390",
+    "confidence": 13.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Command Obfuscation",
     "aptGroup": "APT-C-36",
-    "confidence": 41.3,
+    "confidence": 45.7,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "APT-C-36",
-    "confidence": 38.3,
+    "confidence": 42.6,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Compression",
     "aptGroup": "APT-C-36",
-    "confidence": 35.6,
+    "confidence": 42.2,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Web Shell",
     "aptGroup": "APT-C-36",
-    "confidence": 25.0,
+    "confidence": 30.2,
     "method": "markov",
-    "trend": "emerging"
+    "trend": "rising"
   },
   {
     "technique": "Reflective Code Loading",
     "aptGroup": "APT-C-36",
-    "confidence": 21.2,
+    "confidence": 29.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "Mofang",
-    "confidence": 3.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Mofang",
-    "confidence": 3.5,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Domains",
     "aptGroup": "Mofang",
-    "confidence": 3.0,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Email Accounts",
     "aptGroup": "Mofang",
-    "confidence": 2.5,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Financial Theft",
     "aptGroup": "Mofang",
-    "confidence": 2.3,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
@@ -3584,177 +3584,177 @@ export const PREDICTIONS = [
     "trend": "rising"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Email Accounts",
     "aptGroup": "Naikon",
-    "confidence": 13.3,
+    "confidence": 20.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
+    "aptGroup": "Naikon",
+    "confidence": 18.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Local Account",
     "aptGroup": "Naikon",
-    "confidence": 9.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "File and Directory Discovery",
-    "aptGroup": "Naikon",
-    "confidence": 9.1,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Email Accounts",
-    "aptGroup": "Naikon",
-    "confidence": 8.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Web Protocols",
-    "aptGroup": "Naikon",
-    "confidence": 8.1,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Web Protocols",
-    "aptGroup": "Patchwork",
-    "confidence": 2.3,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Valid Accounts",
-    "aptGroup": "Patchwork",
-    "confidence": 2.3,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Encrypted/Encoded File",
-    "aptGroup": "Patchwork",
-    "confidence": 2.1,
+    "confidence": 17.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
+    "aptGroup": "Naikon",
+    "confidence": 17.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exfiltration to Cloud Storage",
+    "aptGroup": "Naikon",
+    "confidence": 17.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
     "aptGroup": "Patchwork",
-    "confidence": 1.9,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "Patchwork",
-    "confidence": 1.8,
+    "confidence": 14.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Impersonation",
+    "aptGroup": "Patchwork",
+    "confidence": 14.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exfiltration to Cloud Storage",
+    "aptGroup": "Patchwork",
+    "confidence": 14.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Domains",
+    "aptGroup": "Patchwork",
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "APT41",
-    "confidence": 46.0,
+    "confidence": 49.1,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Email Accounts",
     "aptGroup": "APT41",
-    "confidence": 16.4,
+    "confidence": 27.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Hidden Window",
     "aptGroup": "APT41",
-    "confidence": 11.8,
+    "confidence": 19.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Mark-of-the-Web Bypass",
     "aptGroup": "APT41",
-    "confidence": 10.0,
+    "confidence": 19.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Link",
+    "technique": "Domains",
     "aptGroup": "APT41",
-    "confidence": 9.6,
+    "confidence": 18.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Upload Malware",
     "aptGroup": "Magic Hound",
-    "confidence": 3.2,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Valid Accounts",
+    "technique": "Financial Theft",
     "aptGroup": "Magic Hound",
-    "confidence": 1.9,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Exploitation for Client Execution",
+    "technique": "Impersonation",
     "aptGroup": "Magic Hound",
-    "confidence": 1.7,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Deobfuscate/Decode Files or Information",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Magic Hound",
-    "confidence": 1.6,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "DLL",
+    "technique": "Virtual Private Server",
     "aptGroup": "Magic Hound",
-    "confidence": 1.4,
+    "confidence": 13.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Upload Malware",
     "aptGroup": "ZIRCONIUM",
-    "confidence": 3.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "ZIRCONIUM",
-    "confidence": 3.5,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Email Accounts",
     "aptGroup": "ZIRCONIUM",
-    "confidence": 3.2,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Financial Theft",
     "aptGroup": "ZIRCONIUM",
-    "confidence": 2.5,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Impersonation",
     "aptGroup": "ZIRCONIUM",
-    "confidence": 2.3,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
@@ -3794,72 +3794,72 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "TeamTNT",
-    "confidence": 3.5,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Impersonation",
     "aptGroup": "TeamTNT",
-    "confidence": 3.2,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Visual Basic",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "TeamTNT",
-    "confidence": 2.3,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Valid Accounts",
+    "technique": "Email Accounts",
     "aptGroup": "TeamTNT",
-    "confidence": 2.3,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Financial Theft",
     "aptGroup": "TeamTNT",
-    "confidence": 2.2,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Upload Malware",
     "aptGroup": "APT37",
-    "confidence": 4.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Malicious Link",
-    "aptGroup": "APT37",
-    "confidence": 4.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "PowerShell",
-    "aptGroup": "APT37",
-    "confidence": 4.3,
+    "confidence": 16.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "APT37",
-    "confidence": 3.2,
+    "confidence": 15.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File Deletion",
+    "technique": "Email Accounts",
     "aptGroup": "APT37",
-    "confidence": 3.0,
+    "confidence": 14.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Domains",
+    "aptGroup": "APT37",
+    "confidence": 14.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exfiltration to Cloud Storage",
+    "aptGroup": "APT37",
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
@@ -3880,70 +3880,70 @@ export const PREDICTIONS = [
   {
     "technique": "Query Public AI Services",
     "aptGroup": "Scattered Spider",
-    "confidence": 66.6,
+    "confidence": 67.4,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "Scattered Spider",
-    "confidence": 53.4,
+    "confidence": 55.4,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Hidden Window",
     "aptGroup": "Scattered Spider",
-    "confidence": 28.8,
+    "confidence": 34.1,
     "method": "markov",
-    "trend": "emerging"
+    "trend": "rising"
   },
   {
     "technique": "Web Service",
     "aptGroup": "Scattered Spider",
-    "confidence": 28.0,
+    "confidence": 33.2,
     "method": "markov",
-    "trend": "emerging"
+    "trend": "rising"
   },
   {
     "technique": "Match Legitimate Resource Name or Location",
     "aptGroup": "Scattered Spider",
-    "confidence": 28.0,
+    "confidence": 32.8,
     "method": "markov",
-    "trend": "emerging"
+    "trend": "rising"
   },
   {
     "technique": "File and Directory Discovery",
     "aptGroup": "Aquatic Panda",
-    "confidence": 25.0,
+    "confidence": 29.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "Aquatic Panda",
-    "confidence": 22.4,
+    "confidence": 29.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Local Data Staging",
     "aptGroup": "Aquatic Panda",
-    "confidence": 17.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Malicious File",
-    "aptGroup": "Aquatic Panda",
-    "confidence": 16.8,
+    "confidence": 24.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Local Account",
     "aptGroup": "Aquatic Panda",
-    "confidence": 16.5,
+    "confidence": 24.0,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "Aquatic Panda",
+    "confidence": 22.7,
     "method": "markov",
     "trend": "emerging"
   },
@@ -3969,177 +3969,177 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "CopyKittens",
-    "confidence": 5.0,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "CopyKittens",
-    "confidence": 3.6,
+    "confidence": 15.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Virtual Private Server",
     "aptGroup": "CopyKittens",
-    "confidence": 3.5,
+    "confidence": 14.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Impersonation",
     "aptGroup": "CopyKittens",
-    "confidence": 3.2,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Domains",
     "aptGroup": "CopyKittens",
-    "confidence": 3.1,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Command Obfuscation",
     "aptGroup": "Mustard Tempest",
-    "confidence": 11.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Scheduled Task",
-    "aptGroup": "Mustard Tempest",
-    "confidence": 9.6,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Deobfuscate/Decode Files or Information",
-    "aptGroup": "Mustard Tempest",
-    "confidence": 9.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Reflective Code Loading",
-    "aptGroup": "Mustard Tempest",
-    "confidence": 8.7,
+    "confidence": 20.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "Mustard Tempest",
-    "confidence": 8.0,
+    "confidence": 19.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Reflective Code Loading",
+    "aptGroup": "Mustard Tempest",
+    "confidence": 18.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Deobfuscate/Decode Files or Information",
+    "aptGroup": "Mustard Tempest",
+    "confidence": 18.1,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "Mustard Tempest",
+    "confidence": 17.8,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
     "aptGroup": "APT19",
-    "confidence": 4.9,
+    "confidence": 16.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "APT19",
-    "confidence": 3.7,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious Link",
+    "technique": "Domains",
     "aptGroup": "APT19",
-    "confidence": 3.3,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "APT19",
-    "confidence": 3.2,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Email Accounts",
     "aptGroup": "APT19",
-    "confidence": 2.8,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Upload Malware",
     "aptGroup": "Windshift",
-    "confidence": 13.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Match Legitimate Resource Name or Location",
-    "aptGroup": "Windshift",
-    "confidence": 13.1,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Data from Local System",
-    "aptGroup": "Windshift",
-    "confidence": 10.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Hidden Window",
-    "aptGroup": "Windshift",
-    "confidence": 10.6,
+    "confidence": 23.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Email Accounts",
     "aptGroup": "Windshift",
-    "confidence": 10.5,
+    "confidence": 22.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious Link",
-    "aptGroup": "Silence",
-    "confidence": 16.4,
+    "technique": "Match Legitimate Resource Name or Location",
+    "aptGroup": "Windshift",
+    "confidence": 20.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
-    "aptGroup": "Silence",
-    "confidence": 16.2,
+    "technique": "Domains",
+    "aptGroup": "Windshift",
+    "confidence": 19.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "DLL",
+    "technique": "File and Directory Discovery",
+    "aptGroup": "Windshift",
+    "confidence": 19.1,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
     "aptGroup": "Silence",
-    "confidence": 15.8,
+    "confidence": 25.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "Silence",
-    "confidence": 14.5,
+    "confidence": 24.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Data from Local System",
+    "technique": "Email Accounts",
     "aptGroup": "Silence",
-    "confidence": 14.0,
+    "confidence": 23.7,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "DLL",
+    "aptGroup": "Silence",
+    "confidence": 22.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exploit Public-Facing Application",
+    "aptGroup": "Silence",
+    "confidence": 22.4,
     "method": "markov",
     "trend": "emerging"
   },
@@ -4181,70 +4181,70 @@ export const PREDICTIONS = [
   {
     "technique": "Hidden Window",
     "aptGroup": "FIN6",
-    "confidence": 71.3,
+    "confidence": 70.2,
     "method": "markov",
     "trend": "rising"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Email Accounts",
     "aptGroup": "FIN6",
-    "confidence": 19.7,
+    "confidence": 25.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exploit Public-Facing Application",
+    "aptGroup": "FIN6",
+    "confidence": 24.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Internet Connection Discovery",
+    "aptGroup": "FIN6",
+    "confidence": 23.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Malicious Link",
     "aptGroup": "FIN6",
-    "confidence": 18.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Exploitation for Client Execution",
-    "aptGroup": "FIN6",
-    "confidence": 15.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Email Accounts",
-    "aptGroup": "FIN6",
-    "confidence": 14.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Exploitation for Client Execution",
-    "aptGroup": "LAPSUS$",
-    "confidence": 23.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Remote Data Staging",
-    "aptGroup": "LAPSUS$",
-    "confidence": 22.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Windows Management Instrumentation Event Subscription",
-    "aptGroup": "LAPSUS$",
-    "confidence": 22.1,
+    "confidence": 23.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "LAPSUS$",
-    "confidence": 19.8,
+    "confidence": 29.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Remote Data Staging",
+    "aptGroup": "LAPSUS$",
+    "confidence": 28.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Windows Management Instrumentation Event Subscription",
+    "aptGroup": "LAPSUS$",
+    "confidence": 28.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Social Media Accounts",
     "aptGroup": "LAPSUS$",
-    "confidence": 18.7,
+    "confidence": 27.7,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exploitation for Client Execution",
+    "aptGroup": "LAPSUS$",
+    "confidence": 25.7,
     "method": "markov",
     "trend": "emerging"
   },
@@ -4286,105 +4286,105 @@ export const PREDICTIONS = [
   {
     "technique": "Match Legitimate Resource Name or Location",
     "aptGroup": "BlackTech",
-    "confidence": 10.4,
+    "confidence": 17.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "BlackTech",
-    "confidence": 9.7,
+    "confidence": 16.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Email Accounts",
     "aptGroup": "BlackTech",
-    "confidence": 7.8,
+    "confidence": 16.7,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
+    "aptGroup": "BlackTech",
+    "confidence": 16.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "BlackTech",
-    "confidence": 7.1,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "File and Directory Discovery",
-    "aptGroup": "BlackTech",
-    "confidence": 6.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Local Storage Discovery",
-    "aptGroup": "FIN7",
-    "confidence": 9.1,
+    "confidence": 16.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Impersonation",
     "aptGroup": "FIN7",
-    "confidence": 7.3,
+    "confidence": 19.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Local Storage Discovery",
+    "aptGroup": "FIN7",
+    "confidence": 19.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Financial Theft",
+    "aptGroup": "FIN7",
+    "confidence": 17.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Acquire Infrastructure",
+    "aptGroup": "FIN7",
+    "confidence": 15.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Masquerading",
     "aptGroup": "FIN7",
-    "confidence": 6.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "File and Directory Discovery",
-    "aptGroup": "FIN7",
-    "confidence": 6.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Web Protocols",
-    "aptGroup": "FIN7",
-    "confidence": 5.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "File and Directory Discovery",
-    "aptGroup": "OilRig",
-    "confidence": 2.6,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Registry Run Keys / Startup Folder",
-    "aptGroup": "OilRig",
-    "confidence": 2.3,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "DLL",
-    "aptGroup": "OilRig",
-    "confidence": 2.1,
+    "confidence": 15.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "OilRig",
-    "confidence": 1.9,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Remote System Discovery",
+    "technique": "Financial Theft",
     "aptGroup": "OilRig",
-    "confidence": 1.8,
+    "confidence": 14.0,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Impersonation",
+    "aptGroup": "OilRig",
+    "confidence": 14.0,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exfiltration to Cloud Storage",
+    "aptGroup": "OilRig",
+    "confidence": 14.0,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Virtual Private Server",
+    "aptGroup": "OilRig",
+    "confidence": 13.5,
     "method": "markov",
     "trend": "emerging"
   },
@@ -4494,72 +4494,72 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Upload Malware",
     "aptGroup": "Molerats",
-    "confidence": 16.3,
+    "confidence": 25.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Domains",
+    "aptGroup": "Molerats",
+    "confidence": 22.7,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "Molerats",
+    "confidence": 22.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Match Legitimate Resource Name or Location",
     "aptGroup": "Molerats",
-    "confidence": 15.6,
+    "confidence": 22.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Web Services",
     "aptGroup": "Molerats",
-    "confidence": 15.2,
+    "confidence": 21.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Management Instrumentation",
-    "aptGroup": "Molerats",
-    "confidence": 13.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Drive-by Compromise",
-    "aptGroup": "Molerats",
-    "confidence": 12.8,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Malicious File",
+    "technique": "Internet Connection Discovery",
     "aptGroup": "Chimera",
-    "confidence": 37.7,
-    "method": "markov",
-    "trend": "rising"
-  },
-  {
-    "technique": "Spearphishing Attachment",
-    "aptGroup": "Chimera",
-    "confidence": 36.7,
+    "confidence": 41.2,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "Chimera",
-    "confidence": 35.2,
+    "confidence": 39.9,
     "method": "markov",
     "trend": "rising"
   },
   {
-    "technique": "Internet Connection Discovery",
+    "technique": "Email Accounts",
     "aptGroup": "Chimera",
-    "confidence": 34.1,
+    "confidence": 39.1,
     "method": "markov",
     "trend": "rising"
   },
   {
-    "technique": "Exploitation for Client Execution",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Chimera",
-    "confidence": 30.6,
+    "confidence": 34.8,
+    "method": "markov",
+    "trend": "rising"
+  },
+  {
+    "technique": "Domains",
+    "aptGroup": "Chimera",
+    "confidence": 33.1,
     "method": "markov",
     "trend": "rising"
   },
@@ -4599,37 +4599,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Virtual Private Server",
     "aptGroup": "HEXANE",
-    "confidence": 5.0,
+    "confidence": 15.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Service",
+    "technique": "Web Services",
     "aptGroup": "HEXANE",
-    "confidence": 4.2,
+    "confidence": 14.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Link",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "HEXANE",
-    "confidence": 4.0,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Exploitation for Client Execution",
+    "technique": "Data Encrypted for Impact",
     "aptGroup": "HEXANE",
-    "confidence": 3.5,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Domain Account",
+    "technique": "Financial Theft",
     "aptGroup": "HEXANE",
-    "confidence": 3.1,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
@@ -4671,70 +4671,70 @@ export const PREDICTIONS = [
   {
     "technique": "Local Storage Discovery",
     "aptGroup": "Mustang Panda",
-    "confidence": 29.3,
+    "confidence": 36.5,
     "method": "markov",
-    "trend": "emerging"
+    "trend": "rising"
   },
   {
     "technique": "Embedded Payloads",
     "aptGroup": "Mustang Panda",
-    "confidence": 22.3,
+    "confidence": 29.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Impersonation",
     "aptGroup": "Mustang Panda",
-    "confidence": 14.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Remote Desktop Protocol",
-    "aptGroup": "Mustang Panda",
-    "confidence": 12.5,
+    "confidence": 25.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Compression",
     "aptGroup": "Mustang Panda",
-    "confidence": 12.5,
+    "confidence": 22.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Botnet",
+    "aptGroup": "Mustang Panda",
+    "confidence": 21.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Local Account",
     "aptGroup": "WIRTE",
-    "confidence": 17.0,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Remote Desktop Protocol",
-    "aptGroup": "WIRTE",
-    "confidence": 13.6,
+    "confidence": 24.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Hidden Window",
     "aptGroup": "WIRTE",
-    "confidence": 13.3,
+    "confidence": 20.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Exploitation for Client Execution",
+    "technique": "Remote Desktop Protocol",
     "aptGroup": "WIRTE",
-    "confidence": 13.2,
+    "confidence": 20.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Network Configuration Discovery",
+    "technique": "System Service Discovery",
     "aptGroup": "WIRTE",
-    "confidence": 13.2,
+    "confidence": 20.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Modify Registry",
+    "aptGroup": "WIRTE",
+    "confidence": 20.4,
     "method": "markov",
     "trend": "emerging"
   },
@@ -4811,70 +4811,70 @@ export const PREDICTIONS = [
   {
     "technique": "Match Legitimate Resource Name or Location",
     "aptGroup": "LazyScripter",
-    "confidence": 11.6,
+    "confidence": 18.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Email Accounts",
     "aptGroup": "LazyScripter",
-    "confidence": 9.4,
+    "confidence": 18.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "LazyScripter",
-    "confidence": 9.0,
+    "confidence": 17.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Reflective Code Loading",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "LazyScripter",
-    "confidence": 6.8,
+    "confidence": 17.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Compression",
     "aptGroup": "LazyScripter",
-    "confidence": 6.5,
+    "confidence": 17.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
+    "aptGroup": "BRONZE BUTLER",
+    "confidence": 26.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Local Account",
     "aptGroup": "BRONZE BUTLER",
-    "confidence": 18.4,
+    "confidence": 25.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "DNS",
+    "technique": "Domains",
     "aptGroup": "BRONZE BUTLER",
-    "confidence": 14.6,
+    "confidence": 22.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious Link",
+    "technique": "Email Accounts",
     "aptGroup": "BRONZE BUTLER",
-    "confidence": 14.0,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "LSA Secrets",
-    "aptGroup": "BRONZE BUTLER",
-    "confidence": 13.6,
+    "confidence": 22.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Security Account Manager",
     "aptGroup": "BRONZE BUTLER",
-    "confidence": 13.6,
+    "confidence": 22.4,
     "method": "markov",
     "trend": "emerging"
   },
@@ -4984,142 +4984,142 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
+    "technique": "Upload Malware",
+    "aptGroup": "APT38",
+    "confidence": 20.9,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exploit Public-Facing Application",
+    "aptGroup": "APT38",
+    "confidence": 17.7,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "APT38",
+    "confidence": 16.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Lateral Tool Transfer",
+    "aptGroup": "APT38",
+    "confidence": 15.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
     "technique": "Code Signing",
     "aptGroup": "APT38",
-    "confidence": 7.1,
+    "confidence": 15.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Upload Malware",
-    "aptGroup": "APT38",
-    "confidence": 6.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Exploit Public-Facing Application",
-    "aptGroup": "APT38",
-    "confidence": 5.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Match Legitimate Resource Name or Location",
-    "aptGroup": "APT38",
-    "confidence": 5.3,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Exploitation for Client Execution",
-    "aptGroup": "APT38",
-    "confidence": 5.0,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Malicious Link",
     "aptGroup": "Lazarus Group",
-    "confidence": 2.0,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "Lazarus Group",
-    "confidence": 1.8,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "LSASS Memory",
+    "technique": "Impersonation",
     "aptGroup": "Lazarus Group",
-    "confidence": 1.8,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Remote System Discovery",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Lazarus Group",
-    "confidence": 1.6,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Archive via Utility",
+    "technique": "Financial Theft",
     "aptGroup": "Lazarus Group",
-    "confidence": 1.6,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "admin@338",
-    "confidence": 7.4,
+    "confidence": 18.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious Link",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "admin@338",
-    "confidence": 7.4,
+    "confidence": 16.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Visual Basic",
+    "technique": "Domains",
     "aptGroup": "admin@338",
-    "confidence": 6.6,
+    "confidence": 16.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Web Services",
     "aptGroup": "admin@338",
-    "confidence": 5.2,
+    "confidence": 16.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Email Accounts",
     "aptGroup": "admin@338",
-    "confidence": 5.2,
+    "confidence": 16.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Visual Basic",
     "aptGroup": "Darkhotel",
-    "confidence": 26.8,
+    "confidence": 28.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Non-Standard Port",
     "aptGroup": "Darkhotel",
-    "confidence": 19.8,
+    "confidence": 26.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "JavaScript",
     "aptGroup": "Darkhotel",
+    "confidence": 25.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
+    "aptGroup": "Darkhotel",
     "confidence": 19.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Domains",
     "aptGroup": "Darkhotel",
-    "confidence": 9.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "DLL",
-    "aptGroup": "Darkhotel",
-    "confidence": 8.5,
+    "confidence": 18.6,
     "method": "markov",
     "trend": "emerging"
   },
@@ -5159,107 +5159,107 @@ export const PREDICTIONS = [
     "trend": "rising"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Upload Malware",
     "aptGroup": "APT3",
-    "confidence": 3.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "APT3",
-    "confidence": 3.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Match Legitimate Resource Name or Location",
-    "aptGroup": "APT3",
-    "confidence": 2.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Web Protocols",
-    "aptGroup": "APT3",
-    "confidence": 2.3,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "APT3",
-    "confidence": 1.9,
+    "confidence": 14.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "APT3",
+    "confidence": 14.1,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Financial Theft",
+    "aptGroup": "APT3",
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "Cobalt Group",
-    "confidence": 12.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Windows Management Instrumentation",
-    "aptGroup": "Cobalt Group",
-    "confidence": 8.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Web Service",
-    "aptGroup": "Cobalt Group",
-    "confidence": 8.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Domains",
-    "aptGroup": "Cobalt Group",
-    "confidence": 8.1,
+    "confidence": 23.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Upload Malware",
     "aptGroup": "Cobalt Group",
-    "confidence": 7.3,
+    "confidence": 21.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Domains",
+    "aptGroup": "Cobalt Group",
+    "confidence": 19.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Web Services",
+    "aptGroup": "Cobalt Group",
+    "confidence": 17.5,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "Cobalt Group",
+    "confidence": 17.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Peripheral Device Discovery",
     "aptGroup": "Stealth Falcon",
-    "confidence": 7.9,
+    "confidence": 16.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Visual Basic",
+    "technique": "Virtual Private Server",
     "aptGroup": "Stealth Falcon",
-    "confidence": 7.7,
+    "confidence": 16.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Web Services",
     "aptGroup": "Stealth Falcon",
-    "confidence": 5.6,
+    "confidence": 16.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Drive-by Compromise",
+    "technique": "Upload Malware",
     "aptGroup": "Stealth Falcon",
-    "confidence": 5.0,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Lateral Tool Transfer",
     "aptGroup": "Stealth Falcon",
-    "confidence": 4.9,
+    "confidence": 15.3,
     "method": "markov",
     "trend": "emerging"
   },
@@ -5299,37 +5299,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Social Media Accounts",
-    "aptGroup": "Indrik Spider",
-    "confidence": 21.4,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
     "technique": "Domains",
     "aptGroup": "Indrik Spider",
-    "confidence": 20.9,
+    "confidence": 30.4,
+    "method": "markov",
+    "trend": "rising"
+  },
+  {
+    "technique": "Social Media Accounts",
+    "aptGroup": "Indrik Spider",
+    "confidence": 30.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Establish Accounts",
     "aptGroup": "Indrik Spider",
-    "confidence": 20.1,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Web Service",
-    "aptGroup": "Indrik Spider",
-    "confidence": 19.6,
+    "confidence": 27.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Code Signing Certificates",
     "aptGroup": "Indrik Spider",
-    "confidence": 18.2,
+    "confidence": 26.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Web Service",
+    "aptGroup": "Indrik Spider",
+    "confidence": 26.1,
     "method": "markov",
     "trend": "emerging"
   },
@@ -5371,35 +5371,35 @@ export const PREDICTIONS = [
   {
     "technique": "Domains",
     "aptGroup": "Confucius",
-    "confidence": 8.1,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Windows Command Shell",
-    "aptGroup": "Confucius",
-    "confidence": 6.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Valid Accounts",
-    "aptGroup": "Confucius",
-    "confidence": 5.4,
+    "confidence": 19.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Upload Malware",
     "aptGroup": "Confucius",
-    "confidence": 5.1,
+    "confidence": 19.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Email Accounts",
     "aptGroup": "Confucius",
-    "confidence": 4.9,
+    "confidence": 17.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Internet Connection Discovery",
+    "aptGroup": "Confucius",
+    "confidence": 15.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Virtual Private Server",
+    "aptGroup": "Confucius",
+    "confidence": 15.2,
     "method": "markov",
     "trend": "emerging"
   },
@@ -5441,35 +5441,35 @@ export const PREDICTIONS = [
   {
     "technique": "Windows Management Instrumentation Event Subscription",
     "aptGroup": "Sea Turtle",
-    "confidence": 22.6,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Malicious File",
-    "aptGroup": "Sea Turtle",
-    "confidence": 7.8,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Malicious Link",
-    "aptGroup": "Sea Turtle",
-    "confidence": 7.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Spearphishing Attachment",
-    "aptGroup": "Sea Turtle",
-    "confidence": 7.1,
+    "confidence": 28.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Web Services",
     "aptGroup": "Sea Turtle",
-    "confidence": 6.3,
+    "confidence": 17.8,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "Sea Turtle",
+    "confidence": 17.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
+    "aptGroup": "Sea Turtle",
+    "confidence": 16.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Compression",
+    "aptGroup": "Sea Turtle",
+    "confidence": 15.6,
     "method": "markov",
     "trend": "emerging"
   },
@@ -5544,72 +5544,72 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Upload Malware",
     "aptGroup": "Carbanak",
-    "confidence": 5.0,
+    "confidence": 17.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Email Accounts",
     "aptGroup": "Carbanak",
-    "confidence": 4.7,
+    "confidence": 15.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Domains",
     "aptGroup": "Carbanak",
-    "confidence": 4.3,
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Impersonation",
     "aptGroup": "Carbanak",
-    "confidence": 4.2,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Carbanak",
-    "confidence": 3.7,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Web Services",
     "aptGroup": "APT33",
-    "confidence": 19.3,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "JavaScript",
-    "aptGroup": "APT33",
-    "confidence": 14.4,
+    "confidence": 28.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Email Accounts",
     "aptGroup": "APT33",
-    "confidence": 13.7,
+    "confidence": 24.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Peripheral Device Discovery",
+    "technique": "Upload Malware",
     "aptGroup": "APT33",
-    "confidence": 12.9,
+    "confidence": 23.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Domains",
     "aptGroup": "APT33",
-    "confidence": 12.9,
+    "confidence": 22.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "JavaScript",
+    "aptGroup": "APT33",
+    "confidence": 21.4,
     "method": "markov",
     "trend": "emerging"
   },
@@ -5721,35 +5721,35 @@ export const PREDICTIONS = [
   {
     "technique": "Hidden Window",
     "aptGroup": "Dragonfly",
-    "confidence": 160.8,
+    "confidence": 146.3,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "Dragonfly",
-    "confidence": 42.9,
-    "method": "markov",
-    "trend": "rising"
-  },
-  {
-    "technique": "Web Protocols",
-    "aptGroup": "Dragonfly",
-    "confidence": 40.8,
+    "confidence": 46.5,
     "method": "markov",
     "trend": "rising"
   },
   {
     "technique": "Match Legitimate Resource Name or Location",
     "aptGroup": "Dragonfly",
-    "confidence": 39.4,
+    "confidence": 42.5,
     "method": "markov",
     "trend": "rising"
   },
   {
-    "technique": "Malicious Link",
+    "technique": "Financial Theft",
     "aptGroup": "Dragonfly",
-    "confidence": 34.9,
+    "confidence": 40.2,
+    "method": "markov",
+    "trend": "rising"
+  },
+  {
+    "technique": "Web Protocols",
+    "aptGroup": "Dragonfly",
+    "confidence": 39.6,
     "method": "markov",
     "trend": "rising"
   },
@@ -5791,35 +5791,35 @@ export const PREDICTIONS = [
   {
     "technique": "Remote Data Staging",
     "aptGroup": "Axiom",
-    "confidence": 12.4,
+    "confidence": 20.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Windows Management Instrumentation Event Subscription",
     "aptGroup": "Axiom",
-    "confidence": 9.9,
+    "confidence": 18.0,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Data Encrypted for Impact",
+    "aptGroup": "Axiom",
+    "confidence": 17.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "Axiom",
-    "confidence": 8.5,
+    "confidence": 17.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Command Obfuscation",
     "aptGroup": "Axiom",
-    "confidence": 7.3,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "NTDS",
-    "aptGroup": "Axiom",
-    "confidence": 6.9,
+    "confidence": 16.8,
     "method": "markov",
     "trend": "emerging"
   },
@@ -5894,37 +5894,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Upload Malware",
     "aptGroup": "GALLIUM",
-    "confidence": 5.5,
+    "confidence": 16.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Email Accounts",
     "aptGroup": "GALLIUM",
-    "confidence": 5.0,
+    "confidence": 16.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Exploitation for Privilege Escalation",
+    "technique": "Internet Connection Discovery",
     "aptGroup": "GALLIUM",
-    "confidence": 4.8,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "GALLIUM",
-    "confidence": 4.7,
+    "confidence": 15.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Local Account",
+    "technique": "Financial Theft",
     "aptGroup": "GALLIUM",
-    "confidence": 4.5,
+    "confidence": 15.3,
     "method": "markov",
     "trend": "emerging"
   },
@@ -5999,37 +5999,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Upload Malware",
     "aptGroup": "Leviathan",
-    "confidence": 3.9,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Internet Connection Discovery",
     "aptGroup": "Leviathan",
-    "confidence": 3.7,
+    "confidence": 14.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Virtual Private Server",
     "aptGroup": "Leviathan",
-    "confidence": 3.4,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Financial Theft",
     "aptGroup": "Leviathan",
-    "confidence": 3.3,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Network Service Discovery",
+    "technique": "Impersonation",
     "aptGroup": "Leviathan",
-    "confidence": 3.1,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
@@ -6104,37 +6104,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "CURIUM",
-    "confidence": 15.6,
+    "confidence": 22.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Upload Malware",
     "aptGroup": "CURIUM",
-    "confidence": 13.5,
+    "confidence": 22.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Visual Basic",
+    "technique": "Internet Connection Discovery",
     "aptGroup": "CURIUM",
-    "confidence": 13.4,
+    "confidence": 21.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "CURIUM",
-    "confidence": 12.9,
+    "confidence": 21.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Compression",
     "aptGroup": "CURIUM",
-    "confidence": 12.6,
+    "confidence": 20.6,
     "method": "markov",
     "trend": "emerging"
   },
@@ -6209,177 +6209,177 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Upload Malware",
     "aptGroup": "Cinnamon Tempest",
-    "confidence": 4.7,
+    "confidence": 16.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Virtual Private Server",
     "aptGroup": "Cinnamon Tempest",
-    "confidence": 4.5,
+    "confidence": 15.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Domains",
     "aptGroup": "Cinnamon Tempest",
-    "confidence": 4.0,
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Email Accounts",
     "aptGroup": "Cinnamon Tempest",
-    "confidence": 3.8,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Web Services",
     "aptGroup": "Cinnamon Tempest",
-    "confidence": 3.6,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Command Obfuscation",
-    "aptGroup": "Ke3chang",
-    "confidence": 6.8,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Data Encrypted for Impact",
     "aptGroup": "Ke3chang",
-    "confidence": 6.3,
+    "confidence": 17.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Command Obfuscation",
+    "aptGroup": "Ke3chang",
+    "confidence": 16.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Upload Malware",
+    "aptGroup": "Ke3chang",
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Software Deployment Tools",
     "aptGroup": "Ke3chang",
-    "confidence": 5.9,
+    "confidence": 15.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Domains",
     "aptGroup": "Ke3chang",
-    "confidence": 3.5,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
-    "aptGroup": "Ke3chang",
-    "confidence": 3.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Encrypted/Encoded File",
+    "technique": "Compression",
     "aptGroup": "APT42",
-    "confidence": 4.6,
+    "confidence": 14.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Owner/User Discovery",
+    "technique": "Dynamic Resolution",
     "aptGroup": "APT42",
-    "confidence": 4.6,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Native API",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "APT42",
-    "confidence": 3.8,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Financial Theft",
     "aptGroup": "APT42",
-    "confidence": 3.5,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "APT42",
-    "confidence": 3.5,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "Machete",
-    "confidence": 4.6,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Machete",
-    "confidence": 4.2,
+    "confidence": 14.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Domains",
     "aptGroup": "Machete",
-    "confidence": 3.5,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Registry Run Keys / Startup Folder",
+    "technique": "Email Accounts",
     "aptGroup": "Machete",
-    "confidence": 3.3,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Exploitation for Client Execution",
+    "technique": "Virtual Private Server",
     "aptGroup": "Machete",
-    "confidence": 3.0,
+    "confidence": 14.0,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Web Services",
+    "aptGroup": "Leafminer",
+    "confidence": 19.9,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Disable or Modify Tools",
+    "aptGroup": "Leafminer",
+    "confidence": 19.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Malicious Link",
     "aptGroup": "Leafminer",
-    "confidence": 12.9,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Visual Basic",
-    "aptGroup": "Leafminer",
-    "confidence": 12.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Spearphishing Link",
-    "aptGroup": "Leafminer",
-    "confidence": 11.9,
+    "confidence": 18.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Peripheral Device Discovery",
     "aptGroup": "Leafminer",
-    "confidence": 10.4,
+    "confidence": 18.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Masquerading",
+    "technique": "Domain Account",
     "aptGroup": "Leafminer",
-    "confidence": 9.2,
+    "confidence": 18.1,
     "method": "markov",
     "trend": "emerging"
   },
@@ -6482,72 +6482,72 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Deobfuscate/Decode Files or Information",
+    "technique": "Data Encrypted for Impact",
     "aptGroup": "APT5",
-    "confidence": 14.6,
+    "confidence": 23.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Command Obfuscation",
     "aptGroup": "APT5",
-    "confidence": 14.2,
+    "confidence": 22.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Data Encrypted for Impact",
+    "technique": "Deobfuscate/Decode Files or Information",
     "aptGroup": "APT5",
-    "confidence": 13.8,
+    "confidence": 22.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "NTDS",
     "aptGroup": "APT5",
-    "confidence": 13.8,
+    "confidence": 22.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Software Deployment Tools",
     "aptGroup": "APT5",
-    "confidence": 13.3,
+    "confidence": 21.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Upload Malware",
     "aptGroup": "PLATINUM",
-    "confidence": 5.4,
+    "confidence": 19.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "PLATINUM",
-    "confidence": 4.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Web Services",
-    "aptGroup": "PLATINUM",
-    "confidence": 4.0,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Code Signing",
-    "aptGroup": "PLATINUM",
-    "confidence": 3.9,
+    "confidence": 16.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Email Accounts",
     "aptGroup": "PLATINUM",
-    "confidence": 3.9,
+    "confidence": 16.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Web Services",
+    "aptGroup": "PLATINUM",
+    "confidence": 15.8,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exploit Public-Facing Application",
+    "aptGroup": "PLATINUM",
+    "confidence": 15.5,
     "method": "markov",
     "trend": "emerging"
   },
@@ -6587,72 +6587,72 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Upload Malware",
     "aptGroup": "Sidewinder",
-    "confidence": 3.7,
+    "confidence": 16.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Sidewinder",
-    "confidence": 2.6,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Data from Local System",
+    "technique": "Domains",
     "aptGroup": "Sidewinder",
-    "confidence": 2.5,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "LSASS Memory",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Sidewinder",
-    "confidence": 2.5,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Management Instrumentation",
+    "technique": "Email Accounts",
     "aptGroup": "Sidewinder",
-    "confidence": 2.4,
+    "confidence": 14.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "DarkHydrus",
-    "confidence": 4.9,
+    "confidence": 16.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Command Obfuscation",
+    "technique": "Upload Malware",
     "aptGroup": "DarkHydrus",
-    "confidence": 4.2,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "DarkHydrus",
-    "confidence": 3.8,
+    "confidence": 15.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Non-Standard Port",
+    "technique": "Financial Theft",
     "aptGroup": "DarkHydrus",
-    "confidence": 3.7,
+    "confidence": 15.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Web Services",
     "aptGroup": "DarkHydrus",
-    "confidence": 3.5,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
@@ -6797,72 +6797,72 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "Higaisa",
-    "confidence": 4.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Impersonation",
     "aptGroup": "Higaisa",
-    "confidence": 3.5,
+    "confidence": 14.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Higaisa",
-    "confidence": 3.1,
+    "confidence": 14.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Valid Accounts",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Higaisa",
-    "confidence": 2.8,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Owner/User Discovery",
+    "technique": "Virtual Private Server",
     "aptGroup": "Higaisa",
-    "confidence": 2.6,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Malicious Link",
-    "aptGroup": "APT1",
-    "confidence": 7.6,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Ingress Tool Transfer",
-    "aptGroup": "APT1",
-    "confidence": 6.8,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "APT1",
-    "confidence": 6.6,
+    "confidence": 18.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Management Instrumentation",
+    "technique": "Upload Malware",
     "aptGroup": "APT1",
-    "confidence": 6.3,
+    "confidence": 18.4,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Shell",
+    "technique": "Impersonation",
     "aptGroup": "APT1",
-    "confidence": 6.3,
+    "confidence": 17.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Web Services",
+    "aptGroup": "APT1",
+    "confidence": 16.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Financial Theft",
+    "aptGroup": "APT1",
+    "confidence": 16.0,
     "method": "markov",
     "trend": "emerging"
   },
@@ -6902,72 +6902,72 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Upload Malware",
     "aptGroup": "Volatile Cedar",
-    "confidence": 3.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Domains",
     "aptGroup": "Volatile Cedar",
-    "confidence": 3.5,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Email Accounts",
     "aptGroup": "Volatile Cedar",
-    "confidence": 3.2,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Financial Theft",
     "aptGroup": "Volatile Cedar",
-    "confidence": 3.0,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Impersonation",
     "aptGroup": "Volatile Cedar",
-    "confidence": 2.5,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Upload Malware",
     "aptGroup": "Elderwood",
-    "confidence": 3.9,
+    "confidence": 16.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Email Accounts",
     "aptGroup": "Elderwood",
-    "confidence": 3.4,
+    "confidence": 15.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Elderwood",
-    "confidence": 3.4,
+    "confidence": 15.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Visual Basic",
+    "technique": "Domains",
     "aptGroup": "Elderwood",
-    "confidence": 3.3,
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Elderwood",
-    "confidence": 3.3,
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
@@ -7154,72 +7154,72 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "FIN10",
-    "confidence": 4.3,
+    "confidence": 16.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "FIN10",
-    "confidence": 4.3,
+    "confidence": 15.0,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Process Discovery",
+    "technique": "Domains",
     "aptGroup": "FIN10",
-    "confidence": 4.1,
+    "confidence": 14.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Email Accounts",
     "aptGroup": "FIN10",
-    "confidence": 4.0,
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "FIN10",
-    "confidence": 3.9,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "Poseidon Group",
-    "confidence": 4.9,
+    "confidence": 16.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Poseidon Group",
-    "confidence": 4.1,
+    "confidence": 15.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Domains",
     "aptGroup": "Poseidon Group",
-    "confidence": 4.0,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Deobfuscate/Decode Files or Information",
+    "technique": "Email Accounts",
     "aptGroup": "Poseidon Group",
-    "confidence": 3.9,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "File and Directory Discovery",
+    "technique": "Financial Theft",
     "aptGroup": "Poseidon Group",
-    "confidence": 3.5,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
@@ -7294,37 +7294,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Upload Malware",
     "aptGroup": "Rancor",
-    "confidence": 3.5,
+    "confidence": 16.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Email Accounts",
     "aptGroup": "Rancor",
-    "confidence": 3.1,
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Link",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Rancor",
-    "confidence": 3.0,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Domains",
     "aptGroup": "Rancor",
-    "confidence": 2.5,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Exploitation for Client Execution",
+    "technique": "Virtual Private Server",
     "aptGroup": "Rancor",
-    "confidence": 2.5,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
@@ -7364,37 +7364,37 @@ export const PREDICTIONS = [
     "trend": "rising"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "RTM",
-    "confidence": 11.8,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Visual Basic",
-    "aptGroup": "RTM",
-    "confidence": 9.0,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Match Legitimate Resource Name or Location",
-    "aptGroup": "RTM",
-    "confidence": 8.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Windows Command Shell",
-    "aptGroup": "RTM",
-    "confidence": 8.0,
+    "confidence": 19.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Domains",
     "aptGroup": "RTM",
-    "confidence": 7.8,
+    "confidence": 19.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "RTM",
+    "confidence": 19.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exploit Public-Facing Application",
+    "aptGroup": "RTM",
+    "confidence": 16.6,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Match Legitimate Resource Name or Location",
+    "aptGroup": "RTM",
+    "confidence": 16.2,
     "method": "markov",
     "trend": "emerging"
   },
@@ -7434,37 +7434,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "SilverTerrier",
-    "confidence": 5.0,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Domains",
     "aptGroup": "SilverTerrier",
-    "confidence": 5.0,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Windows Command Shell",
-    "aptGroup": "SilverTerrier",
-    "confidence": 4.5,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "System Information Discovery",
-    "aptGroup": "SilverTerrier",
-    "confidence": 3.8,
+    "confidence": 15.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Proxy",
     "aptGroup": "SilverTerrier",
-    "confidence": 3.7,
+    "confidence": 15.0,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Exploit Public-Facing Application",
+    "aptGroup": "SilverTerrier",
+    "confidence": 14.3,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "SilverTerrier",
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
@@ -7567,107 +7567,107 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Disable or Modify Tools",
     "aptGroup": "Star Blizzard",
-    "confidence": 6.0,
+    "confidence": 14.8,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Proxy",
     "aptGroup": "Star Blizzard",
-    "confidence": 5.9,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Cloud Accounts",
     "aptGroup": "Star Blizzard",
-    "confidence": 4.8,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Network Configuration Discovery",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Star Blizzard",
-    "confidence": 4.2,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Remote Desktop Protocol",
+    "technique": "Inhibit System Recovery",
     "aptGroup": "Star Blizzard",
-    "confidence": 3.9,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Upload Malware",
     "aptGroup": "APT18",
-    "confidence": 5.0,
+    "confidence": 17.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "APT18",
-    "confidence": 4.8,
+    "confidence": 16.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Deobfuscate/Decode Files or Information",
+    "technique": "Domains",
     "aptGroup": "APT18",
-    "confidence": 4.5,
+    "confidence": 15.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Web Services",
     "aptGroup": "APT18",
-    "confidence": 4.0,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Obfuscated Files or Information",
+    "technique": "Email Accounts",
     "aptGroup": "APT18",
-    "confidence": 3.7,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "Strider",
-    "confidence": 3.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Strider",
-    "confidence": 3.5,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Domains",
     "aptGroup": "Strider",
-    "confidence": 3.5,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Email Accounts",
     "aptGroup": "Strider",
-    "confidence": 3.2,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Financial Theft",
     "aptGroup": "Strider",
-    "confidence": 3.0,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
@@ -7707,37 +7707,37 @@ export const PREDICTIONS = [
     "trend": "rising"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "APT12",
-    "confidence": 3.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "APT12",
-    "confidence": 3.5,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Domains",
     "aptGroup": "APT12",
-    "confidence": 3.0,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Email Accounts",
     "aptGroup": "APT12",
-    "confidence": 2.5,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "System Information Discovery",
+    "technique": "Financial Theft",
     "aptGroup": "APT12",
-    "confidence": 2.3,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
@@ -7779,35 +7779,35 @@ export const PREDICTIONS = [
   {
     "technique": "Domains",
     "aptGroup": "Deep Panda",
-    "confidence": 4.9,
+    "confidence": 16.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Command Obfuscation",
+    "technique": "Upload Malware",
     "aptGroup": "Deep Panda",
-    "confidence": 4.2,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Protocols",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Deep Panda",
-    "confidence": 3.8,
+    "confidence": 15.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Non-Standard Port",
+    "technique": "Financial Theft",
     "aptGroup": "Deep Panda",
-    "confidence": 3.7,
+    "confidence": 15.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Web Services",
     "aptGroup": "Deep Panda",
-    "confidence": 3.5,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
@@ -7847,37 +7847,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Command Obfuscation",
-    "aptGroup": "GCMAN",
-    "confidence": 14.2,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
     "technique": "Social Media Accounts",
     "aptGroup": "GCMAN",
-    "confidence": 13.8,
+    "confidence": 23.5,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Web Service",
+    "technique": "Command Obfuscation",
     "aptGroup": "GCMAN",
-    "confidence": 13.6,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Replication Through Removable Media",
-    "aptGroup": "GCMAN",
-    "confidence": 13.3,
+    "confidence": 22.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Establish Accounts",
     "aptGroup": "GCMAN",
-    "confidence": 13.2,
+    "confidence": 21.8,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Replication Through Removable Media",
+    "aptGroup": "GCMAN",
+    "confidence": 21.7,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Web Service",
+    "aptGroup": "GCMAN",
+    "confidence": 21.0,
     "method": "markov",
     "trend": "emerging"
   },
@@ -8050,37 +8050,37 @@ export const PREDICTIONS = [
     "trend": "rising"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Upload Malware",
     "aptGroup": "Winnti Group",
-    "confidence": 6.4,
+    "confidence": 17.7,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Email Accounts",
     "aptGroup": "Winnti Group",
-    "confidence": 5.8,
+    "confidence": 16.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Match Legitimate Resource Name or Location",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Winnti Group",
-    "confidence": 5.7,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Web Services",
     "aptGroup": "Winnti Group",
-    "confidence": 5.6,
+    "confidence": 14.6,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Scheduled Task",
+    "technique": "Exfiltration to Cloud Storage",
     "aptGroup": "Winnti Group",
-    "confidence": 5.4,
+    "confidence": 14.5,
     "method": "markov",
     "trend": "emerging"
   },
@@ -8141,37 +8141,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Web Shell",
+    "technique": "Upload Malware",
     "aptGroup": "Cleaver",
-    "confidence": 4.8,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "PowerShell",
-    "aptGroup": "Cleaver",
-    "confidence": 4.7,
-    "method": "markov",
-    "trend": "emerging"
-  },
-  {
-    "technique": "Spearphishing Attachment",
-    "aptGroup": "Cleaver",
-    "confidence": 4.4,
+    "confidence": 16.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
     "technique": "Exploit Public-Facing Application",
     "aptGroup": "Cleaver",
-    "confidence": 4.1,
+    "confidence": 16.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Management Instrumentation",
+    "technique": "Web Services",
     "aptGroup": "Cleaver",
-    "confidence": 4.1,
+    "confidence": 15.4,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Domains",
+    "aptGroup": "Cleaver",
+    "confidence": 15.2,
+    "method": "markov",
+    "trend": "emerging"
+  },
+  {
+    "technique": "Email Accounts",
+    "aptGroup": "Cleaver",
+    "confidence": 15.1,
     "method": "markov",
     "trend": "emerging"
   },
@@ -8211,37 +8211,37 @@ export const PREDICTIONS = [
     "trend": "emerging"
   },
   {
-    "technique": "Ingress Tool Transfer",
+    "technique": "Upload Malware",
     "aptGroup": "Equation",
-    "confidence": 3.5,
+    "confidence": 15.9,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Malicious File",
+    "technique": "Exploit Public-Facing Application",
     "aptGroup": "Equation",
-    "confidence": 3.5,
+    "confidence": 14.3,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Domains",
     "aptGroup": "Equation",
-    "confidence": 3.5,
+    "confidence": 14.2,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Spearphishing Attachment",
+    "technique": "Email Accounts",
     "aptGroup": "Equation",
-    "confidence": 3.2,
+    "confidence": 14.1,
     "method": "markov",
     "trend": "emerging"
   },
   {
-    "technique": "Windows Command Shell",
+    "technique": "Financial Theft",
     "aptGroup": "Equation",
-    "confidence": 3.0,
+    "confidence": 13.9,
     "method": "markov",
     "trend": "emerging"
   },
@@ -9173,83 +9173,20 @@ export const ADAPTABILITY = [
 
 export const TECHNIQUE_LIFESPAN = [
   {
-    "technique": "Encrypted/Encoded File",
+    "technique": "Archive via Utility",
     "firstSeen": 2017,
     "lastSeen": 2026,
     "lifespanYears": 9,
-    "totalGroups": 40,
+    "totalGroups": 39,
     "persistenceScore": 96.0,
     "status": "Active"
   },
   {
-    "technique": "PowerShell",
+    "technique": "Automated Collection",
     "firstSeen": 2017,
     "lastSeen": 2026,
     "lifespanYears": 9,
-    "totalGroups": 85,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Match Legitimate Resource Name or Location",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 61,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Registry Run Keys / Startup Folder",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 56,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Ingress Tool Transfer",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 86,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Domain Account",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 32,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Local Data Staging",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 28,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "SMB/Windows Admin Shares",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 27,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Web Protocols",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 57,
+    "totalGroups": 21,
     "persistenceScore": 96.0,
     "status": "Active"
   },
@@ -9272,20 +9209,11 @@ export const TECHNIQUE_LIFESPAN = [
     "status": "Active"
   },
   {
-    "technique": "Masquerade Task or Service",
+    "technique": "Data from Local System",
     "firstSeen": 2017,
     "lastSeen": 2026,
     "lifespanYears": 9,
-    "totalGroups": 23,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Windows Command Shell",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 73,
+    "totalGroups": 45,
     "persistenceScore": 96.0,
     "status": "Active"
   },
@@ -9299,119 +9227,38 @@ export const TECHNIQUE_LIFESPAN = [
     "status": "Active"
   },
   {
+    "technique": "Domain Account",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 32,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Encrypted/Encoded File",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 40,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Exfiltration Over C2 Channel",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 27,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
     "technique": "External Remote Services",
     "firstSeen": 2017,
     "lastSeen": 2026,
     "lifespanYears": 9,
     "totalGroups": 28,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "LSASS Memory",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 44,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Valid Accounts",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 45,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "System Owner/User Discovery",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 40,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Remote Desktop Protocol",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 37,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Archive via Utility",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 39,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "File and Directory Discovery",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 51,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Windows Management Instrumentation",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 42,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "System Information Discovery",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 57,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Automated Collection",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 21,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Remote System Discovery",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 40,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "System Network Configuration Discovery",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 43,
-    "persistenceScore": 96.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Data from Local System",
-    "firstSeen": 2017,
-    "lastSeen": 2026,
-    "lifespanYears": 9,
-    "totalGroups": 45,
     "persistenceScore": 96.0,
     "status": "Active"
   },
@@ -9425,6 +9272,69 @@ export const TECHNIQUE_LIFESPAN = [
     "status": "Active"
   },
   {
+    "technique": "File and Directory Discovery",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 51,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Ingress Tool Transfer",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 86,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "LSASS Memory",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 44,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Local Data Staging",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 28,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Masquerade Task or Service",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 23,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Match Legitimate Resource Name or Location",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 61,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "PowerShell",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 85,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
     "technique": "Process Discovery",
     "firstSeen": 2017,
     "lastSeen": 2026,
@@ -9434,11 +9344,101 @@ export const TECHNIQUE_LIFESPAN = [
     "status": "Active"
   },
   {
-    "technique": "Exfiltration Over C2 Channel",
+    "technique": "Registry Run Keys / Startup Folder",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 56,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Remote Desktop Protocol",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 37,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Remote System Discovery",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 40,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "SMB/Windows Admin Shares",
     "firstSeen": 2017,
     "lastSeen": 2026,
     "lifespanYears": 9,
     "totalGroups": 27,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "System Information Discovery",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 57,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "System Network Configuration Discovery",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 43,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "System Owner/User Discovery",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 40,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Valid Accounts",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 45,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Web Protocols",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 57,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Windows Command Shell",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 73,
+    "persistenceScore": 96.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Windows Management Instrumentation",
+    "firstSeen": 2017,
+    "lastSeen": 2026,
+    "lifespanYears": 9,
+    "totalGroups": 42,
     "persistenceScore": 96.0,
     "status": "Active"
   },
@@ -9461,47 +9461,29 @@ export const TECHNIQUE_LIFESPAN = [
     "status": "Active"
   },
   {
-    "technique": "Visual Basic",
+    "technique": "Command Obfuscation",
     "firstSeen": 2018,
     "lastSeen": 2026,
-    "lifespanYears": 8,
-    "totalGroups": 46,
-    "persistenceScore": 92.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Security Software Discovery",
-    "firstSeen": 2017,
-    "lastSeen": 2025,
-    "lifespanYears": 8,
-    "totalGroups": 27,
-    "persistenceScore": 92.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Local Account",
-    "firstSeen": 2017,
-    "lastSeen": 2025,
     "lifespanYears": 8,
     "totalGroups": 29,
     "persistenceScore": 92.0,
     "status": "Active"
   },
   {
-    "technique": "Windows Service",
+    "technique": "Credentials from Web Browsers",
     "firstSeen": 2017,
     "lastSeen": 2025,
     "lifespanYears": 8,
-    "totalGroups": 26,
+    "totalGroups": 23,
     "persistenceScore": 92.0,
     "status": "Active"
   },
   {
-    "technique": "Rundll32",
-    "firstSeen": 2017,
-    "lastSeen": 2025,
+    "technique": "Exploit Public-Facing Application",
+    "firstSeen": 2018,
+    "lastSeen": 2026,
     "lifespanYears": 8,
-    "totalGroups": 26,
+    "totalGroups": 44,
     "persistenceScore": 92.0,
     "status": "Active"
   },
@@ -9524,74 +9506,20 @@ export const TECHNIQUE_LIFESPAN = [
     "status": "Active"
   },
   {
-    "technique": "Malicious Link",
-    "firstSeen": 2018,
-    "lastSeen": 2026,
-    "lifespanYears": 8,
-    "totalGroups": 49,
-    "persistenceScore": 92.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Web Shell",
+    "technique": "Keylogging",
     "firstSeen": 2017,
     "lastSeen": 2025,
     "lifespanYears": 8,
-    "totalGroups": 31,
+    "totalGroups": 26,
     "persistenceScore": 92.0,
     "status": "Active"
   },
   {
-    "technique": "Exploit Public-Facing Application",
-    "firstSeen": 2018,
-    "lastSeen": 2026,
-    "lifespanYears": 8,
-    "totalGroups": 44,
-    "persistenceScore": 92.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Native API",
-    "firstSeen": 2018,
-    "lastSeen": 2026,
-    "lifespanYears": 8,
-    "totalGroups": 20,
-    "persistenceScore": 92.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Command Obfuscation",
-    "firstSeen": 2018,
-    "lastSeen": 2026,
+    "technique": "Local Account",
+    "firstSeen": 2017,
+    "lastSeen": 2025,
     "lifespanYears": 8,
     "totalGroups": 29,
-    "persistenceScore": 92.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Software Packing",
-    "firstSeen": 2017,
-    "lastSeen": 2025,
-    "lifespanYears": 8,
-    "totalGroups": 23,
-    "persistenceScore": 92.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Network Service Discovery",
-    "firstSeen": 2017,
-    "lastSeen": 2025,
-    "lifespanYears": 8,
-    "totalGroups": 31,
-    "persistenceScore": 92.0,
-    "status": "Active"
-  },
-  {
-    "technique": "Spearphishing Attachment",
-    "firstSeen": 2018,
-    "lastSeen": 2026,
-    "lifespanYears": 8,
-    "totalGroups": 78,
     "persistenceScore": 92.0,
     "status": "Active"
   },
@@ -9605,7 +9533,61 @@ export const TECHNIQUE_LIFESPAN = [
     "status": "Active"
   },
   {
-    "technique": "Credentials from Web Browsers",
+    "technique": "Malicious Link",
+    "firstSeen": 2018,
+    "lastSeen": 2026,
+    "lifespanYears": 8,
+    "totalGroups": 49,
+    "persistenceScore": 92.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Native API",
+    "firstSeen": 2018,
+    "lastSeen": 2026,
+    "lifespanYears": 8,
+    "totalGroups": 20,
+    "persistenceScore": 92.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Network Service Discovery",
+    "firstSeen": 2017,
+    "lastSeen": 2025,
+    "lifespanYears": 8,
+    "totalGroups": 31,
+    "persistenceScore": 92.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Rundll32",
+    "firstSeen": 2017,
+    "lastSeen": 2025,
+    "lifespanYears": 8,
+    "totalGroups": 26,
+    "persistenceScore": 92.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Scheduled Task",
+    "firstSeen": 2017,
+    "lastSeen": 2025,
+    "lifespanYears": 8,
+    "totalGroups": 54,
+    "persistenceScore": 92.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Security Software Discovery",
+    "firstSeen": 2017,
+    "lastSeen": 2025,
+    "lifespanYears": 8,
+    "totalGroups": 27,
+    "persistenceScore": 92.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Software Packing",
     "firstSeen": 2017,
     "lastSeen": 2025,
     "lifespanYears": 8,
@@ -9614,11 +9596,29 @@ export const TECHNIQUE_LIFESPAN = [
     "status": "Active"
   },
   {
-    "technique": "Keylogging",
+    "technique": "Spearphishing Attachment",
+    "firstSeen": 2018,
+    "lastSeen": 2026,
+    "lifespanYears": 8,
+    "totalGroups": 78,
+    "persistenceScore": 92.0,
+    "status": "Active"
+  },
+  {
+    "technique": "Spearphishing Link",
+    "firstSeen": 2018,
+    "lastSeen": 2026,
+    "lifespanYears": 8,
+    "totalGroups": 53,
+    "persistenceScore": 92.0,
+    "status": "Active"
+  },
+  {
+    "technique": "System Network Connections Discovery",
     "firstSeen": 2017,
     "lastSeen": 2025,
     "lifespanYears": 8,
-    "totalGroups": 26,
+    "totalGroups": 32,
     "persistenceScore": 92.0,
     "status": "Active"
   }

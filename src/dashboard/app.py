@@ -4,16 +4,19 @@ import plotly.express as px
 import plotly.graph_objects as go
 import sqlite3
 import os
+
 GENERIC_TECHNIQUES = {
     'Tool', 'Malware', 'Vulnerability', 'Exploits',
     'Audio-Visual Content', 'Written Content',
 }
+
 st.set_page_config(
     page_title="TemporalCTI",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap');
@@ -186,6 +189,7 @@ section[data-testid="stSidebar"] div[role="radiogroup"] label[data-checked="true
 }
 </style>
 """, unsafe_allow_html=True)
+
 PLOT_LAYOUT = dict(
     plot_bgcolor='#0d1424',
     paper_bgcolor='#0d1424',
@@ -193,12 +197,15 @@ PLOT_LAYOUT = dict(
     font_family='IBM Plex Sans',
     margin=dict(l=10, r=10, t=40, b=10),
 )
+
 GRID = dict(gridcolor='#1e3a5f', zerolinecolor='#1e3a5f')
+
 def apply_theme(fig, height=350):
     fig.update_layout(**PLOT_LAYOUT, height=height)
     fig.update_xaxes(**GRID)
     fig.update_yaxes(**GRID)
     return fig
+
 @st.cache_data
 def load_db():
     conn = sqlite3.connect('data/temporal_db/apt.db')
@@ -206,12 +213,14 @@ def load_db():
     conn.close()
     df = df[~df['technique'].isin(GENERIC_TECHNIQUES)]
     return df
+
 @st.cache_data
 def load_csv(filename):
     path = f'data/processed/{filename}'
     if os.path.exists(path):
         return pd.read_csv(path)
     return pd.DataFrame()
+
 df            = load_db()
 evo_df        = load_csv('evolution_scores.csv')
 emerging_df   = load_csv('emerging_ttps.csv')
@@ -226,6 +235,7 @@ lifespan_df   = load_csv('technique_lifespan.csv')
 velocity_df   = load_csv('ttp_velocity.csv')
 gaps_df       = load_csv('defence_gaps.csv')
 baseline_df   = load_csv('baseline_comparison.csv')
+
 NATION_COLORS = {
     "Russia":      "#ef4444",
     "China":       "#f97316",
@@ -233,10 +243,12 @@ NATION_COLORS = {
     "Iran":        "#a78bfa",
     "Others":      "#5c6f8a"
 }
+
 TOTAL_RECORDS   = len(df)
 DEFENCE_TOTAL   = len(gaps_df) if not gaps_df.empty else 0
 DEFENCE_UNMAPPED = len(gaps_df[gaps_df['has_defence'] == False]) if not gaps_df.empty and 'has_defence' in gaps_df.columns else 0
 DEFENCE_UNMAPPED_PCT = (DEFENCE_UNMAPPED / DEFENCE_TOTAL * 100) if DEFENCE_TOTAL else 0.0
+
 with st.sidebar:
     st.markdown("""
     <div style='padding: 8px 0 20px 0;'>
@@ -272,6 +284,7 @@ with st.sidebar:
         Source &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='color:#6ee0ff; font-weight:600;'>MITRE ATT&CK</span>
     </div>
     """, unsafe_allow_html=True)
+
 if page == "Overview":
     st.markdown("""
     <div style='margin-bottom: 4px;'>
@@ -338,11 +351,12 @@ if page == "Overview":
     st.markdown("<div class='section-label'>Framework Modules</div>", unsafe_allow_html=True)
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Convergence Alerts",  f"{len(conv_df):,}"   if not conv_df.empty   else "0", "Cross-actor")
-    c2.metric("Retired TTPs",        f"{len(retire_df):,}" if not retire_df.empty else "0", "Inactive")
+    c2.metric("Inactive TTPs",       f"{len(retire_df):,}" if not retire_df.empty else "0", "Inactive")
     c3.metric("Predictions",         f"{len(pred_df):,}"   if not pred_df.empty   else "0",
               f"{pred_df['apt_group'].nunique() if not pred_df.empty else 0} groups")
     mit_critical_count = len(mit_df[mit_df['priority'].str.contains('CRITICAL', na=False)]) if not mit_df.empty else 0
     c4.metric("Mitigation Controls", f"{len(mit_df)}" if not mit_df.empty else "0", f"{mit_critical_count} Critical")
+
 elif page == "Threat Actors":
     st.markdown("<div class='section-label'>Threat Actor Intelligence</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>APT Group Profiler</h1>", unsafe_allow_html=True)
@@ -398,6 +412,7 @@ elif page == "Threat Actors":
                     st.markdown(tags, unsafe_allow_html=True)
                 else:
                     st.markdown("<span style='color:#93acc8; font-size:12px;'>No mapped ATT&CK techniques this year (generic entries excluded)</span>", unsafe_allow_html=True)
+
 elif page == "Emerging Threats":
     st.markdown("<div class='section-label'>Threat Detection</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>Emerging TTP Radar</h1>", unsafe_allow_html=True)
@@ -441,6 +456,7 @@ elif page == "Emerging Threats":
         st.markdown("<div style='height:16px'></div>", unsafe_allow_html=True)
         st.markdown("<div class='section-label'>Full Dataset</div>", unsafe_allow_html=True)
         st.dataframe(emerging_df, use_container_width=True)
+
 elif page == "Convergence Analysis":
     st.markdown("<div class='section-label'>Cross-Actor Intelligence</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>TTP Convergence Analysis</h1>", unsafe_allow_html=True)
@@ -478,6 +494,7 @@ elif page == "Convergence Analysis":
                 </div>""", unsafe_allow_html=True)
         st.markdown("<div class='section-label'>All Convergence Alerts</div>", unsafe_allow_html=True)
         st.dataframe(conv_df, use_container_width=True)
+
 elif page == "Evolution Scores":
     st.markdown("<div class='section-label'>Adversary Analytics</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>Evolution Score Rankings</h1>", unsafe_allow_html=True)
@@ -513,6 +530,7 @@ elif page == "Evolution Scores":
             if col in evo_display.columns:
                 evo_display[col] = evo_display[col].astype(int).astype(str)
         st.dataframe(evo_display, use_container_width=True)
+
 elif page == "Nation-State":
     st.markdown("<div class='section-label'>Geopolitical Intelligence</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>Nation-State Behavioral Analysis</h1>", unsafe_allow_html=True)
@@ -566,6 +584,7 @@ elif page == "Nation-State":
         if not nation_evo_df.empty:
             st.markdown("<div class='section-label'>Evolution Scores</div>", unsafe_allow_html=True)
             st.dataframe(nation_evo_df, use_container_width=True)
+
 elif page == "Mitigation Centre":
     st.markdown("<div class='section-label'>Defensive Intelligence</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>Mitigation Recommendations</h1>", unsafe_allow_html=True)
@@ -595,9 +614,10 @@ elif page == "Mitigation Centre":
                                      font-size:11px; margin-left:10px;'>Source: {row['source']}</span>
                     </div>
                     {mit_html}""", unsafe_allow_html=True)
+
 elif page == "Predictions":
     st.markdown("<div class='section-label'>Predictive Intelligence</div>", unsafe_allow_html=True)
-    st.markdown("<h1 style='margin-top:0'>Markov Chain TTP Predictions</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='margin-top:0'>Markov + Velocity + Recency TTP Predictions</h1>", unsafe_allow_html=True)
     if not pred_df.empty:
         tech_col = 'predicted_technique' if 'predicted_technique' in pred_df.columns else 'predicted_ttp'
         # Markov + Velocity Backoff (gamma=0.15) is the real, ablation-
@@ -654,6 +674,7 @@ elif page == "Predictions":
                     .head(20),
                 use_container_width=True
             )
+
 elif page == "Defence Gaps":
     st.markdown("<div class='section-label'>Defence Coverage Analysis</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>Defence Gap Analysis</h1>", unsafe_allow_html=True)
@@ -704,6 +725,7 @@ elif page == "Defence Gaps":
             st.plotly_chart(fig, use_container_width=True)
         st.markdown("<div class='section-label'>Full Gap Analysis</div>", unsafe_allow_html=True)
         st.dataframe(gaps_df, use_container_width=True)
+
 elif page == "Adaptability Index":
     st.markdown("<div class='section-label'>Adversary Behaviour Analytics</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>Adaptability Index</h1>", unsafe_allow_html=True)
@@ -737,6 +759,7 @@ elif page == "Adaptability Index":
         st.plotly_chart(fig, use_container_width=True)
         st.markdown("<div class='section-label'>Full Data</div>", unsafe_allow_html=True)
         st.dataframe(adapt_df, use_container_width=True)
+
 elif page == "Technique Lifespan":
     st.markdown("<div class='section-label'>Technique Persistence Analysis</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>Technique Lifespan Tracker</h1>", unsafe_allow_html=True)
@@ -779,6 +802,7 @@ elif page == "Technique Lifespan":
             if col in lifespan_display.columns:
                 lifespan_display[col] = lifespan_display[col].astype(int).astype(str)
         st.dataframe(lifespan_display, use_container_width=True)
+
 elif page == "TTP Velocity":
     st.markdown("<div class='section-label'>Threat Propagation Analysis</div>", unsafe_allow_html=True)
     st.markdown("<h1 style='margin-top:0'>TTP Velocity Tracker</h1>", unsafe_allow_html=True)
