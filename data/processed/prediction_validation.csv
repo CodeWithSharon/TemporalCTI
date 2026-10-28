@@ -1,2 +1,2 @@
-total_groups,precision_at_1,precision_at_3,precision_at_5
-39,0.231,0.333,0.41
+model,evaluation,total_groups,hit_at_1,hit_at_3,hit_at_5,gamma,delta
+TemporalCTI,Rolling 2022-2025,88,0.148,0.273,0.352,0.15,year-specific

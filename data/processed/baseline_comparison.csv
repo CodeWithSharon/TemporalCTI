@@ -1,5 +1,6 @@
 model,train_end_year,test_start_year,total_groups,hit_at_1,hit_at_3,hit_at_5
-Random,2023,2024,39,0.026,0.051,0.077
-Frequency (popularity),2023,2024,39,0.051,0.333,0.436
-"Markov (original, frozen baseline)",2023,2024,39,0.128,0.308,0.41
-"TemporalCTI (Markov + Velocity, gamma=0.15)",2023,2024,39,0.231,0.333,0.41
+Random,rolling,2022–2025,88,0.011,0.045,0.068
+Frequency,rolling,2022–2025,88,0.091,0.239,0.318
+Recency,rolling,2022–2025,88,0.136,0.307,0.341
+Markov,rolling,2022–2025,88,0.068,0.193,0.295
+TemporalCTI,rolling,2022–2025,88,0.148,0.273,0.352
